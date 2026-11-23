@@ -2,7 +2,8 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { buildTree, childrenOf, searchNodes, pathTo, placeOf } from '../../src/dependencies-tree-model.mjs';
+import { buildTree, childrenOf, searchNodes, pathTo, placeOf, packageKey, UNDECIDED, UNDECIDED_LABEL, THIS_APP_LABEL } from '../../src/dependencies-tree-model.mjs';
+import { packageKey as exportPackageKey } from '../../external/source_analysis/packageKey.mjs';
 import { treeElement, registryUrl } from '../../src/dependencies-tree.mjs';
 
 const dep = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'yarn.lock', name, version, direct: false, scope: 'app', dependants: [], ...extra });
@@ -295,5 +296,95 @@ describe('dependency tree view split by product (issue 996)', () => {
   test('a repository with one product keeps the flat tree', () => {
     const view = treeElement({ dependencies: REPO, wallet: 'One', productOf: () => 'shared', counted: ANDROID });
     assert.deepEqual(groups(view), ['App libraries', 'Build tools', 'Not reachable from a direct dependency']);
+  });
+});
+
+describe('rows whose files do not say direct or transitive (issue 1027)', () => {
+  // pip freeze rows: unknown each; one pulls in a known transitive row and another unknown one.
+  const rows = [
+    dep('app', '1.0.0', { direct: true }),
+    dep('reached', '1.0.0', { direct: null, dependants: ['app'] }),
+    dep('frozen', '1.0.0', { direct: null }),
+    dep('child', '1.0.0', { dependants: ['frozen'] }),
+    dep('frozen-kid', '1.0.0', { direct: null, dependants: ['frozen'] }),
+    dep('stray', '1.0.0', { dependants: ['ghost'] }),
+  ];
+  const tree = buildTree(rows, []);
+
+  test('they get their own group, apart from the unreachable ones', () => {
+    assert.deepEqual(tree.undecided.map(n => n.name), ['frozen'], 'frozen-kid sits under frozen, not twice');
+    assert.deepEqual(tree.products[0].undecided.map(n => n.name), ['frozen']);
+    assert.deepEqual(tree.unreachable.map(n => n.name), ['stray']);
+    assert.deepEqual(names(childrenOf(tree.undecided[0])), ['child@1.0.0', 'frozen-kid@1.0.0']);
+  });
+
+  test('one a direct dependency reaches stays under it', () => {
+    const reached = [...tree.nodes.values()].find(n => n.name === 'reached');
+    assert.deepEqual(placeOf(reached).chain.map(n => n.name), ['app', 'reached']);
+    assert.equal(placeOf(reached).group, 'app');
+  });
+
+  test('search places what only they reach in their group', () => {
+    const child = [...tree.nodes.values()].find(n => n.name === 'child');
+    assert.equal(pathTo(child), null, 'no direct dependency reaches it');
+    assert.deepEqual(placeOf(child), { product: 'this', group: UNDECIDED, chain: [tree.undecided[0], child] });
+  });
+
+  test('the view lists the group and says what it means', () => {
+    const view = treeElement({ dependencies: rows, wallet: 'W' });
+    document.body.replaceChildren(view);
+    assert.ok([...view.querySelectorAll('.dpt-group')].some(g => g.textContent === UNDECIDED_LABEL));
+    assert.match(view.querySelector('.dp-notices').textContent, /1 packages are listed under "Direct or transitive not known"/);
+    assert.ok([...view.querySelectorAll('.dpt-scope option')].some(o => o.textContent === UNDECIDED_LABEL));
+  });
+
+  test('an export from before the rows had null stays as it was', () => {
+    const old = buildTree([dep('app', '1.0.0', { direct: true }), dep('x', '1.0.0')], []);
+    assert.deepEqual([old.undecided, old.unreachable.map(n => n.name)], [[], ['x']]);
+  });
+});
+
+const countsShown = view => Object.fromEntries([...view.querySelectorAll('.dpt-item--group > .dpt-row')]
+  .map(r => [r.querySelector('.dpt-group').textContent, r.querySelector('.dpt-count').textContent]));
+
+describe('the tree counts packages, not file rows (issue 1027)', () => {
+  // lodash in two files, a pip name under two spellings, and an unknown package in two files.
+  const rows = [
+    dep('lodash', '4.0.0', { direct: true }), dep('lodash', '4.0.0', { direct: true, lockfile: 'sub/yarn.lock' }),
+    dep('left-pad', '1.0.0', { dependants: ['lodash'] }), dep('left-pad', '1.0.0', { dependants: ['lodash'], lockfile: 'sub/yarn.lock' }),
+    dep('Pyproject_Hooks', '1.2.0', { ecosystem: 'pip', lockfile: 'a.txt', direct: null }), dep('pyproject-hooks', '1.2.0', { ecosystem: 'pip', lockfile: 'b.txt', direct: null }),
+    dep('stray', '1.0.0', { lockfile: 'a.txt' }), dep('stray', '1.0.0', { lockfile: 'b.txt' }),
+  ];
+  const tree = buildTree(rows, [], { productOf: () => 'shared', counted: ['shared'] });
+
+  test('the key is the export\'s', () => {
+    for (const [e, n, v] of [['pip', 'Pyproject.Hooks[cli]', '1.2.0'], ['gradle', 'org.Foo:bar', '1.0'], ['npm', '@a/b', undefined]]) {
+      assert.equal(packageKey(e, n, v), exportPackageKey(e, n, v));
+    }
+  });
+
+  test('one node per file, one count per package', () => {
+    assert.equal(tree.nodes.size, 8);
+    assert.equal(tree.total, 4);
+    assert.equal(tree.products[0].total, 4);
+  });
+
+  test('the view\'s totals, group counts and notices count packages', () => {
+    const view = treeElement({ dependencies: rows, wallet: 'W', productOf: () => 'shared', counted: ['shared'] });
+    document.body.replaceChildren(view);
+    assert.deepEqual(countsShown(view), { 'App libraries': '1 package', [UNDECIDED_LABEL]: '1 package', 'Not reachable from a direct dependency': '1 package' });
+    const notices = view.querySelector('.dp-notices').textContent;
+    assert.match(notices, /1 packages are listed under "Direct or transitive not known"/);
+    assert.match(notices, /1 packages are listed under "Not reachable/);
+  });
+
+  test('a package in two other products is one under "Other products"', () => {
+    const PRODUCT = { 'sub/yarn.lock': 'desktop', 'srv/yarn.lock': 'server' };
+    const split = [...rows, dep('lodash', '4.0.0', { direct: true, lockfile: 'srv/yarn.lock' })];
+    const view = treeElement({ dependencies: split, wallet: 'W', productOf: r => PRODUCT[r.lockfile] || 'shared', counted: ['shared'] });
+    document.body.replaceChildren(view);
+    const counts = countsShown(view);
+    assert.equal(counts[THIS_APP_LABEL], '4 packages', 'lodash and left-pad are in the app\'s own file too');
+    assert.equal(counts['Other products'], '2 packages', 'lodash in desktop and server, left-pad in desktop');
   });
 });

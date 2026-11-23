@@ -30,7 +30,9 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { buildLockForReaders } from './plugins/build-lock.mjs';
+import { uncheckableReason } from './plugins/osv.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getOssRebuildDetails, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
+import { packageKey } from './packageKey.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 import { readSignals, signalsOf } from './signals.mjs';
 import { ossRebuildUrl } from './rebuildClaims.mjs';
@@ -110,19 +112,44 @@ function submoduleRow({ depth, buildRefs, childrenError, ...r }) {
   return out;
 }
 
-// The counts the wallet page shows for a set of dependency rows.
+// Which of a package's rows wins when its files disagree (issue 1027). Any
+// direct row makes it direct; otherwise one row whose files do not say keeps it
+// unknown, so a package is transitive only when every row says so.
+const DIRECT_RANK = ['direct', 'unknown', 'transitive'];
+const directOfRow = d => (d.direct === 1 ? 'direct' : d.direct === 0 ? 'transitive' : 'unknown');
+// The same for where it ends up: in the app if any row is, unknown before a
+// build or test row, and build before tests only when every row is known.
+const COUNT_SCOPE_RANK = ['app', 'unknown', 'build', 'tests'];
+
+const better = (rank, x, y) => (y === undefined || rank.indexOf(x) < rank.indexOf(y) ? x : y);
+
+// The counts the wallet page shows for a set of dependency rows: each package
+// once (packageKey.mjs), however many files list it. The database keeps one
+// row per file; only the counts are distinct.
 function dependencyCounts(deps) {
+  const packages = new Map();
+  for (const d of deps) {
+    const key = packageKey(d.ecosystem, d.name, d.dep_version);
+    const p = packages.get(key) || { ecosystem: d.ecosystem };
+    p.direct = better(DIRECT_RANK, directOfRow(d), p.direct);
+    p.scope = better(COUNT_SCOPE_RANK, scopeOfRow(d), p.scope);
+    packages.set(key, p);
+  }
+  const all = [...packages.values()];
+  const count = test => all.filter(test).length;
   return {
-    total: deps.length,
-    direct: deps.filter(d => d.direct === 1).length,
+    total: all.length,
+    direct: count(p => p.direct === 'direct'),
+    // neither direct nor transitive: the files do not say (pip freeze files, build locks)
+    directUnknown: count(p => p.direct === 'unknown'),
     // where the packages end up, from the lockfile graph: app / build / tests / unknown
-    byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, deps.filter(d => scopeOfRow(d) === s).length])),
-    byEcosystem: Object.fromEntries([...new Set(deps.map(d => d.ecosystem))].sort().map(e => [e, deps.filter(d => d.ecosystem === e).length])),
+    byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, count(p => p.scope === s)])),
+    byEcosystem: Object.fromEntries([...new Set(all.map(p => p.ecosystem))].sort().map(e => [e, count(p => p.ecosystem === e)])),
   };
 }
 
-// The same counts per target (products.mjs), for a page that counts only its
-// own app's files; undefined when the repository has only shared files.
+// The same counts per target (products.mjs), for the files left out of a
+// page; undefined when the repository has only shared files.
 function countsByTarget(deps, appId) {
   const rows = new Map();
   for (const d of deps) {
@@ -134,11 +161,21 @@ function countsByTarget(deps, appId) {
   return Object.fromEntries([...rows].sort(([x], [y]) => x.localeCompare(y)).map(([t, r]) => [t, dependencyCounts(r)]));
 }
 
+// The counts each page shows, over the targets it counts as its own app
+// (COUNTED_TARGETS): a package in the shared and the android files is one
+// package on the Android page, so these are not the sum of byTarget.
+function countsByPlatform(deps, appId) {
+  const targets = deps.map(d => targetOfLockfile(d.lockfile, appId));
+  return Object.fromEntries(Object.entries(COUNTED_TARGETS).map(([platform, counted]) => (
+    [platform, dependencyCounts(deps.filter((_, i) => counted.includes(targets[i])))]
+  )));
+}
+
 // Per page, the libraries found only in files it does not count: the same
 // library in the app's own files and the desktop app's is in the app.
 function librariesOnlyOutside(deps, appId) {
   const targets = deps.map(d => targetOfLockfile(d.lockfile, appId));
-  const key = d => `${d.ecosystem}:${d.name}@${d.dep_version}`;
+  const key = d => packageKey(d.ecosystem, d.name, d.dep_version);
   return Object.fromEntries(Object.entries(COUNTED_TARGETS).map(([platform, counted]) => {
     const inside = new Set(deps.filter((_, i) => counted.includes(targets[i])).map(key));
     return [platform, new Set(deps.filter((d, i) => !counted.includes(targets[i]) && !inside.has(key(d))).map(key)).size];
@@ -158,8 +195,7 @@ function scopesOfRows(rows, appId, scope) {
   return Object.values(best).some(s => s !== scope) ? best : undefined;
 }
 
-export function summarizeRelease(db, appId, ref) {
-  const deps = getDependencies(db, appId, ref);
+export function summarizeRelease(db, appId, ref, deps = getDependencies(db, appId, ref)) {
   const vulns = getVulnerabilities(db, appId, ref);
   const submodules = summarizeSubmodules(getSubmodules(db, appId, ref));
   const byTarget = countsByTarget(deps, appId);
@@ -170,6 +206,7 @@ export function summarizeRelease(db, appId, ref) {
       ...dependencyCounts(deps),
       lockfiles: [...new Set(deps.map(d => d.lockfile))].sort(),
       byTarget,
+      byPlatform: byTarget ? countsByPlatform(deps, appId) : undefined,
       onlyOutside: byTarget ? librariesOnlyOutside(deps, appId) : undefined,
       // files that look like another product's but nobody has checked; still counted
       unlisted: unlisted.length ? unlisted : undefined,
@@ -183,11 +220,30 @@ export function summarizeRelease(db, appId, ref) {
   };
 }
 
-function analysisEntry(a) {
+// What could not be looked up for advisories, each package once over the same
+// rows as `total` (issue 1027), so the page's "N of the M packages" counts one
+// thing: a package is unchecked only when none of its rows could be looked up.
+// The analysis stores one count per row (plugins/osv.mjs buildQueries);
+// 'nvd-unavailable' counts lookups, which the rows do not tell, and stays as stored.
+export function skippedPackages(deps, stored = {}) {
+  const reasons = new Map(); // package -> why it was skipped, null once a row of it was looked up
+  for (const d of deps) {
+    const key = packageKey(d.ecosystem, d.name, d.dep_version);
+    if (reasons.get(key) === null) continue;
+    const reason = uncheckableReason({ ...d, version: d.dep_version });
+    if (reason === null || !reasons.has(key)) reasons.set(key, reason);
+  }
+  const skipped = {};
+  for (const reason of reasons.values()) if (reason) skipped[reason] = (skipped[reason] || 0) + 1;
+  if (stored['nvd-unavailable']) skipped['nvd-unavailable'] = stored['nvd-unavailable'];
+  return skipped;
+}
+
+function analysisEntry(a, deps) {
   return {
     ref: a.ref, commit: a.commit_sha, analysedAt: a.analysed_at, status: a.status,
     error: a.error || undefined, lockfiles: a.lockfiles,
-    osv: a.osv_checked === null ? null : { skipped: a.osv_skipped },
+    osv: a.osv_checked === null ? null : { skipped: skippedPackages(deps, a.osv_skipped) },
     // how much of the build the lockfiles we read cover (plugins/lock-coverage.mjs)
     lockCoverage: coverageForReaders(a.lock_coverage) || undefined,
     // the same, for one app's page, when the repository also builds the other app
@@ -272,7 +328,8 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     if (a.kind !== 'release' || seen.has(a.ref)) continue;
     seen.add(a.ref);
     if (reproduced && !reproduced.has(a.ref)) continue;
-    releases.push({ ...analysisEntry(a), ...summarizeRelease(db, appId, a.ref) });
+    const deps = getDependencies(db, appId, a.ref);
+    releases.push({ ...analysisEntry(a, deps), ...summarizeRelease(db, appId, a.ref, deps) });
   }
   for (const v of releasesWithoutAnalysis(db, appId, analyses)) {
     if (reproduced && !reproduced.has(v)) continue;
