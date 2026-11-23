@@ -346,6 +346,23 @@ whole repository. So failures stay in the database with their reason, as the
 list of what needs a recipe, and show nowhere on the website; the source
 analysis takes no other row from the feed and shows no failed rebuild of ours.
 
+What a result says about the package (`node index.mjs status` counts them,
+`node index.mjs verdicts [--verdict V]` lists them, most wallets first). None of
+it is published:
+
+| verdict | when |
+|---|---|
+| `reproduced` | as above |
+| `almost` | it differs, but only in line endings, docs or dev-only `package.json` fields |
+| `not-reproducible` | a recipe, the publisher's release build written down, finished and what it packed differs |
+| `unknown-command` | the generic build finished and differs: the command was a guess, the publisher may build another way |
+| `unknown-no-output` | a step failed (no source or tag, clone, install, build), so there was nothing to compare |
+| `unknown-unsupported` | `unsupported` below: waits for a recipe |
+
+So a version is called not reproducible only once someone wrote down how its
+publisher builds it. Until then, a failure is something we don't know how to
+build yet.
+
 A `build` script is no lifecycle script: npm never runs it by itself, and many
 publishers run it by hand or in CI before `npm publish` (`@noble/hashes`:
 `tsc`). When no publish hook (`prepare`, `prepack`, `prepublish`,

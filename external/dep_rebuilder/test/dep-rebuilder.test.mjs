@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { openDb, saveCandidates, pending, saveRebuild, tally } from '../db.mjs';
+import { openDb, saveCandidates, pending, saveRebuild, tally, verdicts } from '../db.mjs';
 import { collectCandidates } from '../candidates.mjs';
 import { sandboxArgs } from '../sandbox.mjs';
 import { serveLoop } from '../worker.mjs';
@@ -64,6 +64,29 @@ test('pending: most wallets first, Google\'s and earlier results skipped, retry 
   assert.deepEqual(pending(db, { retry: true }).map(r => r.name), ['bad', 'most', 'few']);
   assert.deepEqual(pending(db, { minWallets: 5 }).map(r => r.name), ['most']);
   assert.deepEqual(tally(db).results, { reproduced: 1, failed: 1 });
+});
+
+test('verdicts: only a recipe\'s finished build that differs is not reproducible', () => {
+  const db = openDb(':memory:');
+  const differs = 'Rebuilt tarball differs: 1 of 4 files differ (index.js)';
+  for (const [name, result, note, phase, recipe] of [
+    ['ok', 'reproduced', 'Byte-identical tarball', null, null],
+    ['crlf', 'failed', 'Rebuilt tarball differs: 1 of 4 files differ (README.md); all explained: line endings only', 'compare', null],
+    ['recipe', 'failed', differs, 'compare', 'babel@abc'],
+    ['guess', 'failed', differs, 'compare', null],
+    ['clone', 'failed', 'clone failed: fatal: repository not found', 'clone', null],
+    ['nocompare', 'failed', 'The tarballs could not be compared: bad gzip', 'compare', 'babel@abc'],
+    ['notag', 'failed', 'No git tag or commit for this version', null, null],
+    ['ws', 'unsupported', 'Member of a workspace, whose root build is not run here: x', 'build', null],
+  ]) saveRebuild(db, { ecosystem: 'npm', name, version: '1.0.0', result, note, phase, recipe });
+  saveCandidates(db, [{ ecosystem: 'npm', name: 'guess', version: '1.0.0', wallets: 3, wallets_any: 3 }]);
+  assert.deepEqual(Object.fromEntries(verdicts(db).map(r => [r.name, r.verdict])), {
+    ok: 'reproduced', crlf: 'almost', recipe: 'not-reproducible', guess: 'unknown-command',
+    clone: 'unknown-no-output', nocompare: 'unknown-no-output', notag: 'unknown-no-output', ws: 'unknown-unsupported',
+  });
+  assert.equal(verdicts(db)[0].name, 'guess'); // most wallets first
+  assert.deepEqual(verdicts(db, { verdict: 'not-reproducible' }).map(r => r.name), ['recipe']);
+  assert.deepEqual(tally(db).verdicts, { reproduced: 1, almost: 1, 'not-reproducible': 1, 'unknown-command': 1, 'unknown-no-output': 3, 'unknown-unsupported': 1 });
 });
 
 test('the phase that runs package scripts has no network and no privileges', () => {

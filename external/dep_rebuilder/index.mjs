@@ -9,7 +9,8 @@
 //   node index.mjs run    [--top N] [--retry] [--scope app|any] [--min-wallets N] [--package name@version]...
 //   node index.mjs serve  [--scope app|any] [--min-wallets N]         unattended: sync daily, rebuild one version at a time, forever (the systemd service)
 //   node index.mjs site   [--out DIR] [--publish]                      write rebuilds.json for the website; --publish also copies it (DEP_REBUILDER_PUBLISH_TARGET)
-//   node index.mjs status                                               tally of results
+//   node index.mjs status                                               tally of results and verdicts
+//   node index.mjs verdicts [--verdict V] [--top N]                     results with what they say (db.mjs VERDICTS), most wallets first
 //   node index.mjs run --recipe ID [--top N] [--retry]                  build the next N commits a recipe covers
 //   node index.mjs try RECIPE.json (--version V | --package name@version...)   run a recipe being written; nothing is saved, the rebuilt tarballs are kept
 //   node index.mjs recipes                                              the recipes in use: recipes/ and those signed by the listed authors
@@ -17,7 +18,7 @@
 import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
-import { openDb, saveCandidates, pending, saveRebuild, tally, WORK_DIR, DB_PATH, DATA_DIR } from './db.mjs';
+import { openDb, saveCandidates, pending, saveRebuild, tally, verdicts, VERDICTS, WORK_DIR, DB_PATH, DATA_DIR } from './db.mjs';
 import { loadRecipes, parseRecipe, covers, planJobs } from './recipes.mjs';
 import { nextRecipeJob, runRecipeJob } from './recipe-jobs.mjs';
 import { rebuildWithRecipe } from './rebuild-recipe.mjs';
@@ -37,7 +38,7 @@ if (process.getuid() === 0 && !process.env.DEP_REBUILDER_ALLOW_ROOT) {
 }
 // A system service has no login session; rootless podman needs the user's runtime directory (lingering user, README).
 if (!process.env.XDG_RUNTIME_DIR) process.env.XDG_RUNTIME_DIR = `/run/user/${process.getuid()}`;
-const argv = minimist(process.argv.slice(2), { boolean: ['retry'], string: ['package', 'scope', 'export', 'releases', 'out', 'recipe', 'version'], default: { top: 10, scope: 'app', releases: 'all' } });
+const argv = minimist(process.argv.slice(2), { boolean: ['retry'], string: ['package', 'scope', 'export', 'releases', 'out', 'recipe', 'version', 'verdict'], default: { top: 10, scope: 'app', releases: 'all' } });
 const cmd = argv._[0];
 const db = openDb();
 
@@ -165,9 +166,12 @@ if (cmd === 'sync') {
 } else if (cmd === 'site') {
   const dir = argv.out || path.join(DATA_DIR, 'site');
   console.log(JSON.stringify(argv.publish ? publishFeed(db, dir) : { rows: writeFeed(db, dir), dir }));
+} else if (cmd === 'verdicts') {
+  if (argv.verdict && !VERDICTS.includes(argv.verdict)) { console.error(`--verdict is one of ${VERDICTS.join(', ')}`); process.exit(1); }
+  for (const r of verdicts(db, { verdict: argv.verdict || null, limit: Number(argv.top) })) console.log(`${r.wallets}\t${r.verdict}\t${r.name}@${r.version}\t${r.note || ''}`);
 } else if (cmd === 'status') {
   console.log(JSON.stringify(tally(db), null, 2));
 } else {
-  console.error(fs.readFileSync(new URL(import.meta.url), 'utf8').split('\n').slice(1, 16).join('\n'));
+  console.error(fs.readFileSync(new URL(import.meta.url), 'utf8').split('\n').slice(1, 17).join('\n'));
   process.exit(1);
 }
