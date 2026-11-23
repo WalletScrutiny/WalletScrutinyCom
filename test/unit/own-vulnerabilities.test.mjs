@@ -36,3 +36,20 @@ test('renderOwnVulnerabilities: the step stays hidden without a lookup, or when 
   await renderOwnVulnerabilities({ host, appId: 'x', version: '4.8.2', base: '/x', fetchImpl: withOwn });
   assert.equal(document.querySelector('.own-vulnerabilities-step').hidden, false);
 });
+
+test('renderOwnVulnerabilities: the newest reproduced version outranks an older page version', async () => {
+  const page = () => {
+    document.body.innerHTML = '<div class="step own-vulnerabilities-step" hidden><div id="h" hidden></div></div>';
+    return document.getElementById('h');
+  };
+  const release = (ref, platform) => ({ ref, reproducedFor: [{ appId: 'y', platform, version: ref }] });
+  const serve = releases => async () => ({ ok: true, status: 200, json: async () => ({ ...app, releases }) });
+  // /y1, /y2, /y3: loadApp keeps one app file per URL
+  assert.equal(await renderOwnVulnerabilities({ host: page(), appId: 'y', platform: 'android', version: '4.8.2', base: '/y1', fetchImpl: serve([release('4.8.4', 'android')]) }), null);
+  assert.equal(document.querySelector('.own-vulnerabilities-step').hidden, true, 'the fixed release was reproduced');
+  const other = await renderOwnVulnerabilities({ host: page(), appId: 'y', platform: 'android', version: '4.8.2', base: '/y2', fetchImpl: serve([release('4.8.4', 'desktop')]) });
+  assert.equal(other.version, '4.8.2', 'reproduced for another platform only');
+  const hit = await renderOwnVulnerabilities({ host: page(), appId: 'y', platform: 'android', version: '4.7.0', base: '/y3', fetchImpl: serve([release('4.8.2', 'android')]) });
+  assert.equal(hit.version, '4.8.2');
+  assert.match(document.querySelector('.ov-lead').textContent, /affects 4\.8\.2, the version reviewed here/);
+});

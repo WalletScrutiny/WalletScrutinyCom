@@ -30,19 +30,50 @@ export function affectsVersion(advisory, version) {
   return (advisory?.versions || []).some(v => plain(v) === wanted);
 }
 
+// The newest version reproduced for the listing, `{ version, ref }`: the
+// version as its verification names it and the release tag it resolved to (a
+// release's `reproducedFor`, external/source_analysis/export.mjs). Null when
+// the export names none for this app id and platform.
+export function newestReproduced(app, appId, platform = null) {
+  let newest = null;
+  for (const release of Array.isArray(app?.releases) ? app.releases : []) {
+    const listing = (release.reproducedFor || []).find(l => l.appId === appId && (!platform || l.platform === platform));
+    if (!listing || !release.ref) continue;
+    const version = listing.version || release.ref;
+    if (!newest || compareVersions(plain(version), plain(newest.version)) > 0) newest = { version, ref: release.ref };
+  }
+  return newest;
+}
+
+// The version the step is about: the page's own (frontmatter `version`) or the
+// newest reproduced one, whichever is greater. The frontmatter value is only as
+// fresh as the last store refresh: Electrum's pages named 4.8.2 as affected
+// when 4.8.4 was already reproduced. A tie goes to the reproduced one, whose
+// release tag is what the advisories list ("7.14.3-BTC only" is v7.14.3).
+export function reviewedVersion(app, pageVersion, { appId = null, platform = null } = {}) {
+  const page = String(pageVersion ?? '').trim();
+  const reproduced = appId ? newestReproduced(app, appId, platform) : null;
+  if (reproduced && (!page || compareVersions(plain(reproduced.version), plain(page)) >= 0)) {
+    return String(reproduced.ref).replace(/^v(?=\d)/i, '');
+  }
+  return page || null;
+}
+
 /**
- * What the page says about one version: `hits` the advisories that affect it,
- * `others` the ones that affect only other versions, both most severe first.
- * Null when the export has no own-advisory lookup for the wallet: that is not
- * "none known".
+ * What the page says about one version (reviewedVersion of the page's
+ * `version` and the listing `{ appId, platform }`): `hits` the advisories that
+ * affect it, `others` the ones that affect only other versions, both most
+ * severe first. Null when the export has no own-advisory lookup for the
+ * wallet: that is not "none known".
  */
-export function ownVulnerabilitiesModel(app, version) {
+export function ownVulnerabilitiesModel(app, pageVersion, listing = {}) {
   const own = app?.ownAdvisories;
   if (!own || !Array.isArray(own.advisories)) return null;
+  const version = reviewedVersion(app, pageVersion, listing);
   const sorted = [...own.advisories].sort((x, y) => SEVERITY_ORDER.indexOf(x.severity) - SEVERITY_ORDER.indexOf(y.severity) || String(x.id).localeCompare(String(y.id)));
   const hits = version ? sorted.filter(a => affectsVersion(a, version)) : [];
   return {
-    version: version || null,
+    version,
     hits,
     others: sorted.filter(a => !hits.includes(a)),
     checkedAt: own.checkedAt || null,
