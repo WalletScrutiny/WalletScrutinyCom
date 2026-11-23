@@ -84,6 +84,14 @@ function linkStyles() {
   return stylesLinked;
 }
 
+// The panel's shared tip (dependencies-epss-tip.mjs) and its stylesheet, for
+// another page that lists wallets in it (/reproduced/); null when either is
+// not reachable.
+export async function loadTip() {
+  const [tip, styled] = await Promise.all([loadSteps(() => import(/* webpackChunkName: "dependencies-tip" */ './dependencies-epss-tip.mjs')), linkStyles()]);
+  return tip && styled ? tip : null;
+}
+
 // What the step includes call (_includes/review/steps/dependencies.html and
 // ownVulnerabilities.html). Both resolve to null without painting when the
 // listing has no export.

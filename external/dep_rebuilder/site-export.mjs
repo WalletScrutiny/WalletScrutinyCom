@@ -12,15 +12,15 @@ export const FEED_SCHEMA = 1;
 
 /** Every reproduced version, ordered by package, as the rows of rebuilds.json. */
 export function feedRows(db) {
-  // wallets: how many wallets ship the version in their app (the candidate list's count)
+  // wallets: how many wallets ship the version in their app (the candidate list's count); walletIds: which
   // Only "reproduced" is a claim about the package. "failed" says that this utility's build did not
   // give the published file (another recipe may), "unsupported" that it has no build for it yet:
   // both stay in the database, as the list of what to work on.
   return db.prepare(`SELECT r.ecosystem, r.name, r.version, r.result, r.note, substr(r.finished_at, 1, 10) AS date,
-      r.repo_url AS repo, r.commit_sha AS "commit", r.toolchain, r.recipe, r.recipe_event AS "recipeEvent", c.wallets AS wallets
+      r.repo_url AS repo, r.commit_sha AS "commit", r.toolchain, r.recipe, r.recipe_event AS "recipeEvent", c.wallets AS wallets, c.wallet_ids AS walletIds
     FROM rebuilds r LEFT JOIN candidates c ON c.ecosystem = r.ecosystem AND c.name = r.name AND c.version = r.version
     WHERE r.result = 'reproduced' ORDER BY r.ecosystem, r.name, r.version`).all()
-    .map(r => Object.fromEntries(Object.entries(r).filter(([, v]) => v != null && v !== '')));
+    .map(r => Object.fromEntries(Object.entries({ ...r, walletIds: r.walletIds && JSON.parse(r.walletIds) }).filter(([, v]) => v != null && v !== '')));
 }
 
 /** Writes <dir>/rebuilds.json atomically; returns the number of rows. */

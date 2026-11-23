@@ -26,6 +26,7 @@ export function openDb(file = DB_PATH) {
       ecosystem TEXT NOT NULL, name TEXT NOT NULL, version TEXT NOT NULL,
       wallets INTEGER NOT NULL,        -- distinct wallets shipping it in the app
       wallets_any INTEGER NOT NULL,    -- distinct wallets with it anywhere (build tooling too)
+      wallet_ids TEXT,                 -- the app ids behind "wallets", a JSON array; null before a sync filled it
       synced_at TEXT DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (ecosystem, name, version)
     );
@@ -79,6 +80,7 @@ export function openDb(file = DB_PATH) {
   if (!db.prepare(`SELECT 1 FROM pragma_table_info('rebuilds') WHERE name = 'recipe'`).get()) db.exec(`ALTER TABLE rebuilds ADD COLUMN recipe TEXT`);
   if (!db.prepare(`SELECT 1 FROM pragma_table_info('rebuilds') WHERE name = 'recipe_event'`).get()) db.exec(`ALTER TABLE rebuilds ADD COLUMN recipe_event TEXT`);
   if (!db.prepare(`SELECT 1 FROM pragma_table_info('attempts') WHERE name = 'recipe'`).get()) db.exec(`ALTER TABLE attempts ADD COLUMN recipe TEXT`);
+  if (!db.prepare(`SELECT 1 FROM pragma_table_info('candidates') WHERE name = 'wallet_ids'`).get()) db.exec(`ALTER TABLE candidates ADD COLUMN wallet_ids TEXT`);
   if (!db.prepare(`SELECT 1 FROM meta WHERE key = 'rejudged_failures'`).get()) {
     // The failures of the first version say little: a workspace member was compared with bare
     // source, a "build" script no publish hook calls was not run, a package the registry names
@@ -91,10 +93,12 @@ export function openDb(file = DB_PATH) {
 }
 
 export function saveCandidates(db, rows) {
-  const ins = db.prepare(`INSERT INTO candidates (ecosystem, name, version, wallets, wallets_any, synced_at)
-    VALUES (@ecosystem, @name, @version, @wallets, @wallets_any, CURRENT_TIMESTAMP)
-    ON CONFLICT(ecosystem, name, version) DO UPDATE SET wallets = excluded.wallets, wallets_any = excluded.wallets_any, synced_at = CURRENT_TIMESTAMP`);
-  db.transaction(() => { for (const r of rows) ins.run(r); })();
+  const ins = db.prepare(`INSERT INTO candidates (ecosystem, name, version, wallets, wallets_any, wallet_ids, synced_at)
+    VALUES (@ecosystem, @name, @version, @wallets, @wallets_any, @wallet_ids, CURRENT_TIMESTAMP)
+    ON CONFLICT(ecosystem, name, version) DO UPDATE SET wallets = excluded.wallets, wallets_any = excluded.wallets_any, wallet_ids = excluded.wallet_ids, synced_at = CURRENT_TIMESTAMP`);
+  db.transaction(() => {
+    for (const { walletIds, ...r } of rows) ins.run({ ...r, wallet_ids: walletIds ? JSON.stringify(walletIds) : null });
+  })();
 }
 
 // A failure in a step that needs the network (listing the repository, clone, install) may be

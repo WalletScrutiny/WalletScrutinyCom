@@ -7,6 +7,9 @@ import { verificationKind } from './nostr-constants.mjs';
 import { reproducedRows, groupByMonth } from './reproduced-wallets-model.mjs';
 import { dependencyRows } from './reproduced-dependencies-model.mjs';
 import { whenAllWalletsLoaded } from './assets-table-utils.mjs';
+import { loadTip } from './source-analysis-export.mjs';
+import { walletOf, walletItem } from './used-by-wallets.mjs';
+import { wsIcon } from './icon.mjs';
 import { el } from './html-utils.mjs';
 
 const PAGE_ROWS = 100;
@@ -105,7 +108,33 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 
 const FEED_URL = `${(typeof window !== 'undefined' && window.WS_DEP_REBUILDER_BASE) || '/api/dep-rebuilder'}/rebuilds.json`;
 
-export function renderDependencies(root, result) {
+// "used by 3 wallets", with the info icon of the wallet page's Used by that lists them in the
+// panel's tip when the row names them and [tip] (loadTip) is there. One entry per listing,
+// by name; built when it opens, so it names the wallets allWallets.js brought in meanwhile.
+function usedByNote(row, tip) {
+  if (!row.wallets) {
+    return '';
+  }
+  const text = `used by ${plural(row.wallets, 'wallet', 'wallets')}`;
+  if (!tip || !row.walletIds?.length) {
+    return text;
+  }
+  const trigger = tip.tipTrigger(el('span', { html: wsIcon('circle-info') }), () => {
+    const byWallet = new Map();
+    for (const appId of row.walletIds) {
+      const wallet = walletOf(appId);
+      byWallet.set(wallet?.url || appId, { wallet, appId });
+    }
+    const items = [...byWallet.values()]
+      .sort((x, y) => (x.wallet?.title || x.appId).localeCompare(y.wallet?.title || y.appId))
+      .map(({ wallet, appId }) => walletItem(wallet, appId));
+    return [el('p', {}, 'Wallets that ship ', el('strong', {}, row.name), ` ${row.version}:`), el('ul', { className: 'dp-tip__wallets' }, ...items)];
+  }, { className: 'dp-products-info' });
+  trigger.setAttribute('aria-label', `Which wallets ship ${row.name} ${row.version}`);
+  return el('span', {}, text, trigger);
+}
+
+export function renderDependencies(root, result, tip = null) {
   if (!result) {
     root.replaceChildren(el('p', { className: 'reproduced__status' }, 'The rebuild results could not be read.'));
     return;
@@ -118,19 +147,20 @@ export function renderDependencies(root, result) {
       + `In the last 30 days: ${plural(summary.recent, 'version', 'versions')}.`,
     toRow: row => ({
       date: row.date, title: row.name, url: row.url, external: true, version: row.version, tag: row.ecosystem,
-      note: row.wallets ? `used by ${plural(row.wallets, 'wallet', 'wallets')}` : '',
+      note: usedByNote(row, tip),
     }),
   });
 }
 
 let dependenciesLoaded = false;
 
-export async function loadDependencies(fetchImpl = fetch) {
+export async function loadDependencies(fetchImpl = fetch, tipLoader = loadTip) {
   const root = document.getElementById('reproducedDependencies');
   if (!root || dependenciesLoaded) {
     return;
   }
   dependenciesLoaded = true;
+  const tip = tipLoader();
   try {
     const response = await fetchImpl(FEED_URL, { cache: 'no-cache' });
     if (response.status === 404) {
@@ -140,7 +170,8 @@ export async function loadDependencies(fetchImpl = fetch) {
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
-    renderDependencies(root, dependencyRows(await response.json()));
+    const feed = await response.json();
+    renderDependencies(root, dependencyRows(feed), await tip);
   } catch (error) {
     console.warn('Rebuilt dependencies not available', error);
     dependenciesLoaded = false;

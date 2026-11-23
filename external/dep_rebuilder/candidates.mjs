@@ -25,7 +25,8 @@ async function pool(items, fn, n = CONCURRENCY) {
 }
 
 /**
- * Rows { ecosystem, name, version, wallets, wallets_any } for exact versions.
+ * Rows { ecosystem, name, version, wallets, wallets_any, walletIds } for exact versions,
+ * walletIds being the app ids `wallets` counts, sorted.
  * `releases`: 'latest' (one release per wallet) or 'all'. A wallet counts once
  * per package version however many of its releases or build files list it.
  */
@@ -53,6 +54,6 @@ export async function collectCandidates({ base = EXPORT_BASE, releases = 'all', 
   });
   return [...seen].map(([k, v]) => {
     const [ecosystem, name, version] = k.split('\0');
-    return { ecosystem, name, version, wallets: v.app.size, wallets_any: v.any.size };
+    return { ecosystem, name, version, wallets: v.app.size, wallets_any: v.any.size, walletIds: [...v.app].sort() };
   });
 }

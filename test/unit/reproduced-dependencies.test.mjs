@@ -72,6 +72,34 @@ describe('the Dependencies tab', () => {
     assert.match(root.textContent, /No dependency has been rebuilt yet/);
   });
 
+  test('"used by" opens the list of those wallets, one per listing, by name; without the list or the tip it stays text', async () => {
+    const { renderDependencies } = await import('../../src/reproduced-wallets.mjs');
+    const tip = await import('../../src/dependencies-epss-tip.mjs');
+    page();
+    window.wallets = [
+      { appId: 'zeus', title: 'Zeus', url: '/mobile/zeus/', androidAppId: 'app.zeusln.zeus', iphoneAppId: 'zeus-ios' },
+      { appId: 'alby', title: 'Alby Go', url: '/mobile/alby/' },
+    ];
+    const rows = dependencyRows(feed([
+      row('lodash', '4.17.21', 'reproduced', '2026-11-20', { wallets: 3, walletIds: ['zeus-ios', 'app.zeusln.zeus', 'alby', 'unlisted.app'] }),
+      row('old', '1.0.0', 'reproduced', '2026-11-19', { wallets: 2 }),
+    ]), NOW);
+    const root = document.getElementById('reproducedDependencies');
+    renderDependencies(root, rows);
+    assert.equal(root.querySelectorAll('button').length, 0, 'no tip, no icon');
+    renderDependencies(root, rows, tip);
+    const triggers = root.querySelectorAll('button.dp-products-info');
+    assert.equal(triggers.length, 1, 'a row without walletIds has no icon');
+    assert.match(root.textContent, /used by 3 wallets.*used by 2 wallets/);
+    triggers[0].click();
+    const list = document.getElementById('dp-tip');
+    assert.match(list.textContent, /Wallets that ship lodash 4\.17\.21/);
+    assert.deepEqual([...list.querySelectorAll('li')].map(li => li.textContent), ['Alby Go', 'unlisted.app', 'Zeus']);
+    assert.equal(list.querySelector('a[href="/mobile/zeus/"]').textContent, 'Zeus');
+    tip.closeTip();
+    delete window.wallets;
+  });
+
   test('selecting a tab shows its panel and hides the other', async () => {
     const { selectTab } = await import('../../src/reproduced-wallets.mjs');
     page();

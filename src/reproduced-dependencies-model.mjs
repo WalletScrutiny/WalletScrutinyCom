@@ -37,6 +37,7 @@ export function dependencyRows(feed, now = Math.floor(Date.now() / 1000)) {
         version: row.version,
         date: dayToTimestamp(row.date),
         wallets: Number.isInteger(row.wallets) ? row.wallets : null,
+        walletIds: Array.isArray(row.walletIds) ? row.walletIds.filter(id => typeof id === 'string') : null,
         note: typeof row.note === 'string' ? row.note : '',
         url: registryUrl(row.ecosystem || 'npm', row.name, row.version),
       });
