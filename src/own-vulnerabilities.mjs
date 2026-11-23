@@ -47,11 +47,13 @@ export function ownVulnerabilitiesElement(model) {
   );
 }
 
-export async function renderOwnVulnerabilities({ host, appId, version = null, base = EXPORT_BASE, fetchImpl = globalThis.fetch }) {
+// `version` is the page's own; the step is about that or the newest version
+// reproduced for the listing (`appId`, `platform`), whichever is greater.
+export async function renderOwnVulnerabilities({ host, appId, platform = null, version = null, base = EXPORT_BASE, fetchImpl = globalThis.fetch }) {
   if (!host || !appId) return null;
   let model = null;
   try {
-    model = ownVulnerabilitiesModel(await loadApp(appId, { base, fetchImpl }), version);
+    model = ownVulnerabilitiesModel(await loadApp(appId, { base, fetchImpl }), version, { appId, platform });
   } catch (error) {
     console.warn('Known vulnerabilities: export not reachable', error);
     return null;

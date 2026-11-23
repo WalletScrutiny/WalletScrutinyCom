@@ -86,9 +86,9 @@ layout: default
         <div class="steps linked">
           {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=primary_platform %}
           {%- if primary_platform == 'iphone' -%}
-            {% include /review/steps/ownVulnerabilities.html appId=primary_app_id version=page.iphone.version %}
+            {% include /review/steps/ownVulnerabilities.html appId=primary_app_id platform='iphone' version=page.iphone.version %}
           {%- else -%}
-            {% include /review/steps/ownVulnerabilities.html appId=primary_app_id version=page.android.version %}
+            {% include /review/steps/ownVulnerabilities.html appId=primary_app_id platform='android' version=page.android.version %}
           {%- endif -%}
 
           {%- if external_research_alert != '' -%}

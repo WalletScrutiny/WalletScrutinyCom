@@ -4,8 +4,10 @@
   other versions, from the source analysis export (issue 1022). Painted by
   renderOwnVulnerabilities (src/own-vulnerabilities.mjs, in the dependencies
   panel's chunk) once the verifications UI bundle is loaded; hidden until the
-  export has looked the wallet up. Separate from the verdict and the score. Parameters: appId,
-  version.
+  export has looked the wallet up. The version reviewed is the page's `version`
+  or the newest one reproduced for this listing, whichever is greater: the
+  frontmatter value lags between store refreshes. Separate from the verdict
+  and the score. Parameters: appId, platform, version.
 {%- endcomment -%}
 {% assign own_vulns_app_id = include.appId | default: page.appId %}
 {% if own_vulns_app_id and own_vulns_app_id != '' %}
@@ -20,6 +22,7 @@
             window.renderOwnVulnerabilities({
               host: document.getElementById('own-vulnerabilities'),
               appId: {{ own_vulns_app_id | jsonify }},
+              platform: {{ include.platform | default: page.collection | jsonify }},
               version: {{ include.version | default: page.version | jsonify }},
             });
           });
