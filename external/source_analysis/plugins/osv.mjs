@@ -46,7 +46,11 @@ const NATIVE_ECOSYSTEMS = new Set(['native', 'p4a']);
 // as, the tag of a release, and the NVD vendor:product. A name not listed here
 // is not checked (no-upstream) rather than guessed at.
 const cpython = { repo: 'https://github.com/python/cpython', tag: v => `v${v}`, cpe: 'python:python' };
+// OSV.dev knows the repository in lower case only
+const ffmpeg = { repo: 'https://github.com/ffmpeg/ffmpeg', tag: v => `n${v}`, cpe: 'ffmpeg:ffmpeg' };
 export const NATIVE_UPSTREAM = {
+  ffmpeg,
+  ffmpeg_qt: ffmpeg, // the FFmpeg build Qt Multimedia links
   hostpython3: cpython,
   libffi: { repo: 'https://github.com/libffi/libffi', tag: v => `v${v}`, cpe: 'libffi_project:libffi' },
   libiconv: { repo: 'https://git.savannah.gnu.org/git/libiconv.git', tag: v => `v${v}`, cpe: 'gnu:libiconv' },
@@ -629,16 +633,21 @@ export async function upstreamVerdict(commits, { repo, tag, version, tagOf }, gi
   for (const commit of commits) {
     const tags = await git.tagsContaining(repo, commit);
     if (!tags) return null;
-    containing.push({ commit, tags });
+    // A commit a tag points at is a release, not a fix. OSV.dev lists it for
+    // a version range ("fixed: 3.1.5" as the commit "bump to 3.1.5 final"),
+    // and every later release of every line descends from it. It speaks for
+    // its own release only, and never shows that a later one has the fix.
+    const releases = await git.tagsPointingAt?.(repo, commit);
+    containing.push(releases?.size ? { commit, tags: releases, release: true } : { commit, tags });
   }
-  // Of the commits in a tag, the fix rather than the release commit the tag
-  // points at: OSV.dev lists both, and only the fix says what changed.
-  const pick = async (inTag) => {
-    const found = containing.filter(c => c.tags.has(inTag)).map(c => c.commit);
-    for (const commit of found) if (!(await git.tagsPointingAt?.(repo, commit))?.has(inTag)) return commit;
-    return found[0];
+  // Of the commits in a tag, the fix rather than the release commit: only
+  // the fix says what changed.
+  const pick = (inTag) => {
+    const found = containing.filter(c => c.tags.has(inTag));
+    return (found.find(c => !c.release) || found[0]).commit;
   };
-  if (containing.some(c => c.tags.has(tag))) return { backported: { commit: await pick(tag), tag } };
+  const backport = containing.find(c => !c.release && c.tags.has(tag));
+  if (backport) return { backported: { commit: backport.commit, tag } };
   let onLine = null;
   let later = null;
   const earlier = (v, than) => !than || compareVersions(v, than.version) < 0;
@@ -649,7 +658,7 @@ export async function upstreamVerdict(commits, { repo, tag, version, tagOf }, gi
     if (laterRelease(v, version) && earlier(v, later)) later = { version: v, tag: t };
   }
   const first = onLine || (anyLine ? later : null);
-  return first ? { fixedIn: { ...first, commit: await pick(first.tag) } } : {};
+  return first ? { fixedIn: { ...first, commit: pick(first.tag) } } : {};
 }
 
 /**

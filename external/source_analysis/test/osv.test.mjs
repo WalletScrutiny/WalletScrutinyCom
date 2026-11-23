@@ -248,6 +248,8 @@ test('native libraries are named by their upstream source', () => {
   assert.equal(nativeSource(entry('native', 'libffi', 'v3.4.8')).version, '3.4.8');
   assert.deepEqual(nativeSource(entry('native', 'libzbar', 'BB05EC54EEC57F8397CB13FB9161372A281A1219')),
     { repo: 'https://github.com/mchehab/zbar', commit: 'bb05ec54eec57f8397cb13fb9161372a281a1219' });
+  assert.deepEqual(nativeSource(entry('native', 'ffmpeg_qt', '7.1.5')),
+    { repo: 'https://github.com/ffmpeg/ffmpeg', tag: 'n7.1.5', cpe: 'ffmpeg:ffmpeg', version: '7.1.5' }, 'Qt\'s FFmpeg is FFmpeg');
   assert.equal(nativeSource(entry('pip', 'openssl', '3.0.7')), null);
   assert.equal(uncheckableReason(entry('native', 'openssl', '3.0.7')), null);
   assert.equal(uncheckableReason(entry('p4a', 'openssl', '3.0.7')), null, 'rows stored before the rename are checked too');
@@ -428,6 +430,22 @@ test('upstreamVerdict: fix in the shipped tag, the first later release on the li
   const withRelease = { ...fakeGit({ a17: ['v3.11.17'], b17: ['v3.11.17'] }), tagsPointingAt: async (repo, commit) => new Set(commit === 'a17' ? ['v3.11.17'] : []) };
   assert.deepEqual(await upstreamVerdict(['a17', 'b17'], target, withRelease), { fixedIn: { version: '3.11.17', tag: 'v3.11.17', commit: 'b17' } });
   assert.deepEqual(await upstreamVerdict(['a17'], target, withRelease), { fixedIn: { version: '3.11.17', tag: 'v3.11.17', commit: 'a17' } }, 'only the release commit: that one');
+});
+
+test('upstreamVerdict: a release commit is not a fix, and shows no backport in the releases after it', async () => {
+  const target = { repo: CPYTHON, tag: 'v3.11.16', version: '3.11.16', tagOf: v => `v${v}` };
+  // OSV.dev turns NVD's "before 3.1.5" into the commit "bump to 3.1.5 final"; every later release has that commit
+  const tagged = { r315: 'v3.1.5', r1116: 'v3.11.16', r1117: 'v3.11.17' };
+  const git = {
+    ...fakeGit({ r315: ['v3.1.5', 'v3.11.16', 'v3.11.17'], r1116: ['v3.11.16', 'v3.11.17'], r1117: ['v3.11.17'], b16: ['v3.11.16', 'v3.11.17'], b17: ['v3.11.17'] }),
+    tagsPointingAt: async (repo, commit) => new Set(tagged[commit] ? [tagged[commit]] : []),
+  };
+  assert.deepEqual(await upstreamVerdict(['r315'], target, git), {}, 'an old release in the shipped tag: not fixed by it');
+  assert.deepEqual(await upstreamVerdict(['r315'], target, git, { anyLine: true }), {}, 'nor fixed in the next release');
+  assert.deepEqual(await upstreamVerdict(['r1116'], target, git), {}, 'the shipped release itself: the finding stays');
+  assert.deepEqual(await upstreamVerdict(['r315', 'b17'], target, git), { fixedIn: { version: '3.11.17', tag: 'v3.11.17', commit: 'b17' } });
+  assert.deepEqual(await upstreamVerdict(['r315', 'r1117'], target, git), { fixedIn: { version: '3.11.17', tag: 'v3.11.17', commit: 'r1117' } }, 'a release commit still names its own release');
+  assert.deepEqual(await upstreamVerdict(['r315', 'b16'], target, git), { backported: { commit: 'b16', tag: 'v3.11.16' } }, 'a fix in the shipped tag still counts');
 });
 
 test('native findings: a fix already in the shipped tag leaves the finding out with its commit and tag; git adds a fix version, never removes one', async () => {
