@@ -1325,14 +1325,24 @@ a.dp-signer {
 }
 
 .dp-note-text {
-  margin: 0;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  overflow: hidden;
+  p {
+    margin: 0;
+  }
 
-  &.dp-note-text--open {
+  p:first-child {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+  }
+
+  p + p {
+    display: none;
+    margin-top: 8px;
+  }
+
+  &.dp-note-text--open p {
     display: block;
     overflow: visible;
   }

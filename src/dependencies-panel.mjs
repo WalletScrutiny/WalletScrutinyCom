@@ -1112,12 +1112,22 @@ function notices(model, { triageFailed = false } = {}) {
 }
 
 function howToRead(model) {
-  const parts = [el('b', {}, 'How to read this. ')];
+  // one paragraph per topic; folded, only the first shows
+  const paragraphs = [];
+  let parts = [el('b', {}, 'How to read this. ')];
+  const next = () => { if (parts.length) paragraphs.push(parts); parts = []; };
   parts.push('"Direct" dependencies are the packages the wallet imports itself; "transitive" ones arrive through them, and the line under a package name says through which. ');
   if (model.directUnknown) parts.push(`For ${model.directUnknown} packages the files do not say whether the wallet imports them or they arrive through another package, so they are counted as "unknown", not as transitive. `);
+  next();
   if (model.unchecked) parts.push('A package "could not be checked" when it has no exact registry version to look up (a version range, a git reference, no version recorded). ');
   parts.push('Results are a snapshot from the check date; new advisories may appear later. ');
+  next();
   parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory. ');
+  if (model.signals) {
+    parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, EPSS is the published probability that it gets exploited anywhere within 30 days, and "public since" is when the advisory was published; all three are about the advisory, not this wallet. ');
+  }
+  parts.push('We do not rank wallets by this number. ');
+  next();
   const t = model.triage;
   if (t && t.total) {
     parts.push('A decision is keyed by the advisory and the package\'s direct user (the line under the package name), and made for this wallet: a row is settled once every direct user has a statement, the wallet itself counting as one when it imports the package. What another wallet concluded about the same direct user is listed under "What others say" and can be adopted after a look, but it never settles a row here; only a statement by the direct user\'s listed maintainer holds for every wallet. ');
@@ -1126,10 +1136,7 @@ function howToRead(model) {
       : 'Nobody has made those statements for this wallet\'s advisories yet, which is what the empty "Decision" column says. ');
     parts.push('"Add statement" on a row writes one: signed with your Nostr browser extension, published to the relays, shown here at once and on every wallet page after the next site build. Anyone can publish; whose statements settle rows is a list the site keeps, the others are shown. ');
   }
-  if (model.signals) {
-    parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, EPSS is the published probability that it gets exploited anywhere within 30 days, and "public since" is when the advisory was published; all three are about the advisory, not this wallet. ');
-  }
-  parts.push('We do not rank wallets by this number. ');
+  next();
   parts.push('Which app a dependency file belongs to comes from a short hand-made list, made by reading each wallet\'s build files. It is not a check of the released app. A file not on the list counts on every page, so the numbers can be too high. "Where?" labels such as "website" or "desktop app" are guesses from folder names. ');
   if (allWhereUnknown(model)) {
     parts.push('The files do not say whether any package with an advisory ends up in the app, the build tooling or the tests, so the table has no Where? column. ');
@@ -1142,6 +1149,7 @@ function howToRead(model) {
     parts.push(`"unknown" in the Where? column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
   }
   parts.push('"Used by" counts how many of the wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. ');
+  next();
   if (model.lockfiles.length) {
     parts.push('Files read: ');
     model.lockfiles.forEach((l, i) => { if (i) parts.push(', '); parts.push(el('code', {}, l)); });
@@ -1154,8 +1162,9 @@ function howToRead(model) {
       ? `, and ${d.integrityChangedAtSameVersion.length} changed content at the same version (${d.integrityChangedAtSameVersion.join(', ')}). `
       : ', none changed content at the same version. ');
   }
+  next();
   // three lines, then "Read more": in full it is taller than a phone screen
-  const text = el('p', { className: 'dp-note-text', id: `dp-note-${Math.random().toString(36).slice(2, 8)}` }, parts);
+  const text = el('div', { className: 'dp-note-text', id: `dp-note-${Math.random().toString(36).slice(2, 8)}` }, paragraphs.map(p => el('p', {}, p)));
   const more = el('button', { type: 'button', className: 'dp-note-more', 'aria-controls': text.id, 'aria-expanded': 'false' }, 'Read more');
   more.addEventListener('click', () => {
     const open = more.getAttribute('aria-expanded') !== 'true';

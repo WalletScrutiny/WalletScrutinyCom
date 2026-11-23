@@ -872,6 +872,15 @@ describe('dependencies panel: which app a file belongs to (issue 994)', () => {
     assert.match(text, /so the numbers can be too high/);
     assert.match(text, /are guesses from folder names/);
   });
+
+  test('the note on how to read the panel is one paragraph per topic, and only the first shows folded', () => {
+    const note = panel({}, 'android').querySelector('.dp-note-text');
+    const paragraphs = [...note.querySelectorAll('p')];
+    assert.ok(paragraphs.length >= 4);
+    assert.ok(paragraphs.every(p => p.textContent.trim()));
+    assert.match(paragraphs[0].textContent, /^How to read this\. "Direct" dependencies/);
+    assert.match(paragraphs.at(-1).textContent, /^Which app a dependency file belongs to/);
+  });
 });
 
 describe('dependencies panel: whose statements the relays are asked for (issue 1002)', () => {
