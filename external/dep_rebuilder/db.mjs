@@ -89,6 +89,14 @@ export function openDb(file = DB_PATH) {
     db.exec(`DELETE FROM rebuilds WHERE result = 'failed';
       INSERT INTO meta (key, value) VALUES ('rejudged_failures', datetime('now'));`);
   }
+  if (!db.prepare(`SELECT 1 FROM meta WHERE key = 'line_endings_reproduced'`).get()) {
+    // Same content, only line endings differ, counts as reproduced since this key (rebuildNpm.mjs reproducedNote);
+    // the failures stored before it are turned once. The note says only that, the file count is not kept in a note.
+    db.exec(`UPDATE rebuilds SET result = 'reproduced', phase = NULL,
+        note = 'All files identical apart from line endings' || CASE WHEN note LIKE 'Rebuilt tarball differs after %' THEN ' after \`npm run build\`' ELSE '' END
+      WHERE result = 'failed' AND note LIKE 'Rebuilt tarball differs%' AND note LIKE '%; all explained: line endings only';
+      INSERT INTO meta (key, value) VALUES ('line_endings_reproduced', datetime('now'));`);
+  }
   return db;
 }
 
@@ -177,12 +185,34 @@ export function saveRebuild(db, r) {
   })();
 }
 
+// What a result says about the package, for whoever works through the failures (none of it is published).
+// "not-reproducible" only when the publisher's build, written down as a recipe, finished and what it packed
+// differs. A difference of the generic build says more about the guessed command than about the package,
+// and a failed step leaves nothing to compare: both are "we don't know how yet". "almost": every difference
+// is explained, by docs or dev-only package.json fields (diffNote's "all explained"); line endings alone are reproduced.
+export const VERDICTS = ['reproduced', 'almost', 'not-reproducible', 'unknown-command', 'unknown-no-output', 'unknown-unsupported'];
+export const VERDICT_SQL = `CASE
+  WHEN r.result = 'reproduced' THEN 'reproduced'
+  WHEN r.result = 'unsupported' THEN 'unknown-unsupported'
+  WHEN r.result = 'failed' AND r.note LIKE 'Rebuilt tarball differs%' AND r.note LIKE '%; all explained: %' THEN 'almost'
+  WHEN r.result = 'failed' AND r.note LIKE 'Rebuilt tarball differs%' AND r.recipe IS NOT NULL THEN 'not-reproducible'
+  WHEN r.result = 'failed' AND r.note LIKE 'Rebuilt tarball differs%' THEN 'unknown-command'
+  ELSE 'unknown-no-output' END`;
+
+/** Results with their verdict, most wallets first; `verdict` narrows to one. */
+export function verdicts(db, { verdict = null, limit = 50 } = {}) {
+  return db.prepare(`SELECT * FROM (SELECT r.name, r.version, ${VERDICT_SQL} AS verdict, r.phase, r.recipe, r.note, IFNULL(c.wallets, 0) AS wallets
+      FROM rebuilds r LEFT JOIN candidates c ON c.ecosystem = r.ecosystem AND c.name = r.name AND c.version = r.version)
+    WHERE @verdict IS NULL OR verdict = @verdict ORDER BY wallets DESC, name, version LIMIT @limit`).all({ verdict, limit });
+}
+
 export function tally(db) {
   const results = Object.fromEntries(db.prepare(`SELECT result, COUNT(*) n FROM rebuilds GROUP BY result`).all().map(r => [r.result, r.n]));
+  const byVerdict = Object.fromEntries(db.prepare(`SELECT ${VERDICT_SQL} AS v, COUNT(*) n FROM rebuilds r GROUP BY v`).all().map(r => [r.v, r.n]));
   const c = db.prepare(`SELECT COUNT(*) n, SUM(wallets >= 2) shared FROM candidates`).get();
   const todo = db.prepare(`SELECT COUNT(*) n FROM candidates c WHERE NOT EXISTS (SELECT 1 FROM rebuilds r WHERE r.ecosystem = c.ecosystem AND r.name = c.name AND r.version = c.version)
     AND NOT EXISTS (SELECT 1 FROM google g WHERE g.ecosystem = c.ecosystem AND g.name = c.name AND g.version = c.version)`).get().n;
-  return { candidates: c.n, sharedByTwoOrMore: c.shared || 0, results, notYetTried: todo };
+  return { candidates: c.n, sharedByTwoOrMore: c.shared || 0, results, verdicts: byVerdict, notYetTried: todo };
 }
 
 export const getMeta = (db, key) => db.prepare(`SELECT value FROM meta WHERE key = ?`).get(key)?.value ?? null;

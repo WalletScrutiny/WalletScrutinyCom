@@ -9,7 +9,7 @@
 import fs from 'fs';
 import path from 'path';
 import { createHash } from 'crypto';
-import { fetchNpmVersion, nodeImage, compareTarballs, diffNote, failureLine, CLONE_IMAGE } from '../source_analysis/rebuildNpm.mjs';
+import { fetchNpmVersion, nodeImage, compareTarballs, diffNote, reproducedNote, failureLine, CLONE_IMAGE } from '../source_analysis/rebuildNpm.mjs';
 import { sandboxArgs, runPhase, removeTree, reclaim, CONTAINER_CLI, LIMITS, RECIPE_SCRIPT } from './sandbox.mjs';
 import { boundedLog } from './rebuild.mjs';
 import { isNpmName } from './recipes.mjs';
@@ -194,7 +194,7 @@ async function rebuildIn(dir, { recipe, ref, commit, packages, slug, fetchImpl, 
     // file names are the build's: a few of them, cut, in the log and in the note
     const some = (names) => names.slice(0, 10).map(f => f.slice(0, 200));
     fs.appendFileSync(logFile, `== comparison ${j.name}@${j.version} ${JSON.stringify({ ...cmp, missing: some(cmp.missing), extra: some(cmp.extra), changed: some(cmp.changed), explained: undefined })}\n`);
-    if (cmp.match) settle(j, 'reproduced', cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`);
+    if (reproducedNote(cmp)) settle(j, 'reproduced', reproducedNote(cmp));
     else settle(j, 'failed', `Rebuilt tarball differs: ${diffNote(cmp)}`.slice(0, 400), 'compare');
   }
   return finish();
