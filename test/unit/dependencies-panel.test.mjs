@@ -415,6 +415,15 @@ describe('dependencies panel', () => {
     assert.equal(releaseForVersion(app, 'latest'), null);
   });
 
+  test('releaseForVersion: a build variant takes the plain release, a pre-release does not', () => {
+    const app = { releases: [{ ref: '0.8.7' }, { ref: '0.8.6' }] };
+    assert.equal(releaseForVersion(app, '0.8.7-pi4').ref, '0.8.7');
+    assert.equal(releaseForVersion(app, '0.8.6-pi0').ref, '0.8.6');
+    assert.equal(releaseForVersion(app, '0.8.7-rc1'), null);
+    assert.equal(releaseForVersion(app, '0.8.7-beta2'), null);
+    assert.equal(releaseForVersion(app, '0.8.5-pi4'), null);
+  });
+
   test('releaseForVersion: the release the export names for the version wins over the digits (issue 1018)', () => {
     const listed = (ref, version) => ({ ref, reproducedFor: [{ appId: 'onekey.classic.1s', platform: 'hardware', version }] });
     const app = { releases: [listed('v3.21.0', '3.21.0-Universal'), listed('v3.21.0-btc', '3.21.0-BTC only'),

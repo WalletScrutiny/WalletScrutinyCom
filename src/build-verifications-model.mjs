@@ -26,8 +26,9 @@ export function releaseNamesVersion(release, version) {
 // The analysed release (of an app file of the source analysis export) for a
 // version picked in "Every version", or null when none was analysed. The release
 // the export names for that version wins ("3.21.0-BTC only" -> v3.21.0-btc).
-// Otherwise the version digits must agree; only a plain version ("1.4.0") also
-// takes a tag with a suffix (v1.4.0-android), so a picked beta never shows the
+// Otherwise the version digits must agree; a plain version ("1.4.0") also
+// takes a tag with a suffix (v1.4.0-android), and a build variant of it
+// ("0.8.7-pi4") takes the plain release, but a picked beta never shows the
 // final release.
 export function releaseForVersion(app, version) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
@@ -35,10 +36,15 @@ export function releaseForVersion(app, version) {
   if (named) return named;
   const core = versionCore(version);
   if (!core) return null;
+  const [base, suffix] = core.split(/[-+](.*)/);
   return releases.find(r => versionCore(r.ref) === core)
-    || (/[-+]/.test(core) ? null : releases.find(r => versionCore(r.ref).split(/[-+]/)[0] === core))
+    || (suffix === undefined ? releases.find(r => versionCore(r.ref).split(/[-+]/)[0] === core) : null)
+    || (suffix && !PRE_RELEASE.test(suffix) ? releases.find(r => versionCore(r.ref) === base) : null)
     || null;
 }
+
+// A version suffix that marks a pre-release rather than a build variant.
+const PRE_RELEASE = /^(?:alpha|beta|rc|pre|preview|dev|snapshot|nightly|canary|test|a|b)(?![a-z])/i;
 
 /** A verifier's verdict, the way the app counts it: reproduced, not reproduced, could not build, or something else. */
 export function statusGroup(status) {
