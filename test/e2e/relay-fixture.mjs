@@ -62,6 +62,21 @@ export function queryEvents(events, filters) {
   return out;
 }
 
+/**
+ * The project relay stores only WalletScrutiny kinds (external/configs/strfry/kind-policy.py)
+ * and answers anything else with one generic message. The fake one mirrors that for plain
+ * notes (kind 1), the kind "Share on Nostr" publishes; the public relays accept everything.
+ */
+const PROJECT_RELAY_HOST = 'relay.nostr.info';
+const PROJECT_RELAY_REFUSED_KINDS = new Set([1]);
+
+function publishAnswer(relayUrl, event) {
+  if (new URL(relayUrl).hostname === PROJECT_RELAY_HOST && PROJECT_RELAY_REFUSED_KINDS.has(event?.kind)) {
+    return ['OK', event.id, false, 'blocked: not accepted by this relay'];
+  }
+  return ['OK', event?.id, true, ''];
+}
+
 function replay(ws) {
   const events = loadEvents();
   ws.onMessage(async (raw) => {
@@ -85,8 +100,8 @@ function replay(ws) {
       const [subId, ...filters] = rest;
       ws.send(JSON.stringify(['COUNT', subId, { count: queryEvents(events, filters).length }]));
     } else if (type === 'EVENT') {
-      // Publishes are accepted and dropped: nothing leaves the test.
-      ws.send(JSON.stringify(['OK', rest[0]?.id, true, '']));
+      // Publishes are answered and dropped: nothing leaves the test.
+      ws.send(JSON.stringify(publishAnswer(ws.url(), rest[0])));
     } else if (type === 'NEG-OPEN') {
       ws.send(JSON.stringify(['NEG-ERR', rest[0], 'unsupported: negentropy']));
     }

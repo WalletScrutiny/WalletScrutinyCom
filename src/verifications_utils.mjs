@@ -10,6 +10,7 @@ import {
   signEvent,
   publishEvent,
   assertRequiredRelaysAccepted,
+  assertAnyRelayAccepted,
   subscribeEvents,
   createDeletionRequest,
   createEncryptedDm,
@@ -191,11 +192,12 @@ const getWSClientTags = function() {
  */
 const requiredPublishRelayUrls = [mainRelayUrl];
 
-async function signAndPublish(eventDraft, eventType = 'event') {
+async function signAndPublish(eventDraft, eventType = 'event', { requiredRelayUrls = requiredPublishRelayUrls } = {}) {
   await ensureSignerReady();
   const signed = await signEvent(eventDraft);
-  const summary = await publishEvent(signed, undefined, { requiredRelayUrls: requiredPublishRelayUrls });
+  const summary = await publishEvent(signed, undefined, { requiredRelayUrls });
   assertRequiredRelaysAccepted(summary, eventType);
+  assertAnyRelayAccepted(summary, eventType);
   console.debug(`Published ${eventType} (id: ${signed.id}) to ${summary.successful} relays`);
   return signed;
 }
@@ -1842,7 +1844,13 @@ function showToast(message, type = 'success', duration = 4000) {
     const toast = document.createElement('div');
     toast.className = 'toast';
     toast.style.backgroundColor = color;
-    toast.textContent = message;
+    // A string is shown as plain text, never parsed as HTML; a message that
+    // needs markup (a link) is passed as a DOM node.
+    if (message instanceof Node) {
+      toast.append(message);
+    } else {
+      toast.textContent = message;
+    }
     document.body.appendChild(toast);
 
     // Show toast
@@ -1857,6 +1865,12 @@ function showToast(message, type = 'success', duration = 4000) {
   });
 }
 
+/**
+ * "Share on Nostr": a plain note (kind 1) for the public relays. The project
+ * relay does not store users' notes (external/configs/strfry/kind-policy.py)
+ * and the site never reads the note back, so its OK is not required here: the
+ * share succeeded when any relay accepted it.
+ */
 const createNostrNote = async function (message) {
   await ensureNostrConnected();
   if (!message) {
@@ -1864,7 +1878,7 @@ const createNostrNote = async function (message) {
   }
 
   const eventDraft = createNostrEvent(1, message);
-  const published = await signAndPublish(eventDraft, 'note');
+  const published = await signAndPublish(eventDraft, 'note', { requiredRelayUrls: [] });
   return published.id;
 }
 

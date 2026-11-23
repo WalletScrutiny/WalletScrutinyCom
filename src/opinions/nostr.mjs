@@ -12,6 +12,7 @@ import {
   fetchEventsWithPagination,
   publishEvent,
   assertRequiredRelaysAccepted,
+  assertAnyRelayAccepted,
   signEvent,
 } from '../nostr-client.mjs';
 import { mainRelayUrl, siteAdminPubkeys, verificationReportKind } from '../nostr-constants.mjs';
@@ -161,10 +162,7 @@ export async function signAndPublish(draft, { eventType = 'event', requireMainRe
     requiredRelayUrls: requireMainRelay ? [mainRelayUrl] : [],
   });
   assertRequiredRelaysAccepted(summary, eventType);
-  if (summary.successful === 0) {
-    const reasons = summary.failures.map(({ url, error }) => `${url} (${error})`).join(', ');
-    throw new Error(`Failed to publish ${eventType}: no relay accepted it. ${reasons}`);
-  }
+  assertAnyRelayAccepted(summary, eventType);
   console.debug(`Published ${eventType} (id: ${signed.id}) to ${summary.successful}/${summary.total} relays`);
   return includeSummary ? { event: signed, summary } : signed;
 }
