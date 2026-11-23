@@ -263,6 +263,138 @@ describe('our npm rebuild: comparing tarballs', () => {
   });
 });
 
+// Archives as a publisher could craft them: every entry spelled out. `e` gives { name, body, type, magic,
+// prefix, size (the size field, when it is to say something else), sum (false = a wrong checksum), raw (a
+// function that changes the header before the checksum is written) }.
+function tarOf(entries, { end = Buffer.alloc(1024) } = {}) {
+  const blocks = [];
+  for (const e of entries) {
+    if (Buffer.isBuffer(e)) { blocks.push(e); continue; }
+    const h = Buffer.alloc(512), b = Buffer.from(e.body ?? '');
+    h.write(e.name, 0, 100, 'utf8');
+    h.write('0000644\0', 100); h.write('0000000\0', 108); h.write('0000000\0', 116);
+    if (Buffer.isBuffer(e.size)) e.size.copy(h, 124); else h.write((e.size ?? b.length).toString(8).padStart(11, '0') + '\0', 124);
+    h.write('00000000000\0', 136);
+    h.write(e.type ?? '0', 156);
+    h.write(e.magic ?? 'ustar\0' + '00', 257, 'latin1');
+    if (e.prefix) h.write(e.prefix, 345, 155, 'utf8');
+    e.raw?.(h);
+    h.write('        ', 148);
+    let sum = 0; for (const x of h) sum += x;
+    h.write((e.sum === false ? sum + 7 : sum).toString(8).padStart(6, '0') + '\0 ', 148);
+    blocks.push(h, b, Buffer.alloc((512 - (b.length % 512)) % 512));
+  }
+  return zlib.gzipSync(Buffer.concat([...blocks, end]));
+}
+const pax = (records) => Object.entries(records).map(([k, v]) => { const rest = ` ${k}=${v}\n`; let n = rest.length + 1; while (String(n).length + rest.length !== n) n++; return `${n}${rest}`; }).join('');
+
+describe('our npm rebuild: an archive readers could disagree on is not compared', () => {
+  const pj = { name: 'package/package.json', body: '{"name":"a","version":"1.0.0"}' };
+  const good = { name: 'package/index.js', body: 'GOOD\n' }, evil = { name: 'package/index.js', body: 'EVIL\n' };
+  const rebuilt = tarOf([pj, good]);
+  const refused = (entries, why, opts) => {
+    assert.throws(() => tgzFiles(tarOf(entries, opts)), (e) => e.message.startsWith('Not a plain tar archive: ') && why.test(e.message), `${why}`);
+    assert.throws(() => compareTarballs(tarOf(entries, opts), rebuilt), /^Error: The registry's tarball: Not a plain tar archive/);
+    assert.throws(() => compareTarballs(rebuilt, tarOf(entries, opts)), /^Error: The rebuilt tarball: Not a plain tar archive/);
+  };
+  const names = (entries, opts) => [...tgzFiles(tarOf(entries, opts)).keys()];
+
+  test('the plain archive compares as before', () => {
+    assert.equal(compareTarballs(tarOf([pj, good]), rebuilt).match, true);
+    assert.equal(compareTarballs(tarOf([pj, evil]), rebuilt).match, false);
+  });
+
+  test('where the archive ends: nothing but zeros after the first block of zeros', () => {
+    // npm's tar reads on after one block of zeros and installs the second index.js
+    refused([pj, good, Buffer.alloc(512), evil], /data after the end/);
+    refused([pj, good], /data after the end/, { end: Buffer.concat([Buffer.alloc(1024), Buffer.from('x')]) });
+    assert.deepEqual(names([pj, good], { end: Buffer.alloc(0) }), ['package.json', 'index.js'], 'no end marker at all is still one reading');
+    refused([], /no file in it/);
+    refused([{ name: 'package/', type: '5' }], /no file in it/);
+  });
+
+  test('a header with a wrong checksum is not skipped and not taken', () => {
+    // npm's tar skips it and installs the first index.js
+    refused([pj, evil, { ...good, sum: false }], /wrong checksum/);
+  });
+
+  test('one path, two contents; the same content twice is one file', () => {
+    refused([pj, good, evil], /two files of one path/);
+    refused([pj, good, { name: 'package/./index.js', body: 'EVIL\n' }], /two files of one path/);
+    assert.deepEqual(names([pj, good, { name: 'package/./index.js', body: 'GOOD\n' }]), ['package.json', 'index.js'], 'as some publish tools write it');
+    assert.equal(compareTarballs(tarOf([pj, { name: 'package/./index.js', body: 'GOOD\n' }]), rebuilt).match, true, '"a/./b" is a/b to every reader');
+  });
+
+  test('paths: the first component is a name, the rest has no "..", no empty part', () => {
+    for (const name of ['./package/index.js', '/package/index.js', '../index.js', 'package/../index.js', 'package//index.js', 'index.js', 'package/.']) refused([pj, { ...good, name }], /path is not <directory>\/<path>/);
+    refused([pj, { ...good, raw: (h) => h.write('x', 30) }], /bytes after the end of a name/); // "package/index.js", NULs, then more
+  });
+
+  test('a path is a file or a directory or a link, never two of them', () => {
+    // which of the two is on disk afterwards depends on the reader and on the order
+    const lib = { name: 'package/lib', body: 'EVIL\n' }, below = { name: 'package/lib/x.js', body: 'GOOD\n' };
+    refused([pj, lib, below], /file below a path that is no directory/);
+    refused([pj, below, lib], /file below a path that is no directory/);
+    refused([pj, { name: 'package/lib/', type: '5' }, lib], /a file and something else/);
+    refused([pj, { name: 'package/index.js', type: '2' }, good], /a file and something else/);
+    refused([pj, { name: 'package/lib', type: '2' }, below], /file below a path that is no directory/);
+    refused([pj, { name: './package/lib/', type: '5' }, good], /path is not <directory>\/<path>/);
+    assert.deepEqual(names([pj, { name: 'package/', type: '5' }, { name: 'package/lib/', type: '5' }, below, { name: 'package/other', type: '2' }]), ['package.json', 'lib/x.js']);
+  });
+
+  test('sizes: octal only, inside the archive, and none on what is no file', () => {
+    const big = Buffer.alloc(12); big[0] = 0x80; big[11] = 5; // the base-256 form
+    refused([pj, { ...good, size: big }], /size is not an octal number/);
+    refused([pj, { ...good, size: 5000 }], /longer than the archive/);
+    for (const type of ['1', '2', '5']) refused([pj, { name: 'package/x', body: 'body', type }, good], /with a size/);
+    refused([pj, { name: 'package/dir/', body: 'body' }, good], /directory with a size/);
+    assert.deepEqual(names([pj, { name: 'package/dir/' }, { name: 'package/link', type: '2' }, good]), ['package.json', 'index.js'], 'directories and links are no files');
+  });
+
+  test('extended headers: read by length and by line alike, or not at all', () => {
+    const x = (body, more = {}) => ({ name: 'PaxHeader/x', type: 'x', body, ...more });
+    const long = `package/${'d/'.repeat(60)}index.js`;
+    assert.deepEqual(names([pj, x(pax({ path: long, mtime: '1' })), { name: 'package/short', body: 'GOOD\n' }]), ['package.json', long.slice(8)]);
+    // a record that swallows the next line (by length: one odd path; by line: two paths, the last wins)
+    refused([pj, x('40 path=package/a\n25 path=package/index.js\n'), good], /wrong length|not one "key=value" line/);
+    refused([pj, x('30 path=package/index.js\n'), good], /wrong length/);
+    refused([pj, x('path=package/index.js\n'), good], /wrong length/);
+    refused([pj, x(pax({ size: '3' })), good], /another size than the entry/);
+    assert.deepEqual(names([pj, x(pax({ size: '5', uid: '120012366' })), good]), ['package.json', 'index.js'], 'old npm versions wrote the size again');
+    refused([pj, x(pax({ 'GNU.sparse.major': '1' })), good], /sparse/);
+    refused([pj, x(pax({ path: 'package/a' })), x(pax({ path: 'package/b' })), good], /two extended headers/);
+    refused([pj, { name: 'pax_global_header', type: 'g', body: pax({ path: 'package/index.js' }) }, good], /global extended header/);
+    assert.deepEqual(names([{ name: 'pax_global_header', type: 'g', body: pax({ comment: 'a'.repeat(40) }) }, pj, good]), ['package.json', 'index.js'], 'as git archive writes it');
+  });
+
+  test('only the kinds of entry a package has, and no name or extended header too large for npm\'s tar to read', () => {
+    // GNU tar makes a file of a type it does not know; npm's tar makes nothing
+    for (const type of ['Y', 'S', 'N', '3', '4', '6']) refused([pj, { name: 'package/ghost.js', type }, good], /an entry of type/);
+    // npm's tar ignores these above 1 MiB and installs GOOD.js under its short name
+    const pad = 'x'.repeat(70000);
+    refused([pj, { name: '././@LongLink', type: 'L', body: `package/EVIL.js\0${'\0'.repeat(70000)}` }, { name: 'package/GOOD.js', body: 'GOOD\n' }], /unusual size/);
+    refused([pj, { name: 'PaxHeader/x', type: 'x', body: pax({ path: 'package/EVIL.js', comment: pad }) }, { name: 'package/GOOD.js', body: 'GOOD\n' }], /unusual size/);
+    refused([{ name: 'pax_global_header', type: 'g', body: pax({ comment: pad }) }, pj, good], /unusual size/);
+  });
+
+  test('long names (GNU) and prefixes (POSIX): each only in its own format', () => {
+    const L = (name) => ({ name: '././@LongLink', type: 'L', body: `${name}\0` });
+    const long = `package/${'n'.repeat(150)}.js`;
+    assert.deepEqual(names([pj, L(long), { name: 'package/short', body: 'GOOD\n' }]), ['package.json', long.slice(8)]);
+    refused([pj, L(long), { name: 'PaxHeader/x', type: 'x', body: pax({ path: 'package/other.js' }) }, good], /long name and an extended header path/);
+    refused([pj, L(long), L(long), good], /two long names/);
+    // npm's tar decodes these piece by piece and garbles or drops a character that falls on a boundary
+    refused([pj, L(`package/${'n'.repeat(120)}é.js`), good], /outside ASCII/);
+    refused([pj, { name: 'PaxHeader/x', type: 'x', body: pax({ path: `package/${'n'.repeat(120)}é.js` }).replace(/^\d+/, (n) => String(Number(n) + 1)) }, good], /outside ASCII/);
+    assert.deepEqual(names([pj, { ...good, name: 'package/é.js' }]), ['package.json', 'é.js'], 'in the header itself any name is read whole');
+    refused([pj, { ...L(long), body: `${long}\0x` }, good], /bytes after the end of a long name/);
+    assert.deepEqual(names([pj, { name: 'lib/index.js', prefix: 'package', body: 'GOOD\n' }]), ['package.json', 'lib/index.js']);
+    // GNU headers have other things where POSIX has the prefix: no part of the name there
+    assert.deepEqual(names([pj, { ...good, magic: 'ustar  \0', prefix: '12345670' }]), ['package.json', 'index.js']);
+    refused([pj, { ...good, magic: 'ustar\0' + '01', prefix: 'x' }], /unknown ustar version/);
+  });
+});
+
 describe('our npm rebuild: why a build failed', () => {
   test('the first real error, not npm\'s boilerplate', () => {
     assert.equal(failureLine('== npm ci\nnpm ERR! code 1\nnpm ERR! path /work/src\nError: failed to post to closure compiler\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /x.log\n'), 'Error: failed to post to closure compiler');

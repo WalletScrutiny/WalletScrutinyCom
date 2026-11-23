@@ -69,36 +69,135 @@ export function nodeImage(nodeVersion) {
   return `docker.io/library/node:${major}${major >= 18 ? '-bookworm' : ''}`;
 }
 
+// Tar readers do not agree on an archive that is not well formed: one stops at a
+// lone block of zeros where another reads on, one skips a header with a wrong
+// checksum where another takes it, one reads an extended header by lines and
+// another by lengths. A publisher could use that to show this comparison other
+// files than the ones npm installs. So an archive is read only when it leaves
+// readers nothing to disagree on, and anything else is an error (the caller's
+// "could not be compared"), never a guess.
+const notPlain = (what) => { throw new Error(`Not a plain tar archive: ${what}`); };
+const allZero = (b) => { for (let i = 0; i < b.length; i++) if (b[i] !== 0) return false; return true; };
+/** A text field of a header: up to its first NUL, and nothing but NULs after it. */
+function tarText(b, what) {
+  const end = b.indexOf(0);
+  if (end === -1) return b.toString('utf8');
+  if (!allZero(b.subarray(end))) notPlain(`bytes after the end of ${what}`);
+  return b.subarray(0, end).toString('utf8');
+}
+/** A number of a header: octal digits between spaces or NULs. (The base-256 form, for files over 8 GB, is not read.) */
+function tarNumber(b, what) {
+  const m = /^[ 0]*([0-7]*)[ \0]*$/.exec(b.toString('latin1'));
+  if (!m) notPlain(`${what} is not an octal number`);
+  return parseInt(m[1] || '0', 8);
+}
+/**
+ * The records of an extended header ("<length> <key>=<value>\n"), read by their
+ * lengths and required to be one line each, so that reading by lines gives the same.
+ */
+function paxRecords(body) {
+  const out = {};
+  for (let off = 0; off < body.length;) {
+    const m = /^([1-9][0-9]{0,8}) /.exec(body.subarray(off, off + 11).toString('latin1'));
+    const len = m ? Number(m[1]) : 0;
+    const rec = body.subarray(off, off + len);
+    if (!m || rec.length !== len || rec[len - 1] !== 0x0a) notPlain('an extended header record of the wrong length');
+    const line = rec.subarray(m[0].length, len - 1);
+    const eq = line.indexOf(0x3d);
+    if (eq < 1 || line.includes(0x0a) || line.includes(0)) notPlain('an extended header record that is not one "key=value" line');
+    out[line.subarray(0, eq).toString('utf8')] = line.subarray(eq + 1).toString('utf8');
+    off += len;
+  }
+  return out;
+}
+// A name that comes in an entry of its own (long name, extended header) is read by npm's tar piece by piece as the
+// archive arrives: a character of several bytes that falls on a boundary is garbled there, or the record dropped.
+// So such a name is taken only when every character is one byte.
+const plainName = (name) => (/^[\x20-\x7e]+$/.test(name) ? name : notPlain('a long name with characters outside ASCII'));
+const META_TYPES = 'LKxg', KNOWN_TYPES = `07512${META_TYPES}`; // files, directories, links; names and extended headers for the entry that follows
+const MAX_META_BYTES = 64 * 1024;
+// In an extended header these change which bytes are a file's, and readers differ in whether they follow them.
+// (A size is taken when it is the one the entry's own header has, as old npm versions wrote it.)
+const paxSparse = (records) => Object.keys(records).some(k => k.startsWith('GNU.sparse'));
+
 /**
  * Regular files of a .tgz as Map path → sha256, the first path component
  * (`package/`) dropped. Parsed here rather than extracted, so nothing from a
- * tarball touches the host's file system.
+ * tarball touches the host's file system. Throws on an archive that is not
+ * plain (above).
  */
 export function tgzFiles(buf, { bodies = false } = {}) {
   // A tarball built by untrusted code can be a gzip bomb: cap the unpacked size.
   const tar = zlib.gunzipSync(buf, { maxOutputLength: MAX_UNPACKED_BYTES });
-  const files = new Map();
-  let longName = null, pax = {};
-  for (let off = 0; off + 512 <= tar.length;) {
+  const files = new Map(), dirs = new Set(), others = new Set(); // others: the paths of links and whatever else is neither file nor directory
+  let longName = null, pax = null, off = 0;
+  for (; off + 512 <= tar.length;) {
     const h = tar.subarray(off, off + 512);
-    if (h.every(b => b === 0)) break;
-    const str = (a, b) => h.subarray(a, b).toString('utf8').replace(/\0.*$/s, '');
-    const size = parseInt(str(124, 136).trim() || '0', 8);
+    if (allZero(h)) break;
+    let sum = 8 * 0x20;
+    for (let i = 0; i < 512; i++) if (i < 148 || i >= 156) sum += h[i];
+    if (sum !== tarNumber(h.subarray(148, 156), 'a checksum')) notPlain('a header with a wrong checksum');
+    const size = tarNumber(h.subarray(124, 136), 'a size');
     const type = String.fromCharCode(h[156] || 48);
+    const isFile = type === '0' || type === '7';
+    // Only the kinds an npm package has. Of any other (devices, sparse files, letters some tool made up) one reader
+    // makes a file and the next nothing.
+    if (!KNOWN_TYPES.includes(type)) notPlain(`an entry of type ${JSON.stringify(type)}`);
+    // npm's tar passes over a long name or extended header of more than 1 MiB as if it were not there; others read it.
+    if (META_TYPES.includes(type) && size > MAX_META_BYTES) notPlain('a long name or extended header of unusual size');
+    if (off + 512 + size > tar.length) notPlain('an entry longer than the archive');
     const body = tar.subarray(off + 512, off + 512 + size);
     off += 512 + Math.ceil(size / 512) * 512;
-    if (type === 'L') { longName = body.toString('utf8').replace(/\0.*$/s, ''); continue; }
-    if (type === 'x') {
-      for (const rec of body.toString('utf8').split('\n')) { const m = /^\d+ ([^=]+)=(.*)$/.exec(rec); if (m) pax[m[1]] = m[2]; }
+    if (type === 'L') { // GNU: the next entry's name
+      if (longName != null) notPlain('two long names for one entry');
+      longName = plainName(tarText(body, 'a long name'));
       continue;
     }
-    if (type === 'g') continue;
-    const prefix = str(345, 500);
-    let name = longName || pax.path || (prefix ? `${prefix}/${str(0, 100)}` : str(0, 100));
-    longName = null; pax = {};
-    if (type !== '0' && type !== '\0' && type !== '7') continue;
-    name = name.replace(/^\.?\/*/, '').split('/').slice(1).join('/');
-    if (name) files.set(name, bodies ? Buffer.from(body) : sha256(body));
+    if (type === 'x' || type === 'g') { // pax: for the next entry, or for all that follow
+      const records = paxRecords(body);
+      if (paxSparse(records)) notPlain('an extended header for a sparse file');
+      if (type === 'g') { if ('path' in records || 'linkpath' in records || 'size' in records) notPlain('a global extended header that names a path or a size'); continue; }
+      if (pax) notPlain('two extended headers for one entry');
+      if (records.path != null) plainName(records.path);
+      pax = records;
+      continue;
+    }
+    if (type === 'K') continue; // GNU: the next entry's link target; links are not compared
+    // Whether a link, a directory or something unknown has a body is another thing readers differ on.
+    if (!isFile && size) notPlain(`an entry of type ${JSON.stringify(type)} with a size`);
+    if (longName != null && pax?.path != null) notPlain('a long name and an extended header path for one entry');
+    if (pax?.size != null && pax.size !== String(size)) notPlain('an extended header with another size than the entry');
+    // The prefix is the POSIX format's; in any other, those bytes are something else and are no part of the name.
+    const posix = h.subarray(257, 265).toString('latin1') === 'ustar\u000000';
+    if (!posix && h.subarray(257, 263).toString('latin1') === 'ustar\u0000' && !allZero(h.subarray(345, 500))) notPlain('a prefix in a header of an unknown ustar version');
+    const prefix = posix ? tarText(h.subarray(345, h[475] !== 0 ? 500 : 475), 'a prefix') : '';
+    const short = tarText(h.subarray(0, 100), 'a name');
+    const name = longName ?? pax?.path ?? (prefix ? `${prefix}/${short}` : short);
+    longName = null; pax = null;
+    const directory = name.endsWith('/'); // old archives: a directory written as a file
+    if (isFile && directory && (size || type !== '0')) notPlain('a directory with a size');
+    // "a/./b" is a/b to every reader. A path that starts with "./" or "/" is not: some drop that before the first component, some count it.
+    const [top, ...rest] = (directory ? name.replace(/\/+$/, '') : name).split('/');
+    const parts = rest.filter(part => part !== '.');
+    if (!top || top === '.' || top === '..' || parts.some(part => part === '' || part === '..')) notPlain('an entry whose path is not <directory>/<path>');
+    if (!isFile || directory) { if (parts.length) (directory || type === '5' ? dirs : others).add(parts.join('/')); continue; }
+    if (!parts.length) notPlain('a file whose path is not <directory>/<path>');
+    const file = parts.join('/');
+    // The same file twice is harmless (some publish tools write "package/./x" and "package/x"); two contents
+    // for one path leave it to the reader which one is installed.
+    const content = bodies ? Buffer.from(body) : sha256(body);
+    if (files.has(file) && !(bodies ? files.get(file).equals(content) : files.get(file) === content)) notPlain('two files of one path with different content');
+    files.set(file, content);
+  }
+  if (!allZero(tar.subarray(off))) notPlain('data after the end of the archive');
+  if (!files.size) notPlain('no file in it'); // npm's tar calls that no archive at all
+  // A path that is a file and also a directory or a link: which of them is on disk depends on the reader and on the order.
+  for (const file of files.keys()) {
+    if (dirs.has(file) || others.has(file)) notPlain('a path that is a file and something else');
+    for (let i = file.lastIndexOf('/'); i > 0; i = file.lastIndexOf('/', i - 1)) {
+      const parent = file.slice(0, i);
+      if (files.has(parent) || others.has(parent)) notPlain('a file below a path that is no directory');
+    }
   }
   return files;
 }
@@ -132,7 +231,8 @@ export function explainDiff(file, want, got) {
 
 /** Compare the registry's tarball with ours: files missing, extra, changed, and why the changed ones differ. */
 export function compareTarballs(registryBuf, rebuiltBuf) {
-  const want = tgzFiles(registryBuf, { bodies: true }), got = tgzFiles(rebuiltBuf, { bodies: true });
+  const read = (buf, whose) => { try { return tgzFiles(buf, { bodies: true }); } catch (e) { throw new Error(`${whose} tarball: ${e.message}`); } };
+  const want = read(registryBuf, 'The registry\'s'), got = read(rebuiltBuf, 'The rebuilt');
   const missing = [...want.keys()].filter(f => !got.has(f)).sort();
   const extra = [...got.keys()].filter(f => !want.has(f)).sort();
   const changed = [...want.keys()].filter(f => got.has(f) && !got.get(f).equals(want.get(f))).sort();
@@ -270,7 +370,8 @@ export async function rebuildNpm({ name, version, source, workRoot, fetchImpl = 
   if (run.code !== 0 || packed.length !== 1) {
     return done('failed', `Build failed: ${failureLine(logText).slice(0, 160)}`);
   }
-  const cmp = compareTarballs(registryBuf, fs.readFileSync(path.join(outDir, packed[0])));
+  let cmp;
+  try { cmp = compareTarballs(registryBuf, fs.readFileSync(path.join(outDir, packed[0]))); } catch (e) { return done('failed', `The tarballs could not be compared: ${String(e.message).slice(0, 120)}`); }
   fs.appendFileSync(logFile, `== comparison ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) })}\n`);
   if (cmp.match) return done('reproduced', cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`);
   return done('failed', `Rebuilt tarball differs: ${diffNote(cmp)}`);
