@@ -6,7 +6,7 @@ import path from 'node:path';
 import zlib from 'node:zlib';
 import Database from 'better-sqlite3';
 import { ossRebuildPrefix, parseOssListing, listOssRebuild, rcClaims, rcCompareName, readReproducibleCentral, importRebuildClaims, importOssDetails, parseOssAttestation, pypiName } from '../rebuildClaims.mjs';
-import { tgzFiles, compareTarballs, explainDiff, diffNote, failureLine, nodeImage, npmVersionFacts, rebuildEvent, rebuildRunArgs } from '../rebuildNpm.mjs';
+import { tgzFiles, compareTarballs, explainDiff, diffNote, reproducedNote, failureLine, nodeImage, npmVersionFacts, rebuildEvent, rebuildRunArgs } from '../rebuildNpm.mjs';
 import { rebuildCandidates } from '../rebuild-npm-cli.mjs';
 import { initDatabase, getRebuildClaims, getOssRebuildDetails } from '../ddbbUtils.mjs';
 import { releaseRebuilds, releaseRebuildDetails } from '../export.mjs';
@@ -253,6 +253,16 @@ describe('our npm rebuild: comparing tarballs', () => {
     const c = compareTarballs(tgz({ ...reg, 'README.md': 'x\r\n' }), tgz({ ...reg, 'README.md': 'x\n' }));
     assert.equal(c.explainedOnly, true);
     assert.match(diffNote(c), /all explained: line endings only$/);
+  });
+
+  test('line endings only count as reproduced, and the note says so; with any other difference they do not', () => {
+    const crlf = compareTarballs(tgz({ ...reg, 'README.md': 'x\r\n' }), tgz({ ...reg, 'README.md': 'x\n' }));
+    assert.equal(crlf.lineEndingsOnly, true);
+    assert.equal(reproducedNote(crlf), `All ${crlf.files} files identical apart from line endings in 1 file`);
+    const mixed = compareTarballs(tgz({ ...reg, 'README.md': 'x\r\n', 'CHANGES.md': 'a' }), tgz({ ...reg, 'README.md': 'x\n', 'CHANGES.md': 'b' }));
+    assert.equal(mixed.lineEndingsOnly, false);
+    assert.equal(reproducedNote(mixed), null);
+    assert.equal(reproducedNote(compareTarballs(tgz(reg), tgz(reg))), 'Byte-identical tarball');
   });
 
   test('a missing .npmignore (packed by npm before 5) is explained; any other missing file is not', () => {

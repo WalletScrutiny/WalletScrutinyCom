@@ -71,7 +71,7 @@ test('verdicts: only a recipe\'s finished build that differs is not reproducible
   const differs = 'Rebuilt tarball differs: 1 of 4 files differ (index.js)';
   for (const [name, result, note, phase, recipe] of [
     ['ok', 'reproduced', 'Byte-identical tarball', null, null],
-    ['crlf', 'failed', 'Rebuilt tarball differs: 1 of 4 files differ (README.md); all explained: line endings only', 'compare', null],
+    ['docs', 'failed', 'Rebuilt tarball differs: 1 of 4 files differ (README.md); all explained: docs', 'compare', null],
     ['recipe', 'failed', differs, 'compare', 'babel@abc'],
     ['guess', 'failed', differs, 'compare', null],
     ['clone', 'failed', 'clone failed: fatal: repository not found', 'clone', null],
@@ -81,12 +81,31 @@ test('verdicts: only a recipe\'s finished build that differs is not reproducible
   ]) saveRebuild(db, { ecosystem: 'npm', name, version: '1.0.0', result, note, phase, recipe });
   saveCandidates(db, [{ ecosystem: 'npm', name: 'guess', version: '1.0.0', wallets: 3, wallets_any: 3 }]);
   assert.deepEqual(Object.fromEntries(verdicts(db).map(r => [r.name, r.verdict])), {
-    ok: 'reproduced', crlf: 'almost', recipe: 'not-reproducible', guess: 'unknown-command',
+    ok: 'reproduced', docs: 'almost', recipe: 'not-reproducible', guess: 'unknown-command',
     clone: 'unknown-no-output', nocompare: 'unknown-no-output', notag: 'unknown-no-output', ws: 'unknown-unsupported',
   });
   assert.equal(verdicts(db)[0].name, 'guess'); // most wallets first
   assert.deepEqual(verdicts(db, { verdict: 'not-reproducible' }).map(r => r.name), ['recipe']);
   assert.deepEqual(tally(db).verdicts, { reproduced: 1, almost: 1, 'not-reproducible': 1, 'unknown-command': 1, 'unknown-no-output': 3, 'unknown-unsupported': 1 });
+});
+
+test('a stored line-endings-only failure is turned into reproduced once, at open', () => {
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'dr-le-')), 'x.db');
+  let db = openDb(file);
+  db.prepare(`DELETE FROM meta WHERE key = 'line_endings_reproduced'`).run(); // a database from before the rule
+  const le = 'Rebuilt tarball differs: 4 of 4 files differ (LICENSE, README.md, index.js and 1 more); all explained: line endings only';
+  saveRebuild(db, { ecosystem: 'npm', name: 'color-name', version: '1.1.4', result: 'failed', note: le, phase: 'compare' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'built', version: '1.0.0', result: 'failed', note: `Rebuilt tarball differs after \`npm run build\`: 1 of 2 files differ (a.js); all explained: line endings only`, phase: 'compare' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'mixed', version: '1.0.0', result: 'failed', note: 'Rebuilt tarball differs: 2 of 7 files differ (README.md, a.js); all explained: line endings only, docs', phase: 'compare' });
+  db.close();
+  db = openDb(file);
+  const rows = Object.fromEntries(db.prepare(`SELECT name, result, note, phase FROM rebuilds`).all().map(r => [r.name, r]));
+  assert.deepEqual(rows['color-name'], { name: 'color-name', result: 'reproduced', note: 'All files identical apart from line endings', phase: null });
+  assert.equal(rows.built.note, 'All files identical apart from line endings after `npm run build`');
+  assert.equal(rows.mixed.result, 'failed');
+  saveRebuild(db, { ecosystem: 'npm', name: 'later', version: '1.0.0', result: 'failed', note: le, phase: 'compare' });
+  db.close();
+  assert.equal(openDb(file).prepare(`SELECT result FROM rebuilds WHERE name = 'later'`).get().result, 'failed'); // once only
 });
 
 test('the phase that runs package scripts has no network and no privileges', () => {

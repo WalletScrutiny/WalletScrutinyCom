@@ -244,6 +244,8 @@ export function compareTarballs(registryBuf, rebuiltBuf) {
     files: want.size, missing, extra, changed, explained,
     // every difference has a harmless-looking reason; the only file missing or
     // extra is .npmignore, which npm before 5 packed and later versions drop
+    // the same content, only its line endings differ (a Windows checkout packed it): counts as reproduced, see reproducedNote
+    lineEndingsOnly: changed.length > 0 && !missing.length && !extra.length && changed.every(f => explained[f] === 'line-endings'),
     explainedOnly: (changed.length + missing.length + extra.length) > 0
       && [...missing, ...extra].every(f => f === '.npmignore') && changed.every(f => explained[f]),
   };
@@ -257,6 +259,13 @@ export function failureLine(log) {
   const lines = String(log).split('\n').map(l => l.trimEnd());
   const hit = lines.find(l => /^(Error:|fatal:|error |.*error TS\d+)/.test(l) || (/^npm ERR! /.test(l) && !NPM_NOISE.test(l)));
   return (hit || lines.filter(l => l && !/^npm (notice|WARN)/.test(l)).pop() || '').replace(/^npm ERR! (typeerror )?/, '');
+}
+
+/** The note of a comparison that counts as reproduced, else null. Line endings only is said in the note, so the claim stays exact. */
+export function reproducedNote(cmp) {
+  if (cmp.match) return cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`;
+  if (cmp.lineEndingsOnly) return `All ${cmp.files} files identical apart from line endings in ${cmp.changed.length} ${cmp.changed.length === 1 ? 'file' : 'files'}`;
+  return null;
 }
 
 const REASONS = { 'line-endings': 'line endings only', 'package-json-dev-fields': 'package.json dev fields only', docs: 'docs' };
@@ -373,6 +382,6 @@ export async function rebuildNpm({ name, version, source, workRoot, fetchImpl = 
   let cmp;
   try { cmp = compareTarballs(registryBuf, fs.readFileSync(path.join(outDir, packed[0]))); } catch (e) { return done('failed', `The tarballs could not be compared: ${String(e.message).slice(0, 120)}`); }
   fs.appendFileSync(logFile, `== comparison ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) })}\n`);
-  if (cmp.match) return done('reproduced', cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`);
+  if (reproducedNote(cmp)) return done('reproduced', reproducedNote(cmp));
   return done('failed', `Rebuilt tarball differs: ${diffNote(cmp)}`);
 }

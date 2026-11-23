@@ -89,6 +89,14 @@ export function openDb(file = DB_PATH) {
     db.exec(`DELETE FROM rebuilds WHERE result = 'failed';
       INSERT INTO meta (key, value) VALUES ('rejudged_failures', datetime('now'));`);
   }
+  if (!db.prepare(`SELECT 1 FROM meta WHERE key = 'line_endings_reproduced'`).get()) {
+    // Same content, only line endings differ, counts as reproduced since this key (rebuildNpm.mjs reproducedNote);
+    // the failures stored before it are turned once. The note says only that, the file count is not kept in a note.
+    db.exec(`UPDATE rebuilds SET result = 'reproduced', phase = NULL,
+        note = 'All files identical apart from line endings' || CASE WHEN note LIKE 'Rebuilt tarball differs after %' THEN ' after \`npm run build\`' ELSE '' END
+      WHERE result = 'failed' AND note LIKE 'Rebuilt tarball differs%' AND note LIKE '%; all explained: line endings only';
+      INSERT INTO meta (key, value) VALUES ('line_endings_reproduced', datetime('now'));`);
+  }
   return db;
 }
 
@@ -181,7 +189,7 @@ export function saveRebuild(db, r) {
 // "not-reproducible" only when the publisher's build, written down as a recipe, finished and what it packed
 // differs. A difference of the generic build says more about the guessed command than about the package,
 // and a failed step leaves nothing to compare: both are "we don't know how yet". "almost": every difference
-// is a line ending, a doc or a dev-only package.json field (diffNote's "all explained").
+// is explained, by docs or dev-only package.json fields (diffNote's "all explained"); line endings alone are reproduced.
 export const VERDICTS = ['reproduced', 'almost', 'not-reproducible', 'unknown-command', 'unknown-no-output', 'unknown-unsupported'];
 export const VERDICT_SQL = `CASE
   WHEN r.result = 'reproduced' THEN 'reproduced'

@@ -6,7 +6,7 @@
 import fs from 'fs';
 import path from 'path';
 import { createHash } from 'crypto';
-import { fetchNpmVersion, nodeImage, compareTarballs, diffNote, failureLine, CLONE_IMAGE } from '../source_analysis/rebuildNpm.mjs';
+import { fetchNpmVersion, nodeImage, compareTarballs, diffNote, reproducedNote, failureLine, CLONE_IMAGE } from '../source_analysis/rebuildNpm.mjs';
 import { resolveRepo } from '../source_analysis/sourceRepos.mjs';
 import { lsRemoteTags, identityOf, npmProvenance } from '../source_analysis/sourceIdentity.mjs';
 import { sandboxArgs, runPhase, removeTree, CONTAINER_CLI, LIMITS } from './sandbox.mjs';
@@ -178,7 +178,7 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
   // Not the published package: a "build" script that no publish hook calls gets a step of its
   // own (npm-sandbox.sh), and what is packed after it is judged instead. A step that fails, runs
   // out of time or leaves nothing readable changes nothing: the first comparison stands.
-  if (!cmp.match) {
+  if (!reproducedNote(cmp)) {
     removeTree(path.join(outDir, AFTER_BUILD)); // whatever the build step left under that name
     const again = await runIn({ phase: 'after-build', image, network: 'none', out: true });
     const builtFile = path.join(outDir, AFTER_BUILD);
@@ -189,7 +189,7 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
   }
   // (cut: file names are the build's, and as long as it likes)
   fs.appendFileSync(logFile, `== comparison${how} ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) }).slice(0, 20000)}\n`);
-  if (cmp.match) return done('reproduced', `${cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`}${how}`);
+  if (reproducedNote(cmp)) return done('reproduced', `${reproducedNote(cmp)}${how}`);
   if (workspaceMember) return notBuilt(diffNote(cmp));
   return done('failed', `Rebuilt tarball differs${how}: ${diffNote(cmp)}`.slice(0, 400), 'compare');
 }

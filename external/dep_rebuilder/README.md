@@ -335,7 +335,9 @@ skill `.agents/skills/dependency-recipe` is the procedure for an agent.
 ## Result
 
 `reproduced` when every file of the registry tarball is byte-identical to the
-rebuilt one (tar metadata and gzip ignored, as OSS Rebuild does); otherwise
+rebuilt one (tar metadata and gzip ignored, as OSS Rebuild does), or when the
+files differ only in their line endings (the same content packed from a Windows
+checkout; the note says "identical apart from line endings"); otherwise
 `failed` with the reason (differing files, and whether they differ in line
 endings, docs or dev-only package.json fields only; or the step that failed).
 
@@ -353,7 +355,7 @@ it is published:
 | verdict | when |
 |---|---|
 | `reproduced` | as above |
-| `almost` | it differs, but only in line endings, docs or dev-only `package.json` fields |
+| `almost` | it differs, but only in docs or dev-only `package.json` fields (with or without line endings) |
 | `not-reproducible` | a recipe, the publisher's release build written down, finished and what it packed differs |
 | `unknown-command` | the generic build finished and differs: the command was a guess, the publisher may build another way |
 | `unknown-no-output` | a step failed (no source or tag, clone, install, build), so there was nothing to compare |
