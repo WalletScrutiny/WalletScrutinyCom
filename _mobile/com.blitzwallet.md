@@ -1,6 +1,6 @@
 ---
 title: 'Blitz: Simple Bitcoin Wallet'
-date: 2026-10-30
+date: 2026-11-23
 authors:
 - danny
 website: https://blitzwalletapp.com/
@@ -38,6 +38,12 @@ android:
 **Blitz Wallet** is an open-source Bitcoin and Lightning wallet.
 
 It supports on-chain Bitcoin and Lightning transactions.
+
+## Update 2026-11-23
+
+**Verdict remains `custodial` for now.** We no longer ask for a documented recovery. We do not test unilateral exits: if a provider claims its product can perform one, we take the claim and report the issues we find. That retires point 4 of "Why the verdict stays `custodial`" and item 1 of "What would change our verdict" below.
+
+The verdict does not change yet because Blitz Wallet does not claim such an exit for the released app. Version 0.7.16, the newest on Google Play, still only writes a file for a third party's tool, and Blitz Wallet's own description of it was "There is no unilateral exit directly in Blitz". The pre-releases of version 0.7.17 announce a ["self-serve wallet recovery (unilateral exit)"](https://github.com/BlitzWallet/BlitzWallet/releases/tag/Android-v0.7.17-pre1) inside the app. Once a regular release contains it, the Spark balance no longer counts as custodial and we will review the app again.
 
 ## Update 2026-09-21
 
