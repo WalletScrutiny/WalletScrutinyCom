@@ -23,6 +23,8 @@ import path from 'path';
 import minimist from 'minimist';
 import { cloneRepository } from './appAnalysis.mjs';
 import { analyzePinning } from './plugins/pinning.mjs';
+import { applyPipRules } from './pipRules.mjs';
+import { pipRulesOfRepository } from './products.mjs';
 import { analyzeOobDownloads } from './plugins/oob-downloads.mjs';
 import { analyzeCommittedBinaries, analyzeDependencyBinaries } from './plugins/committed-binaries.mjs';
 import { DEFAULT_TEMP_DIR } from './config.mjs';
@@ -43,7 +45,7 @@ if (argv.ships) {
   const rows = findAppsShipping(db, m[1], m[2], m[3] ?? null);
   db.close();
   for (const r of rows) {
-    console.log(`${r.app_id} ${r.version}: ${m[2]}@${r.dep_version} (${directLabel(r.direct)}${r.dev ? ', dev' : ''}, ${r.lockfile})`);
+    console.log(`${r.app_id} ${r.version}: ${m[2]}@${r.dep_version} (${directLabel(r.direct)}${r.dev ? ', dev' : ''}, ${r.lockfile}${r.covered_by ? `, pinned in ${r.covered_by}` : ''})`);
   }
   if (!rows.length) console.log('no stored version ships that package');
   process.exit(0);
@@ -60,7 +62,8 @@ if (!cloned) {
   console.error('Clone failed');
   process.exit(1);
 }
-const results = analyzePinning(repoPath);
+// the repository's pip rules, as the analysis applies them before storing (pipRules.mjs)
+const results = applyPipRules(analyzePinning(repoPath), pipRulesOfRepository(argv.repo), repoPath);
 const oob = analyzeOobDownloads(repoPath);
 const committed = analyzeCommittedBinaries(repoPath);
 const depBinaries = argv['follow-deps'] ? await analyzeDependencyBinaries(repoPath, DEFAULT_TEMP_DIR) : null;

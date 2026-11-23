@@ -46,7 +46,7 @@ test('a new database has no unused assets indexes and keeps dependencies by lock
   assert.ok(sqlOf(db, 'idx_unique_asset'));
   assert.equal(typeOf(db, 'app_dependencies'), 'view');
   assert.match(sqlOf(db, 'lockfile_dependencies'), /WITHOUT ROWID/);
-  assert.deepEqual(db.prepare('PRAGMA table_info(lockfile_dependencies)').all().filter(c => c.type === 'TEXT').map(c => c.name), ['tier', 'scope', 'dependants'],
+  assert.deepEqual(db.prepare('PRAGMA table_info(lockfile_dependencies)').all().filter(c => c.type === 'TEXT').map(c => c.name), ['tier', 'scope', 'dependants', 'covered_by'],
     'no app, version or lockfile text per dependency row');
   db.close();
 });
@@ -68,7 +68,8 @@ for (const withoutRowid of [false, true]) {
     const sizeBefore = fs.statSync(file).size;
 
     const db = initDatabase(file);
-    assert.deepEqual(allRows(db), before, 'every row and column reads as before');
+    assert.deepEqual(allRows(db).map(({ covered_by, ...r }) => r), before, 'every row and column reads as before');
+    assert.ok(allRows(db).every(r => r.covered_by === null), 'and no row is covered');
     assert.equal(typeOf(db, 'app_dependencies'), 'view');
     assert.equal(sqlOf(db, 'idx_app_dependencies_package'), undefined, 'the old index went with the table');
     assert.equal(db.prepare('SELECT COUNT(*) n FROM app_lockfiles').get().n, 5, 'one row per lockfile of a release');
@@ -142,7 +143,7 @@ test('a table from before the scope and dependants columns is moved too', () => 
   legacy.close();
   const db = initDatabase(file);
   const [row] = allRows(db);
-  assert.deepEqual({ ...row, created_at: null }, { app_id: 'a', version: 'v', package_id: 1, lockfile: 'l', direct: 1, dev: null, tier: 't', created_at: null, scope: null, dependants: null });
+  assert.deepEqual({ ...row, created_at: null }, { app_id: 'a', version: 'v', package_id: 1, lockfile: 'l', direct: 1, dev: null, tier: 't', created_at: null, scope: null, dependants: null, covered_by: null });
   db.close();
 });
 
@@ -176,4 +177,29 @@ test('saving a release again replaces its lockfile rows and leaves other release
   saveDependencies(db, 'app', 'v1', []);
   assert.equal(db.prepare("SELECT COUNT(*) n FROM app_lockfiles WHERE version = 'v1'").get().n, 0, 'a release saved without dependencies has no lockfile rows');
   db.close();
+});
+
+// A database from before covered_by (issue 1027): lockfile_dependencies and
+// the view as they were. It opens, gets the column, and its rows read NULL.
+test('a lockfile_dependencies table from before covered_by gets the column, its rows NULL', () => {
+  const file = tmp();
+  const old = initDatabase(file);
+  saveDependencies(old, 'app', 'v1', [{ entries: [entry('a')] }]);
+  old.exec(`
+    DROP VIEW app_dependencies;
+    ALTER TABLE lockfile_dependencies DROP COLUMN covered_by;
+    CREATE VIEW app_dependencies AS
+      SELECT l.app_id, l.version, d.package_id, l.lockfile, d.direct, d.dev, d.tier, l.created_at, d.scope, d.dependants
+      FROM lockfile_dependencies d JOIN app_lockfiles l ON l.id = d.lockfile_id;
+  `);
+  old.close();
+  const db = initDatabase(file);
+  assert.ok(db.prepare('PRAGMA table_info(lockfile_dependencies)').all().some(c => c.name === 'covered_by'));
+  assert.deepEqual(getDependencies(db, 'app', 'v1').map(r => [r.name, r.covered_by]), [['a', null]], 'the view was made again with the column');
+  saveDependencies(db, 'app', 'v2', [{ entries: [entry('b', { lockfile: 'src/r.txt', coveredBy: 'pinned/r.txt' })] }]);
+  assert.equal(getDependencies(db, 'app', 'v2')[0].covered_by, 'pinned/r.txt');
+  db.close();
+  const again = initDatabase(file);
+  assert.equal(again.prepare('SELECT COUNT(*) n FROM app_dependencies').get().n, 2, 'a second start changes nothing');
+  again.close();
 });

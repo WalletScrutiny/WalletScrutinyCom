@@ -206,6 +206,12 @@ export function viaLine(a) {
   return el('div', { className: 'dp-via', ...(title ? { title } : {}) }, parts.join(' · '));
 }
 
+// "macOS Intel build only" under the package name: every file this version
+// comes from carries that label in the repository's rules file (issue 1027).
+export function labelLine(a) {
+  return Array.isArray(a.labels) && a.labels.length ? el('div', { className: 'dp-label' }, a.labels.join(' · ')) : null;
+}
+
 // "Listed by NVD only" or "Listed by OSV.dev · NVD · vendor" under the advisory
 // id: which sources listed it, "vendor" being the CVE record of the library's
 // own maintainers. Only native libraries are asked of NVD and the vendor, so
@@ -528,7 +534,7 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
       el('span', { className: 'dp-m-only dp-m-version' }, a.version),
       mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null,
       el('a', { className: 'dp-m-only dp-adv-icon', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary ? `${a.id}: ${a.summary}` : a.id, 'aria-label': `${a.id} on ${site}`, html: wsIcon('bug-external') }),
-      repoLine(a), viaLine(a)),
+      repoLine(a), viaLine(a), labelLine(a)),
     el('td', { className: `dp-td-version${versionLines.length ? '' : ' dp-m-hide'}`, dataset: { label: 'Version' } }, el('span', { className: 'dp-d-only' }, a.version), ...versionLines),
     el('td', { className: `dp-td-advisory${listedBy ? '' : ' dp-m-hide'}`, dataset: { label: 'Advisory' } }, el('a', { className: 'dp-d-only', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedBy),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
@@ -1087,6 +1093,10 @@ function notices(model, { triageFailed = false } = {}) {
   if (model.unlisted?.length) {
     const names = model.unlisted.slice(0, 3).join(', ') + (model.unlisted.length > 3 ? ` and ${model.unlisted.length - 3} more` : '');
     items.push(el('span', {}, el('b', {}, 'Unchecked guess: '), `${names} may belong to another product, judging by the name. Nobody has checked, so it is still counted here.`));
+  }
+  if (model.unprovenPip?.length) {
+    const names = model.unprovenPip.slice(0, 3).join(', ') + (model.unprovenPip.length > 3 ? ` and ${model.unprovenPip.length - 3} more` : '');
+    items.push(el('span', {}, el('b', {}, 'Direct or transitive not known: '), `${names} ${model.unprovenPip.length > 1 ? 'do' : 'does'} not say which packages the app asks for and which came with them, so they are counted as unknown until someone checks.`));
   }
   if (model.unchecked) {
     const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');

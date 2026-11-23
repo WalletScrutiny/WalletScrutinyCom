@@ -434,6 +434,23 @@ function readRequirements(file) {
   return buf.toString('utf8').replace(/^\uFEFF/, '');
 }
 
+// What a pip-compile "# via" annotation says about the requirement above it
+// (issue 1027): `-r <file>` and the project's own pyproject.toml, setup.py or
+// setup.cfg mean the app asks for it, a package name means that package
+// pulled it in, and `-c <file>` is only a constraint, which says neither.
+// null when nothing says: a freeze file or a list kept by hand.
+export function viaOf(items) {
+  if (!items) return { direct: null, dependants: null };
+  const dependants = [];
+  let direct = false;
+  for (const item of items) {
+    if (/^-r\s/.test(item) || /\((pyproject\.toml|setup\.py|setup\.cfg)\)$/.test(item)) direct = true;
+    else if (!/^-c\s/.test(item)) dependants.push(item.split(/\s/)[0]);
+  }
+  if (direct) return { direct: true, dependants: dependants.length ? dependants : null };
+  return dependants.length ? { direct: false, dependants } : { direct: null, dependants: null };
+}
+
 function analyzePip(repoPath) {
   const reqFiles = findFiles(repoPath, (name) => /^requirements[^/]*\.txt$/.test(name));
   if (!reqFiles.length) return null;
@@ -454,37 +471,64 @@ function analyzePip(repoPath) {
     const raw = readRequirements(reqFile);
     // join continuation lines so per-requirement --hash options stay attached
     const logical = raw.replace(/\\\r?\n/g, ' ').split('\n');
+    // Each requirement of this file with its "# via" items, read after it
+    // (multi-line: "# via" then "#   item" lines) or on its own line.
+    const found = [];
+    let viaOpen = false;
     for (const line of logical) {
       const trimmed = line.trim();
-      if (!trimmed || trimmed.startsWith('#')) continue;
-      if (trimmed.startsWith('--index-url')) {
-        result.resolutionNotes.push(`${relative(repoPath, reqFile)}: ${trimmed}`);
+      if (trimmed.startsWith('#')) {
+        const last = found.at(-1);
+        const via = trimmed.match(/^#\s*via\b(.*)$/);
+        if (via && last) {
+          last.via = via[1].trim() ? via[1].split(',').map(v => v.trim()).filter(Boolean) : [];
+          viaOpen = true;
+        } else if (viaOpen && /^#\s{2,}\S/.test(trimmed)) {
+          last.via.push(trimmed.replace(/^#\s+/, '').trim());
+        } else viaOpen = false;
         continue;
       }
-      if (trimmed.startsWith('--extra-index-url')) {
+      viaOpen = false;
+      if (!trimmed) continue;
+      // pip reads " #" as the start of a comment; a URL's "#egg=" has no space before it
+      const comment = trimmed.match(/\s#(.*)$/);
+      const requirement = comment ? trimmed.slice(0, comment.index).trim() : trimmed;
+      const inlineVia = comment?.[1].match(/^\s*via\b(.*)$/);
+      if (requirement.startsWith('--index-url')) {
+        result.resolutionNotes.push(`${relative(repoPath, reqFile)}: ${requirement}`);
+        continue;
+      }
+      if (requirement.startsWith('--extra-index-url')) {
         result.resolutionAmbiguous = true;
-        result.resolutionNotes.push(`${relative(repoPath, reqFile)}: ${trimmed} (all indexes compete — dependency-confusion exposure)`);
+        result.resolutionNotes.push(`${relative(repoPath, reqFile)}: ${requirement} (all indexes compete — dependency-confusion exposure)`);
         continue;
       }
-      if (trimmed.startsWith('-')) continue; // other pip options
-      const hashes = [...trimmed.matchAll(/--hash=(\S+)/g)].map(m => m[1]).join(' ');
-      if (/^(git\+|https?:\/\/|\.\/|\.\.\/|file:)/.test(trimmed)) {
-        result.gitOrTarballDeps.push(trimmed.slice(0, 80));
+      if (requirement.startsWith('-')) continue; // other pip options
+      found.push({ requirement, via: inlineVia ? inlineVia[1].split(',').map(v => v.trim()).filter(Boolean) : null });
+      viaOpen = false;
+    }
+
+    for (const { requirement, via } of found) {
+      const { direct, dependants } = viaOf(via);
+      const hashes = [...requirement.matchAll(/--hash=(\S+)/g)].map(m => m[1]).join(' ');
+      if (/^(git\+|https?:\/\/|\.\/|\.\.\/|file:)/.test(requirement)) {
+        result.gitOrTarballDeps.push(requirement.slice(0, 80));
         result.deps.total++;
-        const url = trimmed.split(/\s/)[0];
+        const url = requirement.split(/\s/)[0];
         const egg = url.match(/#egg=([A-Za-z0-9_.-]+)/);
         result.entries.push(makeEntry('pip', relative(repoPath, reqFile), {
           name: egg ? egg[1] : url,
           resolved: url,
           integrity: hashes,
-          direct: true,
+          direct,
+          dependants,
           tier: hashes ? 'hash-pinned' : (/@[0-9a-f]{7,40}(#|$)/.test(url) ? 'source-ref-pinned' : 'floating'),
         }));
         continue;
       }
       result.deps.total++;
-      const name = trimmed.split(/[\s=<>!~;[]/)[0];
-      const exact = trimmed.match(/==\s*([^\s;\\,]+)/);
+      const name = requirement.split(/[\s=<>!~;[]/)[0];
+      const exact = requirement.match(/==\s*([^\s;\\,]+)/);
       let tier;
       if (hashes) { result.deps.hashPinned++; tier = 'hash-pinned'; }
       else if (exact) { result.deps.versionPinned++; tier = 'version-pinned'; }
@@ -495,14 +539,21 @@ function analyzePip(repoPath) {
       }
       result.entries.push(makeEntry('pip', relative(repoPath, reqFile), {
         name,
-        version: exact ? exact[1] : trimmed.slice(name.length).split(/[\s;]/)[0],
+        version: exact ? exact[1] : rangeOf(requirement.slice(name.length)),
         integrity: hashes,
-        direct: true,
+        direct,
+        dependants,
         tier,
       }));
     }
   }
   return result;
+}
+
+// The version range of a requirement without its extras, options and
+// environment marker: "[toml] >= 3.4.1, <4 ; python_version<'3.11'" is ">=3.4.1,<4".
+function rangeOf(rest) {
+  return rest.replace(/^\s*\[[^\]]*\]/, '').split(';')[0].replace(/\s--\S+/g, '').replace(/\s+/g, '');
 }
 
 /* ------------------------------ python-for-android ------------------------------ */
@@ -1302,12 +1353,18 @@ export default {
   container({ repoPath }) {
     return analyzePinning(repoPath);
   },
-  async host({ name, version, db, results, saves }) {
-    if (!db || !version) return;
+  // The repository's pip rules (pipRules.mjs) run here, on the host, before
+  // the later steps read the rows: osv stores each advisory's `direct` too.
+  async host({ name, version, db, repoUrl, repoPath, results, saves }) {
+    const { pipRulesOfRepository } = await import('../products.mjs');
+    const { applyPipRules } = await import('../pipRules.mjs');
+    const pinning = repoUrl ? applyPipRules(results.pinning, pipRulesOfRepository(repoUrl), repoPath) : results.pinning;
+    if (!db || !version) return pinning;
     const { saveDependencies } = await import('../ddbbUtils.mjs');
     saves.push((db) => {
-      const stored = saveDependencies(db, name, version, results.pinning);
+      const stored = saveDependencies(db, name, version, pinning);
       console.log(`Stored ${stored} dependency rows for ${name} ${version}`);
     });
+    return pinning;
   },
 };

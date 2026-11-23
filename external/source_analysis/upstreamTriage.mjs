@@ -285,7 +285,7 @@ export function hintsByApp(db) {
     if (!shipped.has(rel)) shipped.set(rel, new Map());
     shipped.get(rel).set(`${r.ecosystem}:${r.name}`, { key: k, pkg: `${r.ecosystem}:${r.name}@${r.version}`, direct: true });
   }
-  const directOf = new Set(db.prepare('SELECT DISTINCT d.app_id, d.version, p.ecosystem, p.name FROM app_dependencies d JOIN packages p ON p.id = d.package_id WHERE d.direct = 1').all().map(r => `${r.app_id}\0${r.version}\0${r.ecosystem}:${r.name}`));
+  const directOf = new Set(db.prepare('SELECT DISTINCT d.app_id, d.version, p.ecosystem, p.name FROM app_dependencies d JOIN packages p ON p.id = d.package_id WHERE d.direct = 1 AND d.covered_by IS NULL').all().map(r => `${r.app_id}\0${r.version}\0${r.ecosystem}:${r.name}`));
   const out = {};
   const add = (appId, id, entry) => {
     out[appId] ||= {};

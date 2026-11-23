@@ -19,6 +19,7 @@ export function entryOfRow(r) {
     ecosystem: r.ecosystem, name: r.name, version: r.dep_version, resolved: r.resolved, integrity: r.integrity,
     lockfile: r.lockfile, direct: boolOf(r.direct), dev: boolOf(r.dev), scope: r.scope ?? null,
     dependants: dependantsOfRow(r.dependants), tier: r.tier,
+    ...(r.covered_by ? { coveredBy: r.covered_by } : {}),
   };
 }
 

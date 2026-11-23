@@ -640,3 +640,28 @@ test('buildApp: "could not be checked" counts packages, as the total does (issue
   assert.equal(release.dependencies.total, 3);
   assert.deepEqual(release.osv, { skipped: { floating: 1, 'nvd-unavailable': 3 } }, 'lookups NVD could not answer stay as stored');
 });
+
+test('buildApp: an advisory found only in labelled files carries the label; unsettled pip files are listed (issue 1027)', () => {
+  const db = initDatabase(':memory:');
+  const id = 'bitcoin.safe';
+  saveAppList(db, [{ appId: id, platform: 'desktop', repository: 'https://github.com/andreasgriffin/bitcoin-safe' }]);
+  loadRepositories(db);
+  const mac = 'tools/deterministic-build/requirements-build_mac_x86_64.txt';
+  const all = 'tools/deterministic-build/requirements-build.txt';
+  const flatpak = 'tools/build_linux/flathub_flatpak/requirements-runtime.txt';
+  const e = (name, version, lockfile, direct) => ({ ecosystem: 'pip', lockfile, name, version, resolved: '', integrity: '', direct, dev: null, tier: 'hash-pinned' });
+  saveDependencies(db, id, '2.3.0', [{ ecosystem: 'pip', entries: [
+    e('cryptography', '48.0.1', mac, false),
+    e('cryptography', '50.0.2', all, false),
+    e('cryptography', '50.0.2', flatpak, null),
+    e('ecdsa', '0.19.2', mac, false),
+    e('ecdsa', '0.19.2', all, false),
+  ] }]);
+  const f = (name, version) => ({ ecosystem: 'pip', name, version, id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: null });
+  saveVulnerabilities(db, id, '2.3.0', { findings: [f('cryptography', '48.0.1'), f('ecdsa', '0.19.2')] });
+  recordAnalysis(db, { appId: id, kind: 'release', ref: '2.3.0', status: 'ok', analyser: 't' });
+  const [release] = buildApp(db, id).releases;
+  assert.deepEqual(release.advisories.map(a => [a.package, a.labels]), [['cryptography', ['macOS Intel build only']], ['ecdsa', undefined]],
+    'ecdsa 0.19.2 is in every build too');
+  assert.deepEqual(release.dependencies.unprovenPip, [flatpak]);
+});

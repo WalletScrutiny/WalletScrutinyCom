@@ -33,7 +33,7 @@ import { buildLockForReaders } from './plugins/build-lock.mjs';
 import { uncheckableReason } from './plugins/osv.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getOssRebuildDetails, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { packageKey } from './packageKey.mjs';
-import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
+import { COUNTED_TARGETS, labelsOfLockfiles, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 import { readSignals, signalsOf } from './signals.mjs';
 import { ossRebuildUrl } from './rebuildClaims.mjs';
 
@@ -195,11 +195,25 @@ function scopesOfRows(rows, appId, scope) {
   return Object.values(best).some(s => s !== scope) ? best : undefined;
 }
 
-export function summarizeRelease(db, appId, ref, deps = getDependencies(db, appId, ref)) {
+// The pip files whose rows neither a "# via" line nor the rules file says are
+// direct or transitive (issue 1027): what a person would review to settle them.
+// The stored rows the page counts: a pinned pair's source row (covered_by,
+// pipRules.mjs) is the same package as its pinned row, so it stays in the
+// database and out of the counts (issue 1027, row 10).
+export function countedDependencies(db, appId, ref) {
+  return getDependencies(db, appId, ref).filter(d => d.covered_by == null);
+}
+
+export function unprovenPipFiles(deps) {
+  return [...new Set(deps.filter(d => d.ecosystem === 'pip' && d.direct === null).map(d => d.lockfile))].sort();
+}
+
+export function summarizeRelease(db, appId, ref, deps = countedDependencies(db, appId, ref)) {
   const vulns = getVulnerabilities(db, appId, ref);
   const submodules = summarizeSubmodules(getSubmodules(db, appId, ref));
   const byTarget = countsByTarget(deps, appId);
   const unlisted = unlistedFiles(deps.map(d => d.lockfile), appId);
+  const unprovenPip = unprovenPipFiles(deps);
   return {
     ...(submodules ? { submodules } : {}),
     dependencies: {
@@ -210,6 +224,8 @@ export function summarizeRelease(db, appId, ref, deps = getDependencies(db, appI
       onlyOutside: byTarget ? librariesOnlyOutside(deps, appId) : undefined,
       // files that look like another product's but nobody has checked; still counted
       unlisted: unlisted.length ? unlisted : undefined,
+      // pip files whose rows are neither direct nor transitive until someone proves which
+      unprovenPip: unprovenPip.length ? unprovenPip : undefined,
       // whether a person reviewed how this release's files were sorted (products.mjs)
       sorting: sortingOf(deps.map(d => d.lockfile), appId),
     },
@@ -328,7 +344,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     if (a.kind !== 'release' || seen.has(a.ref)) continue;
     seen.add(a.ref);
     if (reproduced && !reproduced.has(a.ref)) continue;
-    const deps = getDependencies(db, appId, a.ref);
+    const deps = countedDependencies(db, appId, a.ref);
     releases.push({ ...analysisEntry(a, deps), ...summarizeRelease(db, appId, a.ref, deps) });
   }
   for (const v of releasesWithoutAnalysis(db, appId, analyses)) {
@@ -353,7 +369,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     if (releasedOn.has(r.ref)) r.releasedAt = releasedOn.get(r.ref);
     const previous = releases[i + 1];
     const rowsOf = new Map();
-    for (const d of getDependencies(db, appId, r.ref)) {
+    for (const d of countedDependencies(db, appId, r.ref)) {
       const key = `${d.ecosystem}:${d.name}@${d.dep_version}`;
       if (!rowsOf.has(key)) rowsOf.set(key, []);
       rowsOf.get(key).push(d);
@@ -379,6 +395,8 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
       part: partOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) || undefined,
       targets: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId),
+      // "macOS Intel build only": every file this version comes from has a label (products.mjs)
+      labels: labelsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId),
       scopes: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) ? scopesOfRows(rowsOfAdvisory(v), appId, scopeOfRow(v)) : undefined,
       dependants: dependantsOfRow(v.dependants),
       dependantVersions: dependantVersionsOf(v, rowsOfAdvisory(v), lockedAt),
@@ -422,7 +440,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
 // so an advisory published after its analysis does not read as fixed.
 export function defaultBranchCheck(db, appId) {
   if (!getDefaultBranch(db, appId)) return null;
-  const deps = getDependencies(db, appId, DEFAULT_BRANCH_REF);
+  const deps = countedDependencies(db, appId, DEFAULT_BRANCH_REF);
   if (!deps.length) return null;
   const versions = new Map();
   for (const d of deps) {
@@ -490,13 +508,13 @@ export function productCounts(db) {
   const rows = db.prepare(`
     SELECT p.ecosystem, p.name, p.version, COUNT(DISTINCT d.app_id) AS products
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
-    WHERE d.version != ?
+    WHERE d.version != ? AND d.covered_by IS NULL
     GROUP BY p.ecosystem, p.name, p.version
   `).all(DEFAULT_BRANCH_REF);
   const apps = db.prepare(`
     SELECT p.ecosystem, p.name, COUNT(DISTINCT d.app_id) AS products
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
-    WHERE d.version != ?
+    WHERE d.version != ? AND d.covered_by IS NULL
     GROUP BY p.ecosystem, p.name
   `).all(DEFAULT_BRANCH_REF);
   for (const r of apps) byName.set(`${r.ecosystem}:${r.name}`, r.products);
@@ -517,7 +535,7 @@ export function usedByPackages(db, apps) {
   const shipping = db.prepare(`
     SELECT d.app_id, p.version
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
-    WHERE p.ecosystem = ? AND p.name = ? AND d.version != ?
+    WHERE p.ecosystem = ? AND p.name = ? AND d.version != ? AND d.covered_by IS NULL
     GROUP BY d.app_id, p.version
     ORDER BY d.app_id, p.version
   `);
@@ -766,7 +784,7 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
   for (const r of app.releases) {
     const refDir = path.join(appDir, safeName(r.ref));
     fs.mkdirSync(refDir, { recursive: true });
-    const deps = getDependencies(db, appId, r.ref);
+    const deps = countedDependencies(db, appId, r.ref);
     const rb = releaseRebuilds(deps, rebuilds);
     // a tree written when each release had its own details file (exportApp writes into what is there)
     fs.rmSync(path.join(refDir, 'rebuild-details.json'), { force: true });

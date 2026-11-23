@@ -32,6 +32,7 @@ export function harvestTargets(db) {
   const rows = db.prepare(`
     SELECT d.app_id, d.version AS app_version, d.direct, d.dependants, p.ecosystem, p.name, p.version
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    WHERE d.covered_by IS NULL
   `).all();
   // a package named as someone's dependant, at the version this wallet ships it
   const dependantNames = new Set();

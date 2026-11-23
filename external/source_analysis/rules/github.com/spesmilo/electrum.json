@@ -41,5 +41,27 @@
         "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/build-wine/build-electrum-git.sh#L45-L49"
       ]
     }
+  ],
+  "pinned_pairs": [
+    {
+      "source": "contrib/requirements/",
+      "pinned": "contrib/deterministic-build/",
+      "script": "contrib/freeze_packages.sh",
+      "script_sha256": [
+        "fc60851d49122a34454a472b8643f18b1b65ee1f40f78ab54b609c40bd32cdcc"
+      ],
+      "always_direct": [
+        "pip",
+        "setuptools",
+        "wheel"
+      ],
+      "why": "freeze_packages.sh installs each file of contrib/requirements into a fresh venv, then writes everything installed, with hashes, to the file of the same name in contrib/deterministic-build. So a package the source file names is one Electrum asks for; any other pinned package came in with them. It installs pip, setuptools and wheel itself, for every file. Checked at 4.8.4; another version of the script needs a new review.",
+      "proof": [
+        "https://github.com/spesmilo/electrum/blob/54ff65dfe1b77ef6e00f00f296a557d86c454ca0/contrib/freeze_packages.sh#L21-L22",
+        "https://github.com/spesmilo/electrum/blob/54ff65dfe1b77ef6e00f00f296a557d86c454ca0/contrib/freeze_packages.sh#L35",
+        "https://github.com/spesmilo/electrum/blob/54ff65dfe1b77ef6e00f00f296a557d86c454ca0/contrib/freeze_packages.sh#L42",
+        "https://github.com/spesmilo/electrum/blob/54ff65dfe1b77ef6e00f00f296a557d86c454ca0/contrib/freeze_packages.sh#L46-L79"
+      ]
+    }
   ]
 }

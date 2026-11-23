@@ -2,6 +2,16 @@
   "release": "2.2.1",
   "rules": [
     {
+      "files": "**/requirements-build_mac_x86_64.txt",
+      "belongs_to": "desktop",
+      "label": "macOS Intel build only",
+      "why": "Only the macOS build on an Intel (x86_64) Mac reads this file; every other build reads requirements-build.txt. pyproject.toml pins cryptography 48.0.1 only for that machine.",
+      "proof": [
+        "https://github.com/andreasgriffin/bitcoin-safe/blob/ec4ac50a630e54d990e3ae31726d6419bef649b7/tools/build_mac/make_osx.sh#L100-L104",
+        "https://github.com/andreasgriffin/bitcoin-safe/blob/ec4ac50a630e54d990e3ae31726d6419bef649b7/pyproject.toml#L50-L56"
+      ]
+    },
+    {
       "files": [
         "**/flathub_flatpak/**",
         "**/requirements-build?mac*"
