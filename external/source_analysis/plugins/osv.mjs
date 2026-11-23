@@ -152,6 +152,8 @@ export function buildQueries(analyses) {
   const skipped = {};
   for (const analysis of analyses || []) {
     for (const entry of analysis.entries || []) {
+      // a pinned pair's source row (pipRules.mjs): its pinned row is the same package and is looked up
+      if (entry.coveredBy) continue;
       const reason = uncheckableReason(entry);
       if (reason) {
         skipped[reason] = (skipped[reason] || 0) + 1;

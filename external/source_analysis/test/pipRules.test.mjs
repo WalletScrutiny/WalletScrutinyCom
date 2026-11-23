@@ -11,7 +11,8 @@ import { analyzePinning, viaOf } from '../plugins/pinning.mjs';
 import { applyPipRules, compareVersions, parseVersion, satisfies } from '../pipRules.mjs';
 import { initDatabase, saveDependencies, getDependencies, dependantsOfRow } from '../ddbbUtils.mjs';
 import { labelOfLockfile, labelsOfLockfiles, parseRulesFile, pipRulesOfRepository, useRepositories } from '../products.mjs';
-import { unprovenPipFiles } from '../export.mjs';
+import { summarizeRelease, unprovenPipFiles } from '../export.mjs';
+import { buildQueries } from '../plugins/osv.mjs';
 
 function fixture(files) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'piprules-'));
@@ -160,8 +161,36 @@ test('a pinned pair: named in the source file is direct, only pinned is transiti
   assert.equal(android('tomli'), false, 'tomli<=2.0.2 in the base file does not make the android file\'s 2.4.1 direct');
   assert.equal(android('build'), true);
   assert.equal(android('pip'), true);
-  assert.equal(pip.entries.filter(e => e.lockfile.startsWith('src/requirements-build')).length, 0, 'the source rows are their pinned rows now (row 1a)');
+  assert.deepEqual(pip.entries.filter(e => e.lockfile.startsWith('src/requirements-build')).map(e => `${e.lockfile} ${e.name} -> ${e.coveredBy}`).sort(), [
+    'src/requirements-build-android.txt build -> pinned/requirements-build-android.txt',
+    'src/requirements-build-android.txt pip -> pinned/requirements-build-android.txt',
+    'src/requirements-build-base.txt pip -> pinned/requirements-build-base.txt',
+    'src/requirements-build-base.txt setuptools_scm -> pinned/requirements-build-base.txt',
+    'src/requirements-build-base.txt tomli -> pinned/requirements-build-base.txt',
+  ], 'the source rows stay, tagged as their pinned rows (row 1a)');
+  assert.equal(row(pip, 'src/requirements-ci.txt', 'pytest').coveredBy, undefined);
   assert.equal(row(pip, 'src/requirements-ci.txt', 'pytest').direct, null, 'a source file with no pinned file stays as it is');
+});
+
+test('a pinned pair keeps both rows in the database and counts the package once', () => {
+  const dir = fixture(ELECTRUM_LIKE);
+  const db = initDatabase(':memory:');
+  saveDependencies(db, 'electrum', '4.8.4', applyPipRules([pipOf(dir)], rulesWith(PAIR()), dir));
+  const tomli = getDependencies(db, 'electrum', '4.8.4').filter(r => r.name === 'tomli' && r.lockfile.endsWith('build-base.txt'));
+  assert.deepEqual(tomli.map(r => [r.lockfile, r.dep_version, r.covered_by]), [
+    ['pinned/requirements-build-base.txt', '2.0.2', null],
+    ['src/requirements-build-base.txt', '<=2.0.2', 'pinned/requirements-build-base.txt'],
+  ]);
+  const { dependencies } = summarizeRelease(db, 'electrum', '4.8.4');
+  // pinned: pip, setuptools-scm, tomli 2.0.2, packaging, build, tomli 2.4.1; ci: pytest
+  assert.equal(dependencies.total, 7, 'each pinned package once, no source row counted');
+  assert.equal(dependencies.direct, 4, 'pip, setuptools-scm, tomli 2.0.2, build; pip 26.2.2 is one package in both files');
+  assert.ok(!dependencies.lockfiles.includes('src/requirements-build-base.txt'));
+  // osv looks up the pinned rows only: a range row is neither a query nor "could not be checked"
+  const { queries, skipped } = buildQueries(applyPipRules([pipOf(dir)], rulesWith(PAIR()), dir));
+  assert.ok(queries.every(q => /^\d/.test(q.version)), queries.map(q => q.version).join());
+  assert.equal(Object.values(skipped).reduce((n, v) => n + v, 0), 1, 'only pytest, which no pinned file pins');
+  db.close();
 });
 
 test('always_direct: the script installs these itself, for every file', () => {

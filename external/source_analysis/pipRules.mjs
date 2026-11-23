@@ -108,22 +108,21 @@ export function satisfies(version, range) {
 const fileSha256 = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
 
 // The analyses (plugins/pinning.mjs), with the pip rows' `direct` set from the
-// rules, the source rows of a trusted pair taken out, and a note for each pair
-// left unknown. `rules` is products.mjs pipRulesOfRepository's answer; the
-// checkout is read only for the pairing script's hash.
+// rules, each source row of a trusted pair tagged with `coveredBy` (the pinned
+// file whose row is the same package), and a note for each pair left unknown.
+// `rules` is products.mjs pipRulesOfRepository's answer; the checkout is read
+// only for the pairing script's hash.
 export function applyPipRules(analyses, rules, repoPath) {
   const pip = analyses?.find(a => a.ecosystem === 'pip');
   if (!pip || !rules) return analyses;
-  const dropped = new Set();
-  for (const pair of rules.pinnedPairs) applyPinnedPair(pip, pair, repoPath, dropped);
+  for (const pair of rules.pinnedPairs) applyPinnedPair(pip, pair, repoPath);
   for (const rule of rules.directFiles) {
-    for (const e of pip.entries) if (!dropped.has(e) && rule.patterns.some(re => re.test(e.lockfile))) e.direct = true;
+    for (const e of pip.entries) if (!e.coveredBy && rule.patterns.some(re => re.test(e.lockfile))) e.direct = true;
   }
-  if (dropped.size) pip.entries = pip.entries.filter(e => !dropped.has(e));
   return analyses;
 }
 
-function applyPinnedPair(pip, pair, repoPath, dropped) {
+function applyPinnedPair(pip, pair, repoPath) {
   const inFolder = (lockfile, folder) => lockfile.startsWith(folder) && !lockfile.slice(folder.length).includes('/');
   const sourceFiles = [...new Set(pip.entries.map(e => e.lockfile).filter(f => inFolder(f, pair.source)))];
   if (!sourceFiles.length) return;
@@ -156,7 +155,8 @@ function applyPinnedPair(pip, pair, repoPath, dropped) {
       const name = foldName('pip', e.name);
       e.direct = asked.has(name) || always.has(name);
     }
-    // The source row is the same package as its pinned row, which now carries its "direct".
-    for (const s of sourceRows) dropped.add(s);
+    // The source row is the same package as its pinned row, which now carries
+    // its "direct": stored, but counted once, as the pinned row (issue 1027, row 10).
+    for (const s of sourceRows) s.coveredBy = pinnedFile;
   }
 }

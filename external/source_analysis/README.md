@@ -638,7 +638,7 @@ takes effect when the wallet is analysed again (`reanalyse-cli.mjs`).
 | Field | Meaning |
 |---|---|
 | `direct_files` | Files a person read and found to list only what the app asks for: every pip row in them is direct |
-| `pinned_pairs` | A folder of hand-written files and the folder a script writes their pinned versions to, under the same file name. In a pinned file, a package its source file names is direct, any other is transitive. The source file's own rows are not counted apart: they are the pinned rows |
+| `pinned_pairs` | A folder of hand-written files and the folder a script writes their pinned versions to, under the same file name. In a pinned file, a package its source file names is direct, any other is transitive. The source file's own rows are stored with `covered_by` naming the pinned file, and are not counted apart: they are the pinned rows |
 | `script`, `script_sha256` | The script that writes the pinned files, and the sha256 of each version a person reviewed. Any other version leaves the rows unknown |
 | `always_direct` | Packages the script installs itself, for every file |
 

@@ -45,7 +45,7 @@ if (argv.ships) {
   const rows = findAppsShipping(db, m[1], m[2], m[3] ?? null);
   db.close();
   for (const r of rows) {
-    console.log(`${r.app_id} ${r.version}: ${m[2]}@${r.dep_version} (${directLabel(r.direct)}${r.dev ? ', dev' : ''}, ${r.lockfile})`);
+    console.log(`${r.app_id} ${r.version}: ${m[2]}@${r.dep_version} (${directLabel(r.direct)}${r.dev ? ', dev' : ''}, ${r.lockfile}${r.covered_by ? `, pinned in ${r.covered_by}` : ''})`);
   }
   if (!rows.length) console.log('no stored version ships that package');
   process.exit(0);

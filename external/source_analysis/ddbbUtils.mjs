@@ -109,7 +109,13 @@ export function initDatabase(dbPath = DB_PATH) {
     CREATE INDEX IF NOT EXISTS idx_package_name ON packages(ecosystem, name);
   `);
   if (moveDependenciesToLockfileIds(db)) reclaimable = true;
-  db.exec(`${DEPENDENCY_TABLES} ${DEPENDENCY_VIEW}`);
+  db.exec(DEPENDENCY_TABLES);
+  // A pinned pair's source row (pipRules.mjs) names the pinned file whose row
+  // is the same package; NULL for every other row and for rows stored before.
+  ensureColumn(db, 'lockfile_dependencies', 'covered_by', 'TEXT');
+  // CREATE VIEW IF NOT EXISTS keeps a view from before the column.
+  if (!db.prepare('PRAGMA table_info(app_dependencies)').all().some(c => c.name === 'covered_by')) db.exec('DROP VIEW IF EXISTS app_dependencies');
+  db.exec(DEPENDENCY_VIEW);
 
   // Known vulnerabilities of a release's dependencies as OSV.dev reported them
   // when the release was analysed (plugins/osv.mjs), one row per advisory and
@@ -448,13 +454,14 @@ const DEPENDENCY_TABLES = `
     tier TEXT NOT NULL,
     scope TEXT,
     dependants TEXT,
+    covered_by TEXT,
     PRIMARY KEY (lockfile_id, package_id)
   ) WITHOUT ROWID;
   CREATE INDEX IF NOT EXISTS idx_lockfile_dependencies_package ON lockfile_dependencies(package_id);
 `;
 const DEPENDENCY_VIEW = `
   CREATE VIEW IF NOT EXISTS app_dependencies AS
-    SELECT l.app_id, l.version, d.package_id, l.lockfile, d.direct, d.dev, d.tier, l.created_at, d.scope, d.dependants
+    SELECT l.app_id, l.version, d.package_id, l.lockfile, d.direct, d.dev, d.tier, l.created_at, d.scope, d.dependants, d.covered_by
     FROM lockfile_dependencies d JOIN app_lockfiles l ON l.id = d.lockfile_id;
 `;
 const LEGACY_DEPENDENCY_COLUMNS = ['app_id', 'version', 'package_id', 'lockfile', 'direct', 'dev', 'tier', 'created_at', 'scope', 'dependants'];
@@ -718,6 +725,7 @@ export function mergeEntries(x, y) {
     scope: firstOf(MERGE_SCOPE, scopeOrNull(x.scope), scopeOrNull(y.scope)),
     dependants: x.dependants || y.dependants ? [...new Set([...(x.dependants || []), ...(y.dependants || [])])].sort() : null,
     tier: firstOf(MERGE_TIER, x.tier, y.tier),
+    coveredBy: x.coveredBy && y.coveredBy ? x.coveredBy : null,
   };
 }
 
@@ -733,8 +741,8 @@ export function saveDependencies(db, appId, version, analyses) {
   `);
   const insertLockfile = db.prepare('INSERT INTO app_lockfiles (app_id, version, lockfile) VALUES (?, ?, ?)');
   const insertDependency = db.prepare(`
-    INSERT OR REPLACE INTO lockfile_dependencies (lockfile_id, package_id, direct, dev, scope, dependants, tier)
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+    INSERT OR REPLACE INTO lockfile_dependencies (lockfile_id, package_id, direct, dev, scope, dependants, tier, covered_by)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const clearDependencies = db.prepare('DELETE FROM lockfile_dependencies WHERE lockfile_id IN (SELECT id FROM app_lockfiles WHERE app_id = ? AND version = ?)');
   const clearLockfiles = db.prepare('DELETE FROM app_lockfiles WHERE app_id = ? AND version = ?');
@@ -754,7 +762,7 @@ export function saveDependencies(db, appId, version, analyses) {
       insertPackage.run(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
       const { id } = selectPackage.get(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
       if (!lockfileIds.has(e.lockfile)) lockfileIds.set(e.lockfile, insertLockfile.run(appId, version, e.lockfile).lastInsertRowid);
-      insertDependency.run(lockfileIds.get(e.lockfile), id, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier);
+      insertDependency.run(lockfileIds.get(e.lockfile), id, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier, e.coveredBy || null);
     }
     return merged.size;
   });
@@ -906,7 +914,7 @@ export function getSubmodules(db, appId, ref) {
 export function getDependencies(db, appId, version) {
   return db.prepare(`
     SELECT p.ecosystem, p.name, p.version AS dep_version, p.resolved, p.integrity,
-           d.lockfile, d.direct, d.dev, d.scope, d.dependants, d.tier
+           d.lockfile, d.direct, d.dev, d.scope, d.dependants, d.tier, d.covered_by
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
     WHERE d.app_id = ? AND d.version = ?
     ORDER BY p.ecosystem, d.lockfile, p.name, p.version
@@ -917,11 +925,13 @@ export function getDependencies(db, appId, version) {
 // name); a name resolved to several versions in one release is compared as
 // the set of its versions. Returns { added, removed, changed }; changed rows
 // carry from/to version lists and, for a version present on both sides, an
-// integrity or resolved change — the case worth an alert.
+// integrity or resolved change — the case worth an alert. A pinned pair's
+// source row (covered_by) is left out: its pinned row is the same package.
 export function diffDependencies(db, appId, fromVersion, toVersion) {
   const group = (rows) => {
     const map = new Map();
     for (const r of rows) {
+      if (r.covered_by != null) continue;
       const k = `${r.ecosystem}\u0000${r.lockfile}\u0000${r.name}`;
       if (!map.has(k)) map.set(k, { ecosystem: r.ecosystem, lockfile: r.lockfile, name: r.name, direct: r.direct, dev: r.dev, versions: new Map() });
       const g = map.get(k);
@@ -952,7 +962,7 @@ export function diffDependencies(db, appId, fromVersion, toVersion) {
 // new advisory. `version` null matches all versions of the package.
 export function findAppsShipping(db, ecosystem, name, version = null) {
   return db.prepare(`
-    SELECT d.app_id, d.version, p.version AS dep_version, d.lockfile, d.direct, d.dev
+    SELECT d.app_id, d.version, p.version AS dep_version, d.lockfile, d.direct, d.dev, d.covered_by
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
     WHERE p.ecosystem = ? AND p.name = ? AND (? IS NULL OR p.version = ?)
     ORDER BY d.app_id, d.version
