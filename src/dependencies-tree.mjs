@@ -9,7 +9,7 @@
 import { el } from './html-utils.mjs';
 import { whereLabel, WHERE_UNKNOWN_TIP, SEVERITY_ORDER, SEVERITY_LABEL } from './dependencies-panel-model.mjs';
 import { rebuildBadge, rebuildKey } from './dependencies-rebuilds.mjs';
-import { buildTree, childrenOf, searchNodes, GROUPS, UNREACHABLE_LABEL, UNDECIDED, UNDECIDED_LABEL, MAX_MATCHES, THIS_APP, THIS_APP_LABEL, OTHER_PRODUCTS_LABEL } from './dependencies-tree-model.mjs';
+import { buildTree, childrenOf, searchNodes, GROUPS, UNREACHABLE_LABEL, UNDECIDED, UNDECIDED_LABEL, MAX_MATCHES, THIS_APP, THIS_APP_LABEL, OTHER_PRODUCTS_LABEL, packageCount } from './dependencies-tree-model.mjs';
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
 
@@ -160,7 +160,7 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   }
 
   function groupItem(id, label, roots, level) {
-    return branchItem(id, label, roots.length, level, kids => roots.map(n => nodeItem(n, [id, n.key], kids)), () => openGroup(id, roots));
+    return branchItem(id, label, packageCount(roots), level, kids => roots.map(n => nodeItem(n, [id, n.key], kids)), () => openGroup(id, roots));
   }
 
   // What the scope menu keeps: everything, one group, one product, or every other product.
@@ -186,7 +186,7 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
       if (own && shows(own)) items.push(branchItem(`p:${THIS_APP}`, THIS_APP_LABEL, own.total, 2, level => groupsOf(own, level), () => openProduct(own)));
       const otherShown = others.filter(shows);
       if (otherShown.length) {
-        items.push(branchItem('p:other', OTHER_PRODUCTS_LABEL, others.reduce((n, p) => n + p.total, 0), 2,
+        items.push(branchItem('p:other', OTHER_PRODUCTS_LABEL, packageCount([...tree.nodes.values()].filter(n => n.product !== THIS_APP)), 2,
           level => otherShown.map(p => branchItem(`p:${p.id}`, p.label, p.total, level, inner => groupsOf(p, inner), () => openProduct(p))),
           () => { expanded.add('p:other'); if (otherShown.length === 1) openProduct(otherShown[0]); }));
       }
@@ -275,8 +275,8 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   });
 
   const limits = [];
-  if (tree.undecided.length) limits.push(`${tree.undecided.length} packages are listed under "${UNDECIDED_LABEL}": their files do not say whether the wallet imports them, so they are neither under a direct dependency nor counted as transitive.`);
-  if (tree.unreachable.length) limits.push(`${tree.unreachable.length} packages are listed under "${UNREACHABLE_LABEL}": the files name no parent for them, or the parent they name is not in the lockfile${tree.missingParents ? ` (${tree.missingParents} such references)` : ''}.`);
+  if (tree.undecided.length) limits.push(`${packageCount(tree.undecided)} packages are listed under "${UNDECIDED_LABEL}": their files do not say whether the wallet imports them, so they are neither under a direct dependency nor counted as transitive.`);
+  if (tree.unreachable.length) limits.push(`${packageCount(tree.unreachable)} packages are listed under "${UNREACHABLE_LABEL}": the files name no parent for them, or the parent they name is not in the lockfile${tree.missingParents ? ` (${tree.missingParents} such references)` : ''}.`);
 
   // A tree with a single group opens it: there is nothing to choose between.
   const onlyGroups = tree.products.flatMap(groupsShown);

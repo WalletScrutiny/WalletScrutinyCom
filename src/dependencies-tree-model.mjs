@@ -33,6 +33,18 @@ export const OTHER_PRODUCTS_LABEL = 'Other products';
 export const MAX_MATCHES = 60;
 
 export const nodeKey = (d) => `${d.ecosystem}\u0000${d.lockfile}\u0000${d.name}\u0000${d.version}`;
+
+// A node is one file's row; the page counts packages (issue 1027): the export's
+// key, the same as external/source_analysis/packageKey.mjs. Only pip names fold.
+export function foldName(ecosystem, name) {
+  const n = String(name ?? '');
+  if (ecosystem !== 'pip') return n;
+  return n.replace(/\[.*\]$/, '').trim().toLowerCase().replace(/[-_.]+/g, '-');
+}
+export const packageKey = (ecosystem, name, version) => `${ecosystem}:${foldName(ecosystem, name)}@${version ?? ''}`;
+
+// How many packages the nodes are, each once however many files list it.
+export const packageCount = (nodes) => new Set(nodes.map(n => n.pkg)).size;
 const advisoryKey = (ecosystem, name, version) => `${ecosystem}\u0000${name}\u0000${version}`;
 
 // The group a package's row goes in. `part` is the folder-name guess at another
@@ -58,7 +70,7 @@ export function buildTree(dependencies = [], advisories = [], { productOf = null
     if (!d || !d.name) continue;
     const key = nodeKey(d);
     if (nodes.has(key)) continue; // identical coordinates twice: one node
-    const node = { key, row: d, name: d.name, version: d.version || '', ecosystem: d.ecosystem, lockfile: d.lockfile, scope: scopeOf(d), product: productIn(d), direct: d.direct === true, directUnknown: d.direct === null, advisories: [], repo: null, children: [], parents: [] };
+    const node = { key, pkg: packageKey(d.ecosystem, d.name, d.version), row: d, name: d.name, version: d.version || '', ecosystem: d.ecosystem, lockfile: d.lockfile, scope: scopeOf(d), product: productIn(d), direct: d.direct === true, directUnknown: d.direct === null, advisories: [], repo: null, children: [], parents: [] };
     nodes.set(key, node);
     const nk = `${d.ecosystem}\u0000${d.lockfile}\u0000${d.name}`;
     if (!versionsOf.has(nk)) versionsOf.set(nk, []);
@@ -124,8 +136,12 @@ export function buildTree(dependencies = [], advisories = [], { productOf = null
 
   // A parent is in the child's lockfile, so a product's packages reach only its own:
   // this app first, then the other products, biggest first.
-  const sizes = new Map();
-  for (const n of nodes.values()) sizes.set(n.product, (sizes.get(n.product) || 0) + 1);
+  const members = new Map();
+  for (const n of nodes.values()) {
+    if (!members.has(n.product)) members.set(n.product, []);
+    members.get(n.product).push(n);
+  }
+  const sizes = new Map([...members].map(([id, list]) => [id, packageCount(list)]));
   const ids = [...sizes.keys()].sort((x, y) => (y === THIS_APP) - (x === THIS_APP) || sizes.get(y) - sizes.get(x) || x.localeCompare(y));
   const products = ids.map(id => ({
     id,
@@ -136,7 +152,7 @@ export function buildTree(dependencies = [], advisories = [], { productOf = null
     unreachable: unreachable.filter(n => n.product === id),
   }));
 
-  return { nodes, products, undecided, unreachable, missingParents, total: nodes.size };
+  return { nodes, products, undecided, unreachable, missingParents, total: packageCount([...nodes.values()]) };
 }
 
 // A node's children given the keys on the way down to it; a child already on

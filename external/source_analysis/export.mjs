@@ -30,6 +30,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { buildLockForReaders } from './plugins/build-lock.mjs';
+import { uncheckableReason } from './plugins/osv.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getOssRebuildDetails, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { packageKey } from './packageKey.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
@@ -194,8 +195,7 @@ function scopesOfRows(rows, appId, scope) {
   return Object.values(best).some(s => s !== scope) ? best : undefined;
 }
 
-export function summarizeRelease(db, appId, ref) {
-  const deps = getDependencies(db, appId, ref);
+export function summarizeRelease(db, appId, ref, deps = getDependencies(db, appId, ref)) {
   const vulns = getVulnerabilities(db, appId, ref);
   const submodules = summarizeSubmodules(getSubmodules(db, appId, ref));
   const byTarget = countsByTarget(deps, appId);
@@ -220,11 +220,30 @@ export function summarizeRelease(db, appId, ref) {
   };
 }
 
-function analysisEntry(a) {
+// What could not be looked up for advisories, each package once over the same
+// rows as `total` (issue 1027), so the page's "N of the M packages" counts one
+// thing: a package is unchecked only when none of its rows could be looked up.
+// The analysis stores one count per row (plugins/osv.mjs buildQueries);
+// 'nvd-unavailable' counts lookups, which the rows do not tell, and stays as stored.
+export function skippedPackages(deps, stored = {}) {
+  const reasons = new Map(); // package -> why it was skipped, null once a row of it was looked up
+  for (const d of deps) {
+    const key = packageKey(d.ecosystem, d.name, d.dep_version);
+    if (reasons.get(key) === null) continue;
+    const reason = uncheckableReason({ ...d, version: d.dep_version });
+    if (reason === null || !reasons.has(key)) reasons.set(key, reason);
+  }
+  const skipped = {};
+  for (const reason of reasons.values()) if (reason) skipped[reason] = (skipped[reason] || 0) + 1;
+  if (stored['nvd-unavailable']) skipped['nvd-unavailable'] = stored['nvd-unavailable'];
+  return skipped;
+}
+
+function analysisEntry(a, deps) {
   return {
     ref: a.ref, commit: a.commit_sha, analysedAt: a.analysed_at, status: a.status,
     error: a.error || undefined, lockfiles: a.lockfiles,
-    osv: a.osv_checked === null ? null : { skipped: a.osv_skipped },
+    osv: a.osv_checked === null ? null : { skipped: skippedPackages(deps, a.osv_skipped) },
     // how much of the build the lockfiles we read cover (plugins/lock-coverage.mjs)
     lockCoverage: coverageForReaders(a.lock_coverage) || undefined,
     // the same, for one app's page, when the repository also builds the other app
@@ -309,7 +328,8 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     if (a.kind !== 'release' || seen.has(a.ref)) continue;
     seen.add(a.ref);
     if (reproduced && !reproduced.has(a.ref)) continue;
-    releases.push({ ...analysisEntry(a), ...summarizeRelease(db, appId, a.ref) });
+    const deps = getDependencies(db, appId, a.ref);
+    releases.push({ ...analysisEntry(a, deps), ...summarizeRelease(db, appId, a.ref, deps) });
   }
   for (const v of releasesWithoutAnalysis(db, appId, analyses)) {
     if (reproduced && !reproduced.has(v)) continue;

@@ -623,3 +623,20 @@ test('buildApp: each package counts once, direct before unknown before transitiv
   assert.deepEqual(c.byScope, { app: 6, build: 1, tests: 0, unknown: 1 });
   assert.deepEqual(c.byEcosystem, { gradle: 2, pip: 6 });
 });
+
+test('buildApp: "could not be checked" counts packages, as the total does (issue 1027)', () => {
+  const db = initDatabase(':memory:');
+  saveAppList(db, [{ appId: 'app.s', platform: 'android', repository: 'https://github.com/org/s' }]);
+  saveDependencies(db, 'app.s', 'v1', [{ ecosystem: 'npm', entries: [
+    // one floating package in two files: one skipped package
+    entry('f', '^1.0.0', { tier: 'floating' }), entry('f', '^1.0.0', { tier: 'floating', lockfile: 'sub/package-lock.json' }),
+    // skipped in one file, looked up in the other: checked
+    entry('g', '1.0.0', { resolved: 'git+https://github.com/x/g.git#abc' }), entry('g', '1.0.0', { lockfile: 'sub/package-lock.json' }),
+    entry('ok', '1.0.0'),
+  ] }]);
+  recordAnalysis(db, { appId: 'app.s', kind: 'release', ref: 'v1', status: 'ok', appType: 'npm', analyser: 't', plugins: ['pinning', 'osv'], lockfiles: [],
+    dependencies: 5, osvChecked: 2, osvSkipped: { floating: 2, 'git-or-path': 1, 'nvd-unavailable': 3 }, vulnerabilities: 0 });
+  const [release] = buildApp(db, 'app.s').releases;
+  assert.equal(release.dependencies.total, 3);
+  assert.deepEqual(release.osv, { skipped: { floating: 1, 'nvd-unavailable': 3 } }, 'lookups NVD could not answer stay as stored');
+});
