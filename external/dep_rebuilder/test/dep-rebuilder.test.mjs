@@ -35,6 +35,8 @@ test('a wallet counts once per package version, however many releases list it', 
   const rows = await collectCandidates({ base: dir });
   const by = Object.fromEntries(rows.map(r => [`${r.name}@${r.version}`, r]));
   assert.equal(by['x@1.0.0'].wallets, 2);
+  assert.deepEqual(by['x@1.0.0'].walletIds, ['a', 'b'], 'and which wallets');
+  assert.deepEqual(by['y@2.0.0'].walletIds, [], 'a build tool is in no wallet\'s app');
   assert.equal(by['y@2.0.0'].wallets, 0);
   assert.equal(by['y@2.0.0'].wallets_any, 1);
   assert.equal(rows.length, 2, 'ranges and other ecosystems are not candidates');
@@ -151,10 +153,13 @@ test('the website feed has the reproduced versions with a one-line note, no logs
   saveRebuild(db, { ecosystem: 'npm', name: 'b', version: '2.0.0', result: 'failed', note: 'differs' });
   saveRebuild(db, { ecosystem: 'npm', name: 'c', version: '3.0.0', result: 'skipped', note: 'later' });
   saveRebuild(db, { ecosystem: 'npm', name: 'd', version: '4.0.0', result: 'unsupported', note: 'Member of a workspace, whose root build is not run here' });
-  saveCandidates(db, [{ ecosystem: 'npm', name: 'a', version: '1.0.0', wallets: 8, wallets_any: 9 }]);
+  saveCandidates(db, [{ ecosystem: 'npm', name: 'a', version: '1.0.0', wallets: 2, wallets_any: 9, walletIds: ['com.x', 'org.y'] }]);
   const rows = feedRows(db);
   assert.deepEqual(rows.map(r => `${r.name}@${r.version} ${r.result}`), ['a@1.0.0 reproduced'], 'a failure of our build is no claim about the package');
-  assert.equal(rows[0].wallets, 8, 'how many wallets ship it');
+  assert.equal(rows[0].wallets, 2, 'how many wallets ship it');
+  assert.deepEqual(rows[0].walletIds, ['com.x', 'org.y'], 'and which');
+  saveCandidates(db, [{ ecosystem: 'npm', name: 'a', version: '1.0.0', wallets: 2, wallets_any: 9 }]);
+  assert.ok(!('walletIds' in feedRows(db)[0]), 'no list from a sync that did not give one');
   saveRebuild(db, { ecosystem: 'npm', name: 'e', version: '5.0.0', result: 'reproduced', note: 'Byte-identical tarball' });
   assert.ok(!('wallets' in feedRows(db)[1]), 'no count for a version that is not a candidate');
   assert.match(rows[0].date, /^\d{4}-\d\d-\d\d$/);

@@ -22,6 +22,7 @@ import { epssTrigger, tipTrigger, refreshTip } from './dependencies-epss-tip.mjs
 import { showAnalysedReleases } from './build-verifications.mjs';
 import { releaseForVersion, releaseNamesVersion } from './build-verifications-model.mjs';
 import { EXPORT_BASE, safeName } from './source-analysis-export.mjs';
+import { walletOf, walletItem } from './used-by-wallets.mjs';
 
 // The triage statements the site build saw and the trusted list
 // (scripts/build-dependency-triage.mjs); the relay adds the trusted authors' newer ones.
@@ -847,15 +848,6 @@ function loadUsedBy(base, fetchImpl) {
   return usedByFiles.get(base);
 }
 
-// The site's listing for an export app id: its own id, or a mobile listing's
-// store ids (the same lookup as the /news/ page's wallet chips).
-function walletOf(appId) {
-  const wallets = globalThis.window?.wallets || [];
-  return wallets.find(w => w.appId === appId && !w.archived) ||
-    wallets.find(w => w.androidAppId === appId || w.iphoneAppId === appId) ||
-    wallets.find(w => w.appId === appId) || null;
-}
-
 // The other wallets shipping the advisory's package, linked to their pages,
 // those on its exact version first and marked; one entry per listing.
 function otherWallets(a, shipping, appIds) {
@@ -884,15 +876,8 @@ function otherProductsTrigger(a, { base, fetchImpl, appIds }) {
     }
     const shipping = file.doc?.packages?.[`${a.ecosystem}:${a.package}`];
     if (!shipping) return [el('p', {}, 'The list of wallets is not available yet.')];
-    const items = otherWallets(a, shipping, appIds).map(({ wallet, appId, sameVersion }) => {
-      const icon = wallet?.icon
-        ? el('img', { src: `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}`, alt: '', loading: 'lazy' })
-        : null;
-      const label = wallet?.title || appId;
-      return el('li', {},
-        wallet?.url ? el('a', { href: wallet.url }, icon, label) : el('span', {}, icon, label),
-        sameVersion && a.version ? el('span', { className: 'dp-tip__same' }, ` on ${a.version}`) : null);
-    });
+    const items = otherWallets(a, shipping, appIds).map(({ wallet, appId, sameVersion }) =>
+      walletItem(wallet, appId, sameVersion && a.version ? el('span', { className: 'dp-tip__same' }, ` on ${a.version}`) : null));
     return [el('p', {}, 'Other wallets that ship ', el('strong', {}, a.package), ':'), el('ul', { className: 'dp-tip__wallets' }, items)];
   }, { className: 'dp-products-info' });
   trigger.setAttribute('aria-label', `Which wallets ship ${a.package}`);
