@@ -232,7 +232,9 @@ EPSS (FIRST's published probability that a CVE is exploited in the wild
 within 30 days) and CISA's Known Exploited Vulnerabilities list. They sort
 the queue and put a "critical" label in perspective (944 of the 1,053
 advisories have a CVE; 4 are on CISA's list), they decide nothing, and a
-failing feed never fails the build.
+failing feed never fails the build. Only CISA's flag is shown on the page:
+next to a wallet, a global EPSS percentage reads as our score for that
+wallet, so EPSS stays in the files, the sort order and the CSV.
 
 ### The tile's explanations
 
