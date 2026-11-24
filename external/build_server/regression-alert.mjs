@@ -1,8 +1,11 @@
-// Regression alerts: tell Carol in Buzz when an app stops reproducing.
+// Regression alerts: tell Carol in Buzz when an app's script may need a fix.
 //
 // ABS rebuilds new versions with the script of an earlier verification. When
 // that earlier verification was reproducible and the new build comes out
-// ftbfs or not_reproducible, the script most likely needs an update. Each such
+// ftbfs or not_reproducible, or it was not_reproducible and the new build
+// comes out ftbfs, the script most likely needs an update. not_reproducible
+// after not_reproducible is not alerted: the differences are usually upstream,
+// and a script fix cannot remove them. Each such
 // regression is recorded once per (app, version) in `regression_alerts`, then
 // one Buzz message lists every regression not delivered yet and tags Carol, so
 // a failed delivery is picked up by the next one.
@@ -24,21 +27,26 @@ import {
   REGRESSION_ALERT_APP_IDS
 } from './config/config.mjs';
 
-const REGRESSED_VERDICTS = ['ftbfs', 'not_reproducible'];
+// Verdicts that count as a regression, by status of the base verification.
+const REGRESSED_VERDICTS = {
+  reproducible: ['ftbfs', 'not_reproducible'],
+  not_reproducible: ['ftbfs']
+};
 
 function stripV(version) {
   return (version ?? '').replace(/^v/i, '');
 }
 
 /**
- * True when `verdict` for `newVersion` is a regression from the
- * reproducible `baseVerification`: the base was reproducible and the new
- * version is strictly newer. Versions that do not start with a digit are
- * skipped.
+ * True when `verdict` for `newVersion` is a regression from
+ * `baseVerification`: reproducible to ftbfs or not_reproducible, or
+ * not_reproducible to ftbfs, and the new version is strictly newer. Versions
+ * that do not start with a digit are skipped.
  */
 export function isRegression(baseVerification, newVersion, verdict) {
-  if (!REGRESSED_VERDICTS.includes(verdict)) return false;
-  if (getFirstTagValue(baseVerification, 'status') !== 'reproducible') return false;
+  const baseStatus = getFirstTagValue(baseVerification, 'status');
+  if (!Object.hasOwn(REGRESSED_VERDICTS, baseStatus)) return false;
+  if (!REGRESSED_VERDICTS[baseStatus].includes(verdict)) return false;
   const baseVersion = stripV(getFirstTagValue(baseVerification, 'version'));
   const version = stripV(newVersion);
   if (!/^\d/.test(baseVersion) || !/^\d/.test(version)) return false;
@@ -79,11 +87,11 @@ export function recordRegression(db, row) {
 
 export function regressionAlertText(rows, mentionName) {
   const lines = [
-    `🚨 @${mentionName} ABS regression alert: ${rows.length === 1 ? 'an app stopped' : `${rows.length} apps stopped`} reproducing.`,
+    `🚨 @${mentionName} ABS regression alert: ${rows.length === 1 ? 'an app regressed' : `${rows.length} apps regressed`}.`,
     ''
   ];
   for (const r of rows) {
-    lines.push(`- ${r.appId} ${r.version} (${r.platform}): ${r.verdict}, last reproducible ${r.baseVersion}`);
+    lines.push(`- ${r.appId} ${r.version} (${r.platform}): ${r.verdict}, base ${r.baseVersion}`);
     lines.push(`  verification ${r.verificationEventId ?? 'unknown'}, script from ${r.baseVerificationId}`);
   }
   return lines.join('\n');
