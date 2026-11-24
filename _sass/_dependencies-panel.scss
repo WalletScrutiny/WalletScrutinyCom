@@ -1270,6 +1270,47 @@ a.dp-signer {
   opacity: 0.75;
 }
 
+// The tip holding a wallet list: as wide as its names, at most a third of a
+// desktop screen, in bigger type. Phones keep the small type but not the
+// whole width; place() centres it.
+.dp-tip:has(.dp-tip__wallets) {
+  max-width: calc(100vw / 3);
+  padding: 12px 14px;
+  font-size: $font-sm;
+
+  > p {
+    font-size: $font-md;
+    margin-bottom: 8px;
+  }
+
+  .dp-tip__wallets {
+    li {
+      margin-bottom: 6px;
+      // A name too long for the line wraps under itself, not under the icon.
+      padding-left: 32px;
+      text-indent: -32px;
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      border-radius: 5px;
+      vertical-align: -6px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    width: max-content;
+    max-width: calc(100vw - 16px);
+    font-size: $font-xs;
+
+    > p {
+      font-size: $font-xs;
+    }
+  }
+}
+
 // "3 on 4.0.0", and "only this wallet"
 .dp-products-sub {
   font-size: $font-xxs;

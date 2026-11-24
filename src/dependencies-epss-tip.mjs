@@ -94,7 +94,8 @@ export function refreshTip(trigger) {
 }
 
 // Below the trigger, or above it when there is no room below; shifted
-// sideways to stay inside the viewport.
+// sideways to stay inside the viewport. Centred across a phone screen.
+const PHONE = '(max-width: 640px)'; // the phone width of .dp-tip
 function place() {
   const { tip, trigger } = state;
   const view = tip.ownerDocument.defaultView;
@@ -106,7 +107,9 @@ function place() {
   const h = tip.offsetHeight;
   let top = r.bottom + GAP;
   if (top + h > vh - MARGIN && r.top - GAP - h >= MARGIN) top = r.top - GAP - h;
-  const left = Math.min(Math.max(MARGIN, r.left), Math.max(MARGIN, vw - MARGIN - w));
+  const left = view.matchMedia?.(PHONE).matches
+    ? Math.max(MARGIN, (vw - w) / 2)
+    : Math.min(Math.max(MARGIN, r.left), Math.max(MARGIN, vw - MARGIN - w));
   tip.style.top = `${Math.round(top)}px`;
   tip.style.left = `${Math.round(left)}px`;
 }
