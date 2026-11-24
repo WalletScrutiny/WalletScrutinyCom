@@ -471,7 +471,7 @@ body.dark .dp-history__dot--current {
   }
 }
 
-// Advisories: the short columns sit centred; Package and Decision stay left
+// Advisories: every column but Package sits centred
 .dp-adv-table {
   th,
   td {
@@ -479,13 +479,12 @@ body.dark .dp-history__dot--current {
   }
 
   th:first-child,
-  th:last-child,
-  .dp-td-package,
-  .dp-td-decision {
+  .dp-td-package {
     text-align: left;
   }
 
-  .dp-sev-cell {
+  .dp-sev-cell,
+  .dp-decision-cell {
     align-items: center; // a flex column ignores text-align
   }
 }
@@ -588,7 +587,8 @@ body.dark .dp-history__dot--current {
       text-align: left;
     }
 
-    &.dp-adv-table .dp-sev-cell {
+    &.dp-adv-table .dp-sev-cell,
+    &.dp-adv-table .dp-decision-cell {
       align-items: flex-start;
     }
 
