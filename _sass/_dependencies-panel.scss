@@ -1272,11 +1272,18 @@ a.dp-signer {
 
 // The tip holding a wallet list: as wide as its names, at most a third of a
 // desktop screen, in bigger type. Phones keep the small type but not the
-// whole width; place() centres it.
+// whole width; place() centres it. Up to 60 % of the screen's height before
+// the list scrolls, under a title that stays put.
 .dp-tip:has(.dp-tip__wallets) {
   max-width: calc(100vw / 3);
+  max-height: 60vh;
   padding: 12px 14px;
   font-size: $font-sm;
+
+  &:not([hidden]) {
+    display: flex;
+    flex-direction: column;
+  }
 
   > p {
     font-size: $font-md;
@@ -1284,6 +1291,10 @@ a.dp-signer {
   }
 
   .dp-tip__wallets {
+    flex: 0 1 auto;
+    min-height: 0;
+    max-height: none;
+
     li {
       margin-bottom: 6px;
       // A name too long for the line wraps under itself, not under the icon.
@@ -1306,7 +1317,7 @@ a.dp-signer {
     font-size: $font-xs;
 
     > p {
-      font-size: $font-xs;
+      font-size: $font-sm;
     }
   }
 }
