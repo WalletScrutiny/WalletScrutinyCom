@@ -10,6 +10,9 @@
   display: inline-block;
   font-size: $font-xxs;
   font-weight: 700;
+  // a whole-pixel line height: the inherited 1.5 gave a fractional box and
+  // the browser rounded the text half a pixel above the middle
+  line-height: 19px;
   border-radius: 999px;
   padding: 1px 8px;
   color: #fff;
