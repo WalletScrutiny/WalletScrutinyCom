@@ -164,12 +164,12 @@ function ossInfo(c, name, loadDetails) {
 function claimLine(c, name, loadDetails) {
   const who = CLAIMANTS[c.by] || { label: c.by };
   return el('div', { className: `dp-rb-claim dp-rb-claim--${c.result}` },
-    el('span', { className: `dp-rb dp-rb--${c.result}` }, c.result === 'reproduced' ? 'reproduced' : 'failed'),
-    ' ',
     who.icon ? el('span', { className: 'dp-rb-who-icon', html: wsIcon(who.icon) }) : null,
     // their claim links to its source (attestation, buildspec); ours to the repository we built from, after the name
     who.url ? el('a', { href: (c.by !== 'ws' && c.url) || who.url, target: '_blank', rel: 'noopener noreferrer' }, who.label) : who.label,
     c.by === 'oss-rebuild' && c.url && loadDetails ? ossInfo(c, name, loadDetails) : null,
+    ' ',
+    el('span', { className: `dp-rb dp-rb--${c.result}` }, c.result === 'reproduced' ? 'reproduced' : 'failed'),
     c.by === 'ws' ? null : el('span', { className: 'dp-rb-theirs' }, ' (their claim)'),
     c.date ? el('span', { className: 'dpt-note' }, ` · ${c.date}`) : null,
     c.note ? el('div', { className: 'dp-via' }, c.note) : null,
