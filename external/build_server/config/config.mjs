@@ -91,9 +91,7 @@ export const DEBUG_APP_IDS = {
   exclude: [],   // Always skip these appIds
   // Force rebuild for these (appId, version) pairs even when they already have
   // verifications or a previous build attempt in the database (for re-build testing)
-  // Regression alert test (2026-11-17): rebuild Coin Wallet 6.30.0 once so
-  // the alert fires. Remove after the first alert, or it rebuilds every cycle.
-  forceRebuild: [{ appId: 'com.coinspace.app', version: '6.30.0' }]  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
+  forceRebuild: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
 };
 
 export function shouldForceRebuild(appId, version) {

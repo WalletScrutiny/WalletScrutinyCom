@@ -51,6 +51,16 @@ describe('isRegression', () => {
     assert.equal(isRegression(base('ftbfs'), '2.0.0', 'ftbfs'), false);
   });
 
+  test('a not_reproducible base alerts only on ftbfs', () => {
+    assert.equal(isRegression(base('not_reproducible'), '2.0.0', 'ftbfs'), true);
+    assert.equal(isRegression(base('not_reproducible'), '2.0.0', 'not_reproducible'), false);
+    assert.equal(isRegression(base('not_reproducible'), '2.0.0', 'reproducible'), false);
+  });
+
+  test('a not_reproducible base skips an older version', () => {
+    assert.equal(isRegression(base('not_reproducible', '6.32.0'), '6.30.0', 'ftbfs'), false);
+  });
+
   test('an older, equal or unparseable version is skipped', () => {
     assert.equal(isRegression(base('reproducible', '2.0.0'), '1.9.9', 'ftbfs'), false);
     assert.equal(isRegression(base('reproducible', 'v2.0.0'), '2.0.0', 'ftbfs'), false);
@@ -76,8 +86,8 @@ describe('deliverRegressionAlerts', () => {
     const sent = [];
     assert.equal(await deliverRegressionAlerts(db, { send: async text => sent.push(text), mentionName: 'Carol' }), 2);
     assert.equal(sent.length, 1);
-    assert.match(sent[0], /^🚨 @Carol ABS regression alert: 2 apps stopped reproducing\./);
-    assert.match(sent[0], /com\.example 2\.0\.0 \(linux\): ftbfs, last reproducible 1\.0\.0/);
+    assert.match(sent[0], /^🚨 @Carol ABS regression alert: 2 apps regressed\./);
+    assert.match(sent[0], /com\.example 2\.0\.0 \(linux\): ftbfs, base 1\.0\.0/);
     assert.match(sent[0], /org\.other 3\.1/);
     assert.equal(pendingCount(db), 0);
     assert.equal(await deliverRegressionAlerts(db, { send: async () => assert.fail('nothing pending') }), 0);
@@ -164,5 +174,5 @@ describe('postToBuzz', () => {
 });
 
 test('regressionAlertText: singular wording for one app', () => {
-  assert.match(regressionAlertText([row()], 'Carol'), /^🚨 @Carol ABS regression alert: an app stopped reproducing\./);
+  assert.match(regressionAlertText([row()], 'Carol'), /^🚨 @Carol ABS regression alert: an app regressed\./);
 });
