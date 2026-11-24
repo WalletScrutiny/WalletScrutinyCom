@@ -55,7 +55,8 @@ test.describe('Dependencies panel', () => {
     expect(asked.filter(path => path.endsWith('/dependencies-steps.css'))).toHaveLength(1);
     await expect(panel.locator('.dp-panel')).toHaveCSS('border-radius', '14px');
     // both steps read one copy of the app file, which brings its signals and names no other file
-    await expect(panel.locator('.dp-published')).toHaveText('public since 2026-10-01');
+    // the severity lines are in the row twice, under the advisory link (desktop) and in the phone card's own cell
+    await expect(panel.locator('.dp-published:visible')).toHaveText('public since 2026-10-01');
     expect(asked.filter(path => path.startsWith('/api/source-analysis/'))).toEqual(['/api/source-analysis/index.json', '/api/source-analysis/apps/app.zeusln.zeus.json']);
   });
 
