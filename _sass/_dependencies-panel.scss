@@ -679,8 +679,16 @@ body.dark .dp-history__dot--current {
 
 .dp-sev-head {
   display: inline-flex;
-  align-items: center;
+  // with the pill at the label's size, the baselines line up the tops too
+  align-items: baseline;
   gap: 6px;
+
+  // the label's size: a smaller pill could match its middle or its
+  // baseline, never both
+  .dp-sev {
+    font-size: inherit;
+    line-height: 21px;
+  }
 }
 
 // The version on the package name's line
