@@ -628,15 +628,14 @@ body.dark .dp-history__dot--current {
       grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
     }
 
-    // Rebuilds: name and version, the wallets count at the right; the claims under them
+    // Rebuilds: name and version, the claims under them; no wallets count on a phone
     &.dp-rb-table tr {
-      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-columns: minmax(0, 1fr);
       gap: 4px 12px;
     }
 
     .dp-rb-shared {
-      text-align: right;
-      white-space: nowrap;
+      display: none;
     }
 
     .dp-rb-claims {
