@@ -897,7 +897,7 @@ const HEADER_TIPS = {
   'Where?': () => [el('p', {},
     'Where this library ends up: ', bold('app'), ' (inside the wallet), ', bold('build'), ' (build tools only), ', bold('tests'),
     ' (test tools only), or another part of the repository, like the ', bold('server'), '. ', bold('Unknown'),
-    ': the project\'s files don\'t say. The line below says whether the released APK contains it.')],
+    ': the project\'s files don\'t say. If we checked the released APK, a second line says whether the library is in it.')],
   Decision: () => [el('p', {}, 'Is this wallet affected? Answered by signed statements: affected, not affected, fixed or investigating. Anyone can add one; only reviewers WalletScrutiny trusts settle the row. \'Not assessed\' means none has yet.')],
 };
 
