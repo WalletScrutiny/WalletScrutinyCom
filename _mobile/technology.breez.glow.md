@@ -1,33 +1,37 @@
 ---
 title: 'Glow: Lightning-Fast Bitcoin'
-date: 2026-10-28
+date: 2026-11-23
 authors:
 - leo
 website: https://breez.technology
 twitter: breez_tech
+features:
+- spark
 android:
   appId: technology.breez.glow
   users: 1000
   appCountry: us
   released: Jul 4, 2026
-  updated: 2026-09-24
-  version: 1.3.0
+  updated: 2026-11-09
+  version: 1.4.1
   icon: technology.breez.glow.webp
   meta: ok
-  verdict: custodial
+  verdict: sourceavailable
   developerName: Breez Development LTD
+  repository: https://github.com/breez/glow-app
 iphone:
   appId: technology.breez.glow
   idd: '6762465698'
   appCountry: us
   released: '2026-07-30T07:00:00Z'
-  updated: 2026-09-24
-  version: 1.3.0
+  updated: 2026-11-09
+  version: 1.4.1
   reviews: 4
   icon: technology.breez.glow.webp
   meta: ok
-  verdict: custodial
+  verdict: sourceavailable
   developerName: BREEZ DEVELOPMENT LTD
+  repository: https://github.com/breez/glow-app
 
 ---
 
@@ -39,13 +43,14 @@ Glow is a Bitcoin and stablecoin app published by Breez Development LTD and buil
 
 - **Bitcoin support.** The description lists receiving and sending over Lightning and to Bitcoin addresses, and the latest release notes mention "Instant and/or expedited claim for on-chain deposits".
 - **Custody.** The balance is a Spark balance, held through the Breez SDK. The [Breez SDK documentation](https://sdk-doc-spark.breez.technology/guide/recover_funds.html) explains that a Spark balance "is held in a tree of pre-signed Bitcoin transactions" and that a unilateral exit lets the user move it on-chain "if the Spark operators stop cooperating with normal withdrawals". Ordinary withdrawals need the operators. A unilateral exit needs a Bitcoin UTXO "of your own" to pay the fees and "can take several days".
-- **Unilateral exit is in the app, but hidden.** glow-web has an implementation ([`src/features/unilateral-exit`](https://github.com/breez/glow-web/tree/7acb2c8414387fec68804c92d436bc9ba6746222/src/features/unilateral-exit)). The tag [release-1.3.0](https://github.com/breez/glow-app/tree/release-1.3.0), which matches the version on Google Play, pins glow-web at [`7acb2c8`](https://github.com/breez/glow-web/commit/7acb2c8414387fec68804c92d436bc9ba6746222), "Gate Unilateral Exit behind developer mode". From that commit on, the Settings entry is shown only in developer mode, which the code unlocks with five quick taps. We have not demonstrated a recovery with Glow.
-- **Source code.** The app's source is public under the two repositories above. It does not change the custody question, which turns on the Spark exit.
+- **Unilateral exit is in the app.** In version 1.4.1, Settings has a "Unilateral Exit" entry with the text ["Move your balance on-chain without Spark operators"](https://github.com/breez/glow-web/blob/c11ac19d20289e2d80c40990864d9429ab57a810/src/pages/SettingsPage.tsx#L461-L465) and the advice to use it "only if Spark stops operating". The tag [release-1.4.1](https://github.com/breez/glow-app/tree/release-1.4.1), which matches the version on Google Play, pins glow-web at [`c11ac19`](https://github.com/breez/glow-web/tree/c11ac19d20289e2d80c40990864d9429ab57a810). Version 1.3.0 showed this entry only in developer mode. We did not test the exit.
+- **What the exit needs.** The app's [own notes](https://github.com/breez/glow-web/blob/c11ac19d20289e2d80c40990864d9429ab57a810/src/features/unilateral-exit/README.md) call it "a last resort" that "costs on-chain fees and takes days". The fees are paid from a separate native SegWit coin that the user supplies. The leaf data an exit is built from "dies with the device unless the user holds a copy", so the app offers an export, and the operators cannot serve that data again once they stop answering.
+- **Source code.** The app's source is public under the two repositories above.
 
-Our [custodial definition](/methodology/#custodial) counts a Spark balance as self-custodial only for the part that a recovery from the app has been demonstrated to bring back on-chain without anyone's help. No such recovery from Glow has been demonstrated yet, and the exit path in version 1.3.0 is hidden behind developer mode. Until that test is done we consider the balance custodial, even though Glow is marketed as non-custodial.
+Glow claims that users can move their balance on-chain without the Spark operators, and the released app contains that exit. Under our [custodial definition](/methodology/#custodial) we therefore do not consider the balance custodial. The source is public and we have not yet tried to build it. For now it is {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 ## iPhone
 
-The iOS app is published by Breez Development LTD, the same provider, and it gives access to the same account and service, so the same verdict applies to it. The App Store version is 1.3.0, the same release as on Google Play, so the developer-mode gate on the unilateral exit applies to it too.
+The iOS app is published by Breez Development LTD, the same provider, and it gives access to the same account and service, so the same verdict applies to it. The App Store version is 1.4.1, the same release as on Google Play, so it has the same unilateral exit. We have not tried to build it.
 
-**Custodial: The provider holds the keys**
+**Source code is available**
