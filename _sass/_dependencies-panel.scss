@@ -679,7 +679,8 @@ body.dark .dp-history__dot--current {
 
 .dp-sev-head {
   display: inline-flex;
-  align-items: center;
+  // on the label's baseline: centred, the smaller pill text sat 2px higher
+  align-items: baseline;
   gap: 6px;
 }
 
