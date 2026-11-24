@@ -820,16 +820,18 @@ function triageLine(model) {
   return el('div', { className: 'dp-triage-line' }, parts.join(' · '));
 }
 
-// Two lines, "25 wallets" over "3 on 4.0.0": how many of the checked
-// wallets ship the package at all, and how many this exact version. A
-// package only this wallet ships says so instead of "1".
+// Two lines, "25 other wallets" over "3 on 4.0.0": how many of the other
+// checked wallets ship the package at all, and how many this exact version,
+// the same wallets the info icon lists. The export's counts include this
+// wallet, so one comes off each. A package only this wallet ships says so.
 export function usedBy(a, { base = EXPORT_BASE, fetchImpl = globalThis.fetch, appIds = [] } = {}) {
   if (a.products == null) return '–';
   if (a.products <= 1) return el('span', { className: 'dp-products-sub' }, 'only this wallet');
-  const same = a.productsSameVersion;
+  const others = a.products - 1;
+  const same = a.productsSameVersion == null ? null : Math.max(a.productsSameVersion - 1, 0);
   return el('span', {},
-    el('span', { className: 'dp-products-line' }, `${a.products} wallets`, otherProductsTrigger(a, { base, fetchImpl, appIds })),
-    same != null ? el('span', { className: 'dp-products-line dp-products-sub' }, a.version ? `${same} on ${a.version}` : `${same} on this version`) : null);
+    el('span', { className: 'dp-products-line' }, `${others} other ${others === 1 ? 'wallet' : 'wallets'}`, otherProductsTrigger(a, { base, fetchImpl, appIds })),
+    same != null ? el('span', { className: 'dp-products-line dp-products-sub' }, `${same || 'none'} on ${a.version || 'this version'}`) : null);
 }
 
 // used-by.json (external/source_analysis/export.mjs): which apps ship each
@@ -1142,7 +1144,7 @@ function howToRead(model) {
   } else if (model.whereUnknown) {
     parts.push(`"unknown" in the Where? column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
   }
-  parts.push('"Used by" counts how many of the wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. ');
+  parts.push('"Used by" counts how many of the other wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. ');
   next();
   if (model.lockfiles.length) {
     parts.push('Files read: ');
