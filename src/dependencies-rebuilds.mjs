@@ -10,8 +10,8 @@ import { wsIcon } from './icon.mjs';
 import { tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 
 export const CLAIMANTS = {
-  ws: { label: 'WalletScrutiny', short: 'us', url: 'https://walletscrutiny.com' },
-  'oss-rebuild': { label: 'Google OSS Rebuild', short: 'OSS Rebuild', url: 'https://github.com/google/oss-rebuild' },
+  ws: { label: 'WalletScrutiny', short: 'us', url: 'https://walletscrutiny.com', icon: 'walletscrutiny' },
+  'oss-rebuild': { label: 'Google OSS Rebuild', short: 'OSS Rebuild', url: 'https://github.com/google/oss-rebuild', icon: 'google' },
   'reproducible-central': { label: 'Reproducible Central', short: 'Reproducible Central', url: 'https://github.com/jvm-repo-rebuild/reproducible-central' },
 };
 const ORDER = ['ws', 'oss-rebuild', 'reproducible-central'];
@@ -164,13 +164,12 @@ function ossInfo(c, name, loadDetails) {
 function claimLine(c, name, loadDetails) {
   const who = CLAIMANTS[c.by] || { label: c.by };
   return el('div', { className: `dp-rb-claim dp-rb-claim--${c.result}` },
+    who.icon ? el('span', { className: 'dp-rb-who-icon', html: wsIcon(who.icon) }) : null,
+    who.label,
     el('span', { className: `dp-rb dp-rb--${c.result}` }, c.result === 'reproduced' ? 'reproduced' : 'failed'),
-    ' ',
-    // their claim links to its source (attestation, buildspec); ours to the repository we built from, after the name
-    who.url ? el('a', { href: (c.by !== 'ws' && c.url) || who.url, target: '_blank', rel: 'noopener noreferrer' }, who.label) : who.label,
     c.by === 'oss-rebuild' && c.url && loadDetails ? ossInfo(c, name, loadDetails) : null,
-    c.by === 'ws' ? null : el('span', { className: 'dp-rb-theirs' }, ' (their claim)'),
-    c.date ? el('span', { className: 'dpt-note' }, ` · ${c.date}`) : null,
+    c.by === 'ws' ? null : el('span', { className: 'dp-rb-theirs' }, '(their claim)'),
+    c.date ? el('span', { className: 'dpt-note' }, `· ${c.date}`) : null,
     c.note ? el('div', { className: 'dp-via' }, c.note) : null,
     c.event ? eventPreview(c) : null);
 }
@@ -225,8 +224,8 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
     // the version sits after the name; on phones the wallets count beside them
     body.replaceChildren(...list.slice(0, rows).map(({ d, row }) => el('tr', {},
       el('td', { className: 'dp-rb-name' }, d.name, el('span', { className: 'dp-pkg-version' }, d.version), d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
-      el('td', { className: 'dp-rb-center dp-rb-shared' }, shared(d)),
       el('td', { className: 'dp-rb-claims' }, row ? ORDER.flatMap(by => row.claims.filter(c => c.by === by)).map(c => claimLine(c, d.name, loadDetails)) : el('span', { className: 'dpt-note' }, 'Nobody has tried yet')),
+      el('td', { className: 'dp-rb-center dp-rb-shared' }, shared(d)),
     )));
   }
 
@@ -247,7 +246,7 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
     el('div', { className: 'dpt-controls' }, el('span', { className: 'dp-history__tabs dp-rb-filters', role: 'group', 'aria-label': 'Show' }, buttons)),
     status,
     el('table', { className: 'dp-table dp-rb-table' },
-      el('thead', {}, el('tr', {}, ['Package', 'Same version in', 'Rebuilt by'].map((h, i) => el('th', { className: i === 1 ? 'dp-rb-center' : null }, h)))),
+      el('thead', {}, el('tr', {}, ['Package', 'Rebuilt by', 'Same version in'].map((h, i) => el('th', { className: i === 2 ? 'dp-rb-center' : null }, h)))),
       body),
     more);
 }

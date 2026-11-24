@@ -628,15 +628,14 @@ body.dark .dp-history__dot--current {
       grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
     }
 
-    // Rebuilds: name and version, the wallets count at the right; the claims under them
+    // Rebuilds: name and version, the claims under them; no wallets count on a phone
     &.dp-rb-table tr {
-      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-columns: minmax(0, 1fr);
       gap: 4px 12px;
     }
 
     .dp-rb-shared {
-      text-align: right;
-      white-space: nowrap;
+      display: none;
     }
 
     .dp-rb-claims {
@@ -1840,7 +1839,14 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
   .dp-rb-table .dp-rb-center { text-align: center; }
 }
 .dp-rb-claim { margin: 2px 0 6px; }
-.dp-rb-theirs { font-size: $font-xs; color: var(--neutral-3); }
+.dp-rb-who-icon { display: inline-block; font-size: 2em; line-height: 1; margin-right: 10px; vertical-align: middle; }
+// one square slot for every icon, so the narrower dog centres where the G does
+.dp-rb-who-icon .ws-icon { width: 1em; }
+.dp-rb-who-icon .ws-icon-walletscrutiny { color: var(--accent); }
+.dp-rb-claim .dp-rb { margin-left: 10px; }
+.dp-rb-claim .dp-products-info { margin-left: 6px; }
+.dp-rb-claim > .dpt-note { margin-left: 10px; }
+.dp-rb-theirs { margin-left: 10px; font-size: $font-xs; color: var(--neutral-3); }
 .dp-rb-event summary { cursor: pointer; font-size: $font-xs; color: var(--neutral-2); }
 .dp-rb-event pre {
   font-size: $font-xxs;
