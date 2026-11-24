@@ -10,8 +10,8 @@ import { wsIcon } from './icon.mjs';
 import { tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 
 export const CLAIMANTS = {
-  ws: { label: 'WalletScrutiny', short: 'us', url: 'https://walletscrutiny.com' },
-  'oss-rebuild': { label: 'Google OSS Rebuild', short: 'OSS Rebuild', url: 'https://github.com/google/oss-rebuild' },
+  ws: { label: 'WalletScrutiny', short: 'us', url: 'https://walletscrutiny.com', icon: 'walletscrutiny' },
+  'oss-rebuild': { label: 'Google OSS Rebuild', short: 'OSS Rebuild', url: 'https://github.com/google/oss-rebuild', icon: 'google' },
   'reproducible-central': { label: 'Reproducible Central', short: 'Reproducible Central', url: 'https://github.com/jvm-repo-rebuild/reproducible-central' },
 };
 const ORDER = ['ws', 'oss-rebuild', 'reproducible-central'];
@@ -166,6 +166,7 @@ function claimLine(c, name, loadDetails) {
   return el('div', { className: `dp-rb-claim dp-rb-claim--${c.result}` },
     el('span', { className: `dp-rb dp-rb--${c.result}` }, c.result === 'reproduced' ? 'reproduced' : 'failed'),
     ' ',
+    who.icon ? el('span', { className: 'dp-rb-who-icon', html: wsIcon(who.icon) }) : null,
     // their claim links to its source (attestation, buildspec); ours to the repository we built from, after the name
     who.url ? el('a', { href: (c.by !== 'ws' && c.url) || who.url, target: '_blank', rel: 'noopener noreferrer' }, who.label) : who.label,
     c.by === 'oss-rebuild' && c.url && loadDetails ? ossInfo(c, name, loadDetails) : null,
