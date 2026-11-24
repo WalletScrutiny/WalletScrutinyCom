@@ -268,7 +268,7 @@ export function gitFixLine(a) {
   const others = (a.fixed || []).filter(v => v !== g.version);
   const title = `Read from the upstream git repository: the fixing commit ${g.commit} is in its tag ${g.tag}, the first release on this line with the fix.` +
     (others.length ? ` The databases name ${others.join(', ')}.` : '');
-  // two lines, so the version column stays as narrow as "Already fixed in master"
+  // two short lines under the package name, like "Already fixed in master"
   return el('div', { className: 'dp-git-fix', title }, el('div', {}, 'Fixed in ', tagLink(g.repo, g.tag, g.version)), el('div', {}, 'git ', commitLink(g.repo, g.commit)));
 }
 
@@ -521,9 +521,9 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
 
 // The ecosystem only appears when the release mixes several (npm next to
 // gradle next to pip); a wallet with one ecosystem would repeat it on every row.
-// On phones the version and an icon linking the advisory sit on the name's
-// line, the name links the source repository, and a cell left with nothing
-// else in it is hidden (dp-m-hide).
+// The version sits on the name's line, with what it says about the fix under
+// it. On phones an icon linking the advisory joins them, the name links the
+// source repository, and a cell left with nothing else in it is hidden (dp-m-hide).
 function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null, showWhere = true, usedByOptions = {} } = {}) {
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
@@ -532,11 +532,10 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
   const listedBy = listedByLine(a);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
     el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...packageName(a),
-      el('span', { className: 'dp-m-only dp-m-version' }, a.version),
+      el('span', { className: 'dp-pkg-version' }, a.version),
       mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null,
       el('a', { className: 'dp-m-only dp-adv-icon', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary ? `${a.id}: ${a.summary}` : a.id, 'aria-label': `${a.id} on ${site}`, html: wsIcon('bug-external') }),
-      repoLine(a), viaLine(a), labelLine(a)),
-    el('td', { className: `dp-td-version${versionLines.length ? '' : ' dp-m-hide'}`, dataset: { label: 'Version' } }, el('span', { className: 'dp-d-only' }, a.version), ...versionLines),
+      ...versionLines, repoLine(a), viaLine(a), labelLine(a)),
     el('td', { className: `dp-td-advisory${listedBy ? '' : ' dp-m-hide'}`, dataset: { label: 'Advisory' } }, el('a', { className: 'dp-d-only', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedBy),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
     showWhere ? el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}`, title: where === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(a)), inApkLine(a)) : null,
@@ -908,7 +907,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false,
   const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table dp-adv-table' },
     el('thead', {}, el('tr', {},
-      ['Package', 'Version', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Used by', 'Decision'].filter(Boolean)
+      ['Package', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Used by', 'Decision'].filter(Boolean)
         .map(h => el('th', {}, HEADER_TIPS[h] ? tipTrigger(h, HEADER_TIPS[h], { className: 'dp-term dp-th-term' }) : h)),
     )),
     body,

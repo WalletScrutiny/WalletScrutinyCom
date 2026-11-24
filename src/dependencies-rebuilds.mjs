@@ -222,10 +222,9 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
     const rows = expanded ? shown : Math.min(shown, FIRST_ROWS);
     more.hidden = rows === shown;
     more.textContent = `Show ${(shown - rows).toLocaleString('en-US')} more`;
-    // on phones the version sits after the name and the wallets count beside it
+    // the version sits after the name; on phones the wallets count beside them
     body.replaceChildren(...list.slice(0, rows).map(({ d, row }) => el('tr', {},
-      el('td', { className: 'dp-rb-name' }, d.name, el('span', { className: 'dp-m-only dp-m-version' }, d.version), d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
-      el('td', { className: 'dp-rb-center dp-rb-version' }, d.version),
+      el('td', { className: 'dp-rb-name' }, d.name, el('span', { className: 'dp-pkg-version' }, d.version), d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
       el('td', { className: 'dp-rb-center dp-rb-shared' }, shared(d)),
       el('td', { className: 'dp-rb-claims' }, row ? ORDER.flatMap(by => row.claims.filter(c => c.by === by)).map(c => claimLine(c, d.name, loadDetails)) : el('span', { className: 'dpt-note' }, 'Nobody has tried yet')),
     )));
@@ -248,7 +247,7 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
     el('div', { className: 'dpt-controls' }, el('span', { className: 'dp-history__tabs dp-rb-filters', role: 'group', 'aria-label': 'Show' }, buttons)),
     status,
     el('table', { className: 'dp-table dp-rb-table' },
-      el('thead', {}, el('tr', {}, ['Package', 'Version', 'Same version in', 'Rebuilt by'].map((h, i) => el('th', { className: i === 1 || i === 2 ? 'dp-rb-center' : null }, h)))),
+      el('thead', {}, el('tr', {}, ['Package', 'Same version in', 'Rebuilt by'].map((h, i) => el('th', { className: i === 1 ? 'dp-rb-center' : null }, h)))),
       body),
     more);
 }
