@@ -12,7 +12,7 @@ import { tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 export const CLAIMANTS = {
   ws: { label: 'WalletScrutiny', short: 'us', url: 'https://walletscrutiny.com', icon: 'walletscrutiny' },
   'oss-rebuild': { label: 'Google OSS Rebuild', short: 'OSS Rebuild', url: 'https://github.com/google/oss-rebuild', icon: 'google' },
-  'reproducible-central': { label: 'Reproducible Central', short: 'Reproducible Central', url: 'https://github.com/jvm-repo-rebuild/reproducible-central' },
+  'reproducible-central': { label: 'Reproducible Central', short: 'Reproducible Central', url: 'https://github.com/jvm-repo-rebuild/reproducible-central', icon: 'reproducible-builds' },
 };
 const ORDER = ['ws', 'oss-rebuild', 'reproducible-central'];
 
