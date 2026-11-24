@@ -93,8 +93,9 @@ export function refreshTip(trigger) {
   place();
 }
 
-// Below the trigger, or above it when there is no room below; shifted
-// sideways to stay inside the viewport. Centred across a phone screen.
+// Below the trigger, or above it when there is no room below, or else pulled
+// up into the viewport; shifted sideways to stay inside it. Centred across a
+// phone screen.
 const PHONE = '(max-width: 640px)'; // the phone width of .dp-tip
 function place() {
   const { tip, trigger } = state;
@@ -106,7 +107,10 @@ function place() {
   const w = tip.offsetWidth;
   const h = tip.offsetHeight;
   let top = r.bottom + GAP;
-  if (top + h > vh - MARGIN && r.top - GAP - h >= MARGIN) top = r.top - GAP - h;
+  if (top + h > vh - MARGIN) {
+    // Above when it fits there, else as low as the viewport lets it (a tall tip).
+    top = r.top - GAP - h >= MARGIN ? r.top - GAP - h : Math.max(MARGIN, vh - MARGIN - h);
+  }
   const left = view.matchMedia?.(PHONE).matches
     ? Math.max(MARGIN, (vw - w) / 2)
     : Math.min(Math.max(MARGIN, r.left), Math.max(MARGIN, vw - MARGIN - w));
