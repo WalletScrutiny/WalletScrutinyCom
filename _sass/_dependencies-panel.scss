@@ -622,10 +622,6 @@ body.dark .dp-history__dot--current {
       gap: 4px 12px;
     }
 
-    .dp-rb-version {
-      display: none;
-    }
-
     .dp-rb-shared {
       text-align: right;
       white-space: nowrap;
@@ -639,8 +635,8 @@ body.dark .dp-history__dot--current {
       margin: 0;
     }
 
-    // what a phone card leaves out: a version or advisory cell with nothing
-    // under it (both moved onto the name's line), and a decision nobody made
+    // what a phone card leaves out: an advisory cell with nothing under it
+    // (the link moved onto the name's line), and a decision nobody made
     .dp-m-hide,
     .dp-d-only,
     .dp-decision--undecided {
@@ -661,7 +657,14 @@ body.dark .dp-history__dot--current {
   }
 }
 
-// The version and the advisory link on the name's line, on phones only
+// The version on the package name's line
+.dp-pkg-version {
+  margin-left: 6px;
+  color: var(--neutral-2);
+  font-family: monospace;
+}
+
+// The advisory link on the name's line, on phones only
 .dp-m-only {
   display: none;
 }
@@ -669,12 +672,6 @@ body.dark .dp-history__dot--current {
 @media (max-width: 640px) {
   .dp-m-only {
     display: inline;
-  }
-
-  .dp-m-version {
-    margin-left: 6px;
-    color: var(--neutral-2);
-    font-family: monospace;
   }
 
   .dp-adv-icon {
@@ -1009,8 +1006,9 @@ details.dp-decision__others {
   overflow-wrap: anywhere;
 }
 
-// "Fixed in 3.11.17", "git a1b2c3d4e5" under the version (issue 1016)
+// "Fixed in 3.11.17", "git a1b2c3d4e5" under the package name (issue 1016)
 .dp-git-fix {
+  font-family: system-ui, sans-serif;
   font-size: $font-xxs;
   color: var(--neutral-3);
   margin-top: 2px;
@@ -1182,6 +1180,7 @@ a.dp-signer {
 }
 
 .dp-master {
+  font-family: system-ui, sans-serif;
   font-size: $font-xxs;
   color: var(--success, #1e8449);
   font-weight: 600;

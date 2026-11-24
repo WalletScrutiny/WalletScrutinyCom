@@ -116,7 +116,7 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('tbody tr .dp-td-advisory a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr .dp-td-advisory a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
     assert.equal(host.querySelector('.dp-more').textContent, 'Show 7 more');
-    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
+    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
     const headerTips = [...host.querySelectorAll('thead th button')];
     assert.deepEqual(headerTips.map(e => e.textContent), ['Advisory', 'Severity', 'Where?', 'Decision'], 'Used by has no tip');
     headerTips[2].dispatchEvent(new window.Event('click', { bubbles: true }));
@@ -396,7 +396,7 @@ describe('dependencies panel', () => {
       advisory('GHSA-3', 'high', { package: 'still' }),
     ] }] };
     const rows = [...panelElement(panelModel(app), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null }).querySelectorAll('tbody tr')];
-    const line = (pkg) => rows.find(r => r.dataset.package === pkg).querySelector('.dp-td-version .dp-master');
+    const line = (pkg) => rows.find(r => r.dataset.package === pkg).querySelector('.dp-td-package .dp-master');
     assert.equal(line('gone').textContent, 'Already fixed in master');
     assert.match(line('gone').title, /abcdef1, checked 2026-11-06.*not in any file read there/);
     assert.match(line('bumped').title, /only at 1\.2\.0/);
@@ -1046,7 +1046,8 @@ describe('upstream git fixes', () => {
     const host = document.createElement('div');
     await renderDependenciesPanel({ host, appId: 'app.android', selectedVersion: null, base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.equal(host.querySelectorAll('.dp-adv-table tbody tr').length, 1);
-    assert.equal(host.querySelector('.dp-td-version').textContent, '3.11.16Fixed in 3.11.17git bbbbbbbbbb');
+    assert.equal(host.querySelector('.dp-td-package .dp-pkg-version').textContent, '3.11.16');
+    assert.equal(host.querySelector('.dp-td-package .dp-git-fix').textContent, 'Fixed in 3.11.17git bbbbbbbbbb');
     const note = host.querySelector('.dp-backported');
     assert.match(note.querySelector('p').textContent, /^2 advisories left out: the fix is already in this release\./);
     const items = [...note.querySelectorAll('li')];
