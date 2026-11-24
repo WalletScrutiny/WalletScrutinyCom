@@ -539,7 +539,7 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
     el('td', { className: `dp-td-advisory${listedBy ? '' : ' dp-m-hide'}`, dataset: { label: 'Advisory' } }, el('a', { className: 'dp-d-only', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedBy),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
     showWhere ? el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}`, title: where === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(a)), inApkLine(a)) : null,
-    el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a, usedByOptions)),
+    el('td', { className: 'dp-td-products', dataset: { label: 'Also used by' } }, usedBy(a, usedByOptions)),
     el('td', { className: `dp-td-decision${undecidedOnly(a) ? (onJudge ? ' dp-m-nolabel' : ' dp-m-hide') : ''}`, dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
   );
 }
@@ -909,7 +909,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false,
   const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table dp-adv-table' },
     el('thead', {}, el('tr', {},
-      ['Package', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Used by', 'Decision'].filter(Boolean)
+      ['Package', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Also used by', 'Decision'].filter(Boolean)
         .map(h => el('th', {}, HEADER_TIPS[h] ? tipTrigger(h, HEADER_TIPS[h], { className: 'dp-term dp-th-term' }) : h)),
     )),
     body,
@@ -1144,7 +1144,7 @@ function howToRead(model) {
   } else if (model.whereUnknown) {
     parts.push(`"unknown" in the Where? column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
   }
-  parts.push('"Used by" counts how many of the other wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. ');
+  parts.push('"Also used by" counts how many of the other wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. ');
   next();
   if (model.lockfiles.length) {
     parts.push('Files read: ');

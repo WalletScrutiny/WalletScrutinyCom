@@ -116,9 +116,9 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('tbody tr .dp-td-advisory a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr .dp-td-advisory a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
     assert.equal(host.querySelector('.dp-more').textContent, 'Show 7 more');
-    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
+    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Advisory', 'Severity', 'Where?', 'Also used by', 'Decision']);
     const headerTips = [...host.querySelectorAll('thead th button')];
-    assert.deepEqual(headerTips.map(e => e.textContent), ['Advisory', 'Severity', 'Where?', 'Decision'], 'Used by has no tip');
+    assert.deepEqual(headerTips.map(e => e.textContent), ['Advisory', 'Severity', 'Where?', 'Decision'], 'Also used by has no tip');
     headerTips[2].dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.match(host.querySelector('.dp-tip').textContent, /^Where this library ends up: app \(inside the wallet\)/);
     assert.deepEqual([...host.querySelectorAll('.dp-tip strong')].map(e => e.textContent), ['app', 'build', 'tests', 'server', 'Unknown']);
