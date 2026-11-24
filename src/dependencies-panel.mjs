@@ -180,8 +180,10 @@ function severityPill(severity) {
 // The severity pill, with what the world knows about the advisory itself
 // under it: "exploited in the wild" when CISA lists it, and the EPSS
 // probability of exploitation. Says nothing about this wallet.
-export function severityCell(a) {
-  const bits = [severityPill(a.severity)];
+// With a label (desktop, under the advisory link) it sits before the pill.
+export function severityCell(a, { label = null } = {}) {
+  const pill = severityPill(a.severity);
+  const bits = [label ? el('span', { className: 'dp-sev-head' }, label, pill) : pill];
   if (a.exploited) bits.push(el('span', { className: 'dp-kev', title: `On CISA's Known Exploited Vulnerabilities list${a.exploited.added ? ` since ${a.exploited.added}` : ''}` }, 'exploited in the wild'));
   if (a.epss != null) bits.push(epssTrigger(a.epss, a.epssPercentile));
   if (a.published) bits.push(el('span', { className: 'dp-published', title: 'When the advisory became public (OSV.dev, or NVD when that was earlier)' }, `public since ${a.published}`));
@@ -524,6 +526,7 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
 // The version sits on the name's line, with what it says about the fix under
 // it. On phones an icon linking the advisory joins them, the name links the
 // source repository, and a cell left with nothing else in it is hidden (dp-m-hide).
+// On desktop the severity sits under the advisory link; phones keep its own cell.
 function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null, showWhere = true, usedByOptions = {} } = {}) {
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
@@ -536,8 +539,9 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
       mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null,
       el('a', { className: 'dp-m-only dp-adv-icon', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary ? `${a.id}: ${a.summary}` : a.id, 'aria-label': `${a.id} on ${site}`, html: wsIcon('bug-external') }),
       ...versionLines, repoLine(a), viaLine(a), labelLine(a)),
-    el('td', { className: `dp-td-advisory${listedBy ? '' : ' dp-m-hide'}`, dataset: { label: 'Advisory' } }, el('a', { className: 'dp-d-only', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedBy),
-    el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
+    el('td', { className: `dp-td-advisory${listedBy ? '' : ' dp-m-hide'}`, dataset: { label: 'Advisory' } }, el('a', { className: 'dp-d-only', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id),
+      el('div', { className: 'dp-d-only dp-adv-sev' }, severityCell(a, { label: tipTrigger('Severity', HEADER_TIPS.Severity) })), listedBy),
+    el('td', { className: 'dp-td-severity dp-m-only-cell', dataset: { label: 'Severity' } }, severityCell(a)),
     showWhere ? el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}`, title: where === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(a)), inApkLine(a)) : null,
     el('td', { className: 'dp-td-products', dataset: { label: 'Also used by' } }, usedBy(a, usedByOptions)),
     el('td', { className: `dp-td-decision${undecidedOnly(a) ? (onJudge ? ' dp-m-nolabel' : ' dp-m-hide') : ''}`, dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
@@ -909,7 +913,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false,
   const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table dp-adv-table' },
     el('thead', {}, el('tr', {},
-      ['Package', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Also used by', 'Decision'].filter(Boolean)
+      ['Package', 'Advisory', showWhere ? 'Where?' : null, 'Also used by', 'Decision'].filter(Boolean)
         .map(h => el('th', {}, HEADER_TIPS[h] ? tipTrigger(h, HEADER_TIPS[h], { className: 'dp-term dp-th-term' }) : h)),
     )),
     body,

@@ -116,13 +116,13 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('tbody tr .dp-td-advisory a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr .dp-td-advisory a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
     assert.equal(host.querySelector('.dp-more').textContent, 'Show 7 more');
-    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Advisory', 'Severity', 'Where?', 'Also used by', 'Decision']);
+    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Advisory', 'Where?', 'Also used by', 'Decision'], 'the severity sits under the advisory link');
     const headerTips = [...host.querySelectorAll('thead th button')];
-    assert.deepEqual(headerTips.map(e => e.textContent), ['Advisory', 'Severity', 'Where?', 'Decision'], 'Also used by has no tip');
-    headerTips[2].dispatchEvent(new window.Event('click', { bubbles: true }));
+    assert.deepEqual(headerTips.map(e => e.textContent), ['Advisory', 'Where?', 'Decision'], 'Also used by has no tip');
+    headerTips[1].dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.match(host.querySelector('.dp-tip').textContent, /^Where this library ends up: app \(inside the wallet\)/);
     assert.deepEqual([...host.querySelectorAll('.dp-tip strong')].map(e => e.textContent), ['app', 'build', 'tests', 'server', 'Unknown']);
-    headerTips[2].dispatchEvent(new window.Event('click', { bubbles: true }));
+    headerTips[1].dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.equal(host.querySelector('.dp-exposure'), null, 'the severities are counted once, in the tile');
     assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '0 decided · 13 still to look at');
     assert.equal(host.querySelectorAll('.dp-decision--undecided').length, 6);
@@ -274,7 +274,7 @@ describe('dependencies panel', () => {
   test('signals paint "exploited in the wild" and EPSS under the severity and reorder within a severity', async () => {
     const signals = { schema: 1, date: '2026-10-16', epss: { 'CVE-A': [0.0052, 0.43], 'CVE-B': [0.3, 0.99] }, kev: { 'CVE-B': { added: '2024-01-01' } }, published: { 'GHSA-test': '2022-04-25' } };
     const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
-      a.id === 'GHSA-high' ? { ...a, aliases: ['CVE-A'] } : a.id === 'GHSA-test' ? { ...a, aliases: ['CVE-B'] } : a)) }] };
+      a.id === 'GHSA-high' ? { ...a, aliases: ['CVE-A'] } : a.id === 'GHSA-test' ? { ...a, aliases: ['CVE-B'], scope: undefined } : a)) }] };
     const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/x/signals.json': signals });
     const host = document.createElement('div');
     const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
@@ -1008,7 +1008,7 @@ describe('listedByLine', () => {
     const host = document.createElement('div');
     await renderDependenciesPanel({ host, appId: 'app.android', selectedVersion: null, base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     const cells = [...host.querySelectorAll('.dp-td-advisory')].map(td => td.textContent);
-    assert.deepEqual(cells, ['CVE-2026-1Listed by NVD only', 'CVE-2026-2Listed by OSV.dev · NVD', 'CVE-2026-3Listed by vendor only']);
+    assert.deepEqual(cells, ['CVE-2026-1SeverityHighListed by NVD only', 'CVE-2026-2SeverityHighListed by OSV.dev · NVD', 'CVE-2026-3SeverityHighListed by vendor only']);
     // OSV.dev has no page for a CVE only the vendor lists: its id opens the CVE record
     assert.deepEqual([...host.querySelectorAll('.dp-td-advisory > a')].map(a => a.href), [
       'https://osv.dev/vulnerability/CVE-2026-1', 'https://osv.dev/vulnerability/CVE-2026-2', 'https://www.cve.org/CVERecord?id=CVE-2026-3']);

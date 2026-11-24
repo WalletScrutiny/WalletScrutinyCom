@@ -105,6 +105,9 @@ describe('dependencies panel model', () => {
 
   test('sortAdvisories and uncheckedCount', () => {
     assert.deepEqual(sortAdvisories([advisory('b', 'low'), advisory('a', 'critical'), advisory('c', 'unknown')]).map(a => a.id), ['a', 'b', 'c']);
+    // within a severity: app, then build, then the rest; then more other wallets first
+    const rows = [advisory('t', 'high', { scope: 'tests', products: 50 }), advisory('b', 'high', { dev: true, products: 50 }), advisory('a1', 'high', { products: 2 }), advisory('a9', 'high', { products: 9 })];
+    assert.deepEqual(sortAdvisories(rows).map(a => a.id), ['a9', 'a1', 'b', 't']);
     assert.equal(uncheckedCount({ skipped: {} }), 0);
     assert.equal(uncheckedCount(null), null);
   });

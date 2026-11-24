@@ -207,13 +207,18 @@ export function epssLabel(p) {
   return `${pct < 10 ? pct.toFixed(1) : Math.round(pct)} %`;
 }
 
-// Advisories as the table shows them: by severity alone, worst first; within
-// one severity what is exploited in the wild, then the more likely to be
-// exploited (EPSS); then by package name. Neither the decision nor where the
-// package ends up moves a row (Leo, 2026-10-20).
+// Advisories as the table shows them: worst severity first; within one
+// severity the app's packages, then the build's, then the rest; then the
+// packages more other wallets ship (Luis Miguel, 2026-11-24); then what is
+// exploited in the wild, the more likely to be exploited (EPSS), and the
+// package name. The decision never moves a row.
+const WHERE_RANK = { app: 0, build: 1, unknown: 3 };
+const whereRank = (a) => WHERE_RANK[whereOf(a)] ?? 2;
 export function sortAdvisories(advisories = []) {
   return [...advisories].sort((a, b) =>
     SEVERITY_ORDER.indexOf(a.severity) - SEVERITY_ORDER.indexOf(b.severity)
+    || whereRank(a) - whereRank(b)
+    || (b.products ?? 0) - (a.products ?? 0)
     || (b.exploited ? 1 : 0) - (a.exploited ? 1 : 0)
     || (b.epss ?? -1) - (a.epss ?? -1)
     || (a.package || '').localeCompare(b.package || '')
