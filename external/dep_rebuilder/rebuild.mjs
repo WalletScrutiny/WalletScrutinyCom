@@ -68,6 +68,8 @@ export async function sourceOf(db, name, version, { resolve = resolveRepo, lsRem
  * `phase` says where a failure happened: source, clone, install (the steps that need the
  * network, which the service tries a second time later), build or compare.
  *
+ * `unsupported` also when the registry does not have the version (404): nothing to compare with.
+ *
  * `unsupported` instead of `failed`: the package is a member of a workspace and what was
  * built in its own directory is not the published package. Such a package is built by its
  * repository's root (Babel: one `make` for 150 packages, which also writes each LICENSE and
@@ -75,7 +77,12 @@ export async function sourceOf(db, name, version, { resolve = resolveRepo, lsRem
  * directory as it is in git, so the difference says nothing about the package.
  */
 export async function rebuildNpm({ name, version, source, workRoot, fetchImpl = fetch, cli = CONTAINER_CLI, limits = LIMITS }) {
-  const facts = await fetchNpmVersion(name, version, fetchImpl);
+  let facts;
+  try { facts = await fetchNpmVersion(name, version, fetchImpl); } catch (e) {
+    // Not on the registry (a git, JSR or `npm:` alias dependency): kept as a result, or the service would ask again every day
+    if (/HTTP 404$/.test(e.message)) return { ecosystem: 'npm', name, version, result: 'unsupported', note: 'Not on the npm registry', phase: 'source', seconds: 0 };
+    throw e;
+  }
   const slug = `${name.replace(/[^a-zA-Z0-9.-]/g, '_')}@${version}`;
   const dir = path.join(workRoot, slug);
   removeTree(dir);
