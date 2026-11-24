@@ -107,7 +107,7 @@ function eventPreview(c) {
   return el('details', { className: 'dp-rb-event' },
     el('summary', {}, `Our Nostr event (${bytes} bytes, not published yet)`),
     el('pre', {}, eventText(c.event)),
-    el('p', { className: 'dpt-intro' }, 'Not signed or published until its kind number is picked. Replaceable by its d tag, so a newer rebuild of the same version replaces this one.'));
+    el('p', {}, 'Not signed or published until its kind number is picked. Replaceable by its d tag, so a newer rebuild of the same version replaces this one.'));
 }
 
 const RECIPES = {
@@ -147,18 +147,61 @@ export function ossDetailLines(c, details) {
   return [...lines, proof];
 }
 
+/** The tip of one of our rebuilds: the source, toolchain and file hash come from its unsigned event. */
+export function wsDetailLines(c) {
+  const tags = c.event?.tags || [];
+  const tag = (name) => tags.find(t => t[0] === name);
+  const lines = [];
+  const [, repo, commit] = tag('source') || [];
+  if (repo) {
+    const href = commit && commitLink(repo, commit);
+    lines.push(el('p', {}, 'Built from ', link(repo, repo.replace(/^https:\/\//, '')),
+      commit ? [' at ', href ? link(href, commit.slice(0, 12)) : commit.slice(0, 12)] : null, '.'));
+  }
+  if (tag('toolchain')) lines.push(el('p', {}, `Built with ${tag('toolchain')[1]}.`));
+  if (c.note) lines.push(el('p', {}, c.note.endsWith('.') ? c.note : `${c.note}.`));
+  if (tag('x')) lines.push(el('p', {}, 'Same file as the registry\'s, sha256 ', el('code', {}, tag('x')[1]), '.'));
+  if (c.date) lines.push(el('p', {}, `Rebuilt ${c.date}.`));
+  if (c.event) lines.push(eventPreview(c));
+  return lines.length ? lines : [el('p', {}, 'No details of this rebuild.')];
+}
+
+/** The tip of one Reproducible Central claim: what differs, and the build spec it comes from. */
+export function rcDetailLines(c) {
+  const lines = [];
+  if (c.note) lines.push(el('p', {}, c.note.endsWith('.') ? c.note : `${c.note}.`));
+  else if (c.result === 'reproduced') lines.push(el('p', {}, 'Every file of this release they compared matched.'));
+  if (c.url) lines.push(el('p', {}, link(c.url, 'Their build spec'), ' on GitHub'));
+  return lines;
+}
+
+function infoTrigger(label, lines) {
+  const trigger = tipTrigger(el('span', { html: wsIcon('circle-info') }), lines, { className: 'dp-products-info' });
+  trigger.setAttribute('aria-label', label);
+  return trigger;
+}
+
 // The info icon after "Google OSS Rebuild": the release's rebuild-details.json is fetched on first open.
 function ossInfo(c, name, loadDetails) {
-  const trigger = tipTrigger(el('span', { html: wsIcon('circle-info') }), () => {
+  const trigger = infoTrigger(`What Google's rebuild of ${name} says`, () => {
     const file = loadDetails();
     if (file.doc === undefined) {
       file.ready.then(() => refreshTip(trigger));
       return ossDetailLines(c, undefined);
     }
     return ossDetailLines(c, file.doc?.details?.[c.url] || null);
-  }, { className: 'dp-products-info' });
-  trigger.setAttribute('aria-label', `What Google's rebuild of ${name} says`);
+  });
   return trigger;
+}
+
+function claimInfo(c, name, loadDetails) {
+  if (c.by === 'oss-rebuild') return c.url && loadDetails ? ossInfo(c, name, loadDetails) : null;
+  if (c.by === 'ws') return infoTrigger(`Our rebuild of ${name}`, () => wsDetailLines(c));
+  if (c.by === 'reproducible-central') {
+    const lines = rcDetailLines(c);
+    return lines.length ? infoTrigger(`What Reproducible Central says about ${name}`, () => lines) : null;
+  }
+  return null; // a claimant the panel does not know: its note stays in the line
 }
 
 function claimLine(c, name, loadDetails) {
@@ -167,11 +210,9 @@ function claimLine(c, name, loadDetails) {
     who.icon ? el('span', { className: 'dp-rb-who-icon', html: wsIcon(who.icon) }) : null,
     who.label,
     el('span', { className: `dp-rb dp-rb--${c.result}` }, c.result === 'reproduced' ? 'reproduced' : 'failed'),
-    c.by === 'oss-rebuild' && c.url && loadDetails ? ossInfo(c, name, loadDetails) : null,
+    claimInfo(c, name, loadDetails),
     c.by === 'ws' ? null : el('span', { className: 'dp-rb-theirs' }, '(their claim)'),
-    c.date ? el('span', { className: 'dpt-note' }, `· ${c.date}`) : null,
-    c.note ? el('div', { className: 'dp-via' }, c.note) : null,
-    c.event ? eventPreview(c) : null);
+    !CLAIMANTS[c.by] && c.note ? el('div', { className: 'dp-via' }, c.note) : null);
 }
 
 const FILTERS = [
