@@ -698,6 +698,18 @@ body.dark .dp-history__dot--current {
   font-family: monospace;
 }
 
+// In the Advisories table the version stands further off the name:
+// a little on phones, more on desktop
+.dp-td-package .dp-pkg-version {
+  margin-left: 16px;
+}
+
+@media (max-width: 640px) {
+  .dp-td-package .dp-pkg-version {
+    margin-left: 10px;
+  }
+}
+
 // The advisory link on the name's line, on phones only
 .dp-m-only {
   display: none;
