@@ -55,7 +55,7 @@ export async function cloneRepository(repoUrl, targetPath, tagName = null) {
     const branch = tagName ? `--branch ${tagName} ` : '';
     execSync(`git clone ${branch}--depth 1 ${repoUrl} "${targetPath}"`, {
       stdio: 'pipe',
-      timeout: 60000
+      timeout: 5 * 60 * 1000
     });
     return true;
   } catch (error) {
