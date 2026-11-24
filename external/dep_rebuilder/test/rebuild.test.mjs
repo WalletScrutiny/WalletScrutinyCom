@@ -191,6 +191,19 @@ test('a failed clone names its step; a failure is cleaned up after; an error tha
   assert.deepEqual(fs.readdirSync(work), []);
 });
 
+test('a version the registry does not have is kept as unsupported, not thrown, and not tried again', async () => {
+  const work = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-404-'));
+  const fetchImpl = async () => ({ ok: false, status: 404 });
+  const r = await rebuildNpm({ name: 'string-width-cjs', version: '4.2.3', source: null, workRoot: work, fetchImpl, cli });
+  assert.equal(r.result, 'unsupported');
+  assert.equal(r.note, 'Not on the npm registry');
+  assert.deepEqual(fs.readdirSync(work), []);
+  const db = openDb(':memory:');
+  saveCandidates(db, [{ ecosystem: 'npm', name: 'string-width-cjs', version: '4.2.3', wallets: 3, wallets_any: 3 }]);
+  saveRebuild(db, r);
+  assert.deepEqual(pending(db, { limit: 5 }), []);
+});
+
 test('source: a repository that cannot be listed falls back to the registry\'s commit, and says so when there is none', async () => {
   const db = openDb(':memory:');
   const resolve = async () => ({ url: 'https://github.com/x/x' });

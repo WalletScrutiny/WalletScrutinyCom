@@ -54,9 +54,11 @@ async function rebuildAndSave(c, { interrupted = () => false } = {}) {
   const source = await sourceOf(db, c.name, c.version);
   const r = await rebuildNpm({ name: c.name, version: c.version, source, workRoot: WORK_DIR });
   const kept = path.join(WORK_DIR, 'logs', `${label.replace(/[^a-zA-Z0-9.@-]/g, '_')}.log`);
-  const scratch = path.dirname(r.log);
-  if (fs.existsSync(r.log)) { fs.copyFileSync(r.log, kept); r.log = kept; }
-  removeTree(scratch); // the log is kept, the tarball and checkout are not
+  if (r.log) { // none when nothing was built (not on the registry)
+    const scratch = path.dirname(r.log);
+    if (fs.existsSync(r.log)) { fs.copyFileSync(r.log, kept); r.log = kept; }
+    removeTree(scratch); // the log is kept, the tarball and checkout are not
+  }
   if (r.result !== 'reproduced' && interrupted()) throw new Error('stopped while it was building, so this result is not kept');
   saveRebuild(db, r);
   console.log(`${mark(r.result)} ${label}${c.wallets ? ` (${c.wallets} wallets)` : ''} ${r.seconds}s: ${r.note}`);

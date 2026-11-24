@@ -373,6 +373,10 @@ a further step runs `npm run build` and packs again. That package is judged
 then, and the note says "after `npm run build`". A step that fails changes
 nothing.
 
+`unsupported` also when the npm registry does not have the version (a git, JSR or
+`npm:` alias dependency, such as `string-width-cjs`): note "Not on the npm registry",
+not tried again. Before, the 404 was thrown and the service asked again after every daily sync.
+
 `unsupported` when the package is a member of a workspace (a directory below a
 root with `workspaces`, `pnpm-workspace.yaml` or `lerna.json`) and what its own
 directory gives is not the published package. Such packages are built by the
