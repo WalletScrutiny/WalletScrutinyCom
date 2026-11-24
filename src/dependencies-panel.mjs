@@ -18,7 +18,7 @@ import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog, browserNostr } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
 import { rebuildTile, rebuildsElement, rebuildIndex, withClaimUrls } from './dependencies-rebuilds.mjs';
-import { epssTrigger, tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
+import { tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 import { showAnalysedReleases } from './build-verifications.mjs';
 import { releaseForVersion, releaseNamesVersion } from './build-verifications-model.mjs';
 import { EXPORT_BASE, safeName } from './source-analysis-export.mjs';
@@ -178,14 +178,15 @@ function severityPill(severity) {
 }
 
 // The severity pill, with what the world knows about the advisory itself
-// under it: "exploited in the wild" when CISA lists it, and the EPSS
-// probability of exploitation. Says nothing about this wallet.
+// under it: "exploited in the wild" when CISA lists it, and when it became
+// public. Says nothing about this wallet. EPSS stays out: next to a wallet a
+// global probability reads as our score for it (Luis Miguel, 2026-11-24); it
+// only sorts the rows and goes into the CSV.
 // With a label (desktop, under the advisory link) it sits before the pill.
 export function severityCell(a, { label = null } = {}) {
   const pill = severityPill(a.severity);
   const bits = [label ? el('span', { className: 'dp-sev-head' }, label, pill) : pill];
   if (a.exploited) bits.push(el('span', { className: 'dp-kev', title: `On CISA's Known Exploited Vulnerabilities list${a.exploited.added ? ` since ${a.exploited.added}` : ''}` }, 'exploited in the wild'));
-  if (a.epss != null) bits.push(epssTrigger(a.epss, a.epssPercentile));
   if (a.published) bits.push(el('span', { className: 'dp-published', title: 'When the advisory became public (OSV.dev, or NVD when that was earlier)' }, `public since ${a.published}`));
   return el('div', { className: 'dp-sev-cell' }, bits);
 }
@@ -893,7 +894,7 @@ function otherProductsTrigger(a, { base, fetchImpl, appIds }) {
 const bold = (text) => el('strong', {}, text);
 const HEADER_TIPS = {
   Advisory: () => [el('p', {}, 'A published security warning for this library version. Source: OSV.dev, which gathers GitHub, PyPI, RustSec and others.')],
-  Severity: () => [el('p', {}, 'How bad the flaw is if exploited. GitHub\'s reviewed rating, or else the CVSS score. Below it: whether CISA has seen it exploited, the chance of an attack within 30 days (EPSS), and when it became public.')],
+  Severity: () => [el('p', {}, 'How bad the flaw is if exploited. GitHub\'s reviewed rating, or else the CVSS score. Below it: whether CISA has seen it exploited, and when it became public.')],
   'Where?': () => [el('p', {},
     'Where this library ends up: ', bold('app'), ' (inside the wallet), ', bold('build'), ' (build tools only), ', bold('tests'),
     ' (test tools only), or another part of the repository, like the ', bold('server'), '. ', bold('Unknown'),
@@ -1124,7 +1125,7 @@ function howToRead(model) {
   next();
   parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory. ');
   if (model.signals) {
-    parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, EPSS is the published probability that it gets exploited anywhere within 30 days, and "public since" is when the advisory was published; all three are about the advisory, not this wallet. ');
+    parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere and "public since" is when the advisory was published; both are about the advisory, not this wallet. ');
   }
   parts.push('We do not rank wallets by this number. ');
   next();

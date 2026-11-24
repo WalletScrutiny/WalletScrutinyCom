@@ -271,7 +271,7 @@ describe('dependencies panel', () => {
     assert.equal(late.querySelector('.dp-decision__why button').textContent, 'Edit');
   });
 
-  test('signals paint "exploited in the wild" and EPSS under the severity and reorder within a severity', async () => {
+  test('signals paint "exploited in the wild" under the severity, hide EPSS, and reorder within a severity', async () => {
     const signals = { schema: 1, date: '2026-10-16', epss: { 'CVE-A': [0.0052, 0.43], 'CVE-B': [0.3, 0.99] }, kev: { 'CVE-B': { added: '2024-01-01' } }, published: { 'GHSA-test': '2022-04-25' } };
     const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
       a.id === 'GHSA-high' ? { ...a, aliases: ['CVE-A'] } : a.id === 'GHSA-test' ? { ...a, aliases: ['CVE-B'], scope: undefined } : a)) }] };
@@ -284,10 +284,8 @@ describe('dependencies panel', () => {
     assert.equal(rows[1].querySelector('.dp-kev').textContent, 'exploited in the wild');
     assert.equal(rows[1].querySelector('.dp-published').textContent, 'public since 2022-04-25');
     assert.equal(rows[2].querySelector('.dp-published'), null, 'no date known, none shown');
-    assert.equal(rows[1].querySelector('.dp-epss').textContent, 'EPSS 30 %');
-    assert.equal(rows[2].querySelector('.dp-epss').textContent, 'EPSS 0.5 %');
-    assert.equal(rows[0].querySelector('.dp-epss'), null);
-    assert.match(host.querySelector('.dp-note').textContent, /EPSS is the published probability/);
+    assert.equal(host.querySelector('.dp-epss'), null, 'EPSS sorts the rows but is not shown');
+    assert.doesNotMatch(host.textContent, /EPSS/);
   });
 
   // What a page view costs: the app file carries its advisories' signals and
