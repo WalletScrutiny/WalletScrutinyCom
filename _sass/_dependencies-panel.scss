@@ -1779,7 +1779,8 @@ body.dark .dp-note-more {
   display: inline-block;
   font-size: $font-xxs;
   border-radius: 999px;
-  padding: 1px 8px;
+  // Barlow's lowercase sits low in its line box: more room below lifts it to the middle
+  padding: 0 8px 0.2em;
   border: 1px solid var(--neutral-5);
   white-space: nowrap;
 }
@@ -1838,8 +1839,10 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
 @media (min-width: 641px) {
   .dp-rb-table .dp-rb-center { text-align: center; }
 }
-.dp-rb-claim { margin: 2px 0 6px; }
-.dp-rb-who-icon { display: inline-block; font-size: 2em; line-height: 1; margin-right: 10px; vertical-align: middle; }
+// icon, name, badge and info share one centre line
+.dp-rb-claim { display: flex; flex-wrap: wrap; align-items: center; margin: 2px 0 6px; }
+.dp-rb-claim > .dp-via { flex-basis: 100%; }
+.dp-rb-who-icon { display: inline-flex; font-size: 2em; line-height: 1; margin-right: 10px; }
 // one square slot for every icon, so the narrower dog centres where the G does
 .dp-rb-who-icon .ws-icon { width: 1em; }
 .dp-rb-who-icon .ws-icon-walletscrutiny { color: var(--accent); }
