@@ -610,6 +610,12 @@ body.dark .dp-history__dot--current {
       padding: 0 4px;
     }
 
+    // the desktop nowrap pushed "25 other wallets" and its info icon past
+    // the card's edge in a third of a phone's width
+    &.dp-adv-table .dp-td-products {
+      white-space: normal;
+    }
+
     // Severity, Where? and Used by share one row; the package and the
     // decision get a row each
     &.dp-adv-table tr {
@@ -655,6 +661,26 @@ body.dark .dp-history__dot--current {
   .dp-pkg-link {
     color: inherit;
   }
+
+  // the severity sits under the advisory link instead
+  .dp-m-only-cell {
+    display: none;
+  }
+}
+
+// "Severity" before the pill, under the advisory link
+.dp-adv-sev {
+  margin-top: 4px;
+
+  .dp-sev-cell {
+    align-items: center;
+  }
+}
+
+.dp-sev-head {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 // The version on the package name's line
