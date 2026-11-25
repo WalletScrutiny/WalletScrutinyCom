@@ -189,15 +189,15 @@ test('a gzip bomb in a rebuilt tarball is refused, not unpacked into memory', ()
   assert.throws(() => tgzFiles(bomb), /larger than|ERR_BUFFER_TOO_LARGE|Cannot create a Buffer/);
 });
 
-test('the website feed has the reproduced versions with a one-line note, no logs or paths, and nothing that was not reproduced', () => {
+test('the website feed has the compared versions with their verdict and a one-line note, no logs or paths, and nothing that got nowhere', () => {
   const db = openDb(':memory:');
   saveRebuild(db, { ecosystem: 'npm', name: 'a', version: '1.0.0', result: 'reproduced', note: 'Byte-identical tarball', repoUrl: 'https://github.com/x/a', commit: 'c'.repeat(40), toolchain: 'node:20 npm 10', log: '/var/lib/x/a.log', sandbox: 's' });
-  saveRebuild(db, { ecosystem: 'npm', name: 'b', version: '2.0.0', result: 'failed', note: 'differs' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'b', version: '2.0.0', result: 'failed', note: 'npm install failed', phase: 'install' });
   saveRebuild(db, { ecosystem: 'npm', name: 'c', version: '3.0.0', result: 'skipped', note: 'later' });
   saveRebuild(db, { ecosystem: 'npm', name: 'd', version: '4.0.0', result: 'unsupported', note: 'Member of a workspace, whose root build is not run here' });
   saveCandidates(db, [{ ecosystem: 'npm', name: 'a', version: '1.0.0', wallets: 2, wallets_any: 9, walletIds: ['com.x', 'org.y'] }]);
   const rows = feedRows(db);
-  assert.deepEqual(rows.map(r => `${r.name}@${r.version} ${r.result}`), ['a@1.0.0 reproduced'], 'a failure of our build is no claim about the package');
+  assert.deepEqual(rows.map(r => `${r.name}@${r.version} ${r.result} ${r.verdict}`), ['a@1.0.0 reproduced reproduced'], 'a build that got nowhere says nothing about the package');
   assert.equal(rows[0].wallets, 2, 'how many wallets ship it');
   assert.deepEqual(rows[0].walletIds, ['com.x', 'org.y'], 'and which');
   saveCandidates(db, [{ ecosystem: 'npm', name: 'a', version: '1.0.0', wallets: 2, wallets_any: 9 }]);
@@ -211,6 +211,17 @@ test('the website feed has the reproduced versions with a one-line note, no logs
   const feed = JSON.parse(fs.readFileSync(path.join(dir, 'rebuilds.json'), 'utf8'));
   assert.deepEqual([feed.schema, feed.claimant, feed.rows.length], [1, 'ws', 2]);
   assert.deepEqual(feed.rows.map(r => r.result), ['reproduced', 'reproduced']);
+});
+
+test('a build that was compared and differs is in the feed under its verdict, result still failed', () => {
+  const db = openDb(':memory:');
+  const differs = 'Rebuilt tarball differs: 1 of 4 files differ (index.js)';
+  saveRebuild(db, { ecosystem: 'npm', name: 'guess', version: '1.0.0', result: 'failed', note: differs, phase: 'compare' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'recipe', version: '1.0.0', result: 'failed', note: differs, phase: 'compare', recipe: 'babel' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'docs', version: '1.0.0', result: 'failed', note: 'Rebuilt tarball differs: 1 of 4 files differ (README.md); all explained: docs', phase: 'compare' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'nowhere', version: '1.0.0', result: 'failed', note: 'No tag for 1.0.0', phase: 'source' });
+  assert.deepEqual(feedRows(db).map(r => `${r.name} ${r.result} ${r.verdict}`),
+    ['docs failed almost', 'guess failed unknown-command', 'recipe failed not-reproducible']);
 });
 
 test('publishing copies the feed with brotli through rsync, and does nothing without a target', () => {

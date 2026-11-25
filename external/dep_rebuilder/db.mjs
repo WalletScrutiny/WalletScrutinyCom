@@ -185,7 +185,8 @@ export function saveRebuild(db, r) {
   })();
 }
 
-// What a result says about the package, for whoever works through the failures (none of it is published).
+// What a result says about the package, for whoever works through the failures and for the feed
+// (site-export.mjs publishes the verdicts of a build that was compared, FEED_VERDICTS).
 // "not-reproducible" only when the publisher's build, written down as a recipe, finished and what it packed
 // differs. A difference of the generic build says more about the guessed command than about the package,
 // and a failed step leaves nothing to compare: both are "we don't know how yet". "almost": every difference

@@ -1,25 +1,31 @@
 // The rebuilder's results as one static file for the website: rebuilds.json,
 // copied to the web server (publish.mjs of source_analysis does the copy, with
 // brotli) and read from there by the source analysis, which turns each row into
-// a `ws` claim of the dependency panel. Only the versions that were reproduced,
-// each with a one-line note, leave this machine: no failures, no logs, no paths,
-// no build output.
+// a `ws` claim of the dependency panel. Only the versions whose rebuild says
+// something about the package leave this machine, each with its verdict and a
+// one-line note: no logs, no paths, no build output.
 import fs from 'fs';
 import path from 'path';
 import { publishExport } from '../source_analysis/publish.mjs';
+import { VERDICT_SQL } from './db.mjs';
 
 export const FEED_SCHEMA = 1;
 
-/** Every reproduced version, ordered by package, as the rows of rebuilds.json. */
+// The verdicts (db.mjs) the feed carries. A build that finished and was compared says something:
+// reproduced, almost (only docs or dev-only fields differ), not-reproducible (the publisher's build,
+// as a recipe, differs) and unknown-command (our generic build differs: the command was a guess).
+// A failed step or no build for it yet ("we don't know how yet") stays in the database, as the
+// list of what to work on.
+export const FEED_VERDICTS = ['reproduced', 'almost', 'not-reproducible', 'unknown-command'];
+
+/** Every version whose rebuild was compared, ordered by package, as the rows of rebuilds.json. */
 export function feedRows(db) {
   // wallets: how many wallets ship the version in their app (the candidate list's count); walletIds: which
-  // Only "reproduced" is a claim about the package. "failed" says that this utility's build did not
-  // give the published file (another recipe may), "unsupported" that it has no build for it yet:
-  // both stay in the database, as the list of what to work on.
-  return db.prepare(`SELECT r.ecosystem, r.name, r.version, r.result, r.note, substr(r.finished_at, 1, 10) AS date,
+  // result stays reproduced | failed, so a reader that predates `verdict` still takes only the reproduced
+  return db.prepare(`SELECT * FROM (SELECT r.ecosystem, r.name, r.version, r.result, ${VERDICT_SQL} AS verdict, r.note, substr(r.finished_at, 1, 10) AS date,
       r.repo_url AS repo, r.commit_sha AS "commit", r.toolchain, r.recipe, r.recipe_event AS "recipeEvent", c.wallets AS wallets, c.wallet_ids AS walletIds
     FROM rebuilds r LEFT JOIN candidates c ON c.ecosystem = r.ecosystem AND c.name = r.name AND c.version = r.version
-    WHERE r.result = 'reproduced' ORDER BY r.ecosystem, r.name, r.version`).all()
+    ) WHERE verdict IN (${FEED_VERDICTS.map(v => `'${v}'`).join(', ')}) ORDER BY ecosystem, name, version`).all()
     .map(r => Object.fromEntries(Object.entries({ ...r, walletIds: r.walletIds && JSON.parse(r.walletIds) }).filter(([, v]) => v != null && v !== '')));
 }
 

@@ -92,10 +92,11 @@ unit has no `NoNewPrivileges`: rootless podman needs the setuid
 
 ### Publishing the results
 
-The results reach the website as one file, `rebuilds.json`: the versions that
-were reproduced, each with a one-line note, date, source commit, toolchain and
-the number of wallets that ship it; no logs and no paths. A version that was
-not reproduced is not in it (see [Result](#result)). It is copied the way the
+The results reach the website as one file, `rebuilds.json`: the versions whose
+rebuild was compared with the published file, each with its verdict, a one-line
+note, date, source commit, toolchain and the number of wallets that ship it; no
+logs and no paths. A version whose build did not get that far is not in it (see
+[Result](#result)). It is copied the way the
 source analysis publishes its export. With
 `DEP_REBUILDER_PUBLISH_TARGET` set, `serve` copies it (`site-export.mjs`, the
 rsync and brotli code of `source_analysis/publish.mjs`) at most every 30
@@ -341,16 +342,17 @@ checkout; the note says "identical apart from line endings"); otherwise
 `failed` with the reason (differing files, and whether they differ in line
 endings, docs or dev-only package.json fields only; or the step that failed).
 
-Only `reproduced` is published. `failed` says that the build this utility ran
-did not give the published file, not that the package cannot be reproduced:
-the publisher may have used another command, tool version or a build of the
-whole repository. So failures stay in the database with their reason, as the
-list of what needs a recipe, and show nowhere on the website; the source
-analysis takes no other row from the feed and shows no failed rebuild of ours.
+`failed` alone says that the build this utility ran did not give the published
+file, not that the package cannot be reproduced: the publisher may have used
+another command, tool version or a build of the whole repository. So the feed
+carries each row's verdict too, and only the verdicts of a build that finished
+and was compared (`FEED_VERDICTS`): `reproduced`, `almost`, `not-reproducible`
+and `unknown-command`. The website shows each under its own name, and
+`unknown-command` never as "not reproducible". The two `unknown` verdicts of a
+build that got nowhere stay in the database, as the list of what needs a recipe.
 
 What a result says about the package (`node index.mjs status` counts them,
-`node index.mjs verdicts [--verdict V]` lists them, most wallets first). None of
-it is published:
+`node index.mjs verdicts [--verdict V]` lists them, most wallets first):
 
 | verdict | when |
 |---|---|

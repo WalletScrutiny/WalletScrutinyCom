@@ -47,16 +47,27 @@ export function rebuildIndex(data) {
   return map;
 }
 
-// One word for a package: reproduced by anyone beats failed; failed beats untried.
+// A claim's result in words. Besides reproduced and failed, ours carry the rebuilder's verdict
+// (external/dep_rebuilder/db.mjs): almost (only docs or dev-only package.json fields differ),
+// not-reproducible (the publisher's own build, written down as a recipe, differs) and
+// unknown-command (our generic build differs: the command was our guess, not the publisher's).
+const RESULT_WORDS = { reproduced: 'reproduced', almost: 'almost', 'not-reproducible': 'not reproducible', 'unknown-command': 'differs', failed: 'failed' };
+const resultWords = (result) => RESULT_WORDS[result] || 'failed';
+const resultClass = (result) => (RESULT_WORDS[result] ? result : 'failed');
+
+// One word for a package, the most telling claim: reproduced by anyone beats almost, almost beats
+// not reproducible and failed, and those beat a difference of our guessed build; any beats untried.
+const STATE_ORDER = ['reproduced', 'almost', 'not-reproducible', 'failed', 'unknown-command'];
 export function rebuildState(row) {
   if (!row?.claims?.length) return 'none';
-  if (row.claims.some(c => c.result === 'reproduced')) return 'reproduced';
-  return 'failed';
+  return STATE_ORDER.find(s => row.claims.some(c => resultClass(c.result) === s));
 }
+
+const BADGE_WORDS = { almost: 'almost reproduced', 'not-reproducible': 'not reproducible', failed: 'rebuild failed', 'unknown-command': 'differs from our build' };
 
 function claimWords(c) {
   const who = CLAIMANTS[c.by]?.short || c.by;
-  return c.result === 'reproduced' ? `reproduced by ${who}` : `${who}: failed`;
+  return c.result === 'reproduced' ? `reproduced by ${who}` : `${who}: ${resultWords(c.result)}`;
 }
 
 // The small pill next to a package in the tree.
@@ -66,7 +77,7 @@ export function rebuildBadge(row) {
   const claims = ORDER.flatMap(by => row.claims.filter(c => c.by === by));
   const text = state === 'reproduced'
     ? `rebuilt · ${claims.filter(c => c.result === 'reproduced').map(c => CLAIMANTS[c.by]?.short || c.by).join(', ')}`
-    : 'rebuild failed';
+    : BADGE_WORDS[state];
   return el('span', { className: `dp-rb dp-rb--${state}`, title: claims.map(c => `${claimWords(c)}${c.note ? ` (${c.note})` : ''}`).join('; ') }, text);
 }
 
@@ -88,7 +99,8 @@ export function rebuildTile(summary, packages, tile) {
   return tile(summary.reproduced, 'rebuilt from source', { sub: [
     el('div', { className: 'dp-tile__line' }, `${packages ? `${percentOf(summary.reproduced, packages)} ` : ''}of ${packages.toLocaleString('en-US')} dependencies`),
     parts.length ? el('div', { className: 'dp-tile__line' }, parts.join(' · ')) : null,
-    summary.failed ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, `${summary.failed} failed every rebuild tried${share(summary.failed)}`) : null,
+    summary.failed ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, `${summary.failed} not reproduced by any rebuild tried${share(summary.failed)}`) : null,
+    by.ws?.['not-reproducible'] ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, `${by.ws['not-reproducible']} not reproducible with the publisher's build${share(by.ws['not-reproducible'])}`) : null,
     el('div', { className: 'dp-tile__caveat' }, 'Others\' results are their claims, linked; we did not repeat them.'),
   ] });
 }
@@ -147,6 +159,13 @@ export function ossDetailLines(c, details) {
   return [...lines, proof];
 }
 
+// What a rebuild of ours that differs says, above its note.
+const WS_MEANING = {
+  almost: 'Only docs or development-only package.json fields differ from the registry\'s file; the code is the same.',
+  'not-reproducible': 'We ran the publisher\'s own release build, written down as a recipe, and what it packed differs from the registry\'s file.',
+  'unknown-command': 'Our generic build differs from the registry\'s file. We guessed the build command; the publisher may build another way, so this does not show that the package cannot be reproduced.',
+};
+
 /** The tip of one of our rebuilds: the source, toolchain and file hash come from its unsigned event. */
 export function wsDetailLines(c) {
   const tags = c.event?.tags || [];
@@ -159,6 +178,7 @@ export function wsDetailLines(c) {
       commit ? [' at ', href ? link(href, commit.slice(0, 12)) : commit.slice(0, 12)] : null, '.'));
   }
   if (tag('toolchain')) lines.push(el('p', {}, `Built with ${tag('toolchain')[1]}.`));
+  if (WS_MEANING[c.result]) lines.push(el('p', {}, WS_MEANING[c.result]));
   if (c.note) lines.push(el('p', {}, c.note.endsWith('.') ? c.note : `${c.note}.`));
   if (tag('x')) lines.push(el('p', {}, 'Same file as the registry\'s, sha256 ', el('code', {}, tag('x')[1]), '.'));
   if (c.date) lines.push(el('p', {}, `Rebuilt ${c.date}.`));
@@ -209,7 +229,7 @@ function claimLine(c, name, loadDetails) {
   return el('div', { className: `dp-rb-claim dp-rb-claim--${c.result}` },
     who.icon ? el('span', { className: 'dp-rb-who-icon', html: wsIcon(who.icon) }) : null,
     who.label,
-    el('span', { className: `dp-rb dp-rb--${c.result}` }, c.result === 'reproduced' ? 'reproduced' : 'failed'),
+    el('span', { className: `dp-rb dp-rb--${resultClass(c.result)}` }, resultWords(c.result)),
     claimInfo(c, name, loadDetails),
     c.by === 'ws' ? null : el('span', { className: 'dp-rb-theirs' }, '(their claim)'),
     !CLAIMANTS[c.by] && c.note ? el('div', { className: 'dp-via' }, c.note) : null);
@@ -221,7 +241,7 @@ const FILTERS = [
   ['ws', 'By us'],
   ['oss-rebuild', 'By OSS Rebuild'],
   ['reproducible-central', 'By Reproducible Central'],
-  ['failed', 'Failed'],
+  ['failed', 'Not reproduced'],
 ];
 const MAX_ROWS = 200;
 const FIRST_ROWS = 6;
@@ -253,7 +273,7 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
   function paint() {
     let list;
     if (filter === 'none') list = packages.filter(p => !p.row);
-    else if (filter === 'failed') list = tried.filter(p => rebuildState(p.row) === 'failed');
+    else if (filter === 'failed') list = tried.filter(p => rebuildState(p.row) !== 'reproduced');
     else if (filter === 'all') list = tried;
     else list = tried.filter(p => p.row.claims.some(c => c.by === filter));
     list = [...list].sort((a, b) => (b.d.productsSameVersion || 0) - (a.d.productsSameVersion || 0) || a.d.name.localeCompare(b.d.name));
@@ -273,7 +293,7 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
   const buttons = FILTERS.map(([key, label]) => {
     const n = key === 'none' ? untried
       : key === 'all' ? tried.length
-        : key === 'failed' ? tried.filter(p => rebuildState(p.row) === 'failed').length
+        : key === 'failed' ? tried.filter(p => rebuildState(p.row) !== 'reproduced').length
           : tried.filter(p => p.row.claims.some(c => c.by === key)).length;
     const b = el('button', { type: 'button', className: 'dp-history__tab dp-rb-filter', 'aria-pressed': String(key === filter) },
       label, el('span', { className: 'dp-rb-filter-count' }, n.toLocaleString('en-US')));

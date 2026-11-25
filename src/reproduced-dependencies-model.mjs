@@ -1,6 +1,7 @@
 // The "Dependencies" tab of /reproduced/, worked out from rebuilds.json, the file our
 // dependency rebuilder (external/dep_rebuilder/site-export.mjs) publishes on the web host.
-// One row per package version we rebuilt and got the file the registry serves.
+// One row per package version we rebuilt and got the file the registry serves; the versions
+// whose rebuild differs (the feed's verdict) are only counted.
 
 const DAY = 24 * 3600;
 const REGISTRY_PAGES = {
@@ -26,9 +27,13 @@ export function dependencyRows(feed, now = Math.floor(Date.now() / 1000)) {
     return null;
   }
   const rows = [];
+  const differs = { almost: 0, 'not-reproducible': 0 };
   for (const row of feed.rows) {
     if (typeof row?.name !== 'string' || typeof row.version !== 'string') {
       continue;
+    }
+    if (row.result !== 'reproduced' && Object.hasOwn(differs, row.verdict)) {
+      differs[row.verdict]++;
     }
     if (row.result === 'reproduced') {
       rows.push({
@@ -50,6 +55,8 @@ export function dependencyRows(feed, now = Math.floor(Date.now() / 1000)) {
       reproduced: rows.length,
       packages: new Set(rows.map(row => `${row.ecosystem}\n${row.name}`)).size,
       recent: rows.filter(row => row.date >= now - 30 * DAY).length,
+      almost: differs.almost,
+      notReproducible: differs['not-reproducible'],
     },
   };
 }

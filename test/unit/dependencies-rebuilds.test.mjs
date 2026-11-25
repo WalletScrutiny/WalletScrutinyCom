@@ -1,7 +1,7 @@
 import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
-import { ossDetailLines, ossRebuildUrl, withClaimUrls } from '../../src/dependencies-rebuilds.mjs';
+import { ossDetailLines, ossRebuildUrl, withClaimUrls, rebuildState, rebuildBadge, rebuildsElement, wsDetailLines } from '../../src/dependencies-rebuilds.mjs';
 import { ossRebuildUrl as exporterUrl } from '../../external/source_analysis/rebuildClaims.mjs';
 
 const claim = { by: 'oss-rebuild', url: 'https://storage.googleapis.com/google-rebuild-attestations/npm/buffer/6.0.3/buffer-6.0.3.tgz/rebuild.intoto.jsonl' };
@@ -53,5 +53,41 @@ describe('OSS Rebuild info tip', () => {
     const missing = ossDetailLines(claim, null);
     assert.match(text(missing), /No summary/);
     assert.equal(missing.at(-1).querySelector('a').href, claim.url);
+  });
+});
+
+// The rebuilder's verdicts (external/dep_rebuilder/db.mjs) as our claims' results.
+describe('our verdicts besides reproduced', () => {
+  const row = (...results) => ({ ecosystem: 'npm', name: 'a', version: '1', claims: results.map(([by, result]) => ({ by, result })) });
+
+  test('the package\'s state is its most telling claim', () => {
+    assert.equal(rebuildState(row(['ws', 'unknown-command'], ['oss-rebuild', 'reproduced'])), 'reproduced');
+    assert.equal(rebuildState(row(['ws', 'almost'], ['reproducible-central', 'failed'])), 'almost');
+    assert.equal(rebuildState(row(['ws', 'not-reproducible'])), 'not-reproducible');
+    assert.equal(rebuildState(row(['ws', 'unknown-command'], ['reproducible-central', 'failed'])), 'failed');
+    assert.equal(rebuildState(row(['ws', 'unknown-command'])), 'unknown-command');
+    assert.equal(rebuildState(row(['ws', 'something-new'])), 'failed', 'a result the page does not know reads as failed');
+    assert.equal(rebuildState(row()), 'none');
+  });
+
+  test('a difference of our guessed build is never called not reproducible', () => {
+    const badge = rebuildBadge(row(['ws', 'unknown-command']));
+    assert.equal(badge.textContent, 'differs from our build');
+    assert.ok(badge.className.includes('dp-rb--unknown-command'));
+    assert.doesNotMatch(badge.title, /not reproducible/);
+    const tip = text(wsDetailLines({ by: 'ws', result: 'unknown-command', note: 'Rebuilt tarball differs: 1 of 4 files differ (index.js)' }));
+    assert.match(tip, /We guessed the build command/);
+    assert.equal(rebuildBadge(row(['ws', 'not-reproducible'])).textContent, 'not reproducible');
+    assert.equal(rebuildBadge(row(['ws', 'almost'])).textContent, 'almost reproduced');
+  });
+
+  test('the Rebuilds tab: each claim under its own word, all of them under Not reproduced', () => {
+    const data = { rows: [row(['ws', 'not-reproducible']), { ...row(['ws', 'almost']), name: 'b' }, { ...row(['ws', 'reproduced']), name: 'c' }] };
+    const deps = ['a', 'b', 'c'].map(name => ({ ecosystem: 'npm', name, version: '1' }));
+    const pane = rebuildsElement(data, deps);
+    const pills = [...pane.querySelectorAll('.dp-rb-claims .dp-rb')].map(p => p.textContent).sort();
+    assert.deepEqual(pills, ['almost', 'not reproducible', 'reproduced']);
+    const filter = [...pane.querySelectorAll('.dp-rb-filter')].find(b => b.textContent.startsWith('Not reproduced'));
+    assert.equal(filter.querySelector('.dp-rb-filter-count').textContent, '2');
   });
 });
