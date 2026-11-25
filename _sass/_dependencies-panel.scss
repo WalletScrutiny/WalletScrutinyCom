@@ -1801,6 +1801,7 @@ body.dark .dp-rb--unknown-command { color: #b2babb; border-color: #b2babb; }
 .dp-rb-filters { flex-wrap: wrap; }
 .dp-rb-filter {
   padding: 4px 10px;
+  font-size: $font-xs;
   &[aria-pressed="true"] {
     background: var(--accent);
     color: #fff;
@@ -1812,7 +1813,6 @@ body.dark .dp-rb--unknown-command { color: #b2babb; border-color: #b2babb; }
   border-radius: 999px;
   background: var(--neutral-6);
   color: var(--neutral-2);
-  font-size: 0.9em;
 }
 .dp-rb-filter-count--good { color: #1e8449; font-weight: 700; }
 .dp-rb-filter-count--bad { color: #e00000; font-weight: 700; }
