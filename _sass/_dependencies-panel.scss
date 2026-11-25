@@ -1143,7 +1143,7 @@ details.dp-decision__others {
   z-index: 20;
   box-sizing: border-box; // the phone width below includes the padding
   width: max-content;
-  max-width: min(18em, calc(100vw - 16px));
+  max-width: 50vw; // a long explanation grows wide, not into a tall column
   padding: 8px 10px;
   border-radius: 6px;
   background: var(--neutral-1);
@@ -1182,10 +1182,9 @@ details.dp-decision__others {
     overflow-wrap: anywhere; // a long path breaks inside the tip
   }
 
-  // Phones: the whole width (place() keeps the margins), a readable size.
+  // Phones: up to three quarters of the width (place() centres it), a readable size.
   @media (max-width: 640px) {
-    width: calc(100vw - 16px);
-    max-width: none;
+    max-width: 75vw;
     padding: 12px 14px;
     font-size: $font-xs;
   }
@@ -1321,17 +1320,6 @@ a.dp-signer {
 
 .dp-tip__same {
   opacity: 0.75;
-}
-
-// "What would fix it?" holds several paragraphs: half a desktop screen wide,
-// three quarters of a phone's (place() centres it), instead of a tall column.
-.dp-tip:has(.dp-tip__fix) {
-  max-width: 50vw;
-
-  @media (max-width: 640px) {
-    width: max-content;
-    max-width: 75vw;
-  }
 }
 
 // The tip holding a wallet list: as wide as its names, at most a third of a
@@ -1884,8 +1872,7 @@ body.dark .dp-rb-filter-count--bad { color: #ff4d4d; }
   border-radius: 6px;
 }
 .dp-rb-table td { vertical-align: top; }
-// our rebuild's tip holds its event: wider, and the JSON scrolls inside it
-.dp-tip:has(.dp-rb-event) { max-width: min(28em, calc(100vw - 16px)); }
+// our rebuild's tip holds its event: the JSON scrolls inside it
 .dp-tip .dp-rb-event summary { color: inherit; text-decoration: underline; }
 .dp-tip .dp-rb-event pre { max-height: 16em; overflow: auto; margin: 6px 0; color: inherit; background: rgba(255, 255, 255, .1); }
 
