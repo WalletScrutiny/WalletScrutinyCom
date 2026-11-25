@@ -107,6 +107,8 @@ describe('dependencies panel', () => {
     assert.match(tip.textContent, /A match means the version is affected, not that the affected part is used\. We haven’t checked the released app/);
     const cleared = vulnTile.querySelector('.dp-tally button');
     assert.equal(cleared.textContent, 'cleared');
+    assert.equal(vulnTile.querySelectorAll('.dp-tally button').length, 1, 'only the first line explains cleared');
+    assert.equal(cleared.closest('.dp-tally'), vulnTile.querySelector('.dp-tally'));
     cleared.dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.equal(number.getAttribute('aria-expanded'), 'false', 'one tip at a time');
     assert.match(tip.textContent, /signed that it does not affect this app/);

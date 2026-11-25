@@ -516,9 +516,10 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
   }
   const out = SEVERITY_ORDER.filter(s => total[s] > 0).map(s => ({ severity: s, total: total[s], cleared: cleared[s] || 0 }));
   const worstOpen = out.find(r => r.total > r.cleared)?.severity || null;
-  const lines = out.map(r => el('div', { className: 'dp-tally' },
+  // Only the first line explains "cleared"; the others mean the same.
+  const lines = out.map((r, i) => el('div', { className: 'dp-tally' },
     el('span', { className: `dp-tally__count dp-tally__count--${r.severity}` }, `${r.total} ${SEVERITY_LABEL[r.severity].toLowerCase()}`),
-    ` · ${r.cleared || 'none'} `, explain ? tipTrigger('cleared', clearedTip) : 'cleared'));
+    ` · ${r.cleared || 'none'} `, explain && i === 0 ? tipTrigger('cleared', clearedTip) : 'cleared'));
   return { lines: lines.length ? lines : null, worstOpen };
 }
 
