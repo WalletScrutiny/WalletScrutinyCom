@@ -1469,7 +1469,7 @@ function notAnalysedElement(version, app, platform, failed) {
     el('p', { className: 'dp-headline' },
       failed
         ? `The dependency check of version ${version} (${failed.ref}) failed${failed.error ? ` (${failed.error})` : ''}.`
-        : `Version ${version} has not been checked for dependencies.`),
+        : `Version ${version} has not been checked for dependencies. Only versions we could reproduce are checked.`),
     refs.length ? el('p', {}, analysed.length === 1 ? 'Checked: ' : 'Checked releases: ', list) : null,
   );
 }
