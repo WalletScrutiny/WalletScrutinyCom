@@ -242,7 +242,7 @@ const FILTERS = [
   ['ws', 'By us'],
   ['oss-rebuild', 'By OSS Rebuild'],
   ['reproducible-central', 'By Reproducible Central'],
-  ['failed', 'Not reproduced'],
+  ['failed', 'Failed to reproduce'],
 ];
 // counts that should stand out at first sight; "Nobody tried yet" stays neutral
 const COUNT_TONE = { failed: 'bad' };

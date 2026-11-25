@@ -81,13 +81,13 @@ describe('our verdicts besides reproduced', () => {
     assert.equal(rebuildBadge(row(['ws', 'almost'])).textContent, 'almost reproduced');
   });
 
-  test('the Rebuilds tab: each claim under its own word, all of them under Not reproduced', () => {
+  test('the Rebuilds tab: each claim under its own word, all of them under Failed to reproduce', () => {
     const data = { rows: [row(['ws', 'not-reproducible']), { ...row(['ws', 'almost']), name: 'b' }, { ...row(['ws', 'reproduced']), name: 'c' }] };
     const deps = ['a', 'b', 'c'].map(name => ({ ecosystem: 'npm', name, version: '1' }));
     const pane = rebuildsElement(data, deps);
     const pills = [...pane.querySelectorAll('.dp-rb-claims .dp-rb')].map(p => p.textContent).sort();
     assert.deepEqual(pills, ['almost', 'not reproducible', 'reproduced']);
-    const filter = [...pane.querySelectorAll('.dp-rb-filter')].find(b => b.textContent.startsWith('Not reproduced'));
+    const filter = [...pane.querySelectorAll('.dp-rb-filter')].find(b => b.textContent.startsWith('Failed to reproduce'));
     assert.equal(filter.querySelector('.dp-rb-filter-count').textContent, '2');
     const byUs = [...pane.querySelectorAll('.dp-rb-filter')].find(b => b.textContent.startsWith('By us'));
     assert.equal(byUs.querySelector('.dp-rb-filter-count').textContent, '1 + 2');
