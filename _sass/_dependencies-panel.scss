@@ -1787,9 +1787,9 @@ body.dark .dp-note-more {
   white-space: nowrap;
 }
 .dp-rb--reproduced { border-color: #1e8449; color: #1e8449; background: rgba(30, 132, 73, .08); }
-.dp-rb--failed { border-color: #e00000; color: #e00000; background: rgba(224, 0, 0, .1); }
+.dp-rb--failed { border-color: #e00000; color: #e00000; }
 body.dark .dp-rb--reproduced { color: #58d68d; border-color: #58d68d; }
-body.dark .dp-rb--failed { color: #ff4d4d; border-color: #ff4d4d; background: rgba(255, 77, 77, .15); }
+body.dark .dp-rb--failed { color: #ff4d4d; border-color: #ff4d4d; }
 // our rebuilder's verdicts besides reproduced (src/dependencies-rebuilds.mjs RESULT_WORDS)
 .dp-rb--almost { border-color: #1e8449; color: #1e8449; border-style: dashed; }
 .dp-rb--not-reproducible { border-color: #c0392b; color: #c0392b; background: rgba(192, 57, 43, .08); }
