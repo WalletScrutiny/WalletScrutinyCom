@@ -792,7 +792,6 @@ function vulnerabilityTile(model) {
   // An incomplete package list cannot show a green "0": it is a lower bound.
   const incomplete = model.lockCoverage && model.lockCoverage.verdict !== 'locked';
   const tone = tally.worstOpen ? `sev-${tally.worstOpen}` : (incomplete ? '' : 'good');
-  const distinct = new Set(rows.map(a => a.id)).size;
   // Where the matches sit, muted: the total above stays the headline.
   const sc = model.vulnerabilitiesByScope;
   const split = sc ? [[sc.app, 'in the app'], [sc.build, 'in build tooling'], [sc.tests, 'only in tests'], [sc.unknown, 'unclear']]
@@ -801,7 +800,6 @@ function vulnerabilityTile(model) {
   const value = tipTrigger(String(rows.length), () => lines.map(line => el('p', {}, line)), { className: 'dp-term dp-term--value' });
   return tile(value, 'advisory matches', { tone, sub: [
     tally.lines,
-    rows.length ? el('div', { className: 'dp-tile__line' }, `${distinct} distinct advisories`) : null,
     rows.length && split ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, split) : null,
     rows.length ? el('div', { className: 'dp-tile__caveat' }, model.apk
       ? 'A match means a package version is listed as affected, not that the affected part is used.'
