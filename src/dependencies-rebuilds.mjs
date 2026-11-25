@@ -244,6 +244,8 @@ const FILTERS = [
   ['reproducible-central', 'By Reproducible Central'],
   ['failed', 'Not reproduced'],
 ];
+// counts that should stand out at first sight; "Nobody tried yet" stays neutral
+const COUNT_TONE = { all: 'good', ws: 'good', 'oss-rebuild': 'good', 'reproducible-central': 'good', failed: 'bad' };
 const MAX_ROWS = 200;
 const FIRST_ROWS = 6;
 
@@ -297,7 +299,7 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
         : key === 'failed' ? tried.filter(p => rebuildState(p.row) !== 'reproduced').length
           : tried.filter(p => p.row.claims.some(c => c.by === key)).length;
     const b = el('button', { type: 'button', className: 'dp-history__tab dp-rb-filter', 'aria-pressed': String(key === filter) },
-      label, el('span', { className: 'dp-rb-filter-count' }, n.toLocaleString('en-US')));
+      label, el('span', { className: `dp-rb-filter-count${COUNT_TONE[key] ? ` dp-rb-filter-count--${COUNT_TONE[key]}` : ''}` }, n.toLocaleString('en-US')));
     b.addEventListener('click', () => { filter = key; expanded = false; buttons.forEach(x => x.setAttribute('aria-pressed', String(x === b))); paint(); });
     return b;
   });

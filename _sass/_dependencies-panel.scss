@@ -1814,6 +1814,10 @@ body.dark .dp-rb--unknown-command { color: #b2babb; border-color: #b2babb; }
   color: var(--neutral-2);
   font-size: 0.9em;
 }
+.dp-rb-filter-count--good { color: #1e8449; font-weight: 700; }
+.dp-rb-filter-count--bad { color: #e00000; font-weight: 700; }
+body.dark .dp-rb-filter-count--good { color: #58d68d; }
+body.dark .dp-rb-filter-count--bad { color: #ff4d4d; }
 // Five options do not fit one row on a phone: separate bordered options that wrap
 @media (max-width: 640px) {
   .dp-rb-filters {
