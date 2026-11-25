@@ -93,6 +93,8 @@ describe('our verdicts besides reproduced', () => {
     assert.equal(byUs.querySelector('.dp-rb-filter-count').textContent, '1 + 2');
     assert.equal(byUs.querySelector('.dp-rb-filter-count--good').textContent, '1');
     assert.equal(byUs.querySelector('.dp-rb-filter-count--bad').textContent, '2');
+    const all = [...pane.querySelectorAll('.dp-rb-filter')].find(b => b.textContent.startsWith('Rebuilt or tried'));
+    assert.equal(all.querySelector('.dp-rb-filter-count').textContent, '1 + 2');
   });
 });
 

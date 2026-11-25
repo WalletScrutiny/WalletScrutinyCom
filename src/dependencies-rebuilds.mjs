@@ -245,12 +245,11 @@ const FILTERS = [
   ['failed', 'Not reproduced'],
 ];
 // counts that should stand out at first sight; "Nobody tried yet" stays neutral
-const COUNT_TONE = { all: 'good', failed: 'bad' };
-// A rebuilder's count as "reproduced + not": green for the packages it reproduced, red for the rest; "+ 0" is left out
-function claimantCount(tried, by) {
-  const mine = tried.filter(p => p.row.claims.some(c => c.by === by));
-  const good = mine.filter(p => p.row.claims.some(c => c.by === by && c.result === 'reproduced')).length;
-  const bad = mine.length - good;
+const COUNT_TONE = { failed: 'bad' };
+// A count as "reproduced + not": green for the packages reproduced, red for the rest; "+ 0" is left out
+function splitCount(list, reproduced) {
+  const good = list.filter(reproduced).length;
+  const bad = list.length - good;
   return el('span', { className: 'dp-rb-filter-count' },
     el('span', { className: 'dp-rb-filter-count--good' }, good.toLocaleString('en-US')),
     bad ? [' + ', el('span', { className: 'dp-rb-filter-count--bad' }, bad.toLocaleString('en-US'))] : null);
@@ -308,7 +307,9 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
         : key === 'failed' ? tried.filter(p => rebuildState(p.row) !== 'reproduced').length
           : tried.filter(p => p.row.claims.some(c => c.by === key)).length;
     const b = el('button', { type: 'button', className: 'dp-history__tab dp-rb-filter', 'aria-pressed': String(key === filter) },
-      label, CLAIMANTS[key] ? claimantCount(tried, key) : el('span', { className: `dp-rb-filter-count${COUNT_TONE[key] ? ` dp-rb-filter-count--${COUNT_TONE[key]}` : ''}` }, n.toLocaleString('en-US')));
+      label, key === 'all' ? splitCount(tried, p => rebuildState(p.row) === 'reproduced')
+        : CLAIMANTS[key] ? splitCount(tried.filter(p => p.row.claims.some(c => c.by === key)), p => p.row.claims.some(c => c.by === key && c.result === 'reproduced'))
+          : el('span', { className: `dp-rb-filter-count${COUNT_TONE[key] ? ` dp-rb-filter-count--${COUNT_TONE[key]}` : ''}` }, n.toLocaleString('en-US')));
     b.addEventListener('click', () => { filter = key; expanded = false; buttons.forEach(x => x.setAttribute('aria-pressed', String(x === b))); paint(); });
     return b;
   });
