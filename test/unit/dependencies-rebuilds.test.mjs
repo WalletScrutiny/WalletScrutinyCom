@@ -1,7 +1,7 @@
 import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
-import { ossDetailLines, ossRebuildUrl, withClaimUrls, rebuildState, rebuildBadge, rebuildsElement, wsDetailLines } from '../../src/dependencies-rebuilds.mjs';
+import { ossDetailLines, ossRebuildUrl, withClaimUrls, rebuildState, rebuildBadge, rebuildsElement, wsDetailLines, rcDetailLines } from '../../src/dependencies-rebuilds.mjs';
 import { ossRebuildUrl as exporterUrl } from '../../external/source_analysis/rebuildClaims.mjs';
 
 const claim = { by: 'oss-rebuild', url: 'https://storage.googleapis.com/google-rebuild-attestations/npm/buffer/6.0.3/buffer-6.0.3.tgz/rebuild.intoto.jsonl' };
@@ -89,5 +89,16 @@ describe('our verdicts besides reproduced', () => {
     assert.deepEqual(pills, ['almost', 'not reproducible', 'reproduced']);
     const filter = [...pane.querySelectorAll('.dp-rb-filter')].find(b => b.textContent.startsWith('Not reproduced'));
     assert.equal(filter.querySelector('.dp-rb-filter-count').textContent, '2');
+  });
+});
+
+describe('Reproducible Central tip', () => {
+  test('a failed claim links the issue it is reported in', () => {
+    const lines = rcDetailLines({ by: 'reproducible-central', result: 'failed', note: 'okio-3.9.0.jar differs', issue: 'https://github.com/square/okio/issues/1', url: 'u' });
+    assert.match(text(lines), /okio-3\.9\.0\.jar differs\.\nReported upstream: github\.com\/square\/okio\/issues\/1/);
+    const a = lines.flatMap(l => [...l.querySelectorAll('a')]).find(x => x.textContent.startsWith('github.com'));
+    assert.equal(a.getAttribute('href'), 'https://github.com/square/okio/issues/1');
+    assert.match(text(rcDetailLines({ by: 'reproducible-central', result: 'failed', issue: 'see the mailing list' })), /Reported upstream: see the mailing list/);
+    assert.doesNotMatch(text(rcDetailLines({ by: 'reproducible-central', result: 'failed', note: 'x differs' })), /Reported upstream/);
   });
 });

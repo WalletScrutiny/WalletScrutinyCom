@@ -186,11 +186,12 @@ export function wsDetailLines(c) {
   return lines.length ? lines : [el('p', {}, 'No details of this rebuild.')];
 }
 
-/** The tip of one Reproducible Central claim: what differs, and the build spec it comes from. */
+/** The tip of one Reproducible Central claim: what differs, where that is reported, and the build spec it comes from. */
 export function rcDetailLines(c) {
   const lines = [];
   if (c.note) lines.push(el('p', {}, c.note.endsWith('.') ? c.note : `${c.note}.`));
   else if (c.result === 'reproduced') lines.push(el('p', {}, 'Every file of this release they compared matched.'));
+  if (c.issue) lines.push(el('p', {}, 'Reported upstream: ', /^https?:\/\//.test(c.issue) ? link(c.issue, c.issue.replace(/^https?:\/\//, '')) : c.issue));
   if (c.url) lines.push(el('p', {}, link(c.url, 'Their build spec'), ' on GitHub'));
   return lines;
 }
