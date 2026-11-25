@@ -102,9 +102,9 @@ describe('dependencies panel', () => {
     number.dispatchEvent(new window.Event('click', { bubbles: true }));
     const tip = document.getElementById(number.getAttribute('aria-controls'));
     assert.equal(tip.hidden, false, 'the number explains itself');
-    assert.match(tip.textContent, /Every package counts the same, whether it goes into the app or is used to build or test it/);
-    assert.match(tip.textContent, /source code for v1\.4\.0 and looked up each package version in OSV\.dev, a public database of these reports, on 2026-10-01\./);
-    assert.match(tip.textContent, /What it means for your app: it is about v1\.4\.0\. A report tells us the package version is affected, not whether the affected part is used\. We have not checked the released app/);
+    assert.match(tip.textContent, /Build and test tools count too, since they can change the app/);
+    assert.match(tip.textContent, /public source for v1\.4\.0, checked against OSV\.dev, on 2026-10-01\./);
+    assert.match(tip.textContent, /A match means the version is affected, not that the affected part is used\. We haven’t checked the released app/);
     const cleared = vulnTile.querySelector('.dp-tally button');
     assert.equal(cleared.textContent, 'cleared');
     cleared.dispatchEvent(new window.Event('click', { bubbles: true }));

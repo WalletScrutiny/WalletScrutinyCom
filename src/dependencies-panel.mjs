@@ -773,10 +773,10 @@ function clearedTip() {
 export function vulnerabilityTipLines(model) {
   const date = model.analysedAt ? `, on ${dateOf(model.analysedAt)}` : '';
   return [
-    'This counts published security reports (advisories) that list as affected a package version this app’s source code uses. Every package counts the same, whether it goes into the app or is used to build or test it: a build tool can change the app too. The Where? column on each row says which.',
-    `How we counted: we took the package list from the app’s public source code for ${model.ref} and looked up each package version in OSV.dev, a public database of these reports${date}. One report can match several packages, so the number of distinct reports is shown below.`,
-    `What it means for your app: it is about ${model.ref}. A report tells us the package version is affected, not whether the affected part is used. ${model.apk ? 'Each row below says whether we found the package in the released app.' : 'We have not checked the released app itself for these packages.'}`,
-    'The colour shows the highest severity among reports not yet cleared.',
+    'This counts published security reports (advisories) that affect a package version used by this app’s source code. Build and test tools count too, since they can change the app. The Where? column says which is which.',
+    `Source: the package list in the public source for ${model.ref}, checked against OSV.dev${date}. One report can match several packages.`,
+    `A match means the version is affected, not that the affected part is used. ${model.apk ? 'Each row says whether the package is in the released app.' : 'We haven’t checked the released app.'}`,
+    'Colour: the highest severity among reports not yet cleared.',
   ];
 }
 
