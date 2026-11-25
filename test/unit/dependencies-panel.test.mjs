@@ -472,7 +472,7 @@ describe('dependencies panel', () => {
 
     pick('1.1.0');
     assert.equal(host.querySelector('tbody'), null);
-    assert.equal(host.querySelector('.dp-headline').textContent, 'Version 1.1.0 has not been checked for dependencies.');
+    assert.equal(host.querySelector('.dp-headline').textContent, 'Version 1.1.0 has not been checked for dependencies. Only versions we could reproduce are checked.');
     assert.deepEqual([...host.querySelectorAll('.dp-pick-list > *')].map(r => r.textContent), ['v1.4.0', 'v1.3.0', 'v1.0.0'], 'an unsupported release with results is listed, the failed v1.2.0 is not');
     let clicked = null;
     river.addEventListener('click', (e) => { clicked = e.target.dataset.versionKey; });
