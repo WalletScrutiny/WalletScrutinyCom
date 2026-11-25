@@ -703,14 +703,16 @@ body.dark .dp-history__dot--current {
   font-family: monospace;
 }
 
-// In the Advisories table the version stands further off the name:
-// a little on phones, more on desktop
-.dp-td-package .dp-pkg-version {
+// In the Advisories and Rebuilds tables the version stands further off the
+// name: a little on phones, more on desktop
+.dp-td-package .dp-pkg-version,
+.dp-rb-name .dp-pkg-version {
   margin-left: 16px;
 }
 
 @media (max-width: 640px) {
-  .dp-td-package .dp-pkg-version {
+  .dp-td-package .dp-pkg-version,
+  .dp-rb-name .dp-pkg-version {
     margin-left: 10px;
   }
 }
