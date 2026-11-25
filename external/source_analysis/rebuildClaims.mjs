@@ -273,11 +273,17 @@ export function syncReproducibleCentral(dir, { run = (args) => execFileSync('git
  * not the expected shape changes nothing. Returns the number of claims written.
  *
  * The feed is everything the rebuilder stands by: a claim taken from an earlier
- * feed that is no longer in it is withdrawn. Only "reproduced" rows are taken:
- * that our build did not give the published file is no claim about the package
- * (the feed carried such rows as "failed" until 2026-11-20).
+ * feed that is no longer in it is withdrawn. A row that was not reproduced is
+ * taken only with a verdict (dep_rebuilder/db.mjs) that says what the difference
+ * means, stored as its result: almost, not-reproducible (the publisher's build
+ * differs) or unknown-command (our guessed build differs). A bare "failed", as
+ * the feed carried until 2026-11-20, is no claim about the package.
  * Claims of rebuild-npm-cli.mjs, which carry the file's hash and an event, stay.
  */
+// The verdicts of a rebuild of ours that was compared and differs, as the feed names them and the
+// panel shows them (src/dependencies-rebuilds.mjs): a ws claim's result besides "reproduced".
+export const WS_DIFFERS = ['almost', 'not-reproducible', 'unknown-command'];
+
 export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} } = {}) {
   let feed;
   try {
@@ -297,11 +303,12 @@ export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} 
     db.prepare(`DELETE FROM package_rebuilds WHERE claimant = 'ws' AND sha256 IS NULL AND event IS NULL`).run();
     for (const r of feed.rows) {
       if (!['npm', 'pip', 'cargo'].includes(r?.ecosystem) || typeof r.name !== 'string' || typeof r.version !== 'string') continue;
-      if (r.result !== 'reproduced') continue; // a rebuild of ours that did not match says nothing about the package
+      const result = r.result === 'reproduced' ? 'reproduced' : WS_DIFFERS.includes(r.verdict) ? r.verdict : null;
+      if (!result) continue; // a rebuild of ours that did not match, with no verdict, says nothing about the package
       if (!ours.get(r.ecosystem, r.name, r.version)) continue;
       if (byHand.get(r.ecosystem, r.name, r.version)) continue;
       const day = /^\d{4}-\d\d-\d\d$/.test(r.date || '') ? `${r.date} 00:00:00` : new Date().toISOString().slice(0, 19).replace('T', ' ');
-      save.run(r.ecosystem, r.name, r.version, r.result, /^[0-9a-f]{40}$/.test(r.commit || '') ? r.commit : null, typeof r.note === 'string' ? r.note.slice(0, 300) : null, day);
+      save.run(r.ecosystem, r.name, r.version, result, /^[0-9a-f]{40}$/.test(r.commit || '') ? r.commit : null, typeof r.note === 'string' ? r.note.slice(0, 300) : null, day);
       claims++;
     }
   })();

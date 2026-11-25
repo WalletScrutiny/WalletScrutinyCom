@@ -1790,6 +1790,13 @@ body.dark .dp-note-more {
 .dp-rb--failed { border-color: #b9770e; color: #b9770e; border-style: dashed; }
 body.dark .dp-rb--reproduced { color: #58d68d; border-color: #58d68d; }
 body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
+// our rebuilder's verdicts besides reproduced (src/dependencies-rebuilds.mjs RESULT_WORDS)
+.dp-rb--almost { border-color: #1e8449; color: #1e8449; border-style: dashed; }
+.dp-rb--not-reproducible { border-color: #c0392b; color: #c0392b; background: rgba(192, 57, 43, .08); }
+.dp-rb--unknown-command { border-color: #7f8c8d; color: #616a6b; border-style: dashed; }
+body.dark .dp-rb--almost { color: #58d68d; border-color: #58d68d; }
+body.dark .dp-rb--not-reproducible { color: #f1948a; border-color: #f1948a; }
+body.dark .dp-rb--unknown-command { color: #b2babb; border-color: #b2babb; }
 // The filters reuse the All / Direct segmented switch (.dp-history__tabs) above
 .dp-rb-filters { flex-wrap: wrap; }
 .dp-rb-filter {

@@ -475,4 +475,10 @@ describe('candidates and export', () => {
     assert.deepEqual(r.summary, { reproduced: 1, failed: 1, byClaimant: { ws: { reproduced: 0, failed: 2 }, 'oss-rebuild': { reproduced: 1, failed: 0 } } });
     assert.equal(releaseRebuilds([{ ecosystem: 'npm', name: 'z', dep_version: '1' }], claims), null);
   });
+
+  test('a verdict of ours that differs counts under its own name, and the package as not reproduced', () => {
+    const claims = new Map([['npm\u0000a\u00001.0.0', [{ by: 'ws', result: 'not-reproducible' }]], ['npm\u0000b\u00001.0.0', [{ by: 'ws', result: 'almost' }]]]);
+    const r = releaseRebuilds([{ ecosystem: 'npm', name: 'a', dep_version: '1.0.0' }, { ecosystem: 'npm', name: 'b', dep_version: '1.0.0' }], claims);
+    assert.deepEqual(r.summary, { reproduced: 0, failed: 2, byClaimant: { ws: { reproduced: 0, failed: 0, 'not-reproducible': 1, almost: 1 } } });
+  });
 });

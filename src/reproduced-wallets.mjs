@@ -144,7 +144,9 @@ export function renderDependencies(root, result, tip = null) {
     rows,
     empty: 'No dependency has been rebuilt yet.',
     lead: `${plural(summary.reproduced, 'version', 'versions')} of ${plural(summary.packages, 'package', 'packages')} rebuilt from source and identical to the registry's file. `
-      + `In the last 30 days: ${plural(summary.recent, 'version', 'versions')}.`,
+      + `In the last 30 days: ${plural(summary.recent, 'version', 'versions')}.`
+      + (summary.notReproducible ? ` Not reproducible with the publisher's own build: ${plural(summary.notReproducible, 'version', 'versions')}.` : '')
+      + (summary.almost ? ` Almost (only docs or development-only package.json fields differ): ${plural(summary.almost, 'version', 'versions')}.` : ''),
     toRow: row => ({
       date: row.date, title: row.name, url: row.url, external: true, version: row.version, tag: row.ecosystem,
       note: usedByNote(row, tip),

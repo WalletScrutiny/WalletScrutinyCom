@@ -699,7 +699,7 @@ export function releaseRebuilds(deps, claims) {
     if (list.some(c => c.result === 'reproduced')) summary.reproduced++; else summary.failed++;
     for (const c of list) {
       const b = summary.byClaimant[c.by] ||= { reproduced: 0, failed: 0 };
-      b[c.result]++;
+      b[c.result] = (b[c.result] || 0) + 1;
     }
   }
   return rows.length ? { rows, summary } : null;

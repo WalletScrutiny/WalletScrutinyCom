@@ -3,6 +3,7 @@ import { existsSync, mkdirSync, copyFileSync, readdirSync, unlinkSync } from 'fs
 import { DB_PATH, BACKUP_DIR, BACKUPS_TO_KEEP, DEFAULT_BRANCH_REF } from './config.mjs';
 export { DEFAULT_BRANCH_REF };
 import { join, dirname } from 'path';
+import { WS_DIFFERS } from './rebuildClaims.mjs';
 
 // Backup database before processing. Keeps the newest `keep` copies.
 export function backupDatabase(dbPath = DB_PATH, backupDir = BACKUP_DIR, keep = BACKUPS_TO_KEEP) {
@@ -216,7 +217,8 @@ export function initDatabase(dbPath = DB_PATH) {
   // Rung "reproduced" (rebuildClaims.mjs, rebuildNpm.mjs): who rebuilt a
   // package version from source and got the registry's file. One row per
   // claimant: ws (us), oss-rebuild, reproducible-central. result is
-  // reproduced | failed; sha256 is the registry file's, commit_sha the source
+  // reproduced | failed, for ws also almost | not-reproducible | unknown-command
+  // (the rebuilder's verdicts, rebuildClaims.mjs WS_DIFFERS); sha256 is the registry file's, commit_sha the source
   // built, event our unsigned Nostr event (ws only).
   // rebuild_lookups records every (claimant, package) asked, with or without claims.
   // oss_rebuild_details caches what an OSS Rebuild attestation says, by its URL
@@ -877,15 +879,16 @@ export function saveSubmodules(db, appId, ref, commit, rows) {
 /**
  * Every rebuild claim (package_rebuilds) as Map `ecosystem\0name\0version` →
  * claims, ours first. Only what the panel shows: our unsigned event rides along.
- * A rebuild of ours that did not match is not shown: it says that our build did
- * not give the published file, not that the package cannot be reproduced. The row
+ * A rebuild of ours that did not match shows only with the verdict of the feed
+ * (rebuildClaims.mjs, WS_DIFFERS); a bare "failed" says that our build did not
+ * give the published file, not that the package cannot be reproduced. The row
  * stays, so rebuild-npm-cli.mjs does not try the version again.
  */
 export function getRebuildClaims(db) {
   const out = new Map();
   const rows = db.prepare(`SELECT * FROM package_rebuilds ORDER BY claimant = 'ws' DESC, claimant`).all();
   for (const r of rows) {
-    if (r.claimant === 'ws' && r.result !== 'reproduced') continue;
+    if (r.claimant === 'ws' && r.result !== 'reproduced' && !WS_DIFFERS.includes(r.result)) continue;
     const key = `${r.ecosystem}\0${r.name}\0${r.version}`;
     if (!out.has(key)) out.set(key, []);
     const c = { by: r.claimant, result: r.result };

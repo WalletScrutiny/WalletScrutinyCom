@@ -36,6 +36,25 @@ describe('our rebuilder\'s feed', () => {
     fs.rmSync(dir, { recursive: true, force: true });
   });
 
+  test('a row that differs comes in under its verdict; one with no verdict or a verdict of a build that got nowhere does not', async () => {
+    const { db, dir } = freshDb();
+    db.prepare(`INSERT INTO packages (ecosystem, name, version) VALUES ('npm', 'acorn', '8.0.0'), ('npm', 'ms', '2.1.3'), ('npm', 'debug', '4.0.0')`).run();
+    const row = (name, version, verdict) => ({ ecosystem: 'npm', name, version, result: 'failed', verdict, note: 'Rebuilt tarball differs: 1 of 4 files differ (index.js)', date: '2026-11-25' });
+    const r = await importWsFeed(db, 'u', { fetchImpl: serve(feed([
+      row('gopd', '1.2.0', 'not-reproducible'), row('color-name', '1.1.4', 'almost'), row('acorn', '8.0.0', 'unknown-command'),
+      row('ms', '2.1.3', 'unknown-no-output'), row('debug', '4.0.0', undefined),
+    ])) });
+    assert.deepEqual(r, { claims: 3, failed: false });
+    const claims = getRebuildClaims(db);
+    const result = (name, version) => claims.get(`npm\u0000${name}\u0000${version}`)?.map(c => [c.by, c.result]);
+    assert.deepEqual(result('gopd', '1.2.0'), [['ws', 'not-reproducible']]);
+    assert.deepEqual(result('color-name', '1.1.4'), [['ws', 'almost']]);
+    assert.deepEqual(result('acorn', '8.0.0'), [['ws', 'unknown-command']]);
+    assert.equal(result('ms', '2.1.3'), undefined, 'nothing to compare is no claim');
+    assert.equal(result('debug', '4.0.0'), undefined, 'a failure the feed gives no verdict for is no claim');
+    fs.rmSync(dir, { recursive: true, force: true });
+  });
+
   test('a newer feed replaces the claim; an unreachable or malformed feed changes nothing', async () => {
     const { db, dir } = freshDb();
     const row = (result) => ({ ecosystem: 'npm', name: 'gopd', version: '1.2.0', result, date: '2026-11-20' });

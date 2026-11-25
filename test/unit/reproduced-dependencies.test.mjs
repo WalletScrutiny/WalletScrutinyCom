@@ -18,7 +18,18 @@ describe('dependencyRows', () => {
       row('e', '1.0.0', 'skipped'),
     ]), NOW);
     assert.deepEqual(r.rows.map(x => x.name), ['c', 'b', 'a']);
-    assert.deepEqual(r.summary, { reproduced: 3, packages: 3, recent: 3 });
+    assert.deepEqual(r.summary, { reproduced: 3, packages: 3, recent: 3, almost: 0, notReproducible: 0 });
+  });
+
+  test('a version whose rebuild differs is counted under its verdict, never listed', () => {
+    const r = dependencyRows(feed([
+      row('a', '1.0.0', 'reproduced'),
+      row('b', '1.0.0', 'failed', '2026-11-20', { verdict: 'not-reproducible' }),
+      row('c', '1.0.0', 'failed', '2026-11-20', { verdict: 'almost' }),
+      row('d', '1.0.0', 'failed', '2026-11-20', { verdict: 'unknown-command' }),
+    ]), NOW);
+    assert.deepEqual(r.rows.map(x => x.name), ['a']);
+    assert.deepEqual([r.summary.reproduced, r.summary.notReproducible, r.summary.almost], [1, 1, 1]);
   });
 
   test('versions of one package count once as a package; old rows are not "recent"', () => {
