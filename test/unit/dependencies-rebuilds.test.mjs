@@ -89,6 +89,10 @@ describe('our verdicts besides reproduced', () => {
     assert.deepEqual(pills, ['almost', 'not reproducible', 'reproduced']);
     const filter = [...pane.querySelectorAll('.dp-rb-filter')].find(b => b.textContent.startsWith('Not reproduced'));
     assert.equal(filter.querySelector('.dp-rb-filter-count').textContent, '2');
+    const byUs = [...pane.querySelectorAll('.dp-rb-filter')].find(b => b.textContent.startsWith('By us'));
+    assert.equal(byUs.querySelector('.dp-rb-filter-count').textContent, '1 + 2');
+    assert.equal(byUs.querySelector('.dp-rb-filter-count--good').textContent, '1');
+    assert.equal(byUs.querySelector('.dp-rb-filter-count--bad').textContent, '2');
   });
 });
 
