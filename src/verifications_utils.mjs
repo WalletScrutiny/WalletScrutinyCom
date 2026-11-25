@@ -1194,6 +1194,16 @@ const getIDBEventRange = async (kinds = null) => {
 
 const deletionRequestKind = 5;
 
+/*
+ * Incremental syncs re-ask for a window before the newest cached event. An event
+ * can reach the relays after newer ones were cached, or a fetch can stop partway;
+ * asking only for "newer than newest" left such an event out of the cache for
+ * good. The cache stores by id, so the overlap only re-saves what it already has.
+ */
+const SYNC_OVERLAP_SECONDS = 14 * 86400;
+const syncSince = (newest, floor = verificationEventsSinceTS) =>
+  newest ? Math.max(newest - SYNC_OVERLAP_SECONDS, floor) : floor;
+
 /**
  * Removes cached events named by e tags of kind-5 deletion requests, when the
  * request was signed by the author of the cached event (NIP-09).
@@ -1224,7 +1234,7 @@ const syncDeletionRequests = async function() {
   const { newest: newestDeletion } = await getIDBEventRange([deletionRequestKind]);
   const deletions = await fetchEventsWithPagination({
     kinds: [deletionRequestKind],
-    since: newestDeletion ? newestDeletion + 1 : verificationEventsSinceTS,
+    since: syncSince(newestDeletion),
   }, mainRelayPaginationOptions);
   if (deletions.size === 0) {
     return;
@@ -1252,7 +1262,7 @@ const backgroundSyncEvents = async function() {
     if (newestVerification) {
       const newVerifications = await fetchEventsWithPagination({
         kinds: [verificationKind, verificationDraftKind],
-        since: newestVerification + 1,
+        since: syncSince(newestVerification),
         limit: SYNC_LIMIT
       }, supplementalRelayPaginationOptions);
 
@@ -1313,7 +1323,7 @@ const backgroundSyncEvents = async function() {
       const newAssets = await fetchEventsWithPagination({
         kinds: assetRegistrationKinds,
         '#i': Array.from(appIds),
-        since: newestAsset ? newestAsset + 1 : verificationEventsSinceTS,
+        since: syncSince(newestAsset),
         limit: SYNC_LIMIT
       }, supplementalRelayPaginationOptions);
 
@@ -1371,7 +1381,7 @@ const backgroundSyncEvents = async function() {
         const newEndorsements = await nostrFetchEvents({
           kinds: [endorsementKind],
           '#e': batch,
-          since: newestEndorsement ? newestEndorsement + 1 : verificationEventsSinceTS,
+          since: syncSince(newestEndorsement),
           limit: SYNC_LIMIT
         });
 
@@ -1394,7 +1404,7 @@ const backgroundSyncEvents = async function() {
         const newComments = await nostrFetchEvents({
           kinds: [verificationCommentKind],
           '#v': batch,
-          since: newestComment ? newestComment + 1 : verificationEventsSinceTS,
+          since: syncSince(newestComment),
           limit: SYNC_LIMIT
         });
 
@@ -1411,7 +1421,7 @@ const backgroundSyncEvents = async function() {
 
     const newSnippets = await nostrFetchEvents({
       kinds: [codeSnippetKind],
-      since: newestSnippet ? newestSnippet + 1 : verificationEventsSinceTS,
+      since: syncSince(newestSnippet),
       limit: SYNC_LIMIT
     });
 
@@ -1427,7 +1437,7 @@ const backgroundSyncEvents = async function() {
     const newReports = await nostrFetchEvents({
       kinds: [verificationReportKind],
       authors: siteAdminPubkeys,
-      since: newestReport ? newestReport + 1 : verificationEventsSinceTS
+      since: syncSince(newestReport)
     }, { relayUrls: reportRelayUrls });
     if (newReports.size > 0) {
       await saveEventsToIDB(newReports);
@@ -1628,8 +1638,8 @@ const getAllAssetInformation = async function({ months,
   // Smart sync: fetch newer events
   if (loadedFromIDB && !until && !singleBatch) {
     // Fetch newer events (incremental sync)
-    filter.since = newestEventTimestamp + 1;
-    console.debug(`Incremental sync: Fetching events newer than ${newestEventTimestamp}`);
+    filter.since = syncSince(newestEventTimestamp, baseSince);
+    console.debug(`Incremental sync: Fetching events since ${filter.since} (newest cached ${newestEventTimestamp})`);
 
     // Also check if we need to fetch older events (gap filling)
     const DAY_IN_SECONDS = 86400;
