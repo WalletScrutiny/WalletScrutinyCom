@@ -1323,6 +1323,17 @@ a.dp-signer {
   opacity: 0.75;
 }
 
+// "What would fix it?" holds several paragraphs: half a desktop screen wide,
+// three quarters of a phone's (place() centres it), instead of a tall column.
+.dp-tip:has(.dp-tip__fix) {
+  max-width: 50vw;
+
+  @media (max-width: 640px) {
+    width: max-content;
+    max-width: 75vw;
+  }
+}
+
 // The tip holding a wallet list: as wide as its names, at most a third of a
 // desktop screen, in bigger type. Phones keep the small type but not the
 // whole width; place() centres it. Up to 60 % of the screen's height before

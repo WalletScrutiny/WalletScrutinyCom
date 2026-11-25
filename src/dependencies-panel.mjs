@@ -988,7 +988,7 @@ export function coverageGaps(c) {
 
 // The toggletip: what the wallet team can do, item by item, and what a reader can do.
 export function coverageTipLines(c) {
-  const lines = [el('p', {}, el('b', {}, 'What would fix it'))];
+  const lines = [el('p', { className: 'dp-tip__fix' }, el('b', {}, 'What would fix it'))];
   if (c.missingCount) lines.push(el('p', {}, 'Wallet team: commit the lockfile your package manager writes for ', ...fileList(c.missing.map(m => m.manifest), c.missingCount), '.'));
   const rangeFiles = c.floatingFiles?.length ? [' in ', ...fileList(c.floatingFiles, c.floatingFiles.length)] : [];
   if (c.floating) lines.push(el('p', {}, 'Wallet team: replace version ranges (like ', el('code', {}, '1.+'), ' or ', el('code', {}, '^2.0'), ') with exact versions', ...rangeFiles, ', or add a lockfile.'));
