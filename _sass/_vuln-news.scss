@@ -161,12 +161,45 @@
     color: var(--neutral-2);
   }
 
+  // A few lines of the summary, then an ellipsis; the phone OSV icon stays
+  // visible after the last line.
   &__summary {
     font-size: $font-sm;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+  }
+
+  &__count {
+    font-size: $font-xs;
+    color: var(--neutral-2);
+  }
+
+  // The advisories of a grouped card, one under the other.
+  &__group {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+
+    li {
+      display: grid;
+      gap: 4px;
+      margin: 0;
+    }
   }
 
   // The OSV link: an icon after the summary on phones, the ids line elsewhere.
   &__osv {
+    flex-shrink: 0;
     display: none;
     margin-left: 4px;
     color: var(--accent);
