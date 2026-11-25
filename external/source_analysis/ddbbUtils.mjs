@@ -219,7 +219,8 @@ export function initDatabase(dbPath = DB_PATH) {
   // claimant: ws (us), oss-rebuild, reproducible-central. result is
   // reproduced | failed, for ws also almost | not-reproducible | unknown-command
   // (the rebuilder's verdicts, rebuildClaims.mjs WS_DIFFERS); sha256 is the registry file's, commit_sha the source
-  // built, event our unsigned Nostr event (ws only).
+  // built, event our unsigned Nostr event (ws only), issue where a failed Reproducible Central
+  // rebuild is reported upstream (its buildspec's issue=).
   // rebuild_lookups records every (claimant, package) asked, with or without claims.
   // oss_rebuild_details caches what an OSS Rebuild attestation says, by its URL
   // (rebuildClaims.mjs parseOssAttestation); attestations never change.
@@ -252,6 +253,7 @@ export function initDatabase(dbPath = DB_PATH) {
       checked_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
   `);
+  ensureColumn(db, 'package_rebuilds', 'issue', 'TEXT');
 
   // Upstream triage (upstreamTriage.mjs): the scanner ignore lists and VEX
   // documents found in a repository at one ref, one row per advisory entry;
@@ -894,6 +896,7 @@ export function getRebuildClaims(db) {
     const c = { by: r.claimant, result: r.result };
     if (r.url) c.url = r.url;
     if (r.note) c.note = r.note;
+    if (r.issue) c.issue = r.issue;
     if (r.claimant === 'ws') {
       c.date = String(r.checked_at).slice(0, 10);
       if (r.event) c.event = JSON.parse(r.event);

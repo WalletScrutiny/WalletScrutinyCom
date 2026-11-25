@@ -72,6 +72,14 @@ describe('outside claims: Reproducible Central', () => {
     assert.equal(by['com.squareup.okio:okio-jvm'].artifact, 'okio-jvm-3.9.0.jar');
   });
 
+  test('a failed claim carries the buildspec\'s issue; a reproduced one does not', () => {
+    const cmp = 'version=3.9.0\nokFiles="okio-3.9.0.jar"\nkoFiles="okio-jvm-3.9.0.jar"\n';
+    const by = Object.fromEntries(rcClaims(`${spec}issue="https://github.com/square/okio/issues/1"\n`, cmp, 'u').map(c => [c.name, c]));
+    assert.equal(by['com.squareup.okio:okio-jvm'].issue, 'https://github.com/square/okio/issues/1');
+    assert.equal(by['com.squareup.okio:okio'].issue, undefined);
+    assert.equal(rcClaims(`${spec}issue=\n`, cmp, 'u').find(c => c.result === 'failed').issue, undefined, 'an empty issue= is none');
+  });
+
   test('an unresolved groupId or a missing version gives no claim', () => {
     assert.deepEqual(rcClaims('groupId=${x}\n', 'version=1\nokFiles="a-1.jar"\n', 'u'), []);
     assert.deepEqual(rcClaims(spec, 'okFiles="okio-3.9.0.jar"\n', 'u'), []);
@@ -197,7 +205,7 @@ describe('importing claims into the database', () => {
     };
     const rc = path.join(dir, 'rc');
     fs.mkdirSync(path.join(rc, 'content/okio'), { recursive: true });
-    fs.writeFileSync(path.join(rc, 'content/okio/okio-3.9.0.buildspec'), 'groupId=com.squareup.okio\n');
+    fs.writeFileSync(path.join(rc, 'content/okio/okio-3.9.0.buildspec'), 'groupId=com.squareup.okio\nissue=https://github.com/square/okio/issues/1\n');
     fs.writeFileSync(path.join(rc, 'content/okio/okio-3.9.0.buildcompare'), 'version=3.9.0\nokFiles=""\nkoFiles="okio-3.9.0.jar"\n');
     const s = await importRebuildClaims(db, { fetchImpl, rcDir: rc });
     assert.deepEqual(s, { ossNames: 1, ossClaims: 1, ossDetails: 1, rcClaims: 1, wsClaims: 0, failed: 0 });
@@ -215,7 +223,7 @@ describe('importing claims into the database', () => {
     assert.equal(getOssRebuildDetails(db).get('https://storage.googleapis.com/google-rebuild-attestations/npm/buffer/6.0.3/buffer-6.0.3.tgz/rebuild.intoto.jsonl').commit, 'f52dffd9df0445b93c0c9065c2f8f0f46b2c729a');
     const claims = getRebuildClaims(db);
     assert.deepEqual(claims.get('npm\u0000buffer\u00006.0.3').map(c => [c.by, c.result]), [['oss-rebuild', 'reproduced']]);
-    assert.deepEqual(claims.get('gradle\u0000com.squareup.okio:okio\u00003.9.0').map(c => [c.by, c.result, c.note]), [['reproducible-central', 'failed', 'okio-3.9.0.jar differs']]);
+    assert.deepEqual(claims.get('gradle\u0000com.squareup.okio:okio\u00003.9.0').map(c => [c.by, c.result, c.note, c.issue]), [['reproducible-central', 'failed', 'okio-3.9.0.jar differs', 'https://github.com/square/okio/issues/1']]);
     fs.rmSync(dir, { recursive: true, force: true });
   });
 });

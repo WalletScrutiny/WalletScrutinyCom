@@ -171,6 +171,7 @@ const words = (s) => (s || '').split(/\s+/).filter(Boolean);
  * artifacts are read off the compared file names (`artifact-1.2.3.jar`). An
  * artifact counts as reproduced when its main file (.jar, else .aar, else
  * .pom) is in okFiles, failed when it is in koFiles; ignored files give no claim.
+ * A failed claim carries the buildspec's `issue=`, where the difference is reported upstream.
  * The .buildinfo would name each file's group too, but is six times the size.
  */
 export function rcClaims(buildspec, buildcompare, url) {
@@ -195,6 +196,7 @@ export function rcClaims(buildspec, buildcompare, url) {
       ecosystem: 'gradle', name: `${groupId}:${artifactId}`, version, claimant: 'reproducible-central', artifact: main, url,
       result: ok.has(main) ? 'reproduced' : 'failed',
       note: ok.has(main) ? (others.length ? `${others.length} other file${others.length > 1 ? 's' : ''} of this release differ` : null) : `${main} differs`,
+      ...(!ok.has(main) && spec.issue ? { issue: spec.issue } : {}),
     });
   }
   return claims;
@@ -317,8 +319,8 @@ export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} 
 
 export async function importRebuildClaims(db, { fetchImpl = fetch, rcDir = null, wsFeedUrl = null, all = false, log = () => {} } = {}) {
   const stats = { ossNames: 0, ossClaims: 0, ossDetails: 0, rcClaims: 0, wsClaims: 0, failed: 0 };
-  const save = db.prepare(`INSERT OR REPLACE INTO package_rebuilds (ecosystem, name, version, claimant, result, artifact, url, note, checked_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)`);
+  const save = db.prepare(`INSERT OR REPLACE INTO package_rebuilds (ecosystem, name, version, claimant, result, artifact, url, note, issue, checked_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)`);
   const dropFor = db.prepare(`DELETE FROM package_rebuilds WHERE ecosystem = ? AND name = ? AND claimant = ?`);
   const looked = db.prepare(`INSERT OR REPLACE INTO rebuild_lookups (claimant, ecosystem, name, checked_at) VALUES (?, ?, ?, CURRENT_TIMESTAMP)`);
 
@@ -341,7 +343,7 @@ export async function importRebuildClaims(db, { fetchImpl = fetch, rcDir = null,
         dropFor.run(ecosystem, name, 'oss-rebuild');
         for (const [version, files] of listing) {
           if (!ours.has(version)) continue;
-          save.run(ecosystem, name, version, 'oss-rebuild', 'reproduced', files.map(f => f.artifact).join(' '), files[0].url, null);
+          save.run(ecosystem, name, version, 'oss-rebuild', 'reproduced', files.map(f => f.artifact).join(' '), files[0].url, null, null);
           stats.ossClaims++;
         }
         looked.run('oss-rebuild', ecosystem, name);
@@ -359,7 +361,7 @@ export async function importRebuildClaims(db, { fetchImpl = fetch, rcDir = null,
       for (const { name, version } of ours) {
         const c = rc.get(`${name}\0${version.replace(/@\w+$/, '')}`);
         if (!c) continue;
-        save.run('gradle', name, version, c.claimant, c.result, c.artifact, c.url, c.note);
+        save.run('gradle', name, version, c.claimant, c.result, c.artifact, c.url, c.note, c.issue || null);
         stats.rcClaims++;
       }
     })();
