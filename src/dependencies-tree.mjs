@@ -117,7 +117,7 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
     const merged = new Map();
     const rows = [];
     for (const e of entries) {
-      const k = `${e.node.ecosystem}\u0000${e.node.lockfile}\u0000${e.node.name}\u0000${e.node.scope}\u0000${e.ambiguous}`;
+      const k = `${e.node.ecosystem}\u0000${e.node.name}\u0000${e.node.scope}\u0000${e.ambiguous}`;
       if (!plain(e)) { rows.push([e]); continue; }
       if (!merged.has(k)) { merged.set(k, [e]); rows.push(merged.get(k)); } else merged.get(k).push(e);
     }
