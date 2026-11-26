@@ -1380,8 +1380,61 @@ a.dp-signer {
   color: var(--neutral-3);
 }
 
-.dp-more {
-  margin-top: 8px;
+// "Show N more" under a table that opens with its first rows: a bar the
+// width of the table, so it reads as the table's last line and not as a note.
+.dp-more-bar {
+  appearance: none;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 8px 10px;
+  border: 0;
+  border-top: 1px solid var(--neutral-5);
+  border-bottom: 1px solid var(--neutral-5);
+  background: none;
+  font: inherit;
+  font-size: $font-sm;
+  font-weight: 600;
+  text-align: center;
+  color: #1f6f86;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(82, 173, 200, 0.12);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #52adc8;
+    outline-offset: -2px;
+  }
+
+  &::after {
+    content: " ▾";
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+body.dark .dp-more-bar {
+  color: #8fd0e3;
+
+  &:hover {
+    background: rgba(82, 173, 200, 0.16);
+  }
+}
+
+// The last row shown fades out: the table is cut, not finished. The bar
+// under it draws the line, so the row's own border goes.
+.dp-table--cut tbody tr:last-child td {
+  -webkit-mask-image: linear-gradient(to bottom, #000 10%, rgba(0, 0, 0, 0.2));
+  mask-image: linear-gradient(to bottom, #000 10%, rgba(0, 0, 0, 0.2));
+  border-bottom: 0;
+}
+
+.dp-adv-status {
+  margin-bottom: 4px;
 }
 
 // .dp-sev, the severity pill, is in _vuln-news.scss: /news/ draws it too.

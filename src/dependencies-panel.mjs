@@ -920,11 +920,18 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false,
   );
   const wrap = el('div', { className: 'dp-table-wrap' }, table);
   if (rest.length) {
-    const more = el('button', { type: 'button', className: 'dp-note-more dp-more' }, `Show ${rest.length.toLocaleString('en-US')} more`);
+    // the count, the faded last row and the bar under it say the list goes on
+    const total = model.advisories.length.toLocaleString('en-US');
+    const status = el('p', { className: 'dpt-status dp-adv-status', role: 'status' }, `${total} advisories, showing the ${shown.length} worst.`);
+    table.classList.add('dp-table--cut');
+    const more = el('button', { type: 'button', className: 'dp-more-bar dp-more' }, `Show ${rest.length.toLocaleString('en-US')} more`);
     more.addEventListener('click', () => {
       for (const a of rest) body.appendChild(advisoryRow(a, rowOptions));
+      table.classList.remove('dp-table--cut');
+      status.textContent = `${total} advisories.`;
       more.remove();
     });
+    wrap.prepend(status);
     wrap.appendChild(more);
   }
   return wrap;
