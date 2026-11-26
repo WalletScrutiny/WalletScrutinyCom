@@ -231,8 +231,8 @@ function claimLine(c, name, loadDetails) {
     who.icon ? el('span', { className: 'dp-rb-who-icon', html: wsIcon(who.icon) }) : null,
     who.label,
     el('span', { className: `dp-rb dp-rb--${resultClass(c.result)}` }, resultWords(c.result)),
-    claimInfo(c, name, loadDetails),
     c.by === 'ws' ? null : el('span', { className: 'dp-rb-theirs' }, '(their claim)'),
+    claimInfo(c, name, loadDetails),
     !CLAIMANTS[c.by] && c.note ? el('div', { className: 'dp-via' }, c.note) : null);
 }
 
