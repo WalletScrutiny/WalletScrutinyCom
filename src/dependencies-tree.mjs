@@ -195,8 +195,8 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
       el('div', { className: 'dpt-row' }, el('span', { className: 'dpt-toggle dpt-toggle--static' }, '−'), el('span', { className: 'dpt-wallet' }, wallet)),
       el('ul', { role: 'group', className: 'dpt-children' }, items));
     treeEl.replaceChildren(root);
-    // Nothing open and nothing searched: there is nothing to collapse.
-    collapse.hidden = !expanded.size && !query;
+    // With nothing shown open or searched the button expands instead.
+    collapse.textContent = anyOpen() ? 'Collapse all' : 'Expand all';
     if (focused) treeEl.querySelector(`[data-id="${CSS.escape(focused)}"]`)?.querySelector('.dpt-toggle')?.focus?.();
   }
 
@@ -240,7 +240,17 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   }
   search.addEventListener('input', runSearch);
   scopeSelect.addEventListener('change', () => { scope = scopeSelect.value; runSearch(); });
-  collapse.addEventListener('click', () => { expanded.clear(); hits = new Map(); search.value = ''; query = ''; status.textContent = ''; paint(); });
+  // Expand all opens the products and groups, down to the direct dependencies:
+  // opening every package would repeat each shared package under all its parents.
+  const anyOpen = () => !!query || !!treeEl.querySelector('.dpt-children [aria-expanded="true"]');
+  function expandAll() {
+    expanded.clear();
+    if (split) [`p:${THIS_APP}`, 'p:other', ...others.map(p => `p:${p.id}`)].forEach(id => expanded.add(id));
+    for (const p of tree.products) for (const g of groupsShown(p)) expanded.add(g.id);
+  }
+  collapse.addEventListener('click', () => {
+    if (!anyOpen()) { expandAll(); paint(); return; }
+    expanded.clear(); hits = new Map(); search.value = ''; query = ''; status.textContent = ''; paint(); });
 
   // ----- keyboard: arrows move, right opens, left closes or goes to the parent, Enter/Space toggles -----
   treeEl.addEventListener('keydown', (e) => {
