@@ -1613,11 +1613,12 @@ body.dark .dp-note-more {
 }
 
 .dpt-row {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 2px 8px;
-  padding: 3px 0;
+  padding: 3px 0 3px 30px; // the toggle's column: a wrapped name or badge never starts under it
   min-width: 0;
 }
 
@@ -1628,7 +1629,9 @@ body.dark .dp-note-more {
 
 .dpt-toggle,
 .dpt-spacer {
-  flex: 0 0 22px;
+  position: absolute;
+  top: 3px;
+  left: 0;
   width: 22px;
   height: 22px;
   box-sizing: border-box;
