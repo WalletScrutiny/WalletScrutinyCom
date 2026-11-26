@@ -62,8 +62,6 @@ Also relevant:
 
 > Mixin Messenger is built on Mixin Network, it's a PoS second layer solution for other blockchains. Mixin Network is a distributed second layer ledger, so you own your crypto assets. Because of this second layer, it's normal that you can't check your BTC address balance on a Bitcoin blockchain explorer.
 
-More information about how its wallet functions can be found on this Zendesk article ["Guides for Wallet"](https://mixinmessenger.zendesk.com/hc/en-us/sections/360002664251-Guides-for-Wallet)
-
 We emailed the Mixin development team on September 16, 2021, to verify whether they have custody of the private keys. We await their response.
 
 The [repository](https://github.com/MixinNetwork) is linked in the description.
