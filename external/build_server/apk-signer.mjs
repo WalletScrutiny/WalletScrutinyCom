@@ -188,14 +188,16 @@ export function scriptFamily(candidate) {
  * that was never verified on a readable APK stays as unknown. Scripts whose
  * versions were only verified on other signers are dropped, and a script file
  * attached to several verifications is kept once. With an unknown asset signer
- * the list is returned unchanged.
+ * the list is returned unchanged. When every script was dropped, `onSkip` gets
+ * a map of the dropped script names to the signers they were verified on.
  *
  * @param {Array<{verification: object, buildShFileEvent?: object}>} candidates newest first
  * @param {string|null} assetSigner
  * @param {(verification: object) => Promise<string|null>} signerOfVerification
  * @param {number} limit
+ * @param {(dropped: Map<string, Set<string>>) => Promise<void>|void} [onSkip]
  */
-export async function selectCandidatesBySigner(candidates, assetSigner, signerOfVerification, limit) {
+export async function selectCandidatesBySigner(candidates, assetSigner, signerOfVerification, limit, onSkip) {
   if (!assetSigner) return candidates.slice(0, limit);
   const signersByFamily = new Map();
   for (const candidate of candidates) {
@@ -228,6 +230,7 @@ export async function selectCandidatesBySigner(candidates, assetSigner, signerOf
   );
   if (kept.length === 0 && dropped.size > 0) {
     appLog.info(`     - no script was verified on an APK with signer ${assetSigner}; skipping this asset`);
+    if (onSkip) await onSkip(new Map([...dropped].map(family => [family, signersByFamily.get(family)])));
   }
   return selected;
 }

@@ -34,7 +34,7 @@ export { buildVerificationContent };
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild } from './config/config.mjs';
 import { open as openZip } from 'yauzl';
 import { findErroredAttemptForBuildScript, initDb, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
-import { alertIfRegression } from './regression-alert.mjs';
+import { alertIfRegression, alertSkippedSigner } from './regression-alert.mjs';
 import {
   getAssetFileEntries,
   pickScriptBinaryEntry,
@@ -343,7 +343,16 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
         getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform, Infinity),
         assetSigner,
         verification => getApkSignerForHashes(verificationHashes(verification)),
-        MAX_SCRIPTS_TO_TRY
+        MAX_SCRIPTS_TO_TRY,
+        scripts => alertSkippedSigner(initDb(), {
+          appId,
+          version,
+          platform,
+          signer: assetSigner,
+          assetEventId: asset.id,
+          fileHash: binaryHash ?? assetFileEntries[0]?.hash ?? null,
+          scripts
+        })
       );
     } else {
       verificationCandidates = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);

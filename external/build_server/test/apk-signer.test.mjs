@@ -211,6 +211,20 @@ describe('selectCandidatesBySigner', () => {
     assert.deepEqual(ids(result), []);
   });
 
+  test('onSkip gets the dropped scripts and their signers when nothing is left', async () => {
+    const skipped = [];
+    await selectCandidatesBySigner(keeper, 'fdroid', signerOf, 3, dropped => { skipped.push(dropped); });
+    assert.equal(skipped.length, 1);
+    assert.deepEqual([...skipped[0]].map(([name, s]) => [name, [...s].sort()]), [['bitcoinkeeper', ['github', 'upstream']]]);
+  });
+
+  test('onSkip is not called while a script is kept', async () => {
+    const fail = () => assert.fail('a script was kept');
+    await selectCandidatesBySigner(candidates, 'fdroid', signerOf, 3, fail);
+    await selectCandidatesBySigner(keeper, null, signerOf, 3, fail);
+    await selectCandidatesBySigner([], 'fdroid', signerOf, 3, fail);
+  });
+
   test('a newest version on an unreadable APK is tried first when an older one matches', async () => {
     const gem = [
       candidate('new', '9'.repeat(64), 'gemwallet-v0.3.0'),

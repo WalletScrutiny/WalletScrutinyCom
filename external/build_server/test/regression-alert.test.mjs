@@ -12,7 +12,11 @@ import {
   alertIfRegression,
   retryPendingRegressionAlerts,
   postToBuzz,
-  regressionAlertText
+  regressionAlertText,
+  recordSkippedSigner,
+  deliverSkippedSignerAlerts,
+  alertSkippedSigner,
+  skippedSignerAlertText
 } from '../regression-alert.mjs';
 
 function base(status = 'reproducible', version = '1.0.0') {
@@ -86,7 +90,7 @@ describe('deliverRegressionAlerts', () => {
     const sent = [];
     assert.equal(await deliverRegressionAlerts(db, { send: async text => sent.push(text), mentionName: 'Carol' }), 2);
     assert.equal(sent.length, 1);
-    assert.match(sent[0], /^🚨 @Carol ABS regression alert: 2 apps regressed\./);
+    assert.match(sent[0], /^🚨 \[regression\] @Carol ABS regression alert: 2 apps regressed\./);
     assert.match(sent[0], /com\.example 2\.0\.0 \(linux\): ftbfs, base 1\.0\.0/);
     assert.match(sent[0], /org\.other 3\.1/);
     assert.equal(pendingCount(db), 0);
@@ -174,5 +178,82 @@ describe('postToBuzz', () => {
 });
 
 test('regressionAlertText: singular wording for one app', () => {
-  assert.match(regressionAlertText([row()], 'Carol'), /^🚨 @Carol ABS regression alert: an app regressed\./);
+  assert.match(regressionAlertText([row()], 'Carol'), /^🚨 \[regression\] @Carol ABS regression alert: an app regressed\./);
+});
+
+describe('skipped signer alerts', () => {
+  const FDROID = 'b00b7be227901e1a673c365fee4f8da59d45d07ba459fc14367b8c51818404d9';
+  const input = {
+    appId: 'com.example',
+    version: '2.0.0',
+    platform: 'android',
+    signer: FDROID,
+    assetEventId: 'asset-id',
+    fileHash: 'f'.repeat(64),
+    scripts: new Map([['example', new Set(['c1899493'])]])
+  };
+  const skippedPending = db => db.prepare('SELECT COUNT(*) AS n FROM skipped_signer_alerts WHERE notifiedAt IS NULL').get().n;
+
+  test('one row per app and signer, whatever the version', () => {
+    const db = new Database(':memory:');
+    const r = { appId: 'com.example', signer: FDROID, version: '2.0.0', platform: 'android', scripts: 'example (c1899493)' };
+    assert.equal(recordSkippedSigner(db, r), true);
+    assert.equal(recordSkippedSigner(db, { ...r, version: '2.1.0' }), false);
+    assert.equal(recordSkippedSigner(db, { ...r, signer: 'a'.repeat(64) }), true);
+  });
+
+  test('the message is labelled and lists signer, asset and dropped scripts', async () => {
+    const db = new Database(':memory:');
+    const sent = [];
+    await alertSkippedSigner(db, input, { enabled: true, appIds: [], deliver: d => deliverSkippedSignerAlerts(d, { send: async t => sent.push(t), mentionName: 'Carol' }) });
+    assert.equal(sent.length, 1);
+    assert.match(sent[0], /^🚨 \[skipped signer\] @Carol ABS skipped an APK on a signer no script was verified on\./);
+    assert.ok(sent[0].includes(`com.example 2.0.0 (android): signer ${FDROID}`));
+    assert.ok(sent[0].includes(`asset asset-id, file ${'f'.repeat(64)}`));
+    assert.ok(sent[0].includes('scripts not tried: example (c1899493)'));
+    assert.equal(skippedPending(db), 0);
+    assert.match(skippedSignerAlertText([{ ...input, scripts: 'x' }, { ...input, scripts: 'y' }], 'Carol'), /ABS skipped 2 APKs/);
+  });
+
+  test('a later version on the same signer sends nothing', async () => {
+    const db = new Database(':memory:');
+    let calls = 0;
+    const deliver = async () => { calls++; return 1; };
+    await alertSkippedSigner(db, input, { enabled: true, appIds: [], deliver });
+    await alertSkippedSigner(db, { ...input, version: '2.1.0' }, { enabled: true, appIds: [], deliver });
+    assert.equal(calls, 1);
+  });
+
+  test('follows the regression flag and app list', async () => {
+    const db = new Database(':memory:');
+    const fail = async () => assert.fail('must not send');
+    await alertSkippedSigner(db, input, { enabled: false, deliver: fail });
+    await alertSkippedSigner(db, input, { enabled: true, appIds: ['org.other'], deliver: fail });
+    assert.equal(db.prepare("SELECT name FROM sqlite_master WHERE name = 'skipped_signer_alerts'").get(), undefined);
+  });
+
+  test('a delivery error is swallowed and retried next cycle', async () => {
+    const db = new Database(':memory:');
+    await alertSkippedSigner(db, input, { enabled: true, appIds: [], deliver: async () => { throw new Error('timeout'); } });
+    assert.equal(skippedPending(db), 1);
+    await retryPendingRegressionAlerts(db, {
+      enabled: true,
+      deliver: async () => assert.fail('no regression pending'),
+      deliverSkipped: d => deliverSkippedSignerAlerts(d, { send: async () => {} })
+    });
+    assert.equal(skippedPending(db), 0);
+  });
+
+  test('a failing regression retry does not block the skipped signer retry', async () => {
+    const db = new Database(':memory:');
+    recordRegression(db, row());
+    await alertSkippedSigner(db, input, { enabled: true, appIds: [], deliver: async () => { throw new Error('timeout'); } });
+    await retryPendingRegressionAlerts(db, {
+      enabled: true,
+      deliver: async () => { throw new Error('down'); },
+      deliverSkipped: d => deliverSkippedSignerAlerts(d, { send: async () => {} })
+    });
+    assert.equal(pendingCount(db), 1);
+    assert.equal(skippedPending(db), 0);
+  });
 });
