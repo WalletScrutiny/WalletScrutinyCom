@@ -35,6 +35,11 @@ features:
 
 ---
 
+## Update 2026-11-26
+
+Besides Frostsnap's own app, the devices now also work with a third-party desktop wallet:
+{% include walletLink.html wallet='desktop/icebox' verdict='true' %}.
+
 ## Update 2026-08-27
 
 The device is now **shipping**, and the project has moved on from the pre-release state we last
