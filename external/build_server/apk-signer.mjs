@@ -170,38 +170,66 @@ export async function getApkSignerForHashes(hashes, options) {
   return null;
 }
 
+// Versions of one script share a name: "bitcoinkeeper-v0.3.0_build" and
+// "bitcoinkeeper_build" are both "bitcoinkeeper". Different names
+// (greenandroid, greenfdroid) are different scripts.
+export function scriptFamily(candidate) {
+  const name = candidate.buildShFileEvent?.tags?.find(tag => tag[0] === 'name')?.[1];
+  if (!name) return `event:${candidate.buildShFileEvent?.id ?? candidate.verification?.id}`;
+  return name.replace(/_build$/, '').replace(/-v\d[\w.-]*$/, '');
+}
+
 /**
- * Narrows build-script candidates (newest first) to those verified on an APK
- * with the asset's signer. Candidates whose signer cannot be read stay, after
- * the matching ones; candidates with a different signer are dropped. With an
- * unknown asset signer the list is returned unchanged.
+ * Narrows build-script candidates (newest first) to the scripts that fit the
+ * asset's signer, keeping their recency order. A script fits when it, or any
+ * other version of it, was verified on an APK with that signer: one script
+ * often builds both the Play and the GitHub APK, which can carry different
+ * signers, and a new version is usually verified on only one of them. A script
+ * that was never verified on a readable APK stays as unknown. Scripts whose
+ * versions were only verified on other signers are dropped, and a script file
+ * attached to several verifications is kept once. With an unknown asset signer
+ * the list is returned unchanged.
  *
- * @param {Array<{verification: object}>} candidates newest first
+ * @param {Array<{verification: object, buildShFileEvent?: object}>} candidates newest first
  * @param {string|null} assetSigner
  * @param {(verification: object) => Promise<string|null>} signerOfVerification
  * @param {number} limit
  */
 export async function selectCandidatesBySigner(candidates, assetSigner, signerOfVerification, limit) {
   if (!assetSigner) return candidates.slice(0, limit);
-  const matching = [];
-  const unknown = [];
-  let dropped = 0;
+  const signersByFamily = new Map();
   for (const candidate of candidates) {
-    // Enough same-signer scripts: older candidates cannot make the cut.
-    if (matching.length >= limit) break;
+    const family = scriptFamily(candidate);
+    if (!signersByFamily.has(family)) signersByFamily.set(family, new Set());
     const signer = await signerOfVerification(candidate.verification);
-    if (signer === assetSigner) matching.push(candidate);
-    else if (!signer) unknown.push(candidate);
-    else dropped++;
+    if (signer) signersByFamily.get(family).add(signer);
   }
+  const kept = [];
+  const dropped = new Set();
+  const seenScripts = new Set();
+  let unknown = 0;
+  for (const candidate of candidates) {
+    // One script file is often attached to several verifications. ABS skips a
+    // script that already failed, so a repeat would only waste a slot.
+    const scriptId = candidate.buildShFileEvent?.id;
+    if (scriptId && seenScripts.has(scriptId)) continue;
+    if (scriptId) seenScripts.add(scriptId);
+    const family = scriptFamily(candidate);
+    const signers = signersByFamily.get(family);
+    if (signers.has(assetSigner)) kept.push(candidate);
+    else if (signers.size === 0) { kept.push(candidate); unknown++; }
+    else dropped.add(family);
+  }
+  const selected = kept.slice(0, limit);
   appLog.info(
-    `     - APK signer ${assetSigner}: ${matching.length} script(s) verified on the same signer, ` +
-    `${unknown.length} on an unreadable signer, ${dropped} dropped for a different signer`
+    `     - APK signer ${assetSigner}: trying ${selected.map(scriptFamily).join(', ') || 'no script'}` +
+    (unknown ? ` (${unknown} verification(s) on an unreadable signer)` : '') +
+    (dropped.size ? `; dropped for a different signer: ${[...dropped].join(', ')}` : '')
   );
-  if (matching.length === 0 && unknown.length === 0 && dropped > 0) {
+  if (kept.length === 0 && dropped.size > 0) {
     appLog.info(`     - no script was verified on an APK with signer ${assetSigner}; skipping this asset`);
   }
-  return [...matching, ...unknown].slice(0, limit);
+  return selected;
 }
 
 export function verificationHashes(verification) {
