@@ -195,6 +195,8 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
       el('div', { className: 'dpt-row' }, el('span', { className: 'dpt-toggle dpt-toggle--static' }, '−'), el('span', { className: 'dpt-wallet' }, wallet)),
       el('ul', { role: 'group', className: 'dpt-children' }, items));
     treeEl.replaceChildren(root);
+    // Nothing open and nothing searched: there is nothing to collapse.
+    collapse.hidden = !expanded.size && !query;
     if (focused) treeEl.querySelector(`[data-id="${CSS.escape(focused)}"]`)?.querySelector('.dpt-toggle')?.focus?.();
   }
 
