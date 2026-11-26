@@ -31,12 +31,17 @@ features:
 
 {% include featureEvidence.html feature="customNode" source="[User guide](https://github.com/amisatoshi/icebox/blob/v0.4.1/docs/guide/10-settings.md#use-your-own-node-recommended-for-mainnet)" quote="Use your own node (recommended for mainnet)" %}
 
+{% include featureEvidence.html feature="taproot" source="[FAQ](https://github.com/amisatoshi/icebox/blob/v0.4.1/docs/guide/faq.md)" quote="the devices produce one ordinary Taproot signature together, so on the blockchain it looks like a normal single-key wallet" %}
+
 {% include featureEvidence.html feature="foss" source="[LICENSE](https://github.com/amisatoshi/icebox/blob/v0.4.1/LICENSE)" quote="MIT License" %}
 
 ## App Description
 
-Icebox is a desktop wallet for Windows, macOS and Linux that works with
-{% include walletLink.html wallet='hardware/frostsnap' verdict='true' %} devices. It does the job
+Icebox is a desktop wallet for Windows, macOS and Linux that works with Frostsnap devices:
+
+{% include walletLink.html wallet='hardware/frostsnap' verdict='true' %}
+
+It does the job
 of Frostsnap's own app: it talks to the devices over USB, runs the FROST key generation and
 signing, and tracks the wallet's balance and history over Electrum. Underneath it uses Frostsnap's
 own open-source Rust crates, pinned to a fixed commit
