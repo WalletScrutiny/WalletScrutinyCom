@@ -276,8 +276,11 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
   let filter = 'all';
   let expanded = false;
   const body = el('tbody');
+  const table = el('table', { className: 'dp-table dp-rb-table' },
+    el('thead', {}, el('tr', {}, ['Package', 'Rebuilt by', 'Same version in'].map((h, i) => el('th', { className: i === 2 ? 'dp-rb-center' : null }, h)))),
+    body);
   const status = el('p', { className: 'dpt-status', role: 'status' });
-  const more = el('button', { type: 'button', className: 'dp-note-more dp-rb-more' });
+  const more = el('button', { type: 'button', className: 'dp-more-bar dp-rb-more' });
   more.addEventListener('click', () => { expanded = true; paint(); });
 
   const shared = (d) => (d.productsSameVersion ? `${d.productsSameVersion} ${d.productsSameVersion === 1 ? 'wallet' : 'wallets'}` : '');
@@ -288,10 +291,15 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
     else if (filter === 'all') list = tried;
     else list = tried.filter(p => p.row.claims.some(c => c.by === filter));
     list = [...list].sort((a, b) => (b.d.productsSameVersion || 0) - (a.d.productsSameVersion || 0) || a.d.name.localeCompare(b.d.name));
-    status.textContent = `${list.length.toLocaleString('en-US')} ${list.length === 1 ? 'package' : 'packages'}${list.length > MAX_ROWS ? `, showing the ${MAX_ROWS} used by most wallets` : ''}.`;
     const shown = Math.min(list.length, MAX_ROWS);
     const rows = expanded ? shown : Math.min(shown, FIRST_ROWS);
-    more.hidden = rows === shown;
+    const cut = rows < shown;
+    const showing = list.length > MAX_ROWS
+      ? `, showing ${cut ? `${rows} of ` : ''}the ${MAX_ROWS} used by most wallets`
+      : cut ? `, showing ${rows}` : '';
+    status.textContent = `${list.length.toLocaleString('en-US')} ${list.length === 1 ? 'package' : 'packages'}${showing}.`;
+    table.classList.toggle('dp-table--cut', cut);
+    more.hidden = !cut;
     more.textContent = `Show ${(shown - rows).toLocaleString('en-US')} more`;
     // the version sits after the name; on phones the wallets count beside them
     body.replaceChildren(...list.slice(0, rows).map(({ d, row }) => el('tr', {},
@@ -319,8 +327,6 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
       'Who has rebuilt each dependency from source and got the same file the registry serves. Some of these results are other projects\' claims rather than our own checks, and none of them affect any verdict.'),
     el('div', { className: 'dpt-controls' }, el('span', { className: 'dp-history__tabs dp-rb-filters', role: 'group', 'aria-label': 'Show' }, buttons)),
     status,
-    el('table', { className: 'dp-table dp-rb-table' },
-      el('thead', {}, el('tr', {}, ['Package', 'Rebuilt by', 'Same version in'].map((h, i) => el('th', { className: i === 2 ? 'dp-rb-center' : null }, h)))),
-      body),
+    table,
     more);
 }
