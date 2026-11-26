@@ -17,6 +17,8 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 - docker.io and podman (for container-based verification scripts)
 - Nix with flakes enabled (for Nix-native verification scripts; optional but required when a script uses `nix develop` or `nix build`)
 - GitHub token (to refresh the desktop and hardware apps; build scripts get it only for the apps in `GITHUB_TOKEN_APP_IDS` in `config/config.mjs`)
+- Public-only GitHub token for every other build script, so their GitHub API calls are not limited to 60 an hour: a fine-grained token on a separate GitHub account, repository access "Public repositories (read-only)", no permissions. Stored as the credential `build-server-gh-public-token`:
+  `echo -n 'github_pat_xxx' | sudo systemd-creds encrypt --name=build-server-gh-public-token - /etc/credstore.encrypted/build-server-gh-public-token`
 - Nostr private key from the `WalletScrutiny Bot` account
 
 ## Usage

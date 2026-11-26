@@ -1,7 +1,9 @@
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { buildScriptExecutionEnv } from '../script-env.mjs';
+import os from 'node:os';
+import path from 'node:path';
+import { buildScriptExecutionEnv, readPublicGithubToken } from '../script-env.mjs';
 import { GITHUB_TOKEN_APP_IDS } from '../config/config.mjs';
 
 describe('buildScriptExecutionEnv', () => {
@@ -48,6 +50,57 @@ describe('buildScriptExecutionEnv', () => {
       assert.equal('GITHUB_TOKEN' in buildScriptExecutionEnv({ appId: 'to.bitkit' }), false);
     } finally {
       if (previous !== undefined) process.env.GITHUB_TOKEN = previous;
+    }
+  });
+
+  test('gives an app not on the token list the public token, never the real one', () => {
+    const env = buildScriptExecutionEnv({ githubToken: 'ghp_real', publicGithubToken: 'github_pat_public', appId: 'world.bitkey.app' });
+    assert.equal(env.GITHUB_TOKEN, 'github_pat_public');
+  });
+
+  test('gives an app on the token list the real token, not the public one', () => {
+    const env = buildScriptExecutionEnv({ githubToken: 'ghp_real', publicGithubToken: 'github_pat_public', appId: 'to.bitkit' });
+    assert.equal(env.GITHUB_TOKEN, 'ghp_real');
+  });
+
+  test('gives an unknown app the public token', () => {
+    const env = buildScriptExecutionEnv({ githubToken: 'ghp_real', publicGithubToken: 'github_pat_public' });
+    assert.equal(env.GITHUB_TOKEN, 'github_pat_public');
+  });
+
+  test('reads the public token from GITHUB_PUBLIC_TOKEN_FILE', () => {
+    const previous = process.env.GITHUB_PUBLIC_TOKEN_FILE;
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'public-token-'));
+    const file = path.join(dir, 'build-server-gh-public-token');
+    fs.writeFileSync(file, 'github_pat_public\n');
+    process.env.GITHUB_PUBLIC_TOKEN_FILE = file;
+    try {
+      assert.equal(readPublicGithubToken(), 'github_pat_public');
+      const env = buildScriptExecutionEnv({ githubToken: 'ghp_real', appId: 'world.bitkey.app' });
+      assert.equal(env.GITHUB_TOKEN, 'github_pat_public');
+    } finally {
+      fs.rmSync(dir, { recursive: true, force: true });
+      if (previous === undefined) {
+        delete process.env.GITHUB_PUBLIC_TOKEN_FILE;
+      } else {
+        process.env.GITHUB_PUBLIC_TOKEN_FILE = previous;
+      }
+    }
+  });
+
+  test('without a public token file, an app not on the list gets no token at all', () => {
+    const previous = process.env.GITHUB_PUBLIC_TOKEN_FILE;
+    process.env.GITHUB_PUBLIC_TOKEN_FILE = path.join(os.tmpdir(), 'no-such-public-token');
+    try {
+      assert.equal(readPublicGithubToken(), undefined);
+      const env = buildScriptExecutionEnv({ githubToken: 'ghp_real', appId: 'world.bitkey.app' });
+      assert.equal('GITHUB_TOKEN' in env, false);
+    } finally {
+      if (previous === undefined) {
+        delete process.env.GITHUB_PUBLIC_TOKEN_FILE;
+      } else {
+        process.env.GITHUB_PUBLIC_TOKEN_FILE = previous;
+      }
     }
   });
 
