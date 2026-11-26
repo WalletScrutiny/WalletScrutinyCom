@@ -1425,14 +1425,51 @@ body.dark .dp-more-bar {
   }
 }
 
-// The bottom of the table fades out: the table is cut, not finished. The
-// mask is on the table, so the desktop outline fades with the last row.
-.dp-table--cut {
-  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), #000 3.5em);
-  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), #000 3.5em);
+// The bottom of the table fades out: the table is cut, not finished. A mask
+// clips everything inside it, the tips too (they sit next to their trigger),
+// so it goes on the last row's cells, never the table, and a cell lets go of
+// it while its tip is open. Phones mask the last card instead.
+.dp-table--cut tbody tr:last-child td {
+  border-bottom: 0;
 
-  tbody tr:last-child td {
-    border-bottom: 0;
+  &:not(:has(.dp-tip:not([hidden]))) {
+    -webkit-mask-image: linear-gradient(to bottom, #000 10%, rgba(0, 0, 0, 0.2));
+    mask-image: linear-gradient(to bottom, #000 10%, rgba(0, 0, 0, 0.2));
+  }
+}
+
+@media (max-width: 640px) {
+  .dp-table--cut tbody tr:last-child {
+    td:not(:has(.dp-tip:not([hidden]))) {
+      -webkit-mask-image: none;
+      mask-image: none;
+    }
+
+    &:not(:has(.dp-tip:not([hidden]))) {
+      -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), #000 3.5em);
+      mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), #000 3.5em);
+    }
+  }
+}
+
+// Desktop: the outline fades with the row. It is drawn by a pseudo-element
+// that alone carries the mask; the table's own border keeps its place, unseen.
+@media (min-width: 641px) {
+  .dp-adv-table.dp-table--cut,
+  .dp-rb-table.dp-table--cut {
+    position: relative;
+    border-color: transparent;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border: 1px solid var(--neutral-5);
+      border-radius: 6px;
+      pointer-events: none;
+      -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), #000 3.5em);
+      mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), #000 3.5em);
+    }
   }
 }
 
