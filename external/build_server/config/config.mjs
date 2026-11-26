@@ -75,8 +75,9 @@ export const REGRESSION_ALERT_MENTION = {
 };
 export const REGRESSION_ALERT_TIMEOUT_SECONDS = 10;
 // Apps whose regressions and skipped signers are alerted (empty = every app). One test app first
-// (Danny, Luis Miguel, 2026-11-17), the same one BitForBit is scoped to.
-export const REGRESSION_ALERT_APP_IDS = ['com.coinspace.app'];
+// (Danny, Luis Miguel, 2026-11-17), the same one BitForBit is scoped to; Bitkey and
+// Unstoppable added for the skipped-signer alert (Danny, 2026-11-26).
+export const REGRESSION_ALERT_APP_IDS = ['com.coinspace.app', 'world.bitkey.app', 'io.horizontalsystems.bankwallet'];
 
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
