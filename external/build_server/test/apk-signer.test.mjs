@@ -74,6 +74,8 @@ function fakeBlossom(blobs) {
     const blob = blobs[url.split('/').pop()];
     if (!blob) return new Response('not found', { status: 404 });
     const [, from, to] = /bytes=(\d+)-(\d+)/.exec(headers.Range);
+    // Like the live server: an empty range (bytes=500-499) is unsatisfiable.
+    if (Number(from) > Number(to)) return new Response('range not satisfiable', { status: 416 });
     const end = Math.min(Number(to), blob.length - 1);
     return new Response(blob.subarray(Number(from), end + 1), {
       status: 206,
@@ -176,6 +178,16 @@ describe('getBlobApkSigner', () => {
     startApkSignerCycle();
     assert.equal(await getBlobApkSigner('f'.repeat(64), failing), null);
     assert.equal(calls, 4);
+  });
+
+  test('an empty signing block (416 on the empty range) is unknown and cached, not missed', async () => {
+    const hash = 'a'.repeat(64);
+    const blossom = fakeBlossom({ [hash]: makeApk([]) });
+    assert.equal(await getBlobApkSigner(hash, blossom), null);
+    assert.equal(missedApkSignerLookups(), 0);
+    const calls = blossom.calls.length;
+    assert.equal(await getBlobApkSigner(hash, blossom), null);
+    assert.equal(blossom.calls.length, calls);
   });
 
   test('failed and capped lookups count as missed, a missing blob does not', async () => {

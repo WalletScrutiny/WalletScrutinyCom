@@ -118,7 +118,8 @@ export async function readApkSigner(readRange, size) {
   return signerFromSigningBlock(pairs);
 }
 
-// 206 -> response; 404 or no range support (200) -> null, a lasting answer;
+// 206 -> response; 404, 416 (an empty or out-of-file range, e.g. a signing
+// block with no pairs) or no range support (200) -> null, a lasting answer;
 // anything else (5xx, 429, ...) throws, so the lookup is retried next cycle.
 async function rangeRequest(url, range, fetchImpl) {
   const response = await fetchImpl(url, {
@@ -127,7 +128,7 @@ async function rangeRequest(url, range, fetchImpl) {
   });
   if (response.status === 206) return response;
   try { await response.body?.cancel(); } catch { /* best effort */ }
-  if (response.status === 404 || response.status === 200) return null;
+  if (response.status === 404 || response.status === 416 || response.status === 200) return null;
   throw new Error(`HTTP ${response.status}`);
 }
 
