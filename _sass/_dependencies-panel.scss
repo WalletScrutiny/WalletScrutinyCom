@@ -1381,7 +1381,8 @@ a.dp-signer {
 }
 
 // "Show N more" under a table that opens with its first rows: a bar the
-// width of the table, so it reads as the table's last line and not as a note.
+// width of the table, so it reads as the table's end and not as a note. No
+// border: a hard line would undo the fade above it.
 .dp-more-bar {
   appearance: none;
   display: block;
@@ -1389,8 +1390,7 @@ a.dp-signer {
   margin: 0;
   padding: 8px 10px;
   border: 0;
-  border-top: 1px solid var(--neutral-5);
-  border-bottom: 1px solid var(--neutral-5);
+  border-radius: 6px;
   background: none;
   font: inherit;
   font-size: $font-sm;
@@ -1425,12 +1425,15 @@ body.dark .dp-more-bar {
   }
 }
 
-// The last row shown fades out: the table is cut, not finished. The bar
-// under it draws the line, so the row's own border goes.
-.dp-table--cut tbody tr:last-child td {
-  -webkit-mask-image: linear-gradient(to bottom, #000 10%, rgba(0, 0, 0, 0.2));
-  mask-image: linear-gradient(to bottom, #000 10%, rgba(0, 0, 0, 0.2));
-  border-bottom: 0;
+// The bottom of the table fades out: the table is cut, not finished. The
+// mask is on the table, so the desktop outline fades with the last row.
+.dp-table--cut {
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), #000 3.5em);
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), #000 3.5em);
+
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
 }
 
 .dp-adv-status {
