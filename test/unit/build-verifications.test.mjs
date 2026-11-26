@@ -145,7 +145,13 @@ describe('words', () => {
     assert.equal(headlineFor(version([...again('reproducible', 2), ...again('reproducible', 1, BOB)])), '2 verifiers found it reproducible in 3 verifications');
     assert.equal(headlineFor(version([...again('not_reproducible', 2), ...again('ftbfs', 1)])), '1 verifier could not reproduce it in 3 verifications');
     assert.equal(headlineFor(version(again('ftbfs', 2))), 'The build failed for 1 verifier in 2 verifications');
-    assert.equal(headlineFor(version([verification(), verification({ pubkey: BOB, id: 'b', status: 'ftbfs' })])), '1 reproducible, 1 not reproducible');
+    assert.equal(headlineFor(version([verification(), verification({ pubkey: BOB, id: 'b', status: 'ftbfs' })])), '1 reproducible, 1 failed to build');
+    assert.equal(headlineFor(version([verification(), verification({ pubkey: BOB, id: 'b', status: 'not_reproducible' })])), '1 reproducible, 1 not reproducible');
+    assert.equal(headlineFor(version([...again('reproducible', 3), ...again('ftbfs', 3, BOB)])), '3 reproducible, 3 failed to build');
+    assert.equal(
+      headlineFor(version([...again('reproducible', 2), ...again('not_reproducible', 1, BOB), ...again('ftbfs', 2, BOB)])),
+      '2 reproducible, 1 not reproducible, 2 failed to build',
+    );
     assert.equal(headlineFor(version([])), 'Nobody has tested this build yet');
     assert.equal(headlineFor(version([verification({ status: 'nosource' })])), 'Source not found');
   });
@@ -157,6 +163,14 @@ describe('words', () => {
     );
     assert.equal(ledeFor(version([]), 'ZEUS'), 'Nobody has tested ZEUS 1.0.0 yet.');
     assert.equal(ledeFor(version([verification({ status: 'ftbfs' })]), 'ZEUS'), 'Nobody managed to build ZEUS 1.0.0 from its source code, so it could not be checked.');
+    assert.equal(
+      ledeFor(version([verification(), verification({ pubkey: BOB, id: 'b', status: 'ftbfs' })]), 'ZEUS'),
+      'Some verifiers reproduced ZEUS 1.0.0; others could not build it.',
+    );
+    assert.equal(
+      ledeFor(version([verification(), verification({ pubkey: BOB, id: 'b', status: 'not_reproducible' })]), 'ZEUS'),
+      'Verifiers disagree about ZEUS 1.0.0.',
+    );
   });
 });
 

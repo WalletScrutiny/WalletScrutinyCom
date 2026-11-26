@@ -242,8 +242,17 @@ export function headlineFor(version) {
       const { who, times } = verifiersOf(version, ['failedToBuild']);
       return `The build failed for ${who}${times}`;
     }
-    case 'split':
-      return `${t.reproducible} reproducible, ${t.cracks} not reproducible`;
+    case 'split': {
+      // A failed build is no verdict on the app, so it is counted on its own, never as "not reproducible".
+      const parts = [`${t.reproducible} reproducible`];
+      if (t.notReproducible > 0) {
+        parts.push(`${t.notReproducible} not reproducible`);
+      }
+      if (t.failedToBuild > 0) {
+        parts.push(`${t.failedToBuild} failed to build`);
+      }
+      return parts.join(', ');
+    }
     default:
       return version.verifications.length
         ? getStatusText(getFirstTagValue(version.verifications[0], 'status'), true)
@@ -263,7 +272,9 @@ export function ledeFor(version, walletTitle) {
         ? `Verifiers built ${subject} from its public source code and got a different app than the one its developer published.`
         : `Nobody managed to build ${subject} from its source code, so it could not be checked.`;
     case 'split':
-      return `Verifiers disagree about ${subject}.`;
+      return t.notReproducible > 0
+        ? `Verifiers disagree about ${subject}.`
+        : `Some verifiers reproduced ${subject}; others could not build it.`;
     default:
       return version.verifications.length
         ? `Verifiers could not check ${subject}.`
