@@ -6,6 +6,7 @@ import { createHash } from 'node:crypto';
 import {
   clearApkSignerCache,
   startApkSignerCycle,
+  missedApkSignerLookups,
   getApkSignerForHashes,
   getBlobApkSigner,
   readApkSigner,
@@ -175,6 +176,48 @@ describe('getBlobApkSigner', () => {
     startApkSignerCycle();
     assert.equal(await getBlobApkSigner('f'.repeat(64), failing), null);
     assert.equal(calls, 4);
+  });
+
+  test('failed and capped lookups count as missed, a missing blob does not', async () => {
+    assert.equal(missedApkSignerLookups(), 0);
+    await getBlobApkSigner('a'.repeat(64), fakeBlossom({}));
+    assert.equal(missedApkSignerLookups(), 0);
+    const failing = { baseUrl: 'https://blossom.test', fetchImpl: async () => new Response('busy', { status: 503 }) };
+    for (const c of 'bcde') await getBlobApkSigner(c.repeat(64), failing);
+    assert.equal(missedApkSignerLookups(), 4); // 3 failed, 1 not asked
+  });
+
+  test('a 503 on a verified APK shows as a missed lookup, not only as a skip', async () => {
+    // Bob's case: one script verified on signers A and B, the asset is on A,
+    // and the lookup of the A verification fails once.
+    const certA = Buffer.from('signer A');
+    const certB = Buffer.from('signer B');
+    const blobs = { ['1'.repeat(64)]: makeApk([[V2, certA]]), ['2'.repeat(64)]: makeApk([[V2, certB]]) };
+    const blossom = fakeBlossom(blobs);
+    let fail = true;
+    const flaky = {
+      baseUrl: blossom.baseUrl,
+      fetchImpl: async (url, init) => {
+        if (fail && url.endsWith('1'.repeat(64))) return new Response('busy', { status: 503 });
+        return blossom.fetchImpl(url, init);
+      }
+    };
+    const candidate = (id, hash) => ({
+      verification: { id, tags: [['x', hash]] },
+      buildShFileEvent: { id: `file-${id}`, tags: [['name', `wallet-${id}_build`]] },
+    });
+    const scripts = [candidate('v2', '1'.repeat(64)), candidate('v1', '2'.repeat(64))];
+    const signerOf = verification => getApkSignerForHashes(verificationHashes(verification), flaky);
+    const before = missedApkSignerLookups();
+    const skipped = [];
+    const result = await selectCandidatesBySigner(scripts, sha256(certA), signerOf, 3, d => { skipped.push(d); });
+    assert.equal(result.length, 0);
+    assert.equal(skipped.length, 1);
+    assert.notEqual(missedApkSignerLookups(), before); // so the caller defers instead of alerting
+    fail = false;
+    startApkSignerCycle();
+    const next = await selectCandidatesBySigner(scripts, sha256(certA), signerOf, 3);
+    assert.deepEqual(next.map(c => c.verification.id), ['v2', 'v1']);
   });
 
   test('a cached signer is still served after the cycle stopped asking', async () => {

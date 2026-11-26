@@ -43,7 +43,7 @@ import {
 } from './asset-utils.mjs';
 import { buildScriptExecutionEnv } from './script-env.mjs';
 import { describeVersionOverride, resolveAndroidWalletVersion } from './apk-version.mjs';
-import { getApkSignerForHashes, selectCandidatesBySigner, startApkSignerCycle, verificationHashes } from './apk-signer.mjs';
+import { getApkSignerForHashes, missedApkSignerLookups, selectCandidatesBySigner, startApkSignerCycle, verificationHashes } from './apk-signer.mjs';
 
 // Verdicts a build script may write to COMPARISON_RESULTS.yaml. Each one is
 // published to Nostr, whatever the script's exit code was.
@@ -337,24 +337,35 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
       // Match by signer first so a store re-signed APK (F-Droid) reaches the
       // script verified on that store's builds, however old that script is.
       const binaryHash = pickScriptBinaryEntry(asset)?.hash;
+      const missedBefore = missedApkSignerLookups();
       const assetSigner = await getApkSignerForHashes(
         [binaryHash, ...assetFileEntries.map(entry => entry.hash)].filter(Boolean)
       );
+      let skippedScripts = null;
       verificationCandidates = await selectCandidatesBySigner(
         getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform, Infinity),
         assetSigner,
         verification => getApkSignerForHashes(verificationHashes(verification)),
         MAX_SCRIPTS_TO_TRY,
-        scripts => alertSkippedSigner(initDb(), {
+        scripts => { skippedScripts = scripts; }
+      );
+      // A failed lookup reads as "unknown signer", which can drop the right
+      // script or keep the wrong one. Decide on this asset next cycle.
+      if (missedApkSignerLookups() !== missedBefore) {
+        appLog.info(`   APK signer lookups failed for appId=${appId}, version=${version}; leaving the asset for the next cycle`);
+        continue;
+      }
+      if (skippedScripts) {
+        await alertSkippedSigner(initDb(), {
           appId,
           version,
           platform,
           signer: assetSigner,
           assetEventId: asset.id,
           fileHash: binaryHash ?? assetFileEntries[0]?.hash ?? null,
-          scripts
-        })
-      );
+          scripts: skippedScripts
+        });
+      }
     } else {
       verificationCandidates = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);
     }

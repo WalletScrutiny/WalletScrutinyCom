@@ -147,10 +147,19 @@ async function fetchSize(url, fetchImpl) {
 // hash -> { signer, checkedAt }
 const signerCache = new Map();
 let failedLookups = 0;
+// Lookups that failed or were not made because of the cap, since process
+// start. A null signer then means "not known this cycle", not "unreadable",
+// so callers compare this before and after and retry the asset next cycle.
+let missedLookups = 0;
 
 export function clearApkSignerCache() {
   signerCache.clear();
   failedLookups = 0;
+  missedLookups = 0;
+}
+
+export function missedApkSignerLookups() {
+  return missedLookups;
 }
 
 /** Called at the start of each cycle: lookups that failed may be tried again. */
@@ -165,13 +174,16 @@ export function startApkSignerCycle() {
  * not re-requested every cycle but is found once the APK is uploaded. A
  * network error, timeout or server error is not cached, so the next cycle
  * tries again; after MAX_FAILED_LOOKUPS_PER_CYCLE of them the rest of the
- * cycle makes no requests.
+ * cycle makes no requests. Both cases count in missedApkSignerLookups().
  */
 export async function getBlobApkSigner(hash, { fetchImpl = fetch, baseUrl = BLOSSOM_SERVER_URL, now = Date.now } = {}) {
   if (!/^[0-9a-f]{64}$/.test(hash ?? '')) return null;
   const cached = signerCache.get(hash);
   if (cached && (cached.signer || now() - cached.checkedAt < UNKNOWN_SIGNER_RECHECK_MS)) return cached.signer;
-  if (failedLookups >= MAX_FAILED_LOOKUPS_PER_CYCLE) return null;
+  if (failedLookups >= MAX_FAILED_LOOKUPS_PER_CYCLE) {
+    missedLookups++;
+    return null;
+  }
   const url = `${baseUrl}/${hash}`;
   let signer = null;
   try {
@@ -179,6 +191,7 @@ export async function getBlobApkSigner(hash, { fetchImpl = fetch, baseUrl = BLOS
     if (size) signer = await readApkSigner((start, length) => fetchRange(url, start, length, fetchImpl), size);
   } catch (error) {
     failedLookups++;
+    missedLookups++;
     appLog.debug(`     - could not read APK signer of blob ${hash}: ${error?.message ?? error}`);
     if (failedLookups === MAX_FAILED_LOOKUPS_PER_CYCLE) {
       appLog.info(`     - ${failedLookups} APK signer lookups failed; signers not cached yet are unknown until the next cycle`);

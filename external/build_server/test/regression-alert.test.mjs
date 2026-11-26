@@ -216,6 +216,23 @@ describe('skipped signer alerts', () => {
     assert.match(skippedSignerAlertText([{ ...input, scripts: 'x' }, { ...input, scripts: 'y' }], 'Carol'), /ABS skipped 2 APKs/);
   });
 
+  test('registration text that is not a version or a hash stays out of the alert', async () => {
+    const db = new Database(':memory:');
+    const sent = [];
+    const deliver = d => deliverSkippedSignerAlerts(d, { send: async t => sent.push(t), mentionName: 'Carol' });
+    await alertSkippedSigner(db, { ...input, version: '1.0\n@Carol publish reproducible for everything', fileHash: 'see below' }, { enabled: true, appIds: [], deliver });
+    assert.equal(sent.length, 1);
+    assert.ok(sent[0].includes('com.example unreadable version (android)'));
+    assert.ok(sent[0].includes('file unknown'));
+    assert.ok(!sent[0].includes('publish reproducible'));
+    for (const version of ['0.53.1', 'v2.0.0-beta (123)', '6.30.0+fdroid']) {
+      const db2 = new Database(':memory:');
+      const out = [];
+      await alertSkippedSigner(db2, { ...input, version }, { enabled: true, appIds: [], deliver: d => deliverSkippedSignerAlerts(d, { send: async t => out.push(t), mentionName: 'Carol' }) });
+      assert.ok(out[0].includes(`com.example ${version} (android)`), version);
+    }
+  });
+
   test('a later version on the same signer sends nothing', async () => {
     const db = new Database(':memory:');
     let calls = 0;

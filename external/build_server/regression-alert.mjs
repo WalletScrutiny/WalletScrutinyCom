@@ -274,6 +274,12 @@ export async function alertIfRegression(db, { baseVerification, appId, version, 
  * was verified only on other signers. `scripts` maps each script name to the
  * signers it was verified on. Never throws.
  */
+// The version and file hash come from the asset registration, which any key
+// can publish. Only text that looks like a version or a hash reaches the
+// alert, so a registration cannot put its own words in front of Carol.
+const PLAIN_VERSION = /^[\w.()+-][\w .()+-]{0,39}$/;
+const HEX_HASH = /^[0-9a-f]{64}$/;
+
 export async function alertSkippedSigner(db, { appId, version, platform, signer, assetEventId, fileHash, scripts }, { enabled = FEATURE_REGRESSION_ALERTS, appIds = SKIPPED_SIGNER_ALERT_APP_IDS, deliver = deliverSkippedWithConfiguredKey } = {}) {
   if (!enabled) return;
   if (appIds.length && !appIds.includes(appId)) return;
@@ -281,10 +287,10 @@ export async function alertSkippedSigner(db, { appId, version, platform, signer,
     const fresh = recordSkippedSigner(db, {
       appId,
       signer,
-      version,
+      version: PLAIN_VERSION.test(version ?? '') ? version : 'unreadable version',
       platform,
       assetEventId,
-      fileHash,
+      fileHash: HEX_HASH.test(fileHash ?? '') ? fileHash : null,
       scripts: [...scripts].map(([name, signers]) => `${name} (${[...signers].join(', ')})`).join('; ')
     });
     if (!fresh) return;
