@@ -79,12 +79,13 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   }
 
   // One package row. `pathIds` are the keys from the group down to and including this node.
-  function nodeItem(node, pathIds, level, { ambiguous = false, cycle = false } = {}) {
+  // `versions` are the versions a merged row stands for (siblingItems).
+  function nodeItem(node, pathIds, level, { ambiguous = false, cycle = false, versions = [node] } = {}) {
     const id = pathIds.join('>');
     const kids = cycle ? [] : childrenOf(node, pathIds.slice(0, -1));
     const expandable = !cycle && (kids.length > 0 || node.advisories.length > 0);
     const isOpen = expandable && expanded.has(id);
-    const li = el('li', { className: `dpt-item${hits.has(node.key) ? ' dpt-item--hit' : ''}`, role: 'treeitem', 'aria-level': level, 'aria-expanded': expandable ? String(isOpen) : null, tabindex: '-1', dataset: { id, package: node.name } });
+    const li = el('li', { className: `dpt-item${versions.some(v => hits.has(v.key)) ? ' dpt-item--hit' : ''}`, role: 'treeitem', 'aria-level': level, 'aria-expanded': expandable ? String(isOpen) : null, tabindex: '-1', dataset: { id, package: node.name } });
     const toggle = expandable
       ? el('button', { type: 'button', className: 'dpt-toggle', tabindex: '-1', 'aria-label': `${isOpen ? 'Collapse' : 'Expand'} ${node.name} ${node.version}` }, isOpen ? '−' : '+')
       : el('span', { className: 'dpt-spacer' });
@@ -92,7 +93,7 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
     li.appendChild(el('div', { className: 'dpt-row' },
       toggle,
       nodeLabel(node),
-      el('span', { className: 'dpt-version' }, node.version),
+      el('span', { className: 'dpt-version' }, versions.map(v => v.version).join(', ')),
       // The group already says where its packages end up; label only a row that differs.
       node.scope === pathIds[0].split('|g:')[1] ? null
         : el('span', { className: `dp-where dp-where--${node.scope}`, title: node.scope === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(node.row)),
@@ -106,12 +107,27 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
     return li;
   }
 
+  // A package with nothing to show under it and nothing of its own to flag.
+  const plain = ({ node, cycle }) => !cycle && !node.advisories.length && !node.children.length
+    && !(rebuilds && rebuilds.get(rebuildKey(node.ecosystem, node.name, node.version)));
+
+  // Sibling rows, with the plain versions of one package in one row: a build can
+  // lock a dozen versions of the same tool (one per plugin), each with nothing under it.
+  function siblingItems(entries, pathIds, level) {
+    const merged = new Map();
+    const rows = [];
+    for (const e of entries) {
+      const k = `${e.node.ecosystem}\u0000${e.node.lockfile}\u0000${e.node.name}\u0000${e.node.scope}\u0000${e.ambiguous}`;
+      if (!plain(e)) { rows.push([e]); continue; }
+      if (!merged.has(k)) { merged.set(k, [e]); rows.push(merged.get(k)); } else merged.get(k).push(e);
+    }
+    return rows.map(([first, ...more]) => nodeItem(first.node, [...pathIds, first.node.key], level, { ambiguous: first.ambiguous, cycle: first.cycle, versions: [first, ...more].map(e => e.node) }));
+  }
+
   function childList(node, pathIds, level) {
     const ul = el('ul', { role: 'group', className: 'dpt-children' });
     ul.append(...advisoryItems(node, level + 1));
-    for (const c of childrenOf(node, pathIds.slice(0, -1))) {
-      ul.appendChild(nodeItem(c.node, [...pathIds, c.node.key], level + 1, { ambiguous: c.ambiguous, cycle: c.cycle }));
-    }
+    ul.append(...siblingItems(childrenOf(node, pathIds.slice(0, -1)), pathIds, level + 1));
     return ul;
   }
 
@@ -160,7 +176,7 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   }
 
   function groupItem(id, label, roots, level) {
-    return branchItem(id, label, packageCount(roots), level, kids => roots.map(n => nodeItem(n, [id, n.key], kids)), () => openGroup(id, roots));
+    return branchItem(id, label, packageCount(roots), level, kids => siblingItems(roots.map(n => ({ node: n })), [id], kids), () => openGroup(id, roots));
   }
 
   // What the scope menu keeps: everything, one group, one product, or every other product.
