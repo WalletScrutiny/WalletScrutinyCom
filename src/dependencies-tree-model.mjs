@@ -8,6 +8,10 @@
 // the child is listed under every version of that parent and flagged
 // `ambiguous`, never attributed to one of them.
 //
+// A package locked by several lockfiles (a monorepo's crates, say) is one node,
+// with every file's rows and the parents each file names; its children stay
+// per file, so edges never cross from one lockfile to another's versions.
+//
 // A repository can hold other products than this app (issue 996): a row's
 // product comes from the same file sorting as the page's counts (issue 994), and
 // every row sits in exactly one product, this app's or another one's.
@@ -33,6 +37,8 @@ export const OTHER_PRODUCTS_LABEL = 'Other products';
 export const MAX_MATCHES = 60;
 
 export const nodeKey = (d) => `${d.ecosystem}\u0000${d.lockfile}\u0000${d.name}\u0000${d.version}`;
+// The node a row joins: the same package and version, in the same product and group.
+const mergeKey = (d, product, scope) => `${product}\u0000${scope}\u0000${packageKey(d.ecosystem, d.name, d.version)}`;
 
 // A node is one file's row; the page counts packages (issue 1027): the export's
 // key, the same as external/source_analysis/packageKey.mjs. Only pip names fold.
@@ -65,16 +71,28 @@ export function buildTree(dependencies = [], advisories = [], { productOf = null
     return !p || !counted || counted.includes(p) ? THIS_APP : p;
   };
   const nodes = new Map();
+  const byMerge = new Map(); // mergeKey -> node
   const versionsOf = new Map(); // ecosystem+lockfile+name -> nodes
+  const rowsOf = new Map(); // row -> its node
   for (const d of dependencies) {
     if (!d || !d.name) continue;
-    const key = nodeKey(d);
-    if (nodes.has(key)) continue; // identical coordinates twice: one node
-    const node = { key, pkg: packageKey(d.ecosystem, d.name, d.version), row: d, name: d.name, version: d.version || '', ecosystem: d.ecosystem, lockfile: d.lockfile, scope: scopeOf(d), product: productIn(d), direct: d.direct === true, directUnknown: d.direct === null, advisories: [], repo: null, children: [], parents: [] };
-    nodes.set(key, node);
+    const scope = scopeOf(d);
+    const product = productIn(d);
+    const mk = mergeKey(d, product, scope);
+    let node = byMerge.get(mk);
+    if (!node) {
+      node = { key: nodeKey(d), pkg: packageKey(d.ecosystem, d.name, d.version), row: d, rows: [], name: d.name, version: d.version || '', ecosystem: d.ecosystem, lockfile: d.lockfile, lockfiles: [], scope, product, direct: false, directUnknown: false, advisories: [], repo: null, children: [], parents: [] };
+      byMerge.set(mk, node);
+      nodes.set(node.key, node);
+    }
+    rowsOf.set(d, node);
+    node.rows.push(d);
+    if (!node.lockfiles.includes(d.lockfile)) node.lockfiles.push(d.lockfile);
+    // Direct in any file is direct; not known only when no file says direct.
+    if (d.direct === true) { node.direct = true; node.directUnknown = false; } else if (d.direct === null && !node.direct) node.directUnknown = true;
     const nk = `${d.ecosystem}\u0000${d.lockfile}\u0000${d.name}`;
     if (!versionsOf.has(nk)) versionsOf.set(nk, []);
-    versionsOf.get(nk).push(node);
+    if (!versionsOf.get(nk).includes(node)) versionsOf.get(nk).push(node);
   }
 
   const adv = new Map();
@@ -90,14 +108,23 @@ export function buildTree(dependencies = [], advisories = [], { productOf = null
 
   // Edges: parent name -> every locked version of that name in the same lockfile.
   let missingParents = 0;
-  for (const child of nodes.values()) {
-    const dependants = Array.isArray(child.row.dependants) ? child.row.dependants : [];
+  const edges = new Map(); // parent key + child key -> the two edge objects
+  for (const [row, child] of rowsOf) {
+    const dependants = Array.isArray(row.dependants) ? row.dependants : [];
     for (const parentName of new Set(dependants)) {
-      const parents = versionsOf.get(`${child.ecosystem}\u0000${child.lockfile}\u0000${parentName}`);
+      const parents = versionsOf.get(`${row.ecosystem}\u0000${row.lockfile}\u0000${parentName}`);
       if (!parents) { missingParents += 1; continue; }
       for (const parent of parents) {
-        parent.children.push({ node: child, ambiguous: parents.length > 1 });
-        child.parents.push({ node: parent, ambiguous: parents.length > 1 });
+        const ambiguous = parents.length > 1;
+        const ek = `${parent.key}\u0001${child.key}`;
+        const seen = edges.get(ek);
+        // The same edge from another file: unclear only if every file leaves it unclear.
+        if (seen) { seen.forEach(e => { e.ambiguous = e.ambiguous && ambiguous; }); continue; }
+        const down = { node: child, ambiguous };
+        const up = { node: parent, ambiguous };
+        parent.children.push(down);
+        child.parents.push(up);
+        edges.set(ek, [down, up]);
       }
     }
   }

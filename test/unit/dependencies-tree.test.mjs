@@ -363,8 +363,9 @@ describe('the tree counts packages, not file rows (issue 1027)', () => {
     }
   });
 
-  test('one node per file, one count per package', () => {
-    assert.equal(tree.nodes.size, 8);
+  test('one node and one count per package, however many files list it', () => {
+    assert.equal(tree.nodes.size, 4);
+    assert.ok([...tree.nodes.values()].every(n => n.lockfiles.length === 2));
     assert.equal(tree.total, 4);
     assert.equal(tree.products[0].total, 4);
   });
