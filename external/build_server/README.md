@@ -187,11 +187,23 @@ sudo -u build-server node scripts/verifications-db.mjs delete 42                
 
 It uses the service's database (`/var/lib/walletscrutiny-build-server/verifications.db`) unless `--db <path>` or `BUILD_SERVER_DB_PATH` says otherwise. A newer build script (a new build script event) is tried without deleting anything, and a build that already has a published WS Bot verification is skipped whatever the database says.
 
+### Which build script an asset gets
+
+For a registered asset the ABS tries the build scripts attached to the app's verifications, newest first, at most 3 (`MAX_SCRIPTS_TO_TRY`). For Android it first reads the APK's signing certificate (v3, else v2 signing block; a few range requests to Blossom, no full download) and orders the scripts by the APK each one was verified on:
+
+1. same signer as the asset, newest first;
+2. signer unknown (that APK is not on Blossom, or is v1-only), newest first, after every same-signer script;
+3. a different signer: dropped. When every script is dropped, the asset is skipped and Carol is alerted (see below).
+
+So an F-Droid re-signed APK goes to a script verified on an F-Droid build, however old, and never to the script for the developer-signed APK. If the asset's own signer cannot be read, the order is recency only. After 3 failed Blossom lookups in a cycle, the rest of that cycle treats uncached signers as unknown, and an absent or unreadable APK is asked again after a day. A store build reaches its script only once one verification with that script covers an APK that is on Blossom; register that APK in the Asset Registry, or verify an asset that is already there.
+
 ### Regression alerts to Buzz
 
-With `FEATURE_REGRESSION_ALERTS` on (config; set to false to stop the alerts), a published `ftbfs` or `not_reproducible` verdict for a version newer than the reproducible verification whose script was used posts a message in the Buzz Reproducible-Builds channel on `buzz.walletscrutiny.com`, tagging Carol (`REGRESSION_ALERT_*` in config). Carol fixes the script and a person approves before anything is published.
+With `FEATURE_REGRESSION_ALERTS` on (config; set to false to stop the alerts), a published `ftbfs` or `not_reproducible` verdict for a version newer than the reproducible verification whose script was used posts a message in the Buzz Reproducible-Builds channel on `buzz.walletscrutiny.com`, tagging Carol (`REGRESSION_ALERT_*` in config). An Android asset skipped because every script was verified only on other signers posts a second kind of alert in the same way. The first line says which kind it is, `[regression]` or `[skipped signer]`. Carol triages it, fixes or writes the script, and publishes the verdict with her own verifier key.
 
-- One alert per app and version, recorded in the `regression_alerts` table of the service database. Each message lists every regression not delivered yet; a failed post stays pending and is retried at the start of the next cycle.
+- Regressions are alerted only for apps in `REGRESSION_ALERT_APP_IDS`; skipped signers for apps in `SKIPPED_SIGNER_ALERT_APP_IDS` (empty = every app, the default).
+- One skipped-signer alert per app and signer, in the `skipped_signer_alerts` table: once one APK on that signer is verified, ABS picks the script up by itself.
+- One regression alert per app and version, recorded in the `regression_alerts` table of the service database. Each message lists every regression not delivered yet; a failed post stays pending and is retried at the start of the next cycle.
 - Signed with the WalletScrutiny Notification account, the same credential as the source analysis units (`source-analysis-alert-nsec`, loaded as `ALERT_NOSTR_NSEC_FILE`). That account must be a member of the channel.
 - A post times out after `REGRESSION_ALERT_TIMEOUT_SECONDS`; any error is logged and never blocks or changes a verdict.
 

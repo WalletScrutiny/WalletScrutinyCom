@@ -24,8 +24,9 @@ export const PINNED_VERIFIER_EVENT_IDS = {
 // Approved verifiers trusted only for some apps: pubkey -> appIds whose
 // verifications ABS may use. Their verifications for other apps are ignored.
 export const SCOPED_VERIFIER_APP_IDS = {
-  // BitForBit (Carol): one test app first (Danny, Luis Miguel, 2026-11-17)
-  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d': ['com.coinspace.app'],
+  // BitForBit (Carol): one test app first (Danny, Luis Miguel, 2026-11-17),
+  // then the apps whose alerts Carol triages (Danny, 2026-11-26)
+  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d': ['com.coinspace.app', 'world.bitkey.app', 'io.horizontalsystems.bankwallet'],
 };
 
 /**
@@ -64,7 +65,8 @@ export const FEATURE_REFRESH_APPS = true;
 // Feature flag: when true, a newly published ftbfs or not_reproducible verdict
 // for a version newer than the reproducible one it was built from posts an
 // alert in the Buzz Reproducible-Builds channel, tagging Carol (see
-// regression-alert.mjs). Needs ALERT_NOSTR_NSEC_FILE.
+// regression-alert.mjs). So does an Android asset skipped because no script
+// was verified on its signer. Needs ALERT_NOSTR_NSEC_FILE.
 export const FEATURE_REGRESSION_ALERTS = true;
 export const REGRESSION_ALERT_RELAY_URL = 'https://buzz.walletscrutiny.com';
 export const REGRESSION_ALERT_CHANNEL_ID = '55ad8b5e-0356-4548-aafe-6ddd2c06bab0'; // Reproducible-Builds
@@ -74,8 +76,13 @@ export const REGRESSION_ALERT_MENTION = {
 };
 export const REGRESSION_ALERT_TIMEOUT_SECONDS = 10;
 // Apps whose regressions are alerted (empty = every app). One test app first
-// (Danny, Luis Miguel, 2026-11-17), the same one BitForBit is scoped to.
-export const REGRESSION_ALERT_APP_IDS = ['com.coinspace.app'];
+// (Danny, Luis Miguel, 2026-11-17), the same one BitForBit is scoped to; Bitkey and
+// Unstoppable added (Danny, 2026-11-26).
+export const REGRESSION_ALERT_APP_IDS = ['com.coinspace.app', 'world.bitkey.app', 'io.horizontalsystems.bankwallet'];
+// Apps whose skipped signers are alerted (empty = every app). Every app: a
+// skipped APK gets no verdict at all, and one alert per app and signer is
+// little noise (Dan's review of !2062, 2026-11-26).
+export const SKIPPED_SIGNER_ALERT_APP_IDS = [];
 
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;

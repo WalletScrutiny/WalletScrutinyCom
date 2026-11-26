@@ -84,9 +84,10 @@ describe('isTrustedVerifierEvent with an app scope', () => {
     assert.equal(isTrustedVerifierEvent(event('to.bitkit'), {}, scoped), false);
   });
 
-  test('scopes BitForBit to the one test app', () => {
-    assert.deepEqual(SCOPED_VERIFIER_APP_IDS[bitforbit], ['com.coinspace.app']);
+  test('scopes BitForBit to the apps whose alerts Carol triages', () => {
+    assert.deepEqual(SCOPED_VERIFIER_APP_IDS[bitforbit], ['com.coinspace.app', 'world.bitkey.app', 'io.horizontalsystems.bankwallet']);
     assert.equal(isTrustedVerifierEvent(event('com.coinspace.app')), true);
+    assert.equal(isTrustedVerifierEvent(event('world.bitkey.app')), true);
     assert.equal(isTrustedVerifierEvent(event('to.bitkit')), false);
   });
 });

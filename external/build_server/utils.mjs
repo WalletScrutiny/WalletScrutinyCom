@@ -16,7 +16,7 @@ import {
 } from './asset-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/api/buildServerInfo.json';
-const MAX_SCRIPTS_TO_TRY = 3;
+export const MAX_SCRIPTS_TO_TRY = 3;
 
 export { args, DEBUG, isDebugEnv };
 
@@ -583,18 +583,18 @@ function matchPattern(fileName, pattern) {
   return regex.test(fileName);
 }
 
-export function getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform) {
+export function getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform, limit = MAX_SCRIPTS_TO_TRY) {
   const scriptsToReproduce = verificationsWithBuildShFiles
     .filter(verification => (
       getFirstTagValue(verification.verification, 'i') === appId &&
       getFirstTagValue(verification.verification, 'platform') === platform
     ))
     .sort((a, b) => b.verification.created_at - a.verification.created_at);
-  const limitedScriptsToReproduce = scriptsToReproduce.slice(0, MAX_SCRIPTS_TO_TRY);
+  const limitedScriptsToReproduce = scriptsToReproduce.slice(0, limit);
 
   appLog.info(
     `     - found ${scriptsToReproduce.length} scripts to reproduce appId=${appId}, platform=${platform}; ` +
-    `checking ${limitedScriptsToReproduce.length} most recent scripts (max=${MAX_SCRIPTS_TO_TRY})`
+    `keeping ${limitedScriptsToReproduce.length} most recent scripts (max=${limit})`
   );
 
   return limitedScriptsToReproduce;

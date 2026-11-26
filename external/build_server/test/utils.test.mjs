@@ -595,6 +595,13 @@ describe('getScriptsToReproduce', () => {
     assert.deepEqual(result.map(r => r.verification.id), ['4', '2', '3']);
   });
 
+  test('takes an explicit limit, e.g. no limit before signer filtering', () => {
+    const candidates = [1, 2, 3, 4, 5].map(n =>
+      makeCandidate({ appId: 'a', platform: 'android', version: String(n), created_at: n, id: String(n) }));
+    assert.equal(getScriptsToReproduce(candidates, 'a', 'android', Infinity).length, 5);
+    assert.equal(getScriptsToReproduce(candidates, 'a', 'android', 1)[0].verification.id, '5');
+  });
+
   test('returns an empty array when no candidate matches', () => {
     assert.deepEqual(getScriptsToReproduce([], 'a', 'linux'), []);
   });
