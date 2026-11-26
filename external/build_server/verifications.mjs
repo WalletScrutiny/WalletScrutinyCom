@@ -18,6 +18,7 @@ import {
   getCombinationsFromAppInfo,
   getFileAttachmentIDsForVerificationEvent,
   getScriptsToReproduce,
+  MAX_SCRIPTS_TO_TRY,
   findArchAndTypeForFile,
   toLegacyPlatform,
   platformForBuildArch,
@@ -42,6 +43,7 @@ import {
 } from './asset-utils.mjs';
 import { buildScriptExecutionEnv } from './script-env.mjs';
 import { describeVersionOverride, resolveAndroidWalletVersion } from './apk-version.mjs';
+import { getApkSignerForHashes, selectCandidatesBySigner, verificationHashes } from './apk-signer.mjs';
 
 // Verdicts a build script may write to COMPARISON_RESULTS.yaml. Each one is
 // published to Nostr, whatever the script's exit code was.
@@ -329,7 +331,23 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
     appLog.debug(`   searching for script to try to reproduce appId=${appId}, version=${version}, and platform=${platform}...`);
 
     const assetKey = getAssetAttemptKey(asset) ?? '';
-    const verificationCandidates = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);
+    let verificationCandidates;
+    if (platform === 'android') {
+      // Match by signer first so a store re-signed APK (F-Droid) reaches the
+      // script verified on that store's builds, however old that script is.
+      const binaryHash = pickScriptBinaryEntry(asset)?.hash;
+      const assetSigner = await getApkSignerForHashes(
+        [binaryHash, ...assetFileEntries.map(entry => entry.hash)].filter(Boolean)
+      );
+      verificationCandidates = await selectCandidatesBySigner(
+        getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform, Infinity),
+        assetSigner,
+        verification => getApkSignerForHashes(verificationHashes(verification)),
+        MAX_SCRIPTS_TO_TRY
+      );
+    } else {
+      verificationCandidates = getScriptsToReproduce(verificationsWithBuildShFiles, appId, platform);
+    }
     if (verificationCandidates.length === 0) {
       appLog.debug(`   no script to reproduce appId=${appId}, version=${version}, and platform=${platform} found`);
       continue;
