@@ -16,7 +16,7 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 - asciinema
 - docker.io and podman (for container-based verification scripts)
 - Nix with flakes enabled (for Nix-native verification scripts; optional but required when a script uses `nix develop` or `nix build`)
-- GitHub token (to refresh the desktop and hardware apps, and to download other assets and dependencies from GitHub)
+- GitHub token (to refresh the desktop and hardware apps; build scripts get it only for the apps in `GITHUB_TOKEN_APP_IDS` in `config/config.mjs`)
 - Nostr private key from the `WalletScrutiny Bot` account
 
 ## Usage
