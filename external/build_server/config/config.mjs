@@ -84,10 +84,12 @@ export const REGRESSION_ALERT_APP_IDS = ['com.coinspace.app', 'world.bitkey.app'
 // little noise (Dan's review of !2062, 2026-11-26).
 export const SKIPPED_SIGNER_ALERT_APP_IDS = [];
 
-// Apps whose build scripts get GITHUB_TOKEN. Every other script runs without
-// it, so a script from an approved verifier cannot use or leak the token
-// unless its build needs it (Dan, Luis Miguel, 2026-11-26). Scripts that only
-// use the token to avoid GitHub rate limits are not on the list.
+// Apps whose build scripts get the real GITHUB_TOKEN. Every other script gets
+// the public-only token instead, which keeps the real one out of its
+// environment and so out of published recordings (Dan, Luis Miguel,
+// 2026-11-26). Scripts still run as the ABS user and can read the credential
+// file itself until they run as abs-runner. Scripts that only use the token to
+// avoid GitHub rate limits are not on the list.
 export const GITHUB_TOKEN_APP_IDS = [
   'to.bitkit',             // Bitkit: Gradle deps on GitHub Packages need read:packages
   'com.tangem.wallet',     // Tangem: Gradle deps on GitHub Packages need read:packages
