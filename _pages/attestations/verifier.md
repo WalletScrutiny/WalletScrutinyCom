@@ -4,6 +4,13 @@ title: "Build Verifier Page"
 permalink: /verifier/
 ---
 
+<script>
+  // This page only makes sense for one verifier; without one, show the verifiers list.
+  if (!new URLSearchParams(window.location.search).get('pubkey')) {
+    window.location.replace('/verifiers/');
+  }
+</script>
+
 <style>
   #main {
     width: 100%;
