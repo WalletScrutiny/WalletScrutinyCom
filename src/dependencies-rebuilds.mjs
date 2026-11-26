@@ -76,7 +76,7 @@ export function rebuildBadge(row) {
   if (state === 'none') return null;
   const claims = ORDER.flatMap(by => row.claims.filter(c => c.by === by));
   const text = state === 'reproduced'
-    ? `rebuilt · ${claims.filter(c => c.result === 'reproduced').map(c => CLAIMANTS[c.by]?.short || c.by).join(', ')}`
+    ? `rebuilt · ${claims.filter(c => c.result === 'reproduced').map(c => (c.by === 'ws' ? CLAIMANTS.ws.label : CLAIMANTS[c.by]?.short || c.by)).join(', ')}`
     : BADGE_WORDS[state];
   return el('span', { className: `dp-rb dp-rb--${state}`, title: claims.map(c => `${claimWords(c)}${c.note ? ` (${c.note})` : ''}`).join('; ') }, text);
 }
