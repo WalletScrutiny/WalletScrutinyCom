@@ -30,12 +30,15 @@ details: >
   **Balances on operator-dependent layers (Spark, Ark and similar)** are
   judged by one question: "Can a user, with only what the app gives them and
   expecting help from nobody, actually force their money onto the Bitcoin
-  blockchain?" If the provider claims that its product can do this once the
-  servers behind it are shut down, usually called a "unilateral exit", we
-  consider the balance self-custodial. We do not test such an exit, as we do
-  not test wallets in general. We do report the issues we find, for example
-  a released version that does not contain the claimed exit. A balance for
-  which nobody claims such an exit is considered custodial.
+  blockchain?" We consider such a balance self-custodial only if a recovery
+  from that app without server support, usually called a "unilateral exit",
+  has been clearly advertised. We do not test such an exit, as we do not test
+  wallets in general, so a plausible claim is enough for a first verdict. A
+  claim that is obviously not plausible, or that we know to be false, does
+  not count. We report the issues we find, for example a released version
+  that does not contain the advertised exit, and we revisit the verdict when
+  doubts arise. A balance for which no such exit is advertised is considered
+  custodial.
   
   
   We have to acknowledge that a huge majority of Bitcoiners are currently using
