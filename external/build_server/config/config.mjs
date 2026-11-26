@@ -24,8 +24,9 @@ export const PINNED_VERIFIER_EVENT_IDS = {
 // Approved verifiers trusted only for some apps: pubkey -> appIds whose
 // verifications ABS may use. Their verifications for other apps are ignored.
 export const SCOPED_VERIFIER_APP_IDS = {
-  // BitForBit (Carol): one test app first (Danny, Luis Miguel, 2026-11-17)
-  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d': ['com.coinspace.app'],
+  // BitForBit (Carol): one test app first (Danny, Luis Miguel, 2026-11-17),
+  // then the apps whose alerts Carol triages (Danny, 2026-11-26)
+  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d': ['com.coinspace.app', 'world.bitkey.app', 'io.horizontalsystems.bankwallet'],
 };
 
 /**
