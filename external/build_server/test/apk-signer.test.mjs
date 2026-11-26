@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 
 import {
   clearApkSignerCache,
+  startApkSignerCycle,
   getApkSignerForHashes,
   getBlobApkSigner,
   readApkSigner,
@@ -152,6 +153,39 @@ describe('getBlobApkSigner', () => {
     assert.equal(calls, 2);
   });
 
+  test('an unknown signer is asked again after a day', async () => {
+    const hash = 'b'.repeat(64);
+    const blossom = fakeBlossom({});
+    let clock = 0;
+    const options = { ...blossom, now: () => clock };
+    assert.equal(await getBlobApkSigner(hash, options), null);
+    clock = 23 * 3600 * 1000;
+    assert.equal(await getBlobApkSigner(hash, options), null);
+    assert.equal(blossom.calls.length, 1);
+    clock = 25 * 3600 * 1000;
+    assert.equal(await getBlobApkSigner(hash, options), null);
+    assert.equal(blossom.calls.length, 2);
+  });
+
+  test('after 3 failed lookups the cycle stops asking, the next cycle asks again', async () => {
+    let calls = 0;
+    const failing = { baseUrl: 'https://blossom.test', fetchImpl: async () => { calls++; throw new Error('timeout'); } };
+    for (const c of 'abcde') assert.equal(await getBlobApkSigner(c.repeat(64), failing), null);
+    assert.equal(calls, 3);
+    startApkSignerCycle();
+    assert.equal(await getBlobApkSigner('f'.repeat(64), failing), null);
+    assert.equal(calls, 4);
+  });
+
+  test('a cached signer is still served after the cycle stopped asking', async () => {
+    const cert = Buffer.from('play certificate');
+    const hash = 'c'.repeat(64);
+    assert.equal(await getBlobApkSigner(hash, fakeBlossom({ [hash]: makeApk([[V2, cert]]) })), sha256(cert));
+    const failing = { baseUrl: 'https://blossom.test', fetchImpl: async () => { throw new Error('timeout'); } };
+    for (const c of 'def') await getBlobApkSigner(c.repeat(64), failing);
+    assert.equal(await getBlobApkSigner(hash, failing), sha256(cert));
+  });
+
   test('getApkSignerForHashes returns the first readable signer', async () => {
     const cert = Buffer.from('play certificate');
     const present = 'c'.repeat(64);
@@ -177,14 +211,24 @@ describe('selectCandidatesBySigner', () => {
     candidate('fdroid-old', '2'.repeat(64)),
   ];
 
-  test('keeps same-signer and unknown scripts in recency order, drops other signers', async () => {
+  test('same-signer scripts first, then unknown ones, drops other signers', async () => {
     const result = await selectCandidatesBySigner(candidates, 'fdroid', signerOf, 3);
-    assert.deepEqual(ids(result), ['github-new', 'fdroid-old']);
+    assert.deepEqual(ids(result), ['fdroid-old', 'github-new']);
+  });
+
+  test('newer unknown scripts cannot push a matching one past the limit', async () => {
+    const many = [
+      candidate('u1', '9'.repeat(64)),
+      candidate('u2', '8'.repeat(64)),
+      candidate('u3', '7'.repeat(64)),
+      candidate('fdroid-old', '2'.repeat(64)),
+    ];
+    assert.deepEqual(ids(await selectCandidatesBySigner(many, 'fdroid', signerOf, 3)), ['fdroid-old', 'u1', 'u2']);
   });
 
   test('applies the limit', async () => {
     const result = await selectCandidatesBySigner(candidates, 'upstream', signerOf, 2);
-    assert.deepEqual(ids(result), ['play-new', 'github-new']);
+    assert.deepEqual(ids(result), ['play-new', 'play-old']);
   });
 
   test('an unknown asset signer keeps the recency-only order', async () => {

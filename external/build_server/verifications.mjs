@@ -43,7 +43,7 @@ import {
 } from './asset-utils.mjs';
 import { buildScriptExecutionEnv } from './script-env.mjs';
 import { describeVersionOverride, resolveAndroidWalletVersion } from './apk-version.mjs';
-import { getApkSignerForHashes, selectCandidatesBySigner, verificationHashes } from './apk-signer.mjs';
+import { getApkSignerForHashes, selectCandidatesBySigner, startApkSignerCycle, verificationHashes } from './apk-signer.mjs';
 
 // Verdicts a build script may write to COMPARISON_RESULTS.yaml. Each one is
 // published to Nostr, whatever the script's exit code was.
@@ -307,6 +307,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
 
   const assetsWithoutVerification = filterAssetsWithoutVerification(assets, verifications);
   appLog.debug(`# assetsWithoutVerification: ${assetsWithoutVerification.length}`);
+  startApkSignerCycle();
 
   for (const asset of assetsWithoutVerification) {
     if (isShutdownRequested()) {

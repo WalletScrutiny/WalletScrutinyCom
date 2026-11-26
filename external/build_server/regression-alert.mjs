@@ -31,7 +31,8 @@ import {
   REGRESSION_ALERT_CHANNEL_ID,
   REGRESSION_ALERT_MENTION,
   REGRESSION_ALERT_TIMEOUT_SECONDS,
-  REGRESSION_ALERT_APP_IDS
+  REGRESSION_ALERT_APP_IDS,
+  SKIPPED_SIGNER_ALERT_APP_IDS
 } from './config/config.mjs';
 
 // Verdicts that count as a regression, by status of the base verification.
@@ -273,7 +274,7 @@ export async function alertIfRegression(db, { baseVerification, appId, version, 
  * was verified only on other signers. `scripts` maps each script name to the
  * signers it was verified on. Never throws.
  */
-export async function alertSkippedSigner(db, { appId, version, platform, signer, assetEventId, fileHash, scripts }, { enabled = FEATURE_REGRESSION_ALERTS, appIds = REGRESSION_ALERT_APP_IDS, deliver = deliverSkippedWithConfiguredKey } = {}) {
+export async function alertSkippedSigner(db, { appId, version, platform, signer, assetEventId, fileHash, scripts }, { enabled = FEATURE_REGRESSION_ALERTS, appIds = SKIPPED_SIGNER_ALERT_APP_IDS, deliver = deliverSkippedWithConfiguredKey } = {}) {
   if (!enabled) return;
   if (appIds.length && !appIds.includes(appId)) return;
   try {

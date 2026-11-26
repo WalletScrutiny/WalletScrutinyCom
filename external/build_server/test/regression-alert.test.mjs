@@ -18,6 +18,7 @@ import {
   alertSkippedSigner,
   skippedSignerAlertText
 } from '../regression-alert.mjs';
+import { SKIPPED_SIGNER_ALERT_APP_IDS } from '../config/config.mjs';
 
 function base(status = 'reproducible', version = '1.0.0') {
   return { id: 'base-id', tags: [['status', status], ['version', version]] };
@@ -224,9 +225,10 @@ describe('skipped signer alerts', () => {
     assert.equal(calls, 1);
   });
 
-  test('follows the regression flag and app list', async () => {
+  test('follows the regression flag and its own app list, every app by default', async () => {
     const db = new Database(':memory:');
     const fail = async () => assert.fail('must not send');
+    assert.deepEqual(SKIPPED_SIGNER_ALERT_APP_IDS, []);
     await alertSkippedSigner(db, input, { enabled: false, deliver: fail });
     await alertSkippedSigner(db, input, { enabled: true, appIds: ['org.other'], deliver: fail });
     assert.equal(db.prepare("SELECT name FROM sqlite_master WHERE name = 'skipped_signer_alerts'").get(), undefined);
