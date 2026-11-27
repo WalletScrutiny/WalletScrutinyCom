@@ -84,6 +84,22 @@ export const REGRESSION_ALERT_APP_IDS = ['com.coinspace.app', 'world.bitkey.app'
 // little noise (Dan's review of !2062, 2026-11-26).
 export const SKIPPED_SIGNER_ALERT_APP_IDS = [];
 
+// Apps whose build scripts get the real GITHUB_TOKEN. Every other script gets
+// the public-only token instead, which keeps the real one out of its
+// environment and so out of published recordings (Dan, Luis Miguel,
+// 2026-11-26). Scripts still run as the ABS user and can read the credential
+// file itself until they run as abs-runner. Scripts that only use the token to
+// avoid GitHub rate limits are not on the list.
+export const GITHUB_TOKEN_APP_IDS = [
+  'to.bitkit',             // Bitkit: Gradle deps on GitHub Packages need read:packages
+  'com.tangem.wallet',     // Tangem: Gradle deps on GitHub Packages need read:packages
+  'com.coinspace.app',     // Coin Wallet: Gradle and npm deps on GitHub Packages need read:packages
+  'com.gemwallet.android', // Gem: older versions pull wallet-core from GitHub Packages
+  'sparrow',               // Sparrow Windows: dispatches the Windows build on GitHub Actions
+  'bisq',                  // Bisq 1 Windows: dispatches CI and reads its artifacts
+  'gingerwallet',          // GingerWallet: dispatches the build on GitHub Actions
+];
+
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;

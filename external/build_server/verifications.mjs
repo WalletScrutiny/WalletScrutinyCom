@@ -969,7 +969,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
         cwd: buildDirForThisVerification,
         signal: controller.signal,
         stdio: ['ignore', 'pipe', 'pipe'],
-        env: buildScriptExecutionEnv({ githubToken })
+        env: buildScriptExecutionEnv({ githubToken, appId })
       }
     );
 
