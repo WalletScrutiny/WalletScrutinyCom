@@ -2,9 +2,8 @@ import { spawnSync } from 'child_process';
 import { createHash } from 'node:crypto';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
-import { WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR, BUILD_DIR_DEBUG, shouldProcessAppId, shouldForceRebuild } from './config/config.mjs';
+import { WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR, BUILD_DIR_DEBUG, shouldProcessAppId, shouldForceRebuild, SAFE_RMDIR_PATH } from './config/config.mjs';
 import { args, DEBUG, isDebugEnv } from './config/argv.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 import {
@@ -442,7 +441,8 @@ export function removeDirectoryRecursive(dir) {
   // Only allow this path-based escalation in production builds.
   if (isUnderProdBase) {
     try {
-      const safeScriptPath = fileURLToPath(new URL('./scripts/build-server-safe-rmdir.sh', import.meta.url));
+      // The root-owned copy: the one in this repo is writable by the ABS user.
+      const safeScriptPath = SAFE_RMDIR_PATH;
       const sudoResult = spawnSync('sudo', [safeScriptPath, dir], {
         stdio: ['ignore', 'pipe', 'pipe'],
         encoding: 'utf8'

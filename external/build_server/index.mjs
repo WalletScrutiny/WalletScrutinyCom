@@ -32,8 +32,12 @@ import {
   APPROVED_VERIFIERS_PUBKEY_HEX,
   WS_BOT_NOSTR_PUBKEY_HEX,
   BUILD_DIR_PREFIX,
-  FEATURE_REFRESH_APPS
+  CAST_DIR,
+  ASCIINEMA_CONFIG_DIR,
+  FEATURE_REFRESH_APPS,
+  runsAsBuildUsers
 } from './config/config.mjs';
+import { BUILD_USERS, buildUserGate } from './build-users.mjs';
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
@@ -169,6 +173,16 @@ if (DEBUG) {
 appLog.info('======= Starting Build Server App =======');
 
 fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
+for (const dir of [CAST_DIR, ASCIINEMA_CONFIG_DIR]) {
+  fs.mkdirSync(dir, { recursive: true, mode: 0o700 });
+  fs.chmodSync(dir, 0o700);
+}
+
+// Nothing runs yet, so clear what the build users left behind before this
+// start (a crash, a restart mid-build).
+if (runsAsBuildUsers()) {
+  await Promise.all(BUILD_USERS.map(user => buildUserGate.resetIfIdle(user)));
+}
 
 const staleQueuedAttempts = markStaleQueuedAttemptsAsInterrupted();
 if (staleQueuedAttempts > 0) {
