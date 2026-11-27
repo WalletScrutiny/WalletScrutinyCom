@@ -136,7 +136,7 @@ Build scripts do not run as `build-server`, which can read ABS's credentials and
 - `abs-token` for the apps in `GITHUB_TOKEN_APP_IDS`, the only scripts that get the real `GITHUB_TOKEN`;
 - `abs-runner` for every other app.
 
-Each build folder belongs to the group of its user (`rwxrws---`), so a build cannot read or change the other user's builds. The cast is recorded into `/var/lib/walletscrutiny-build-server/casts`, which only `build-server` can write, and ABS refuses to read a file from a build folder that is a link or not where it claims to be. When a user has no build running, ABS clears what its builds left behind: processes, user systemd units, cron and at jobs, and Podman containers.
+Each build folder belongs to the group of its user (`rwxrws---`), so a build cannot read or change the other user's builds. The cast is recorded into `/var/lib/walletscrutiny-build-server/casts`, which only `build-server` can write, and ABS refuses to read a file from a build folder that is a link or not where it claims to be. When a user has no build running, ABS clears what its builds left behind: processes, user systemd units and Podman quadlets, cron and at jobs, and Podman containers. It also sets the user's home back to `0700`, because `adduser --system` creates it `0755`.
 
 - Create the users, with subuids for rootless Podman and linger for their user systemd. Pick subuid ranges that are free in `/etc/subuid` and `/etc/subgid`:
 ```bash

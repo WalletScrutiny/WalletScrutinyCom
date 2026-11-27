@@ -147,7 +147,8 @@ export const BUILD_DIR_PREFIX = isDebugEnv() ? BUILD_DIR_DEBUG : BUILD_DIR;
 export const FEATURE_BUILD_USERS = true;
 export const BUILD_USER = 'abs-runner';
 export const TOKEN_BUILD_USER = 'abs-token';
-export const runsAsBuildUsers = () => FEATURE_BUILD_USERS && !isDebugEnv();
+// Not in tests either, which run without the users; they pass a user explicitly.
+export const runsAsBuildUsers = () => FEATURE_BUILD_USERS && !isDebugEnv() && process.env.BUILD_SERVER_TEST !== '1';
 export const buildUserFor = appId => (GITHUB_TOKEN_APP_IDS.includes(appId) ? TOKEN_BUILD_USER : BUILD_USER);
 
 // The root-owned copy of scripts/build-server-safe-rmdir.sh that sudoers

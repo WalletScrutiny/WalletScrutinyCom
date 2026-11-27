@@ -5,7 +5,7 @@ import { execFileSync, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { buildUserCommand, buildUserResetCommands, createBuildUserGate, prepareBuildDirForUser, resetBuildUser } from '../build-users.mjs';
+import { buildUserCommand, buildUserResetCommands, createBuildUserGate, lockBuildDir, prepareBuildDirForUser, resetBuildUser } from '../build-users.mjs';
 import { buildUserFor, BUILD_USER, TOKEN_BUILD_USER, GITHUB_TOKEN_APP_IDS } from '../config/config.mjs';
 import { startCompilationJob, readComparisonResults } from '../verifications.mjs';
 
@@ -38,7 +38,7 @@ function installFakes() {
     '#!/bin/bash',
     `printf '%s\\n' "$@" > ${binDir}/sudo-args`,
     'keep=',
-    'while [ $# -gt 0 ] && [ "$1" != "--" ]; do case "$1" in --preserve-env=GITHUB_TOKEN) keep=1;; esac; shift; done',
+    'while [ $# -gt 0 ] && [ "$1" != "--" ]; do case "$1" in --preserve-env=*GITHUB_TOKEN*) keep=1;; esac; shift; done',
     'shift',
     '[ -n "$keep" ] || unset GITHUB_TOKEN',
     'exec "$@"',
@@ -59,9 +59,9 @@ describe('buildUserFor', () => {
 
 describe('buildUserCommand', () => {
   test('runs the script as the user through sudo -n, passing on only GITHUB_TOKEN', () => {
-    const command = buildUserCommand({ user: 'abs-token', buildDir: "/b/it's", scriptInvocation: "'/b/s.sh'", envPath: '/usr/bin', passGithubToken: true });
-    assert.match(command, /^'sudo' '-n' '-H' '-u' 'abs-token' '--preserve-env=GITHUB_TOKEN' '--' '\/bin\/bash' '-c' /);
-    assert.doesNotMatch(buildUserCommand({ user: 'abs-runner', buildDir: '/b', scriptInvocation: 's', envPath: '/usr/bin', passGithubToken: false }), /preserve-env/);
+    const command = buildUserCommand({ user: 'abs-token', buildDir: "/b/it's", scriptInvocation: "'/b/s.sh'", envPath: '/usr/bin', passEnv: ['GITHUB_TOKEN', 'NIX_SSL_CERT_FILE'] });
+    assert.match(command, /^'sudo' '-n' '-H' '-u' 'abs-token' '--preserve-env=GITHUB_TOKEN,NIX_SSL_CERT_FILE' '--' '\/bin\/bash' '-c' /);
+    assert.doesNotMatch(buildUserCommand({ user: 'abs-runner', buildDir: '/b', scriptInvocation: 's', envPath: '/usr/bin' }), /preserve-env/);
   });
 });
 
@@ -184,5 +184,21 @@ describe('build user reset', () => {
     });
     assert.equal(ok, false);
     assert.equal(seen.length, 3);
+  });
+});
+
+describe('lockBuildDir', () => {
+  test('closes the folder to everyone but ABS and removes an inherited ACL', () => {
+    const buildDir = makeTempDir('lock');
+    fs.chmodSync(buildDir, 0o2775);
+    const hasSetfacl = spawnSync('setfacl', ['--version']).status === 0;
+    if (hasSetfacl) {
+      execFileSync('setfacl', ['-m', 'u:nobody:rwx', '-d', '-m', 'u:nobody:rwx', buildDir]);
+    }
+    lockBuildDir(buildDir);
+    assert.equal(fs.statSync(buildDir).mode & 0o777, 0o700);
+    if (hasSetfacl) {
+      assert.doesNotMatch(execFileSync('getfacl', ['-p', buildDir], { encoding: 'utf8' }), /nobody|default:/);
+    }
   });
 });

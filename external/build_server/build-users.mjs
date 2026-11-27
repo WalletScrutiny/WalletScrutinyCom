@@ -15,8 +15,24 @@ export function groupIdOf(name) {
   return gid;
 }
 
+function removeAcl(buildDir) {
+  const acl = spawnSync('setfacl', ['-b', '-k', buildDir], { encoding: 'utf8' });
+  if (acl.error?.code !== 'ENOENT' && acl.status !== 0) {
+    throw new Error(`setfacl -b -k ${buildDir} failed: ${acl.stderr || acl.error}`);
+  }
+}
+
 /**
- * Give a fresh build folder to one build user: owned by ABS, group of that
+ * Close a fresh build folder to everyone but ABS while ABS fills it. The ACL
+ * goes first: one inherited from the builds folder could let a build user in.
+ */
+export function lockBuildDir(buildDir) {
+  removeAcl(buildDir);
+  fs.chmodSync(buildDir, 0o700);
+}
+
+/**
+ * Give a filled build folder to one build user: owned by ABS, group of that
  * user, rwxrws---. The user can write in it, ABS can read what it writes
  * (ABS is in both users' groups), and the other build user cannot enter it.
  * Any ACL is removed, so one inherited from the builds folder cannot open the
@@ -25,24 +41,21 @@ export function groupIdOf(name) {
 export function prepareBuildDirForUser(buildDir, user, { gidOf = groupIdOf } = {}) {
   // ACL first: removing it puts the group bits back to the owning group's
   // entry, which would undo the chmod.
-  const acl = spawnSync('setfacl', ['-b', '-k', buildDir], { encoding: 'utf8' });
-  if (acl.error?.code !== 'ENOENT' && acl.status !== 0) {
-    throw new Error(`setfacl -b -k ${buildDir} failed: ${acl.stderr || acl.error}`);
-  }
+  removeAcl(buildDir);
   fs.chownSync(buildDir, process.getuid(), gidOf(user));
   fs.chmodSync(buildDir, 0o2770);
 }
 
 /**
  * The command asciinema records: the script run as `user` through sudo, in the
- * build folder. sudo resets the environment, so the only variable passed on is
- * GITHUB_TOKEN (sudoers needs SETENV for that); PATH and the runtime dir that
- * rootless podman needs are set again inside. -n makes a missing sudoers rule
+ * build folder. sudo resets the environment, so only the variables in passEnv
+ * are passed on (sudoers needs SETENV for that); PATH, with the user's own Nix
+ * profile, and the runtime dir that rootless podman needs are set again inside. -n makes a missing sudoers rule
  * fail the build at once instead of waiting for a password.
  */
-export function buildUserCommand({ user, buildDir, scriptInvocation, envPath, passGithubToken }) {
+export function buildUserCommand({ user, buildDir, scriptInvocation, envPath, passEnv = [] }) {
   const inner = [
-    `export PATH=${shQuote(envPath)}`,
+    `export PATH="$HOME/.nix-profile/bin":${shQuote(envPath)}`,
     'export XDG_RUNTIME_DIR=/run/user/$(id -u)',
     'export DBUS_SESSION_BUS_ADDRESS=unix:path=$XDG_RUNTIME_DIR/bus',
     `cd ${shQuote(buildDir)} || exit 97`,
@@ -50,7 +63,7 @@ export function buildUserCommand({ user, buildDir, scriptInvocation, envPath, pa
   ].join('; ');
   return [
     'sudo', '-n', '-H', '-u', user,
-    ...(passGithubToken ? ['--preserve-env=GITHUB_TOKEN'] : []),
+    ...(passEnv.length ? [`--preserve-env=${passEnv.join(',')}`] : []),
     '--', '/bin/bash', '-c', inner,
   ].map(shQuote).join(' ');
 }
@@ -76,15 +89,29 @@ function run(args) {
 export function buildUserResetCommands(user, uid) {
   const runtimeDir = `/run/user/${uid}`;
   const asUser = (...command) => ['sudo', '-n', '-H', '-u', user, ...command];
+  const leftovers = [
+    '~/.config/systemd', '~/.local/share/systemd', '~/.config/environment.d',
+    // Podman quadlets, which the restart below would start again.
+    '~/.config/containers/systemd',
+    `${runtimeDir}/systemd/transient`, `${runtimeDir}/systemd/user`, `${runtimeDir}/systemd/user.control`,
+  ].join(' ');
   return [
-    // Everything the user can signal, its user systemd included; container
-    // processes under its sub-uids die with their pause process.
+    // Everything the user can signal, its user systemd included. That covers
+    // processes in user namespaces it created (containers under its sub-uids):
+    // their owner holds CAP_KILL in them.
     { args: asUser('/usr/bin/kill', '-KILL', '--', '-1'), mayFail: true },
-    // What would start again: saved, transient and runtime units, their
-    // environment, cron and at jobs.
+    // What would start again: units, quadlets and their environment, cron and
+    // at jobs. A folder owned by one of its sub-uids (podman unshare) needs
+    // podman unshare to delete; whatever is left fails the reset. The home goes
+    // back to 0700: adduser --system makes it 0755, which would let the other
+    // build user read files a token build leaves there.
     {
       args: asUser('/bin/sh', '-c', [
-        `rm -rf ~/.config/systemd ~/.local/share/systemd ~/.config/environment.d ${runtimeDir}/systemd/transient ${runtimeDir}/systemd/user ${runtimeDir}/systemd/user.control`,
+        'chmod 700 ~',
+        `export XDG_RUNTIME_DIR=${runtimeDir}`,
+        `rm -rf ${leftovers} 2>/dev/null`,
+        `for f in ${leftovers}; do if [ -e "$f" ] || [ -L "$f" ]; then podman system migrate >/dev/null 2>&1; podman unshare rm -rf "$f"; fi; done`,
+        `for f in ${leftovers}; do if [ -e "$f" ] || [ -L "$f" ]; then echo "cannot delete $f" >&2; exit 1; fi; done`,
         'if command -v crontab >/dev/null; then crontab -r 2>/dev/null; fi',
         'if command -v atq >/dev/null; then atq | cut -f1 | xargs -r atrm; fi',
         'true',

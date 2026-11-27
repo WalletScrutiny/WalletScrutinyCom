@@ -33,7 +33,7 @@ import { buildVerificationContent } from '../../src/build-server-report.mjs';
 export { buildVerificationContent };
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild, CAST_DIR, runsAsBuildUsers, buildUserFor } from './config/config.mjs';
 import { readBuildFileSync } from './build-files.mjs';
-import { buildUserCommand, buildUserGate, prepareBuildDirForUser, shQuote } from './build-users.mjs';
+import { buildUserCommand, buildUserGate, lockBuildDir, prepareBuildDirForUser, shQuote } from './build-users.mjs';
 import { open as openZip } from 'yauzl';
 import { findErroredAttemptForBuildScript, initDb, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
 import { alertIfRegression, alertSkippedSigner } from './regression-alert.mjs';
@@ -758,9 +758,12 @@ async function runJobWithPreparation({
     : path.join(BUILD_DIR_PREFIX, appId + '_' + safeVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
 
   createCompilationDirectory(buildDirForThisVerification);
+  // Closed to the build users until ABS has written the assets and the script:
+  // a leftover of an earlier build could otherwise plant a link under one of
+  // those names, and ABS would write through it into its own files.
   const buildUser = runsAsBuildUsers() ? buildUserFor(appId) : null;
   if (buildUser) {
-    prepareBuildDirForUser(buildDirForThisVerification, buildUser);
+    lockBuildDir(buildDirForThisVerification);
   }
 
   let binaryFilePath = null;
@@ -806,6 +809,9 @@ async function runJobWithPreparation({
 
   appLog.debug(`     - saving script to ${scriptWithPath}`);
   saveScriptFromEventMakeExecutable(buildShFileEvent, scriptWithPath);
+  if (buildUser) {
+    prepareBuildDirForUser(buildDirForThisVerification, buildUser);
+  }
 
   const result = await startCompilationJob(buildDirForThisVerification, scriptWithPath, effectiveVersion, architecture, type, binaryFilePath, platform, appId, githubToken, { buildUser });
   return {
@@ -982,7 +988,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
         buildDir: buildDirForThisVerification,
         scriptInvocation: quotedScriptInvocation,
         envPath: env.PATH,
-        passGithubToken: 'GITHUB_TOKEN' in env,
+        passEnv: ['GITHUB_TOKEN', 'NIX_SSL_CERT_FILE'].filter(name => name in env),
       })
       : quotedScriptInvocation;
     // Inner command runs under asciinema's spawned shell ($SHELL -c ...).

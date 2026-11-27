@@ -7,5 +7,6 @@ scripts/*
 .tmp/
 temp/
 logs/
-verifications.dbbuild_server_casts/
+verifications.db
+build_server_casts/
 build_server_asciinema_config/

@@ -32,6 +32,10 @@ describe('resetBuildUser', { skip }, () => {
     asUser('systemd-run --user --unit=abs-leftover-transient -p Restart=always -p RestartSec=1 sleep 4242');
     // a saved unit enabled to start with the user manager,
     asUser(`mkdir -p ~/.config/systemd/user && printf '[Service]\\nExecStart=/bin/sleep 4343\\nRestart=always\\n[Install]\\nWantedBy=default.target\\n' > ~/.config/systemd/user/abs-leftover-saved.service && systemctl --user daemon-reload && systemctl --user enable --now abs-leftover-saved.service`);
+    // a Podman quadlet, which the restart would start,
+    asUser('mkdir -p ~/.config/containers/systemd && touch ~/.config/containers/systemd/leftover.container');
+    // a home opened to other users,
+    asUser('chmod 755 ~');
     // and a process detached from both.
     asUser('setsid sleep 4444 </dev/null >/dev/null 2>&1 &');
     let before = '';
@@ -50,6 +54,8 @@ describe('resetBuildUser', { skip }, () => {
     const after = tryRun(['ps', '-u', uid, '-o', 'args=']).stdout;
     assert.doesNotMatch(after, /sleep 4[234]4[234]/);
     assert.equal(fs.existsSync(path.join(home, '.config', 'systemd')), false);
+    assert.equal(fs.existsSync(path.join(home, '.config', 'containers', 'systemd')), false);
+    assert.equal(fs.statSync(home).mode & 0o777, 0o700);
     assert.equal(run(['systemctl', 'is-active', `user@${uid}.service`]).trim(), 'active');
   });
 });

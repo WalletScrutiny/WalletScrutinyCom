@@ -10,6 +10,8 @@ User=build-server
 Group=build-server
 WorkingDirectory=/opt/build-server/walletScrutinyCom/external/build_server
 StateDirectory=walletscrutiny-build-server
+# Build scripts run as other users and must not read the database or casts.
+StateDirectoryMode=0700
 
 LoadCredentialEncrypted=build-server-ws-bot-pk:/etc/credstore.encrypted/build-server-ws-bot-pk
 LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-server-gh-token
