@@ -122,22 +122,55 @@ cd /opt/build-server/walletScrutinyCom/external/build_server
 sudo npm install
 ```
 
-- Create the build directory and set the permissions for the build-server user:
+- Create the build directory. Build users can enter it but not create, rename or replace anything in it:
 ```bash
 sudo mkdir -p /opt/build-server-builds
-sudo chown -R build-server:build-server /opt/build-server-builds
+sudo chown build-server:build-server /opt/build-server-builds
+sudo chmod 2750 /opt/build-server-builds
 ```
 
-- Add rm script to the visudo file:
+### Build users
+
+Build scripts do not run as `build-server`, which can read ABS's credentials and database, but as one of two users of their own (`FEATURE_BUILD_USERS` in `config/config.mjs`):
+
+- `abs-token` for the apps in `GITHUB_TOKEN_APP_IDS`, the only scripts that get the real `GITHUB_TOKEN`;
+- `abs-runner` for every other app.
+
+Only the apps in `BUILD_USER_APP_IDS` run as these users; every other app still runs as `build-server`. The users have no docker daemon, no `/dev/kvm` and no Windows VM key, so add an app only after a trial run of its newest script as its build user gave the verdict it gets today.
+
+Builds of only one of the two users run at a time, and that user is cleared before a build of the other one starts: a script that puts the token on a command line shows it to every account on the host. If clearing fails, the other user's builds keep waiting, and ABS retries every five minutes.
+
+Each build folder belongs to the group of its user (`rwxrws---`), so a build cannot read or change the other user's builds. The cast is recorded into `/var/lib/walletscrutiny-build-server/casts`, which only `build-server` can write, and ABS refuses to read a file from a build folder that is a link or not where it claims to be. When a user has no build running, ABS clears what its builds left behind: processes, user systemd units and Podman quadlets, cron and at jobs, and Podman containers. It also sets the user's home back to `0700`, because `adduser --system` creates it `0755`.
+
+- Create the users, with subuids for rootless Podman and linger for their user systemd. Pick subuid ranges that are free in `/etc/subuid` and `/etc/subgid`:
 ```bash
-sudo visudo
+sudo addgroup --system abs-builds
+for user in abs-runner abs-token; do
+  sudo adduser --system --group --home "/home/${user}" --shell /bin/bash "${user}"
+  sudo usermod -aG abs-builds "${user}"
+  sudo loginctl enable-linger "${user}"
+done
+sudo usermod --add-subuids 165536-231071 --add-subgids 165536-231071 abs-runner
+sudo usermod --add-subuids 231072-296607 --add-subgids 231072-296607 abs-token
+sudo chgrp abs-builds /opt/build-server-builds
+sudo usermod -aG abs-runner,abs-token build-server
+```
+Restart the service afterwards: a running `build-server` process does not get new groups.
+
+- Install the helper ABS runs as root to delete build folders. It must be root-owned and outside `/opt/build-server`, which `build-server` can write: a copy in there would let it, or anything running as it, become root. `npm run deploy:build-server` reinstalls it on every deploy.
+```bash
+sudo install -o root -g root -m 755 external/build_server/scripts/build-server-safe-rmdir.sh /usr/local/sbin/build-server-safe-rmdir.sh
 ```
 
-Add the following line to the end of the file:
-```bash
-build-server ALL=(root) NOPASSWD: /opt/build-server/walletScrutinyCom/external/build_server/scripts/build-server-safe-rmdir.sh *
+- Add the sudo rules with `sudo visudo`, in place of any older safe-rmdir rule. Put the two users' uids into the third line (`id -u abs-runner`, `id -u abs-token`):
 ```
-and save the file.
+build-server ALL=(root) NOPASSWD: /usr/local/sbin/build-server-safe-rmdir.sh *
+build-server ALL=(abs-runner,abs-token) NOPASSWD:SETENV: ALL
+build-server ALL=(root) NOPASSWD: /usr/bin/systemctl restart user@<abs-runner uid>.service, /usr/bin/systemctl restart user@<abs-token uid>.service
+```
+The first deletes build folders whose files belong to container UIDs. The second starts builds as the two users and clears what they leave behind; `SETENV` lets ABS pass `GITHUB_TOKEN` through sudo, and grants nothing beyond what those two users can already do. The third restarts a build user's systemd after clearing it.
+
+- Check the result as root with the step-4 script from the Reproducible-Builds channel, once per user (`R=abs-runner` and `R=abs-token`).
 
 ### Install the service
 

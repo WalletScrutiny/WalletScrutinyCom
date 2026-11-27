@@ -14,8 +14,11 @@ set -euo pipefail
 BASE_DIR="/opt/build-server-builds"
 RETENTION_DAYS=7
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SAFE_RMDIR_SCRIPT="${SCRIPT_DIR}/build-server-safe-rmdir.sh"
+# The root-owned copy (README): the one next to this script is writable by
+# build-server, so sudoers must never point at it.
+SAFE_RMDIR_SCRIPT="/usr/local/sbin/build-server-safe-rmdir.sh"
+# Casts are build-server's own files, so no sudo for them.
+CAST_DIR="${STATE_DIRECTORY:-/var/lib/walletscrutiny-build-server}/casts"
 
 failed=0
 
@@ -31,6 +34,15 @@ if [[ -d "$BASE_DIR" ]]; then
       fi
     done < <(find "$BASE_DIR" -mindepth 1 -maxdepth 1 -type d -mtime +"${RETENTION_DAYS}" -print0)
   fi
+fi
+
+if [[ -d "$CAST_DIR" ]]; then
+  while IFS= read -r -d '' dir; do
+    if ! rm -rf --one-file-system -- "$dir"; then
+      echo "Error: failed to remove ${dir}" >&2
+      failed=1
+    fi
+  done < <(find "$CAST_DIR" -mindepth 1 -maxdepth 1 -type d -mtime +"${RETENTION_DAYS}" -print0)
 fi
 
 # Go durations have no day unit.
@@ -66,5 +78,20 @@ fi
 
 prune_containers_and_images podman
 prune_containers_and_images docker
+
+# Builds run as these users (README), so their rootless Podman storage fills up
+# instead of build-server's. The sudoers rule that starts builds as them covers
+# this too.
+for user in abs-runner abs-token; do
+  if ! id "$user" >/dev/null 2>&1 || ! command -v podman >/dev/null 2>&1; then
+    continue
+  fi
+  if ! sudo -n -H -u "$user" /bin/bash -c 'cd ~ && export XDG_RUNTIME_DIR="/run/user/$(id -u)" &&
+      podman container prune --force --filter "until=$1" &&
+      podman image prune --all --force --filter "until=$1"' _ "$PRUNE_UNTIL"; then
+    echo "Error: podman prune failed for ${user}" >&2
+    failed=1
+  fi
+done
 
 exit "${failed}"

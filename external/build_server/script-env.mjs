@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { GITHUB_TOKEN_APP_IDS } from './config/config.mjs';
+import { ASCIINEMA_CONFIG_DIR, GITHUB_TOKEN_APP_IDS } from './config/config.mjs';
 
 const DEFAULT_PATH = '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin';
 
@@ -34,6 +34,7 @@ export function buildScriptExecutionEnv({
   publicGithubToken = readPublicGithubToken(),
   appId = null,
   githubTokenAppIds = GITHUB_TOKEN_APP_IDS,
+  asciinemaConfigDir = ASCIINEMA_CONFIG_DIR,
 } = {}) {
   const home = process.env.HOME || '/tmp';
   const nixUserProfileBin = `${home}/.nix-profile/bin`;
@@ -56,8 +57,11 @@ export function buildScriptExecutionEnv({
   const env = {
     PATH: path,
     HOME: home,
-    XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
-    ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config',
+    // asciinema runs as ABS. Its config used to be /tmp/.config, which after a
+    // reboot any user could create first; the folder in ABS's state dir is
+    // ABS's own. sudo drops both for the script, which gets its user's ~/.config.
+    XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || asciinemaConfigDir,
+    ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || asciinemaConfigDir,
   };
 
   // Other apps get the public-only token under the same name, so scripts that

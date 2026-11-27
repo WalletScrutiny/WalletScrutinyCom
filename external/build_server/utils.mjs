@@ -2,9 +2,8 @@ import { spawnSync } from 'child_process';
 import { createHash } from 'node:crypto';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
-import { WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR, BUILD_DIR_DEBUG, shouldProcessAppId, shouldForceRebuild } from './config/config.mjs';
+import { WS_BOT_NOSTR_PUBKEY_HEX, BUILD_DIR, BUILD_DIR_DEBUG, shouldProcessAppId, shouldForceRebuild, SAFE_RMDIR_PATH, runsAsBuildUsers } from './config/config.mjs';
 import { args, DEBUG, isDebugEnv } from './config/argv.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 import {
@@ -420,8 +419,11 @@ export function removeDirectoryRecursive(dir) {
     return;
   }
 
-  // 1) First try: user-level deletion (no sudo).
-  const maxRetries = 3;
+  // 1) First try: user-level deletion (no sudo). Not on a folder a build user
+  // could still write (a leftover of another build): fs.rmSync can follow a
+  // subfolder swapped for a link mid-delete, into ABS's own files, while the
+  // root GNU rm behind safe-rmdir cannot.
+  const maxRetries = runsAsBuildUsers() && isUnderProdBase ? 0 : 3;
   let lastErr = null;
   for (let i = 0; i < maxRetries; i++) {
     try {
@@ -442,8 +444,9 @@ export function removeDirectoryRecursive(dir) {
   // Only allow this path-based escalation in production builds.
   if (isUnderProdBase) {
     try {
-      const safeScriptPath = fileURLToPath(new URL('./scripts/build-server-safe-rmdir.sh', import.meta.url));
-      const sudoResult = spawnSync('sudo', [safeScriptPath, dir], {
+      // The root-owned copy: the one in this repo is writable by the ABS user.
+      const safeScriptPath = SAFE_RMDIR_PATH;
+      const sudoResult = spawnSync('sudo', ['-n', safeScriptPath, dir], {
         stdio: ['ignore', 'pipe', 'pipe'],
         encoding: 'utf8'
       });
@@ -463,6 +466,9 @@ export function removeDirectoryRecursive(dir) {
   // If both deletion attempts failed, surface the original error.
   if (lastErr) {
     throw lastErr;
+  }
+  if (maxRetries === 0) {
+    throw new Error(`could not remove ${dir} through safe-rmdir`);
   }
 }
 

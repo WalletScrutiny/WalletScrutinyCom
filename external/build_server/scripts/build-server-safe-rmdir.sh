@@ -59,5 +59,6 @@ case "$TARGET_REAL" in
     ;;
 esac
 
+[[ "$(dirname "$TARGET_REAL")" == "$BASE_REAL" ]] || { echo "Error: only direct children of ${BASE_REAL}" >&2; exit 3; }
 /bin/rm -rf --one-file-system -- "$TARGET_REAL"
 

@@ -31,7 +31,9 @@ import { appLog, verificationsLog } from './logger.mjs';
 import { buildVerificationContent } from '../../src/build-server-report.mjs';
 
 export { buildVerificationContent };
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild, CAST_DIR, runsAsBuildUsers, buildUserFor } from './config/config.mjs';
+import { readBuildFileSync } from './build-files.mjs';
+import { buildUserCommand, buildUserGate, lockBuildDir, prepareBuildDirForUser, shQuote } from './build-users.mjs';
 import { open as openZip } from 'yauzl';
 import { findErroredAttemptForBuildScript, initDb, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
 import { alertIfRegression, alertSkippedSigner } from './regression-alert.mjs';
@@ -756,6 +758,13 @@ async function runJobWithPreparation({
     : path.join(BUILD_DIR_PREFIX, appId + '_' + safeVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
 
   createCompilationDirectory(buildDirForThisVerification);
+  // Closed to the build users until ABS has written the assets and the script:
+  // a leftover of an earlier build could otherwise plant a link under one of
+  // those names, and ABS would write through it into its own files.
+  const buildUser = runsAsBuildUsers() ? buildUserFor(appId) : null;
+  if (buildUser) {
+    lockBuildDir(buildDirForThisVerification);
+  }
 
   let binaryFilePath = null;
   if (jobType === 'asset') {
@@ -800,8 +809,11 @@ async function runJobWithPreparation({
 
   appLog.debug(`     - saving script to ${scriptWithPath}`);
   saveScriptFromEventMakeExecutable(buildShFileEvent, scriptWithPath);
+  if (buildUser) {
+    prepareBuildDirForUser(buildDirForThisVerification, buildUser);
+  }
 
-  const result = await startCompilationJob(buildDirForThisVerification, scriptWithPath, effectiveVersion, architecture, type, binaryFilePath, platform, appId, githubToken);
+  const result = await startCompilationJob(buildDirForThisVerification, scriptWithPath, effectiveVersion, architecture, type, binaryFilePath, platform, appId, githubToken, { buildUser });
   return {
     ...result,
     binaryFilePath,
@@ -828,7 +840,7 @@ function readReportedHashes(value) {
 export function readCastAppHashes(castFileName) {
   let castContent;
   try {
-    castContent = fs.readFileSync(castFileName, 'utf8');
+    castContent = readBuildFileSync(path.dirname(castFileName), castFileName, { encoding: 'utf8' });
   } catch {
     return [];
   }
@@ -852,7 +864,7 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
   const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
   if (yamlFilePath) {
     try {
-      const yamlContent = fs.readFileSync(yamlFilePath, 'utf8');
+      const yamlContent = readBuildFileSync(buildDirForThisVerification, yamlFilePath, { encoding: 'utf8', maxBytes: 1024 * 1024 });
       const data = yaml.load(yamlContent);
 
       appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
@@ -884,7 +896,8 @@ export async function uploadBuildLock(buildDirForThisVerification, upload = uplo
     return null;
   }
   try {
-    const file = new File([fs.readFileSync(buildLockPath)], 'build-lock.json', { type: 'application/json' });
+    const content = readBuildFileSync(buildDirForThisVerification, buildLockPath, { maxBytes: 16 * 1024 * 1024 });
+    const file = new File([content], 'build-lock.json', { type: 'application/json' });
     return { name: 'build-lock.json', hash: await upload(file) };
   } catch (error) {
     appLog.error(`Error uploading ${buildLockPath} to Blossom: ${error}`);
@@ -892,8 +905,21 @@ export async function uploadBuildLock(buildDirForThisVerification, upload = uplo
   }
 }
 
-export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null, githubToken = null) {
-  const jobInfo = `appId=${appId ?? 'n/a'} version=${newWalletVersion} platform=${platform} arch=${architecture ?? 'n/a'} type=${type ?? 'n/a'}`;
+// With buildUser, the script runs as that user (see build-users.mjs) and its
+// leftovers are cleared once that user has no build running.
+export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null, githubToken = null, { buildUser = null, castDir = CAST_DIR, gate = buildUserGate } = {}) {
+  const jobInfo = `appId=${appId ?? 'n/a'} version=${newWalletVersion} platform=${platform} arch=${architecture ?? 'n/a'} type=${type ?? 'n/a'}${buildUser ? ` user=${buildUser}` : ''}`;
+
+  // The cast goes where the script cannot write, so it cannot be swapped for a
+  // link to a file only ABS can read, which ABS would then upload.
+  const castDirForThisBuild = path.join(castDir, path.basename(buildDirForThisVerification));
+  fs.mkdirSync(castDirForThisBuild, { recursive: true, mode: 0o700 });
+  fs.chmodSync(castDir, 0o700);
+  fs.chmodSync(castDirForThisBuild, 0o700);
+
+  if (buildUser) {
+    await gate.acquire(buildUser);
+  }
 
   return new Promise((resolve, reject) => {
     const controller = new AbortController();
@@ -911,8 +937,15 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
       }, debugMs);
     }
 
+    // 'error' and 'close' can both fire (an aborted or failed spawn); release
+    // the build user once.
+    let released = false;
     const done = (err, result) => {
       clearTimeout(timeoutId);
+      if (buildUser && !released) {
+        released = true;
+        void gate.release(buildUser);
+      }
       if (debugTimeoutId) clearTimeout(debugTimeoutId);
       if (err) {
         appLog.error(`Error recording and executing script: ${err}`);
@@ -944,17 +977,25 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     // Not passed to any shell, so plain join is fine.
     const finalScriptExecutionCommand = [script, ...scriptArgv].join(' ');
 
-    let castFileName = script.replace(/\.sh$/, '');
+    let castFileName = path.join(castDirForThisBuild, path.basename(script).replace(/\.sh$/, ''));
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
 
-    // POSIX-safe single-quote escaping: wrap in '...' and turn embedded ' into '\''.
-    const shQuote = (value) => `'${String(value).replace(/'/g, `'\\''`)}'`;
+    const env = buildScriptExecutionEnv({ githubToken, appId });
     const quotedScriptInvocation = [script, ...scriptArgv].map(shQuote).join(' ');
+    const scriptCommand = buildUser
+      ? buildUserCommand({
+        user: buildUser,
+        buildDir: buildDirForThisVerification,
+        scriptInvocation: quotedScriptInvocation,
+        envPath: env.PATH,
+        passEnv: ['GITHUB_TOKEN', 'NIX_SSL_CERT_FILE'].filter(name => name in env),
+      })
+      : quotedScriptInvocation;
     // Inner command runs under asciinema's spawned shell ($SHELL -c ...).
     // We rely on that shell to expand $? and $scriptrc; with spawn(argv) there
     // is no outer shell that would re-interpret these.
     const asciinemaInnerCommand =
-      `sleep 2; ${quotedScriptInvocation} ; scriptrc=$? ; echo scriptrc=$scriptrc ; sleep 5 ; exit $scriptrc`;
+      `sleep 2; ${scriptCommand} ; scriptrc=$? ; echo scriptrc=$scriptrc ; sleep 5 ; exit $scriptrc`;
 
     appLog.info(
       `Recording and executing: ` +
@@ -969,7 +1010,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
         cwd: buildDirForThisVerification,
         signal: controller.signal,
         stdio: ['ignore', 'pipe', 'pipe'],
-        env: buildScriptExecutionEnv({ githubToken, appId })
+        env
       }
     );
 
@@ -984,7 +1025,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
       let recordedScriptExitCode = null;
       try {
         if (castFileName && fs.existsSync(castFileName)) {
-          const castContent = fs.readFileSync(castFileName, 'utf8');
+          const castContent = readBuildFileSync(castDirForThisBuild, castFileName, { encoding: 'utf8' });
           const scriptRcMatches = [...castContent.matchAll(/scriptrc=(\d+)/g)];
           if (scriptRcMatches.length > 0) {
             const lastMatch = scriptRcMatches[scriptRcMatches.length - 1];
@@ -1083,7 +1124,17 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   }
 
   // Upload the asciicast file to Blossom server
-  const castFileContent = fs.readFileSync(castFileName, 'utf8');
+  let castFileContent;
+  try {
+    castFileContent = readBuildFileSync(path.dirname(castFileName), castFileName, { encoding: 'utf8' });
+  } catch (error) {
+    appLog.error(`Not publishing ${appId} ${newWalletVersion}: cannot read its cast: ${error.message}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Cannot read the cast file: ${architecture ? architecture : ''} ${type ? type : ''} ${error.message}`);
+    if (dbVerificationRowId !== null) {
+      updateVerificationRow(dbVerificationRowId, { endResult: 'error' });
+    }
+    return null;
+  }
   const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
   let castFileHash = null;
   try {

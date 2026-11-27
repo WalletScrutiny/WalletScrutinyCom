@@ -1,4 +1,5 @@
 import fs from 'fs';
+import os from 'os';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { isDebugEnv } from './argv.mjs';
@@ -137,5 +138,43 @@ export const BUILD_DIR = '/opt/build-server-builds';
 const BUILD_SERVER_ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 export const BUILD_DIR_DEBUG = path.join(BUILD_SERVER_ROOT, 'build_server_build_dir');
 export const BUILD_DIR_PREFIX = isDebugEnv() ? BUILD_DIR_DEBUG : BUILD_DIR;
+
+// Feature flag: when true, build scripts run as BUILD_USER, or as
+// TOKEN_BUILD_USER for GITHUB_TOKEN_APP_IDS, instead of as the ABS user, so a
+// script cannot read ABS's credentials, its database or another build
+// (Option 1, Danny, 2026-11-27). Needs the users and sudoers rules from the
+// README. Never in debug mode, which runs as whoever starts it.
+export const FEATURE_BUILD_USERS = true;
+export const BUILD_USER = 'abs-runner';
+export const TOKEN_BUILD_USER = 'abs-token';
+// Not in tests either, which run without the users; they pass a user explicitly.
+export const runsAsBuildUsers = () => FEATURE_BUILD_USERS && !isDebugEnv() && process.env.BUILD_SERVER_TEST !== '1';
+// Apps whose builds already run as a build user. Every other app still runs as
+// the ABS user, as before. The build users have no docker daemon, no /dev/kvm
+// and no Windows VM key, and a script that fails over that writes ftbfs, which
+// ABS publishes, or ends as an 'error' row, which is never retried. Add an app
+// after a trial run of its newest script as its build user gave the verdict it
+// gets today.
+export const BUILD_USER_APP_IDS = [];
+export const buildUserFor = (appId, buildUserAppIds = BUILD_USER_APP_IDS) => {
+  if (!buildUserAppIds.includes(appId)) {
+    return null;
+  }
+  return GITHUB_TOKEN_APP_IDS.includes(appId) ? TOKEN_BUILD_USER : BUILD_USER;
+};
+
+// The root-owned copy of scripts/build-server-safe-rmdir.sh that sudoers
+// allows. It must stay outside the code folder, which the ABS user can write:
+// a copy in there would be a path to root.
+export const SAFE_RMDIR_PATH = '/usr/local/sbin/build-server-safe-rmdir.sh';
+
+// Casts and the asciinema config live where only ABS can write, not in the
+// build folder, so a script cannot swap its cast for a link to a secret that
+// ABS would then upload. STATE_DIRECTORY is set by the unit's StateDirectory=.
+// Tests (BUILD_SERVER_TEST=1) use a folder of their own.
+const STATE_DIR = process.env.STATE_DIRECTORY
+  || (process.env.BUILD_SERVER_TEST === '1' ? path.join(os.tmpdir(), `abs-test-state-${process.pid}`) : '/var/lib/walletscrutiny-build-server');
+export const CAST_DIR = isDebugEnv() ? path.join(BUILD_SERVER_ROOT, 'build_server_casts') : path.join(STATE_DIR, 'casts');
+export const ASCIINEMA_CONFIG_DIR = isDebugEnv() ? path.join(BUILD_SERVER_ROOT, 'build_server_asciinema_config') : path.join(STATE_DIR, 'asciinema-config');
 
 export const BLOSSOM_SERVER_URL = 'https://files.nostr.info';

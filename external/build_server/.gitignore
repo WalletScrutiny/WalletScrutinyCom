@@ -8,3 +8,5 @@ scripts/*
 temp/
 logs/
 verifications.db
+build_server_casts/
+build_server_asciinema_config/

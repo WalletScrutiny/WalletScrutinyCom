@@ -62,6 +62,14 @@ fi
 log "Stopping ${SERVICE_NAME}..."
 ssh -o BatchMode=yes "${HOST}" "systemctl stop '${SERVICE_NAME}' || true"
 
+# The helper ABS runs as root through sudo. It is sent from this machine, not
+# copied from TARGET_DIR on the server: build-server owns that tree, and the
+# npm ci below runs package scripts as build-server.
+SAFE_RMDIR_DEST=/usr/local/sbin/build-server-safe-rmdir.sh
+log "Installing ${SAFE_RMDIR_DEST} (root:root 755)"
+ssh -o BatchMode=yes "${HOST}" "cat > '${SAFE_RMDIR_DEST}.new' && chown root:root '${SAFE_RMDIR_DEST}.new' && chmod 755 '${SAFE_RMDIR_DEST}.new' && mv -f '${SAFE_RMDIR_DEST}.new' '${SAFE_RMDIR_DEST}'" \
+  < "$ROOT/external/build_server/scripts/build-server-safe-rmdir.sh"
+
 log "Syncing sources to ${HOST}:${TARGET_DIR}"
 ssh -o BatchMode=yes "${HOST}" "mkdir -p '${TARGET_DIR}'"
 
