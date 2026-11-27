@@ -149,7 +149,19 @@ export const BUILD_USER = 'abs-runner';
 export const TOKEN_BUILD_USER = 'abs-token';
 // Not in tests either, which run without the users; they pass a user explicitly.
 export const runsAsBuildUsers = () => FEATURE_BUILD_USERS && !isDebugEnv() && process.env.BUILD_SERVER_TEST !== '1';
-export const buildUserFor = appId => (GITHUB_TOKEN_APP_IDS.includes(appId) ? TOKEN_BUILD_USER : BUILD_USER);
+// Apps whose builds already run as a build user. Every other app still runs as
+// the ABS user, as before. The build users have no docker daemon, no /dev/kvm
+// and no Windows VM key, and a script that fails over that writes ftbfs, which
+// ABS publishes, or ends as an 'error' row, which is never retried. Add an app
+// after a trial run of its newest script as its build user gave the verdict it
+// gets today.
+export const BUILD_USER_APP_IDS = [];
+export const buildUserFor = (appId, buildUserAppIds = BUILD_USER_APP_IDS) => {
+  if (!buildUserAppIds.includes(appId)) {
+    return null;
+  }
+  return GITHUB_TOKEN_APP_IDS.includes(appId) ? TOKEN_BUILD_USER : BUILD_USER;
+};
 
 // The root-owned copy of scripts/build-server-safe-rmdir.sh that sudoers
 // allows. It must stay outside the code folder, which the ABS user can write:

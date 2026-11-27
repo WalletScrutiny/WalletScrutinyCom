@@ -157,37 +157,101 @@ export async function resetBuildUser(user, { runCommand = run, uid = null } = {}
 }
 
 /**
- * Counts the builds running as each user. A user's leftovers are cleared only
- * when it has no build running, because up to QUEUE_CONCURRENCY builds run at
- * once and clearing would kill the neighbours. A build waits for a reset that
- * is still running before it starts.
+ * Lets builds of only one user run at a time, and clears that user before a
+ * build of the other one starts. A second user closes files, not command
+ * lines: a script that passes the real token on a command line (podman run -e
+ * GITHUB_TOKEN=...) shows it to every account on the host, so a plain build
+ * must never run next to a token build. Up to QUEUE_CONCURRENCY builds of the
+ * same user still run at once.
+ *
+ * A user that ran since its last successful reset is dirty, and the other
+ * user's builds wait until a reset clears it. A failed reset leaves it dirty
+ * and is retried every retryMs while that user has no build running, so the
+ * other user keeps waiting rather than running next to its leftovers. While a
+ * build of the other user waits, no new build of the running user starts, so
+ * neither user can starve the other.
  */
-export function createBuildUserGate({ reset = resetBuildUser } = {}) {
+export function createBuildUserGate({ reset = resetBuildUser, retryMs = 5 * 60 * 1000 } = {}) {
   const running = new Map();
+  const waiting = new Map();
+  const dirty = new Set();
   const resets = new Map();
+  const retryTimers = new Map();
+  let wakeWaiters = [];
+
+  const count = (map, user) => map.get(user) ?? 0;
+  const changed = () => {
+    const toWake = wakeWaiters;
+    wakeWaiters = [];
+    for (const wake of toWake) wake();
+  };
+  const othersWaiting = (user) => [...waiting].some(([other, n]) => other !== user && n > 0);
+  const canStart = (user) => {
+    if (resets.has(user)) return false;
+    for (const other of new Set([...running.keys(), ...dirty, ...resets.keys()])) {
+      if (other === user) continue;
+      if (count(running, other) > 0 || dirty.has(other) || resets.has(other)) return false;
+    }
+    // The other user goes first once this one has run since its last reset.
+    return !(dirty.has(user) && othersWaiting(user));
+  };
 
   const resetIfIdle = (user) => {
-    if ((running.get(user) ?? 0) > 0 || resets.has(user)) {
-      return resets.get(user) ?? Promise.resolve(false);
+    if (count(running, user) > 0) {
+      return Promise.resolve(false);
     }
-    const pending = Promise.resolve(reset(user)).finally(() => resets.delete(user));
+    if (resets.has(user)) {
+      return resets.get(user);
+    }
+    clearTimeout(retryTimers.get(user));
+    retryTimers.delete(user);
+    // Dirty until the reset succeeds: it may already have run (ABS restarted).
+    dirty.add(user);
+    const pending = Promise.resolve()
+      .then(() => reset(user))
+      .catch(() => false)
+      .then(ok => {
+        resets.delete(user);
+        if (ok) {
+          dirty.delete(user);
+        } else if (count(running, user) === 0) {
+          appLog.warn(`[BUILD_USERS] ${user} stays dirty; builds of the other user wait, retrying the reset in ${Math.round(retryMs / 1000)}s`);
+          const timer = setTimeout(() => {
+            retryTimers.delete(user);
+            void resetIfIdle(user);
+          }, retryMs);
+          retryTimers.set(user, timer);
+        }
+        changed();
+        return ok;
+      });
     resets.set(user, pending);
     return pending;
   };
 
   return {
     async acquire(user) {
-      while (resets.has(user)) {
-        await resets.get(user);
+      waiting.set(user, count(waiting, user) + 1);
+      try {
+        while (!canStart(user)) {
+          await new Promise(resolve => wakeWaiters.push(resolve));
+        }
+      } finally {
+        waiting.set(user, count(waiting, user) - 1);
       }
-      running.set(user, (running.get(user) ?? 0) + 1);
+      clearTimeout(retryTimers.get(user));
+      retryTimers.delete(user);
+      dirty.add(user);
+      running.set(user, count(running, user) + 1);
+      // Another waiter of the same user may now start too.
+      changed();
     },
     release(user) {
-      running.set(user, Math.max(0, (running.get(user) ?? 0) - 1));
+      running.set(user, Math.max(0, count(running, user) - 1));
       return resetIfIdle(user);
     },
     resetIfIdle,
-    running: (user) => running.get(user) ?? 0,
+    running: (user) => count(running, user),
   };
 }
 

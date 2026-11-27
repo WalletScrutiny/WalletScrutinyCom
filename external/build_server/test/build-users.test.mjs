@@ -50,10 +50,16 @@ function installFakes() {
 }
 
 describe('buildUserFor', () => {
-  test('token apps run as the token user, every other app as the build user', () => {
-    for (const appId of GITHUB_TOKEN_APP_IDS) assert.equal(buildUserFor(appId), TOKEN_BUILD_USER);
-    assert.equal(buildUserFor('world.bitkey.app'), BUILD_USER);
-    assert.equal(buildUserFor(null), BUILD_USER);
+  test('listed token apps run as the token user, other listed apps as the build user', () => {
+    const listed = [...GITHUB_TOKEN_APP_IDS, 'world.bitkey.app'];
+    for (const appId of GITHUB_TOKEN_APP_IDS) assert.equal(buildUserFor(appId, listed), TOKEN_BUILD_USER);
+    assert.equal(buildUserFor('world.bitkey.app', listed), BUILD_USER);
+  });
+
+  test('an app that is not listed still runs as the ABS user', () => {
+    assert.equal(buildUserFor('com.tangem.wallet', ['world.bitkey.app']), null);
+    assert.equal(buildUserFor('liana', ['world.bitkey.app']), null);
+    assert.equal(buildUserFor(null, ['world.bitkey.app']), null);
   });
 });
 
@@ -108,18 +114,79 @@ describe('startCompilationJob as a build user', () => {
 });
 
 describe('createBuildUserGate', () => {
+  const tick = () => new Promise(resolve => setTimeout(resolve, 20));
+
   test('resets a user only once its last build ends, never under a running neighbour', async () => {
     const resets = [];
     const gate = createBuildUserGate({ reset: async user => { resets.push(user); return true; } });
     await gate.acquire('abs-runner');
     await gate.acquire('abs-runner');
-    await gate.acquire('abs-token');
+    assert.equal(gate.running('abs-runner'), 2);
     await gate.release('abs-runner');
     assert.deepEqual(resets, []);
     await gate.release('abs-runner');
     assert.deepEqual(resets, ['abs-runner']);
+    await gate.acquire('abs-token');
     await gate.release('abs-token');
     assert.deepEqual(resets, ['abs-runner', 'abs-token']);
+  });
+
+  test('a token build waits until plain builds have ended and abs-runner was cleared', async () => {
+    const events = [];
+    const gate = createBuildUserGate({ reset: async user => { events.push(`reset ${user}`); return true; } });
+    await gate.acquire('abs-runner');
+    const token = gate.acquire('abs-token').then(() => events.push('token build starts'));
+    await tick();
+    assert.deepEqual(events.filter(e => e === 'token build starts'), [], 'a token build started next to a running plain build');
+    await gate.release('abs-runner');
+    await token;
+    assert.ok(events.indexOf('reset abs-runner') !== -1 && events.indexOf('reset abs-runner') < events.indexOf('token build starts'));
+  });
+
+  test('a failed reset keeps the other user waiting until a retry succeeds', async () => {
+    let resetOk = false;
+    const events = [];
+    const gate = createBuildUserGate({ retryMs: 30, reset: async user => { events.push(`reset ${user} ${resetOk ? 'ok' : 'failed'}`); return resetOk; } });
+    await gate.acquire('abs-token');
+    const plain = gate.acquire('abs-runner').then(() => events.push('plain build starts'));
+    assert.equal(await gate.release('abs-token'), false);
+    await tick();
+    await tick();
+    assert.ok(!events.includes('plain build starts'), 'a plain build started next to an uncleared token user');
+    assert.ok(events.filter(e => e === 'reset abs-token failed').length >= 2, 'the failed reset was not retried');
+    resetOk = true;
+    await plain;
+    assert.equal(events.at(-2), 'reset abs-token ok');
+    assert.equal(gate.running('abs-runner'), 1);
+  });
+
+  test('a waiting token build holds back new plain builds, so it cannot starve', async () => {
+    const events = [];
+    const gate = createBuildUserGate({ reset: async user => { events.push(`reset ${user}`); return true; } });
+    await gate.acquire('abs-runner');
+    const token = gate.acquire('abs-token').then(() => events.push('token build starts'));
+    const laterPlain = gate.acquire('abs-runner').then(() => events.push('later plain build starts'));
+    await tick();
+    assert.deepEqual(events, []);
+    await gate.release('abs-runner');
+    await token;
+    await tick();
+    assert.deepEqual(events, ['reset abs-runner', 'token build starts']);
+    await gate.release('abs-token');
+    await laterPlain;
+    assert.deepEqual(events, ['reset abs-runner', 'token build starts', 'reset abs-token', 'later plain build starts']);
+  });
+
+  test('a reset at start that fails keeps the other user waiting', async () => {
+    let resetOk = false;
+    const gate = createBuildUserGate({ retryMs: 30, reset: async () => resetOk });
+    await gate.resetIfIdle('abs-runner');
+    let started = false;
+    const token = gate.acquire('abs-token').then(() => { started = true; });
+    await tick();
+    assert.equal(started, false);
+    resetOk = true;
+    await token;
   });
 
   test('a build waits for a reset that is still running', async () => {
