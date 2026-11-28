@@ -105,6 +105,8 @@ export const GITHUB_TOKEN_APP_IDS = [
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;
+// A Blossom download of a job's files that takes longer fails the job.
+export const BLOSSOM_DOWNLOAD_TIMEOUT_MINUTES = 30;
 // Debug: log when job runs longer than this (minutes). Set to 0 to disable. Helps investigate if processes finish without queue being notified.
 export const QUEUE_DEBUG_TIMEOUT_MINUTES = 30;
 // Interval (minutes) for periodic queue status logs
@@ -162,6 +164,19 @@ export const buildUserFor = (appId, buildUserAppIds = BUILD_USER_APP_IDS) => {
     return null;
   }
   return GITHUB_TOKEN_APP_IDS.includes(appId) ? TOKEN_BUILD_USER : BUILD_USER;
+};
+// Why ABS must not start with this list, or null. The gate keeps the two build
+// users apart, but a token app that is not listed builds as the ABS user, next
+// to any listed plain app, and that build can read the token from the command
+// line of the token build. So a plain app may be listed only once every token
+// app is (Bob, 2026-11-27).
+export const buildUserAppIdsProblem = (buildUserAppIds = BUILD_USER_APP_IDS, tokenAppIds = GITHUB_TOKEN_APP_IDS) => {
+  const plainApps = buildUserAppIds.filter(appId => !tokenAppIds.includes(appId));
+  const missingTokenApps = tokenAppIds.filter(appId => !buildUserAppIds.includes(appId));
+  if (plainApps.length === 0 || missingTokenApps.length === 0) {
+    return null;
+  }
+  return `BUILD_USER_APP_IDS lists plain apps (${plainApps.join(', ')}) but not the token apps ${missingTokenApps.join(', ')}; list every app of GITHUB_TOKEN_APP_IDS first`;
 };
 
 // The root-owned copy of scripts/build-server-safe-rmdir.sh that sudoers

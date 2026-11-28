@@ -136,9 +136,9 @@ Build scripts do not run as `build-server`, which can read ABS's credentials and
 - `abs-token` for the apps in `GITHUB_TOKEN_APP_IDS`, the only scripts that get the real `GITHUB_TOKEN`;
 - `abs-runner` for every other app.
 
-Only the apps in `BUILD_USER_APP_IDS` run as these users; every other app still runs as `build-server`. The users have no docker daemon, no `/dev/kvm` and no Windows VM key, so add an app only after a trial run of its newest script as its build user gave the verdict it gets today.
+Only the apps in `BUILD_USER_APP_IDS` run as these users; every other app still runs as `build-server`. The users have no docker daemon, no `/dev/kvm` and no Windows VM key, so add an app only after a trial run of its newest script as its build user gave the verdict it gets today. List every app of `GITHUB_TOKEN_APP_IDS` before the first other app: a token app that is not listed builds as `build-server`, next to the listed plain builds, so ABS refuses to start with such a list.
 
-Builds of only one of the two users run at a time, and that user is cleared before a build of the other one starts: a script that puts the token on a command line shows it to every account on the host. If clearing fails, the other user's builds keep waiting, and ABS retries every five minutes.
+Builds of only one of the two users run at a time, and that user is cleared before a build of the other one starts: a script that puts the token on a command line shows it to every account on the host. If clearing fails, the other user's builds keep waiting, and ABS retries every five minutes. A build that waits stays in the queue: it takes none of the three slots, its 6-hour limit starts only when it starts, and builds of other apps run meanwhile.
 
 Each build folder belongs to the group of its user (`rwxrws---`), so a build cannot read or change the other user's builds. The cast is recorded into `/var/lib/walletscrutiny-build-server/casts`, which only `build-server` can write, and ABS refuses to read a file from a build folder that is a link or not where it claims to be. When a user has no build running, ABS clears what its builds left behind: processes, user systemd units and Podman quadlets, cron and at jobs, and Podman containers. It also sets the user's home back to `0700`, because `adduser --system` creates it `0755`.
 

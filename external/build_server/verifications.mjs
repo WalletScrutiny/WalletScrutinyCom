@@ -31,7 +31,7 @@ import { appLog, verificationsLog } from './logger.mjs';
 import { buildVerificationContent } from '../../src/build-server-report.mjs';
 
 export { buildVerificationContent };
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild, CAST_DIR, runsAsBuildUsers, buildUserFor } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, BLOSSOM_DOWNLOAD_TIMEOUT_MINUTES, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild, CAST_DIR, runsAsBuildUsers, buildUserFor } from './config/config.mjs';
 import { readBuildFileSync } from './build-files.mjs';
 import { buildUserCommand, buildUserGate, lockBuildDir, prepareBuildDirForUser, shQuote } from './build-users.mjs';
 import { open as openZip } from 'yauzl';
@@ -51,102 +51,151 @@ import { getApkSignerForHashes, missedApkSignerLookups, selectCandidatesBySigner
 // published to Nostr, whatever the script's exit code was.
 const PUBLISHABLE_VERDICTS = ['reproducible', 'not_reproducible', 'ftbfs'];
 
-// Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
-const runningAppIds = new Set();
-
-// Set when dequeue pauses because every queued job belongs to an app that is
-// already running. p-queue would otherwise call an untracked sleeper and never
-// pull the next job after a timeout. Cleared when that pause is lifted.
-let pausedForRunningApp = false;
-
 /**
- * Custom queue that ensures at most one job per appId runs at a time.
- * When a slot becomes free, it only picks jobs whose appId is not in runningAppIds.
- * If all queued jobs are from apps already running, the slot stays free until one of those apps finishes.
+ * The verification queue: a p-queue that runs at most one job per appId at a
+ * time, and starts a job of a build user only once the gate lets that user
+ * start. A job the gate holds back stays queued, so its wait neither counts
+ * against the job timeout nor takes one of the slots, and jobs of other apps
+ * run meanwhile (Bob, 2026-11-27). Add jobs with addJob, which also releases
+ * the build user when the job ends.
  */
-class AppIdAwareQueue {
-  #queue = [];
+export function createVerificationQueue({ gate = buildUserGate, concurrency = QUEUE_CONCURRENCY, timeout = QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000 } = {}) {
+  // appIds of the running jobs.
+  const runningAppIds = new Set();
+  // Set when dequeue pauses because no queued job may start yet: its app is
+  // already running or its build user is held back. p-queue would otherwise
+  // call an untracked sleeper and never pull the next job after a timeout.
+  // Cleared when that pause is lifted.
+  let pausedForBlockedJobs = false;
+  let queue = null;
 
-  enqueue(run, options) {
-    const { priority = 0, id, appId } = options ?? {};
-    const element = { priority, id, run, appId };
-    if (this.#queue.length === 0 || this.#queue[this.#queue.length - 1].priority >= priority) {
-      this.#queue.push(element);
-      return;
+  const resume = () => {
+    if (pausedForBlockedJobs) {
+      pausedForBlockedJobs = false;
+      queue.start();
     }
-    const index = this.#lowerBound(element);
-    this.#queue.splice(index, 0, element);
-  }
+  };
 
-  #lowerBound(value) {
-    let first = 0;
-    let count = this.#queue.length;
-    while (count > 0) {
-      const step = Math.trunc(count / 2);
-      const it = first + step;
-      if (this.#queue[it].priority >= value.priority) {
-        first = it + 1;
-        count -= step + 1;
-      } else {
-        count = step;
+  /**
+   * Custom queue that ensures at most one job per appId runs at a time, and
+   * that a build user's job starts only when the gate gives it that user.
+   * When a slot becomes free, it picks the first job that may start. If none
+   * may, the slot stays free until a running job ends or the gate changes.
+   */
+  class AppIdAwareQueue {
+    #queue = [];
+
+    enqueue(run, options) {
+      const { priority = 0, id, appId, buildUser = null } = options ?? {};
+      const element = { priority, id, run, appId, buildUser };
+      if (this.#queue.length === 0 || this.#queue[this.#queue.length - 1].priority >= priority) {
+        this.#queue.push(element);
+        return;
       }
+      const index = this.#lowerBound(element);
+      this.#queue.splice(index, 0, element);
     }
-    return first;
-  }
 
-  setPriority(id, priority) {
-    const index = this.#queue.findIndex((el) => el.id === id);
-    if (index === -1) {
-      throw new ReferenceError(`No promise function with the id "${id}" exists in the queue.`);
+    #lowerBound(value) {
+      let first = 0;
+      let count = this.#queue.length;
+      while (count > 0) {
+        const step = Math.trunc(count / 2);
+        const it = first + step;
+        if (this.#queue[it].priority >= value.priority) {
+          first = it + 1;
+          count -= step + 1;
+        } else {
+          count = step;
+        }
+      }
+      return first;
     }
-    const [item] = this.#queue.splice(index, 1);
-    this.enqueue(item.run, { priority, id, appId: item.appId });
-  }
 
-  dequeue() {
-    const idx = this.#queue.findIndex((el) => !el.appId || !runningAppIds.has(el.appId));
-    if (idx < 0) {
-      const running = [...runningAppIds].join(', ');
-      appLog.info(`[QUEUE_INFO] Slot deferred: all ${this.#queue.length} queued jobs are from running apps (${running}). Pausing until one finishes.`);
-      pausedForRunningApp = true;
-      queue.pause();
-      return () => {};
+    setPriority(id, priority) {
+      const index = this.#queue.findIndex((el) => el.id === id);
+      if (index === -1) {
+        throw new ReferenceError(`No promise function with the id "${id}" exists in the queue.`);
+      }
+      const [item] = this.#queue.splice(index, 1);
+      this.enqueue(item.run, { priority, id, appId: item.appId, buildUser: item.buildUser });
     }
-    const [item] = this.#queue.splice(idx, 1);
-    appLog.info(`[QUEUE_INFO] Picked job for appId=${item.appId ?? 'n/a'} from queue (${this.#queue.length} remaining).`);
-    return item.run;
+
+    dequeue() {
+      // A job passes the build users of the jobs queued ahead of it, so a
+      // build of the other user queued earlier goes first, and jobs of the
+      // running user queued earlier still join it. The claim comes last, so
+      // only the job that is picked claims its user.
+      const usersAhead = [];
+      const idx = this.#queue.findIndex((el) => {
+        const mayStart = (!el.appId || !runningAppIds.has(el.appId)) &&
+          (!el.buildUser || gate.tryClaim(el.buildUser, usersAhead));
+        if (el.buildUser) usersAhead.push(el.buildUser);
+        return mayStart;
+      });
+      const queuedUsers = this.#queue.map((el) => el.buildUser).filter(Boolean);
+      if (idx < 0) {
+        const running = [...runningAppIds].join(', ');
+        const heldUsers = [...new Set(queuedUsers)].join(', ');
+        appLog.info(`[QUEUE_INFO] Slot deferred: none of the ${this.#queue.length} queued jobs may start (running apps: ${running || 'none'}; build users queued: ${heldUsers || 'none'}). Pausing until a job ends or a build user is free.`);
+        pausedForBlockedJobs = true;
+        queue.pause();
+        return () => {};
+      }
+      const [item] = this.#queue.splice(idx, 1);
+      appLog.info(`[QUEUE_INFO] Picked job for appId=${item.appId ?? 'n/a'}${item.buildUser ? ` user=${item.buildUser}` : ''} from queue (${this.#queue.length} remaining).`);
+      return item.run;
+    }
+
+    filter(options) {
+      return this.#queue.filter((el) => el.priority === options.priority).map((el) => el.run);
+    }
+
+    get size() {
+      return this.#queue.length;
+    }
   }
 
-  filter(options) {
-    return this.#queue.filter((el) => el.priority === options.priority).map((el) => el.run);
-  }
+  queue = new PQueue({
+    concurrency,
+    timeout,
+    throwOnTimeout: true,
+    queueClass: AppIdAwareQueue
+  });
+  const logQueueInfo = () => {
+    appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
+  };
+  queue.on('active', logQueueInfo);
+  queue.on('next', logQueueInfo);
+  queue.on('add', resume);
+  queue.on('error', error => {
+    appLog.error(error);
+    // TODO: We can potentially send a Nostr notification to the user to inform them about the error
+  });
+  // A finished reset may let a held-back job start.
+  gate.onChange(resume);
 
-  get size() {
-    return this.#queue.length;
-  }
+  // The job holds its build user from the moment it is picked until it ends,
+  // whether it built, skipped or failed.
+  queue.addJob = (run, { appId, buildUser = null, id }) => queue.add(
+    async () => {
+      runningAppIds.add(appId);
+      try {
+        return await run();
+      } finally {
+        runningAppIds.delete(appId);
+        if (buildUser) {
+          void gate.release(buildUser);
+        }
+        resume();
+      }
+    },
+    { appId, buildUser, id }
+  );
+  return queue;
 }
 
-export const queue = new PQueue({
-  concurrency: QUEUE_CONCURRENCY,
-  timeout: QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000,
-  throwOnTimeout: true,
-  queueClass: AppIdAwareQueue
-});
-queue.on('active', logQueueInfo);
-queue.on('next', logQueueInfo);
-queue.on('add', () => {
-  if (pausedForRunningApp) {
-    pausedForRunningApp = false;
-    queue.start();
-  }
-});
-queue.on('error', error => {
-  appLog.error(error);
-  // TODO: We can potentially send a Nostr notification to the user to inform them about the error
-});
-function logQueueInfo() {
-  appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
-}
+export const queue = createVerificationQueue();
 
 if (process.env.BUILD_SERVER_TEST !== '1') {
   setInterval(() => {
@@ -219,12 +268,15 @@ export async function downloadAssetFilesToDir(asset, buildDir) {
   };
 }
 
-export async function downloadFileFromBlossom(fileHash, destinationPath) {
+// The limit covers the body too. A job holds its build user while it
+// downloads, so a stalled download would otherwise keep the other user's
+// builds waiting until the job timeout.
+export async function downloadFileFromBlossom(fileHash, destinationPath, { timeoutMs = BLOSSOM_DOWNLOAD_TIMEOUT_MINUTES * 60 * 1000 } = {}) {
   const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
   let response;
 
   try {
-    response = await fetch(blossomFileURL);
+    response = await fetch(blossomFileURL, { signal: AbortSignal.timeout(timeoutMs) });
   } catch (fetchError) {
     return { success: false, error: `Fetch failed: ${fetchError?.message ?? fetchError}` };
   }
@@ -624,9 +676,11 @@ export async function addJobToQueue({
     ? `${appId}_${fileHash}_script.sh`
     : outputFileName ?? 'script.sh';
 
+  const buildUser = runsAsBuildUsers() ? buildUserFor(appId) : null;
   const jobPayload = {
     verification,
     appId,
+    buildUser,
     platform,
     newWalletVersion,
     architecture,
@@ -679,25 +733,15 @@ export async function addJobToQueue({
     }
   };
 
-  const job = queue.add(
-    async () => {
-      runningAppIds.add(appId);
-      try {
-        return await runJobWithPreparation(jobPayload).catch(err => {
-          appLog.error('Script execution job failed:', err);
-          verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${err?.message ?? String(err)}`);
-          return null;
-        });
-      } finally {
-        runningAppIds.delete(appId);
-        if (pausedForRunningApp) {
-          pausedForRunningApp = false;
-          queue.start();
-        }
-      }
-    },
+  const job = queue.addJob(
+    () => runJobWithPreparation(jobPayload).catch(err => {
+      appLog.error('Script execution job failed:', err);
+      verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${err?.message ?? String(err)}`);
+      return null;
+    }),
     {
       appId,
+      buildUser,
       id: `${appId}_${newWalletVersion}_${architecture ?? ''}_${type ?? ''}_${fileHash ?? 'release'}`
     }
   );
@@ -736,6 +780,7 @@ export async function addJobToQueue({
 async function runJobWithPreparation({
   verification,
   appId,
+  buildUser,
   platform,
   newWalletVersion,
   architecture,
@@ -761,7 +806,6 @@ async function runJobWithPreparation({
   // Closed to the build users until ABS has written the assets and the script:
   // a leftover of an earlier build could otherwise plant a link under one of
   // those names, and ABS would write through it into its own files.
-  const buildUser = runsAsBuildUsers() ? buildUserFor(appId) : null;
   if (buildUser) {
     lockBuildDir(buildDirForThisVerification);
   }
@@ -905,9 +949,9 @@ export async function uploadBuildLock(buildDirForThisVerification, upload = uplo
   }
 }
 
-// With buildUser, the script runs as that user (see build-users.mjs) and its
-// leftovers are cleared once that user has no build running.
-export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null, githubToken = null, { buildUser = null, castDir = CAST_DIR, gate = buildUserGate } = {}) {
+// With buildUser, the script runs as that user (see build-users.mjs). The
+// caller must hold that user in the gate; the queue's addJob does.
+export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null, githubToken = null, { buildUser = null, castDir = CAST_DIR } = {}) {
   const jobInfo = `appId=${appId ?? 'n/a'} version=${newWalletVersion} platform=${platform} arch=${architecture ?? 'n/a'} type=${type ?? 'n/a'}${buildUser ? ` user=${buildUser}` : ''}`;
 
   // The cast goes where the script cannot write, so it cannot be swapped for a
@@ -916,10 +960,6 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   fs.mkdirSync(castDirForThisBuild, { recursive: true, mode: 0o700 });
   fs.chmodSync(castDir, 0o700);
   fs.chmodSync(castDirForThisBuild, 0o700);
-
-  if (buildUser) {
-    await gate.acquire(buildUser);
-  }
 
   return new Promise((resolve, reject) => {
     const controller = new AbortController();
@@ -937,15 +977,8 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
       }, debugMs);
     }
 
-    // 'error' and 'close' can both fire (an aborted or failed spawn); release
-    // the build user once.
-    let released = false;
     const done = (err, result) => {
       clearTimeout(timeoutId);
-      if (buildUser && !released) {
-        released = true;
-        void gate.release(buildUser);
-      }
       if (debugTimeoutId) clearTimeout(debugTimeoutId);
       if (err) {
         appLog.error(`Error recording and executing script: ${err}`);

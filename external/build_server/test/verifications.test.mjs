@@ -378,6 +378,30 @@ describe('downloadFileFromBlossom', () => {
     assert.equal(fs.readFileSync(destination, 'utf8'), payload);
   });
 
+  test('gives up on a download that stalls, and removes the partial file', async () => {
+    const destination = path.join(makeTempDir('download-stall'), 'stalled.apk');
+    // Like fetch, the body fails once the request's signal aborts.
+    globalThis.fetch = async (url, { signal } = {}) => ({
+      ok: true,
+      status: 200,
+      body: new ReadableStream({
+        start(controller) {
+          controller.enqueue(new Uint8Array([1, 2, 3]));
+          signal?.addEventListener('abort', () => controller.error(signal.reason));
+        }
+      })
+    });
+
+    // AbortSignal.timeout does not keep the process alive; a real socket would.
+    const keepAlive = setTimeout(() => {}, 5000);
+    const result = await downloadFileFromBlossom('abc123', destination, { timeoutMs: 100 });
+    clearTimeout(keepAlive);
+
+    assert.equal(result.success, false);
+    assert.match(result.error, /^Stream failed:/);
+    assert.equal(fs.existsSync(destination), false);
+  });
+
   test('cleans up a partial file when streaming fails', async () => {
     const dir = makeTempDir('download-stream-error');
     const destination = path.join(dir, 'partial.apk');

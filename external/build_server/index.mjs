@@ -35,7 +35,8 @@ import {
   CAST_DIR,
   ASCIINEMA_CONFIG_DIR,
   FEATURE_REFRESH_APPS,
-  runsAsBuildUsers
+  runsAsBuildUsers,
+  buildUserAppIdsProblem
 } from './config/config.mjs';
 import { BUILD_USERS, buildUserGate } from './build-users.mjs';
 
@@ -153,6 +154,12 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     appLog.error('Error during process:', error);
     throw error;
   }
+}
+
+const listProblem = runsAsBuildUsers() ? buildUserAppIdsProblem() : null;
+if (listProblem) {
+  appLog.error(`Refusing to start: ${listProblem}`);
+  process.exit(1);
 }
 
 let githubToken;

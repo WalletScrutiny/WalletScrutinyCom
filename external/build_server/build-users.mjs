@@ -168,32 +168,38 @@ export async function resetBuildUser(user, { runCommand = run, uid = null } = {}
  * user's builds wait until a reset clears it. A failed reset leaves it dirty
  * and is retried every retryMs while that user has no build running, so the
  * other user keeps waiting rather than running next to its leftovers. While a
- * build of the other user waits, no new build of the running user starts, so
- * neither user can starve the other.
+ * build of the other user waits, no build of the running user queued after it
+ * starts, so neither user can starve the other.
+ *
+ * The gate never waits itself: the queue claims a user with tryClaim when it
+ * picks a job, and leaves the job queued when the claim fails. So the wait
+ * neither runs on the job's timeout nor holds one of the queue's slots (Bob,
+ * 2026-11-27). onChange tells the queue when a claim may succeed again.
  */
 export function createBuildUserGate({ reset = resetBuildUser, retryMs = 5 * 60 * 1000 } = {}) {
   const running = new Map();
-  const waiting = new Map();
   const dirty = new Set();
   const resets = new Map();
   const retryTimers = new Map();
-  let wakeWaiters = [];
+  const listeners = new Set();
 
   const count = (map, user) => map.get(user) ?? 0;
+  // On a microtask: a listener restarts the queue, which must not happen from
+  // inside the queue's own dequeue.
   const changed = () => {
-    const toWake = wakeWaiters;
-    wakeWaiters = [];
-    for (const wake of toWake) wake();
+    queueMicrotask(() => {
+      for (const listener of listeners) listener();
+    });
   };
-  const othersWaiting = (user) => [...waiting].some(([other, n]) => other !== user && n > 0);
-  const canStart = (user) => {
+  const canStart = (user, usersAhead) => {
     if (resets.has(user)) return false;
     for (const other of new Set([...running.keys(), ...dirty, ...resets.keys()])) {
       if (other === user) continue;
       if (count(running, other) > 0 || dirty.has(other) || resets.has(other)) return false;
     }
-    // The other user goes first once this one has run since its last reset.
-    return !(dirty.has(user) && othersWaiting(user));
+    // A build of the other user queued ahead goes first once this one has run
+    // since its last reset.
+    return !(dirty.has(user) && [...usersAhead].some(other => other !== user));
   };
 
   const resetIfIdle = (user) => {
@@ -230,21 +236,20 @@ export function createBuildUserGate({ reset = resetBuildUser, retryMs = 5 * 60 *
   };
 
   return {
-    async acquire(user) {
-      waiting.set(user, count(waiting, user) + 1);
-      try {
-        while (!canStart(user)) {
-          await new Promise(resolve => wakeWaiters.push(resolve));
-        }
-      } finally {
-        waiting.set(user, count(waiting, user) - 1);
+    /**
+     * Claims `user` for one build if it may start now, and says whether it
+     * did. usersAhead are the build users of the jobs queued ahead of this
+     * one, so a build of the other user that waits longer holds it back.
+     */
+    tryClaim(user, usersAhead = []) {
+      if (!canStart(user, new Set(usersAhead))) {
+        return false;
       }
       clearTimeout(retryTimers.get(user));
       retryTimers.delete(user);
       dirty.add(user);
       running.set(user, count(running, user) + 1);
-      // Another waiter of the same user may now start too.
-      changed();
+      return true;
     },
     release(user) {
       running.set(user, Math.max(0, count(running, user) - 1));
@@ -252,6 +257,10 @@ export function createBuildUserGate({ reset = resetBuildUser, retryMs = 5 * 60 *
     },
     resetIfIdle,
     running: (user) => count(running, user),
+    onChange(listener) {
+      listeners.add(listener);
+      return () => listeners.delete(listener);
+    },
   };
 }
 
